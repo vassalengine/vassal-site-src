@@ -20,6 +20,11 @@
  */
 
 #
+# This script exists to collect bug reports from VASSAL.tools.BugDialog
+# and redirect them on to our bug tracker of choice.
+#
+
+#
 # Read bug report
 #
 $time = date("M d H:i:s", $_SERVER['REQUEST_TIME']);
@@ -29,7 +34,7 @@ $description = $_POST['description'];
 $log = file_get_contents($_FILES['log']['tmp_name']);
 
 #
-# Log bug report
+# Log bug report in case something goes wrong
 #
 $fh = fopen('bug_log', 'ab');
 fwrite($fh, "$time\n$email\n$summary\n\n$description\n\n$log\n\n\n");

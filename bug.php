@@ -27,7 +27,10 @@
 #
 # Read bug report
 #
+if (!array_key_exists('version', $_POST)) die('Not a bug report.');
+
 $time = date("M d H:i:s", $_SERVER['REQUEST_TIME']);
+$version = $_POST['version'];
 $email = $_POST['email'];
 $summary = $_POST['summary'];
 $description = $_POST['description'];
@@ -51,7 +54,7 @@ $param = array(
   'func'              => 'postadd',
   'category_id'       => '100',
   'artifact_group_id' => '100',
-  'summary'           => "Test: $summary",
+  'summary'           => $summary,
   'details'           => "$email\n\n$description",
   'file_description'  => 'the errorLog',
   'submit'            => 'SUBMIT'

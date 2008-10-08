@@ -27,7 +27,10 @@
 #
 # Read bug report
 #
-if (!array_key_exists('version', $_POST)) die('Not a bug report.');
+if (!array_key_exists('version', $_POST) ||
+    !array_key_exists('email', $_POST) ||
+    !array_key_exists('summary', $_POST) ||
+    !array_key_exists('description', $_POST)) die('Not a bug report.');
 
 $time = date("M d H:i:s", $_SERVER['REQUEST_TIME']);
 $version = $_POST['version'];

@@ -24,12 +24,12 @@
 # replies with '1' if we want to receive bug reports from that version
 # and '0' otherwise.
 #
+# At present, we adopt the simplest possible policy and accept reports
+# from versions at least as great as some minimal version.
+#
 
 # reject unspecified versions
-if (!array_key_exists('version', $_GET)) {
-  print 0;
-  exit;
-}
+if (!array_key_exists('version', $_GET)) exit; 
 
 # v0 is the least version from which we want reports
 $v0 = '3.1.0-beta3';
@@ -44,28 +44,35 @@ try {
     $n0 = $tok0->next();
     $n1 = $tok1->next();
 
-    if ($n0 != $n1) {
-      print $n1 > $n0 ? 1 : 0;
-      exit;
-    }
+    if ($n0 != $n1) reply($v0, $v1, $n1 > $n0 ? 1 : 0);
   }
 }
 catch (Exception $e) {
-  print 0;
-  exit;
+  reply($v0, $v1, 0);
 }
 
-print !$tok0->hasNext() ? 1 : 0;
-exit;
+reply($v0, $v1, !$tok0->hasNext() ? 1 : 0);
 
+
+function reply($v0, $v1, $result) {
+  # log the request
+  $time = date("M d H:i:s", $_SERVER['REQUEST_TIME']);
+  $fh = fopen('check_version_bug_log', 'ab');
+  fwrite($fh, "$time $v0 $v1 $result\n");
+  fclose($fh);
+
+  # return the result to the client
+  print $result;
+  exit;
+}
 
 class IllegalArgumentException extends Exception {}
 class NoSuchElementException extends Exception {}
 class VersionFormatException extends Exception {}
 
 #
-# This is taken from VASSAL.tools.version.VassalVersionTokenizer in Java
-# and translated into PHP. When VassalVersionTokenizer is updated, this
+# This is taken from VASSAL.tools.version.VassalVersionTokenizer and
+# translated into PHP. When VassalVersionTokenizer is changed, this
 # must also be updated.
 #
 class VassalVersionTokenizer {

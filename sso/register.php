@@ -1,5 +1,7 @@
 <?php
-
+require_once('AuthDB.php');
+require_once('UserDB.php');
+require_once('config.php');
 require_once('ssolib.php');
 require_once('recaptchalib.php');
 require_once('EmailAddressValidator.php');
@@ -22,173 +24,91 @@ $email = addslashes($_POST['email']);
 $retype_email = addslashes($_POST['retype_email']);
 $realname = addslashes($_POST['realname']);
 
-# check for blank username
-if (empty($username)) {
-  print_top($title);
-  warn('Invalid username.');
-  print_form();
-  print_bottom();
-  exit;
-}
+try {
+  # check for blank username
+  if (empty($username)) {
+    throw new ErrorException('Invalid username.');
+  }
 
-# check for blank password
-if (empty($password)) {
-  print_top($title);
-  warn('Blank password.');
-  print_form();
-  print_bottom();
-  exit;
-}
+  # check for blank password
+  if (empty($password)) {
+    throw new ErrorException('Blank password.');
+  }
 
-# check for password mismatch
-if ($password != $retype_password) {
-  print_top($title);
-  warn('Password mismatch.');
-  print_form();
-  print_bottom();
-  exit;
-}
+  # check for password mismatch
+  if ($password != $retype_password) {
+    throw new ErrorException('Password mismatch.');
+  }
 
-# check password strength
-if (strlen($password) < 6) {
-  print_top($title);
-  warn('Password must be at least 6 characters long.');
-  print_form();
-  print_bottom();
-  exit;
-}
+  # check password strength
+  if (strlen($password) < 6) {
+    throw new ErrorException('Password must be at least 6 characters long.');
+  }
 
-# check for blank email
-if (empty($email)) {
-  print_top($title);
-  warn('Blank email.');
-  print_form();
-  print_bottom();
-  exit;
-}
+  # check for blank email
+  if (empty($email)) {
+    throw new ErrorException('Blank email.');
+  }
 
-# check for email mismatch
-if ($email != $retype_email) {
-  print_top($title);
-  warn('Email mismatch.');
-  print_form();
-  print_bottom();
-  exit;
-}
+  # check for email mismatch
+  if ($email != $retype_email) {
+    throw new ErrorException('Email mismatch.');
+  }
 
-# check for bad email address
-$validator = new EmailAddressValidator;
-if (!$validator->check_email_address($email)) {
-  print_top($title);
-  warn('Bad email address.');
-  print_form();
-  print_bottom();
-  exit;
-}
+  # check for bad email address
+  $validator = new EmailAddressValidator;
+  if (!$validator->check_email_address($email)) {
+    throw new ErrorException('Bad email address.');
+  }
 
-# check for blank realname
-if (empty($realname)) {
-  print_top($title);
-  warn('Blank realname.');
-  print_form();
-  print_bottom();
-  exit;
-}
+  # check for blank realname
+  if (empty($realname)) {
+    throw new ErrorException('Blank realname.');
+  }
 
-# check the CAPTCHA
-$privatekey = 'privatekey';
-$resp = recaptcha_check_answer(
-  $privatekey,
-  $_SERVER['REMOTE_ADDR'],
-  $_POST['recaptcha_challenge_field'],
-  $_POST['recaptcha_response_field']
-);
+  # check the CAPTCHA
+  $resp = recaptcha_check_answer(
+    RECAPTCHA_PRIVATE_KEY,
+    $_SERVER['REMOTE_ADDR'],
+    $_POST['recaptcha_challenge_field'],
+    $_POST['recaptcha_response_field']
+  );
 
-if (!$resp->is_valid) {
-  print_top($title);
-  warn("The reCAPTCHA wasn't entered correctly. Go back and try it again. " .
-       '(reCAPTCHA said: ' . $resp->error . ')');
-  print_form();
-  print_bottom();
-  exit;
-}
+  if (!$resp->is_valid) {
+    throw new ErrorException(
+      "The reCAPTCHA wasn't entered correctly. Go back and try it again. " .
+      '(reCAPTCHA said: ' . $resp->error . ')');
+  }
 
-# check that the username is not already taken
-$ds = @ldap_connect('localhost');
-if (!$ds) {
-  print_top($title);
-  warn('Cannot connect to LDAP server.'); 
-  print_form();
-  print_bottom();
-  exit;
-}
+  # check that the username is not already taken
+  $user = new UserDB();
+  
+  if ($user->exists($username)) {
+    throw new ErrorException('The account "' . $username . '" already exists.');
+  }
 
-if (!@ldap_bind($ds)) {
-  print_top($title);
-  warn('Cannot bind to LDAP server: ' . ldap_error($ds)); 
-  print_form();
-  print_bottom();
-  exit;
-}
+  # build confirmation key
+  $key = rand_base64_key();
 
-$r = @ldap_search($ds, 'ou=people,dc=test,dc=nomic,dc=net', "uid=$username");
-if ($r && @ldap_count_entries($ds, $r) > 0) {
-  print_top($title);
-  warn('The account "' . $username . '" already exists.');
-  print_form();
-  print_bottom();
-  exit;
-}
+  # store confirmation information in the database
+  $auth = new AuthDB();
 
-@ldap_close($ds);
+  $query = sprintf(
+    "INSERT INTO pending
+      (id, username, password, email, realname)
+      VALUES('%s', '%s', '%s', '%s', '%s')",
+    mysql_real_escape_string($key),
+    mysql_real_escape_string($username),
+    mysql_real_escape_string($password),
+    mysql_real_escape_string($email),
+    mysql_real_escape_string($realname)
+  );
 
+  $auth->write($query);
 
-# build confirmation key
-$key = rand_base64_key();
-
-# store confirmation information in the database
-$dh = mysql_connect('localhost', 'registration', 'password');
-if (!$dh) {
-  print_top($title);
-  warn('Cannot connect to MySQL server: ' . mysql_error());
-  print_form();
-  print_bottom();
-  exit;
-}
-
-if (!mysql_select_db('registration')) {
-  print_top($title);
-  warn('Cannot select registration database: ' . mysql_error());
-  print_form();
-  print_bottom();
-  exit;
-}
-
-$query = sprintf(
-  "INSERT INTO pending
-    (id, username, password, email, realname)
-    VALUES('%s', '%s', '%s', '%s', '%s')",
-  mysql_real_escape_string($key),
-  mysql_real_escape_string($username),
-  mysql_real_escape_string($password),
-  mysql_real_escape_string($email),
-  mysql_real_escape_string($realname)
-);
-
-$r = mysql_query($query);
-if (!$r) {
-  print_top($title);
-  warn('Failed to write to registration database: ' . mysql_error());
-  print_form();
-  print_bottom();
-  exit;
-}
-
-mysql_close();
-
-# send confirmation email
-$subject = 'vassalengine.org email address confirmation';
-$message = <<<END
+  # send confirmation email
+  $subject = 'vassalengine.org email address confirmation';
+  $message = <<<END
 Someone claiming to be "$realname", probably you, from IP address {$_SERVER['REMOTE_ADDR']}, has attempted to register the account "$username" with this email address at vassalengine.org.
 
 To active this account, simply reply to this message, or open this link in your browser:
@@ -199,23 +119,29 @@ If you do not wish to activate this account, please disregard this message. If y
 
 END;
 
-$message = wordwrap($message, 70);
-$headers =
-  "From: webmaster@test.nomic.net\r\n" .
-  "Reply-To: confirm+$key@test.nomic.net\r\n";
+  $message = wordwrap($message, 70);
+  $headers =
+    "From: webmaster@test.nomic.net\r\n" .
+    "Reply-To: confirm+$key@test.nomic.net\r\n";
 
-if (!mail($email, $subject, $message, $headers)) {
+  if (!mail($email, $subject, $message, $headers)) {
+    throw new ErrorException('Failed to send confirmation email.');
+  }
+
+  # success!
   print_top($title);
-  warn('Failed to send confirmation email.');
+  print '<p>A confirmation email has been sent.
+         Reply to it to activate your account.</p>'; 
+  print_bottom();
+  exit;
+}
+catch (ErrorException $e) {
+  print_top($title);
+  warn($e->getMessage());
   print_form();
   print_bottom();
   exit;
 }
-
-print_top($title);
-print '<p>A confirmation email has been sent. Reply to it to activate your account.</p>'; 
-print_bottom();
-exit;
 
 function print_form() {
   print <<<END
@@ -256,8 +182,7 @@ function print_form() {
         <td colspan="2">
 END;
 
-  $publickey = 'publickey';
-  echo recaptcha_get_html($publickey);
+  echo recaptcha_get_html(RECAPTCHA_PUBLIC_KEY);
 
 print <<<END
         </td>

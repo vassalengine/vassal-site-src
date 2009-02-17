@@ -1,4 +1,6 @@
 <?php
+require_once('AuthDB.php');
+require_once('UserDB.php');
 require_once('ssolib.php');
 
 $title = 'Reset Password';
@@ -42,128 +44,63 @@ if (empty($key)) {
   exit;
 }
 
-# check for blank password
-if (empty($password)) {
+try {
+  # check for blank password
+  if (empty($password)) {
+    throw new ErrorException('Blank password.');
+  }
+
+  # check for password mismatch
+  if ($password != $retype_password) {
+    throw new ErrorException('Password mismatch.');
+  }
+
+  # check password strength
+  if (strlen($password) < 6) {
+    throw new ErrorException('Password must be at least 6 characters long.');
+  }
+
+  # get data for key from the registration database
+  $auth = new AuthDB();
+
+  $query = sprintf(
+    "SELECT username FROM resetpw WHERE id='%s'",
+    mysql_real_escape_string($key)
+  );
+
+  $row = $auth->read($query);
+  if (!$row) {
+    throw new ErrorException('No rows.');
+  }
+
+  extract($row);
+
+  # set new password in LDAP
+  $user = new UserDB();
+  $user->modify($username, array('userPassword' => $password));
+
+  # remove row from the registration database
+  $query = sprintf(
+    "DELETE FROM pending WHERE id='%s'",
+    mysql_real_escape_string($key)
+  );
+
+  $auth->write($query);
+
+  # success!
   print_top($title);
-  warn('Blank password.');
+  print '<p>Your password has been reset.</p>';
+  print_bottom();
+  exit;
+}
+catch (ErrorException $e) {
+  print_top($title);
+  warn($e->getMessage());
   print_form($key);
   print_bottom();
   exit;
 }
 
-# check for password mismatch
-if ($password != $retype_password) {
-  print_top($title);
-  warn('Password mismatch.');
-  print_form($key);
-  print_bottom();
-  exit;
-}
-
-# check password strength
-if (strlen($password) < 6) {
-  print_top($title);
-  warn('Password must be at least 6 characters long.');
-  print_form($key);
-  print_bottom();
-  exit;
-}
-
-# get data for key from the registration database
-$dh = mysql_connect('localhost', 'registration', 'password');
-if (!$dh) {
-  print_top($title);
-  warn('Cannot connect to MySQL server: ' . mysql_error());
-  print_form($key);
-  print_bottom();
-  exit;
-}
-
-if (!mysql_select_db('registration')) {
-  print_top($title);
-  warn('Cannot select registration database: ' . mysql_error());
-  print_form($key);
-  print_bottom();
-  exit;
-}
-
-$query = sprintf(
-  "SELECT username FROM resetpw WHERE id='%s'",
-  mysql_real_escape_string($key)
-);
-
-$r = mysql_query($query);
-if (!$r) {
-  print_top($title);
-  warn('Failed to read from password reset database: ' . mysql_error());
-  print_form($key);
-  print_bottom();
-  exit;
-}
-
-$row = mysql_fetch_assoc($r);
-if (!$row) {
-  print_top($title);
-  warn('No rows returned from registration database: ' . mysql_error());
-  print_form($key);
-  print_bottom();
-  exit;
-}
-
-extract($row);
-
-# set new password in LDAP
-$ds = @ldap_connect('localhost');
-if (!$ds) {
-  print_top($title);
-  warn('Cannot connect to LDAP server.');
-  print_form($key);
-  print_bottom();
-  exit;
-}
-
-if (!@ldap_bind($ds, 'uid=worker,dc=test,dc=nomic,dc=net', 'password')) {
-  print_top($title);
-  warn('Cannot bind to LDAP server: ' . ldap_error($ds));
-  print_form($key);
-  print_bottom();
-  exit;
-}
-
-$dn = "uid=$username,ou=people,dc=test,dc=nomic,dc=net";
-$attr = array('userPassword' => $password);
-if (!@ldap_mod_replace($ds, $dn, $attr)) {
-  print_top($title);
-  warn('Cannot reset user password: ' . ldap_error($ds));
-  print_form($key);
-  print_bottom();
-  exit;
-}
-
-@ldap_close($ds);
-
-# remove row from the registration database
-$query = sprintf(
-  "DELETE FROM pending WHERE id='%s'",
-  mysql_real_escape_string($key)
-);
-
-$r = mysql_query($query);
-if (!$r) {
-  print_top($title);
-  warn('Failed to remove from registration database: ' . mysql_error());
-  print_form($key);
-  print_bottom();
-  exit;
-}
-
-mysql_close();
-
-# success!
-print_top($title);
-print '<p>Your password has been reset.</p>';
-print_bottom();
-exit;
 
 # FIXME: should redirect to front page after some seconds:
 # <meta http-equiv="refresh" content="5;URL=index.html"/>

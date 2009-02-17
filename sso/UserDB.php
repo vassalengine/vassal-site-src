@@ -32,7 +32,7 @@ class UserDB {
   }
 
   public function exists($username) {
-    return ($this->search("uid=$username"))['count'] > 0;
+    return ${$this->search("uid=$username")}['count'] > 0;
   }
 
   public function auth($username, $password) {

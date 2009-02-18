@@ -29,7 +29,7 @@ class AuthDB {
         'Failed to read from database: ' . mysql_error());
     }
 
-    return mysql_fetch_assoc($r, $this->dbh);
+    return mysql_fetch_assoc($r);
   }
 
   public function write($query) {

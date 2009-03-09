@@ -1,0 +1,24 @@
+<div id="vassal-header">
+  <div id="vassal-logo">
+    <a href="/index.php"><img src="/images/header.png"/></a>
+  </div>
+  [% INCLUDE global/navigation.shtml %]
+  <div id="vassal-login">
+  [% script_name = cgi.url(Relative => 1) %]
+  [% IF !script_name %]
+    [% script_name = "index.cgi" %]
+  [% END %]
+
+  [% IF cgi.query_string %]
+    [% script_name = script_name _ "?" _ cgi.query_string %]
+  [% END %]
+
+  [% script_name = '/tracker/' _ script_name %]
+
+  [% IF user.authorizer.can_logout %]
+    <a href="/modify.php">Modify account</a> / <a href="/logout.php?returnto=[% script_name FILTER url_quote %]">Log out</a>
+  [% ELSE %]
+    <a href="/register.php">Create account</a> / <a href="/login.php?returnto=[% script_name FILTER url_quote %]">Log in</a>
+  [% END %]
+  </div>
+</div>

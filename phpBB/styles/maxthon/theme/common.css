@@ -104,6 +104,7 @@ p.right {
 ---------------------------------------- */
 #wrap {
 	padding: 0 40px;
+  margin-top: 10px;
 	min-width: 650px;
 }
 

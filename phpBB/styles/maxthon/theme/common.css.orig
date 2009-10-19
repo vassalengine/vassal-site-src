@@ -105,7 +105,6 @@ p.right {
 #wrap {
 	padding: 0 40px;
 	min-width: 650px;
-  margin-top: 10px;
 }
 
 #simple-wrap {
@@ -139,13 +138,11 @@ a#logo:hover {
 --------------------------------------------- */
 #search-box {
 	color: #FFFFFF;
-/*
 	position: relative;
 	margin-top: 30px;
 	margin-right: 5px;
 	display: block;
 	float: right;
-*/
 	text-align: right;
 	white-space: nowrap; /* For Opera */
 }

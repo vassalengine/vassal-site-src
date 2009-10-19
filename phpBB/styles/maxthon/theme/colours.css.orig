@@ -75,7 +75,7 @@ hr.dashed {
 .forumbg {
 	border-color: #DAD7CB;
 	background-color: #EEEEEA;
-	background-image: url("{T_THEME_PATH}/images/bg_header.gif");
+	background-image: url("{T_THEME_PATH}/images/bg_ header.gif");
 }
 
 .panel {
@@ -360,13 +360,11 @@ a.up:hover {
 }
 
 a.left:hover {
-  color: #4F7500;
-  text-decoration: underline;
+	color: #368AD2;
 }
 
 a.right:hover {
-  color: #4F7500;
-  text-decoration: underline;
+	color: #368AD2;
 }
 
 

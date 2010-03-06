@@ -1,4 +1,4 @@
-/*  	
+/*
 --------------------------------------------------------------
 Colours and backgrounds for common.css
 -------------------------------------------------------------- */
@@ -34,7 +34,7 @@ hr.dashed {
 --------------------------------------------- */
 
 #search-box {
-	color: #FFFFFF;
+	color: #666666;
 }
 
 #search-box #keywords {
@@ -75,7 +75,7 @@ hr.dashed {
 .forumbg {
 	border-color: #DAD7CB;
 	background-color: #EEEEEA;
-	background-image: url("{T_THEME_PATH}/images/bg_ header.gif");
+/*	background-image: url("{T_THEME_PATH}/images/bg_ header.gif");*/
 }
 
 .panel {
@@ -166,7 +166,7 @@ dl.details dd {
 .pagination, .pagination span a {
 	background-image: url("{T_THEME_PATH}/images/bg_button.gif");
 	border-color: #CFCBBC;
-	
+
 }
 
 .pagination span strong {
@@ -174,7 +174,6 @@ dl.details dd {
 	color: #666666;
 	border-color: #CFCBBC;
 	background-position: 0pt 100%;
-	
 }
 
 .pagination span a, .pagination span a:link, .pagination span a:visited, .pagination span a:active {
@@ -186,7 +185,6 @@ dl.details dd {
 	border-color: #CFCBBC;
 	color: 	#4F7500;
 	background-position: 0pt 100%;
-;
 }
 
 /* Pagination in viewforum for multipage topics */
@@ -242,7 +240,7 @@ background-color: #FFFAEC;
 color: #990000;
 }
 
-/*  	
+/*
 --------------------------------------------------------------
 Colours and backgrounds for links.css
 -------------------------------------------------------------- */
@@ -331,7 +329,7 @@ a.topictitle:active {
 	color: #D31141;
 }
 
-/* Profile searchresults */	
+/* Profile searchresults */
 .search .postprofile a {
 	color: #105289;
 }
@@ -360,15 +358,14 @@ a.up:hover {
 }
 
 a.left:hover {
-	color: #368AD2;
+  color: #4F7500;
 }
 
 a.right:hover {
-	color: #368AD2;
+  color: #4F7500;
 }
 
-
-/*  	
+/*
 --------------------------------------------------------------
 Colours and backgrounds for content.css
 -------------------------------------------------------------- */
@@ -426,7 +423,7 @@ li.row:hover dd {
 li.header {
 	background-image: url( "{T_THEME_PATH}/images/bg_header.gif");
 	background-position: 0 95%;
-	
+
 }
 li.header dt, li.header dd {
 	color: #666;
@@ -480,6 +477,10 @@ blockquote {
 	background-color: #EBEADD;
 	background-image: url("{T_THEME_PATH}/images/quote.gif");
 	border-color:#DBDBCE;
+}
+
+.rtl blockquote {
+	background-image: url("{T_THEME_PATH}/images/quote_rtl.gif");
 }
 
 blockquote blockquote {
@@ -662,7 +663,7 @@ fieldset.polls dd div {
 	background-image: url("{T_IMAGESET_LANG_PATH}/icon_user_online.gif");
 }
 
-/*  	
+/*
 --------------------------------------------------------------
 Colours and backgrounds for buttons.css
 -------------------------------------------------------------- */
@@ -722,7 +723,7 @@ a.fontsize {
 .info-icon, .info-icon a			{ background-image: url("{IMG_ICON_POST_INFO_SRC}"); }
 .warn-icon, .warn-icon a			{ background-image: url("{IMG_ICON_USER_WARN_SRC}"); } /* Need updated warn icon */
 
-/*  	
+/*
 --------------------------------------------------------------
 Colours and backgrounds for cp.css
 -------------------------------------------------------------- */
@@ -808,8 +809,14 @@ ul.cplist {
 	background-image: url("{T_THEME_PATH}/images/bg_menu.gif");
 }
 
+.rtl #navigation a {
+	background-image: url("{T_THEME_PATH}/images/bg_menu_rtl.gif");
+	background-position: 0 100%;
+}
+
 #navigation a:hover {
 	background-color: #F9F9F9;
+	background-image: none;
 	color: #4F7500;
 }
 
@@ -883,7 +890,13 @@ dl.mini dt {
 ----------------------------------------*/
 /* PM Message history */
 .current {
-	color: #999999 !important;
+	color: #000000 !important;
+}
+
+/* PM panel adjustments */
+.pm-panel-header,
+#cp-main .pm-message-nav {
+	border-bottom-color: #A4B3BF;
 }
 
 /* PM marking colours */
@@ -918,7 +931,7 @@ dl.mini dt {
 	background-color: #EEE;
 }
 
-/*  	
+/*
 --------------------------------------------------------------
 Colours and backgrounds for forms.css
 -------------------------------------------------------------- */
@@ -926,7 +939,7 @@ Colours and backgrounds for forms.css
 /* General form styles
 ----------------------------------------*/
 select {
-	border-color: #666666;
+	border-color: #BAB7AB;
 	background-color: #FAFAFA;
 	color: #000;
 }
@@ -969,7 +982,7 @@ fieldset.quick-login input.inputbox {
 /* Input field styles
 ---------------------------------------- */
 .inputbox {
-	background-color: #FFFFFF; 
+	background-color: #FFFFFF;
 	background-image: url( "{T_THEME_PATH}/images/bg_input_text.png");
 	background-repeat: repeat-x;
 	border-color: #DAD7CB;

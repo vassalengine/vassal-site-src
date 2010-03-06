@@ -104,7 +104,9 @@ p.right {
 ---------------------------------------- */
 #wrap {
 	padding: 0 40px;
-	min-width: 650px;
+	min-width: 760px;
+	max-width: 1024px;
+	margin: 0 auto;
 }
 
 #simple-wrap {
@@ -659,6 +661,7 @@ p.rules {
 
 p.rules img {
 	vertical-align: middle;
+	padding-top: 5px;
 }
 
 p.rules a {

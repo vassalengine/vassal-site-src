@@ -111,6 +111,7 @@ class fratman_enhancedTemplate extends QuickTemplate {
 	     } ?>
 	  </ul>
 	</div>
+  <?php if (isset($this->data['personal_urls']['logout'])) { ?>
 	<div class="portlet" id="p-personal">
 	  <h5><?php $this->msg('personaltools') ?></h5>
 	  <div class="pBody">
@@ -126,6 +127,7 @@ class fratman_enhancedTemplate extends QuickTemplate {
 	    </ul>
 	  </div>
 	</div>
+  <?php } ?>
 	<div class="portlet" id="p-logo">
 	  <a style="background-image: url(<?php $this->text('logopath') ?>);"
 	    href="<?php echo htmlspecialchars($this->data['nav_urls']['mainpage']['href'])?>"

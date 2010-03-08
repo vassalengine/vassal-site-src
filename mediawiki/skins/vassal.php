@@ -217,7 +217,7 @@ class vassalTemplate extends QuickTemplate {
 				if(!empty($item['class'])) { ?> class="<?php
 				echo htmlspecialchars($item['class']) ?>"<?php } ?>><?php
 				echo htmlspecialchars($item['text']) ?></a></li>
-  <?php	} ?>
+<?php	  } ?>
 			</ul>
 		</div>
 	</div>

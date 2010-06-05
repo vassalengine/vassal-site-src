@@ -262,7 +262,7 @@ class vassalTemplate extends QuickTemplate {
 		// Generate additional footer links
 		$footerlinks = array(
 			'lastmod', 'viewcount', 'numberofwatchingusers', 'credits', 'copyright',
-			'privacy', 'about', 'disclaimer', 'tagline',
+			'disclaimer', 'tagline',
 		);
 		$validFooterLinks = array();
 		foreach( $footerlinks as $aLink ) {

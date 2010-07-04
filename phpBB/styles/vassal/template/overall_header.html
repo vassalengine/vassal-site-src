@@ -114,10 +114,10 @@
   </div>
   <!-- INCLUDE ../../../../html/inc/navigation.shtml -->
   <div id="vassal-login">
-      <!-- IF S_USER_LOGGED_IN -->
-    <a href="/modify.php">Modify account</a> / <a href="/logout.php?returnto=<!-- PHP -->echo urlencode($_SERVER['REQUEST_URI'])<!-- ENDPHP -->">Log out</a>
+    <!-- IF S_USER_LOGGED_IN -->
+    <a href="/modify.php">Modify account</a> / <a href="/logout.php?returnto=<!-- PHP -->echo urlencode($_SERVER['REQUEST_URI']);<!-- ENDPHP -->">Log out</a>
     <!-- ELSE -->
-    <a href="/register.php">Create account</a> / <a href="/login.php?returnto=<!-- PHP -->echo urlencode($_SERVER['REQUEST_URI'])<!-- ENDPHP -->">Log in</a>
+    <a href="/register.php">Create account</a> / <a href="/login.php?returnto=<!-- PHP -->echo urlencode($_SERVER['REQUEST_URI']);<!-- ENDPHP -->">Log in</a>
     <!-- ENDIF -->
   </div>
 

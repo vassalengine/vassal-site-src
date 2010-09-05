@@ -1,0 +1,9 @@
+/*
+ * Custom rules for buglist.css.
+ * The rules you put here override rules in that stylesheet.
+ */
+
+.bz_high   { background-color: #ffeaea; }
+.bz_urgent { background-color: #ffcccc; }
+
+tr.bz_bugitem:hover { background-color: #ccccff; }

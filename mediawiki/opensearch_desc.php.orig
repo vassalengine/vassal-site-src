@@ -6,8 +6,7 @@
  * @file
  */
 
-#require_once( dirname(__FILE__) . '/includes/WebStart.php' );
-require_once( '/usr/share/mediawiki/includes/WebStart.php' );
+require_once( dirname(__FILE__) . '/includes/WebStart.php' );
 
 if( $wgRequest->getVal( 'ctype' ) == 'application/xml' ) {
 	// Makes testing tweaks about a billion times easier

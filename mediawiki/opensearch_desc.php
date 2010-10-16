@@ -6,6 +6,7 @@
  * @file
  */
 
+$DIR=getcwd();
 chdir('/usr/share/mediawiki');
 
 #require_once( dirname(__FILE__) . '/includes/WebStart.php' );

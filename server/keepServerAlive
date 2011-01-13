@@ -1,0 +1,30 @@
+#!/bin/csh -f
+#
+# grep for OutOfMemoryError, RK 28 May 07
+# remove 'kill -9 $pid' if $pid process is not running, RK 28 May 07
+# made explicit path, MBH 28 Jun 06
+# modified on 7 Sept by MBH to send serverLog to ./serverlogs/
+# modified on 13 Jan 2007 by MBH to killall java processes when the server dies
+#    (prob needs improved upon ...)
+# modified 20 Jan 2007 by RK:  use last-modified time of log file to determine server health
+#
+ 
+cd /home/rkinney/VASSALserver
+
+setenv pid `cat pid`
+setenv running `find serverlogs/serverLog -mmin -10 | wc -l`
+
+if ($running > 0) then
+  touch lastCheckup
+else
+  ./bounceServer
+endif
+
+# obsolete as of April 2007 ?
+set errorflag = OutOfMemoryError 
+cd ./serverlogs/
+if { ( grep $errorflag ./serverLog >& /dev/null ) } then
+  touch HAD-AN-EXCEPTION
+  ../bounceServer
+endif
+

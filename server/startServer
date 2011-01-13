@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+# modified on 7 Sept by MBH to send serverLog to ./serverlogs/
+#
+
+#JAVA_HOME="/usr/lib/jvm/jre"
+JAVA_HOME="/usr/java/jdk1.6.0_13/jre"
+
+$JAVA_HOME/bin/java -Djava.util.logging.config.file=logging.properties -cp serverBeta.zip -Xmx512M VASSAL.chat.node.Server -port 5050 -URL http://www.vassalengine.org/util/ >& ./serverlogs/serverLog &
+echo $! > pid
+

@@ -2,13 +2,12 @@
 #
 # Kills the running server, rotates the logs, restarts the server
  
-cd /home/rkinney/VASSALserver/serverlogs
+cd /home/gameserver/server/log
 
-killall -s SIGKILL /usr/java/jdk1.6.0_13/jre
-#killall -s SIGKILL /usr/lib/jvm/jre
-setenv date `date`
-cp serverLog "serverLog.${date}"
-gzip "serverLog.${date}"
+killall -s SIGKILL /usr/bin/java
+setenv date `date +%Y%m%d-%H%M%S`
+cp vassal-server "vassal-server.${date}"
+gzip "vassal-server.${date}"
 sleep 5 
 cd ..
 ./startServer

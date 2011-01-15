@@ -1,1 +1,1 @@
-*/2 * * * * VASSALserver/keepServerAlive
+*/2 * * * * server/keepServerAlive

@@ -1,0 +1,13 @@
+<div id="vassal-navigation">
+  <ul id="vassal-nav-list">
+    <li><a href="/download.php">Download</a></li>
+    <li><a href="/wiki/Category:Modules">Modules</a></li>
+    <li><a href="/wiki/Category:Documentation">Docs</a></li>
+    <li><a href="/forum/">Forum</a></li>
+    <li><a href="/wiki/">Wiki</a></li>
+    <li><a href="/tracker/">Tracker</a></li>
+    <li><a href="/news.php">News</a></li>
+    <li><a href="/irc.php">Chat</a></li>
+    <li><a href="/help.php">Help</a></li>
+  </ul>
+</div>

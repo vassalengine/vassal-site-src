@@ -117,7 +117,7 @@ class vassalTemplate extends QuickTemplate {
     <div id="vassal-logo">
       <a href="/index.php"><img src="/images/header.png"/></a>
     </div>
-    <?php include('/var/www/html/inc/navigation.shtml'); ?>
+    <?php include('/var/www/html/site/inc/navigation.shtml'); ?>
     <div id="vassal-login">
     <?php
       $returnto = urlencode($_SERVER['REQUEST_URI']);
@@ -293,7 +293,7 @@ class vassalTemplate extends QuickTemplate {
 -->
 <?php endif; ?>
 <!-- begin VASSAL footer -->
-<?php include('/var/www/html/inc/footer.shtml'); ?>
+<?php include('/var/www/html/site/inc/footer.shtml'); ?>
 <!-- end VASSAL footer -->
 </body></html>
 <?php

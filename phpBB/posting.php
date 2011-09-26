@@ -1568,10 +1568,6 @@ function handle_post_delete($forum_id, $topic_id, $post_id, &$post_data)
 
 			$next_post_id = delete_post($forum_id, $topic_id, $post_id, $data);
 
-      /* start list bridge */
-      require_once('/var/www/bridge/src/forum_post_delete.php');
-      /* end list bridge */
-
 			$post_username = ($post_data['poster_id'] == ANONYMOUS && !empty($post_data['post_username'])) ? $post_data['post_username'] : $post_data['username'];
 
 			if ($next_post_id === false)

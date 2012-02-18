@@ -1,0 +1,13 @@
+--- posting.php.orig	2011-09-25 13:58:47.644562028 -0700
++++ posting.php	2011-09-26 14:06:36.833729923 -0700
+@@ -1115,6 +1115,10 @@
+ 			// The last parameter tells submit_post if search indexer has to be run
+ 			$redirect_url = submit_post($mode, $post_data['post_subject'], $post_data['username'], $post_data['topic_type'], $poll, $data, $update_message, ($update_message || $update_subject) ? true : false);
+ 
++      /* start list bridge */
++      require_once('/var/www/bridge/src/forum_post_send.php');
++      /* end list bridge */
++
+ 			if ($config['enable_post_confirm'] && !$user->data['is_registered'] && (isset($captcha) && $captcha->is_solved() === true) && ($mode == 'post' || $mode == 'reply' || $mode == 'quote'))
+ 			{
+ 				$captcha->reset();

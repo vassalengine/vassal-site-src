@@ -1,0 +1,29 @@
+--- functions.php.orig	2011-09-25 13:58:47.644562027 -0700
++++ functions.php	2011-09-25 13:58:47.643562028 -0700
+@@ -2886,11 +2886,26 @@
+ 	}
+ }
+ 
++function login_redirect($returnto = '') {
++  $url = 'http://www.vassalengine.org/login.php';
++
++  if (strlen($returnto) > 0) {
++    $url .= '?returnto=' . urlencode($returnto);
++  }
++
++  header("Location: $url");
++}
++
+ /**
+ * Generate login box or verify password
+ */
+ function login_box($redirect = '', $l_explain = '', $l_success = '', $admin = false, $s_display = true)
+ {
++  if (!$admin) {
++    login_redirect($_SERVER['REQUEST_URI']);
++    return;
++  }
++
+ 	global $db, $user, $template, $auth, $phpEx, $phpbb_root_path, $config;
+ 
+ 	if (!class_exists('phpbb_captcha_factory'))

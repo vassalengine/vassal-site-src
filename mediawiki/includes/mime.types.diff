@@ -1,0 +1,22 @@
+--- mime.types.orig	2011-09-25 13:58:47.639562028 -0700
++++ mime.types	2011-09-25 13:58:47.639562028 -0700
+@@ -15,6 +15,10 @@
+ application/vnd.mif mif
+ application/vnd.ms-excel xls xlsx xlsb xlam xltx xltm
+ application/vnd.ms-powerpoint ppt pptm pptx pot potx potm ppsm ppam
++application/vnd.vassalengine.game-log vlog
++application/vnd.vassalengine.module vmod
++application/vnd.vassalengine.module-extension vmdx
++application/vnd.vassalengine.saved-game vsav
+ application/vnd.wap.wbxml wbxml
+ application/vnd.wap.wmlc wmlc
+ application/vnd.wap.wmlscriptc wmlsc
+@@ -58,7 +62,7 @@
+ application/xslt+xml xslt
+ application/xml xml xsl xsd
+ application/xml-dtd dtd
+-application/zip zip jar xpi  sxc stc  sxd std   sxi sti   sxm stm   sxw stw
++application/zip zip jar xpi  sxc stc  sxd std   sxi sti   sxm stm   sxw stw   vmod vmdx vlog vsav
+ application/x-rar rar
+ audio/basic au snd
+ audio/midi mid midi kar

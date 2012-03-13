@@ -1,0 +1,13 @@
+--- mime.info.orig	2011-09-25 13:58:47.639562028 -0700
++++ mime.info	2011-09-25 13:58:47.639562028 -0700
+@@ -61,6 +61,10 @@
+ application/x-tar	[ARCHIVE]
+ application/x-stuffit	[ARCHIVE]
+ 
++application/vnd.vassalengine.game-log         [ARCHIVE]
++application/vnd.vassalengine.module           [ARCHIVE]
++application/vnd.vassalengine.module-extension [ARCHIVE]
++application/vnd.vassalengine.saved-game       [ARCHIVE]
+ 
+ text/javascript application/x-javascript application/x-ecmascript text/ecmascript	[EXECUTABLE]
+ application/x-bash	[EXECUTABLE]

@@ -14,18 +14,6 @@ body {
   margin: 8px;
 }
 
-#related-actions ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-#related-actions li {
-  display: inline;
-  margin: 0 0.5em;
-  padding: 0;
-}
-
 #titles {
   background-color: #546035;
 }

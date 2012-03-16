@@ -1,9 +1,25 @@
 --- login-small.html.tmpl.orig	2012-03-15 18:28:03.000000000 -0700
-+++ login-small.html.tmpl	2012-03-15 18:47:21.614076168 -0700
-@@ -17,105 +17,3 @@
-   #
-   # Contributor(s): Jacob Steenhagen <jake@bugzilla.org>
-   #%]
++++ login-small.html.tmpl	2012-03-15 18:58:42.365334316 -0700
+@@ -1,121 +0,0 @@
+-[%# The contents of this file are subject to the Mozilla Public
+-  # License Version 1.1 (the "License"); you may not use this file
+-  # except in compliance with the License. You may obtain a copy of
+-  # the License at http://www.mozilla.org/MPL/
+-  #
+-  # Software distributed under the License is distributed on an "AS
+-  # IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+-  # implied. See the License for the specific language governing
+-  # rights and limitations under the License.
+-  #
+-  # The Original Code is the Bugzilla Bug Tracking System.
+-  #
+-  # The Initial Developer of the Original Code is Netscape Communications
+-  # Corporation. Portions created by Netscape are
+-  # Copyright (C) 1998 Netscape Communications Corporation. All
+-  # Rights Reserved.
+-  #
+-  # Contributor(s): Jacob Steenhagen <jake@bugzilla.org>
+-  #%]
 -
 -[% PROCESS global/variables.none.tmpl %]
 -

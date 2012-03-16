@@ -3,7 +3,7 @@
  * The rules you put here override rules in that stylesheet.
  */
 
-@import url("http://www.test.nomic.net/css/site.css");
+@import url("http://www.vassalengine.org/css/site.css");
 
 body {
   margin: 0 auto;

@@ -1,5 +1,5 @@
---- login-small.html.tmpl.orig	2011-09-25 13:58:47.636562030 -0700
-+++ login-small.html.tmpl	2011-09-25 13:58:47.635562030 -0700
+--- login-small.html.tmpl.orig	2012-03-15 18:28:03.000000000 -0700
++++ login-small.html.tmpl	2012-03-15 18:47:21.614076168 -0700
 @@ -17,105 +17,3 @@
    #
    # Contributor(s): Jacob Steenhagen <jake@bugzilla.org>
@@ -11,20 +11,20 @@
 -  # then we are accessing the home page. %]
 -
 -[% login_target = cgi.url("-relative" => 1, "-query" => 1) %]
--[% IF !login_target %]
+-[% IF !login_target OR login_target.match("^token.cgi") %]
 - [% login_target = "index.cgi" %]
 -[% END %]
 -
--[%# If SSL is in use, use 'sslbase', else use 'urlbase'. %]
--[% IF Param("sslbase") != "" && Param("ssl") != "never" %]
--  [% login_target = Param("sslbase") _ login_target %]
--[% ELSE %]
--  [% login_target = Param("urlbase") _ login_target %]
--[% END %]
+-[% login_target = urlbase _ login_target %]
 -
 -<li id="mini_login_container[% qs_suffix %]">
 -  <span class="separator">| </span>
--  <a id="login_link[% qs_suffix %]" href="?GoAheadAndLogIn=1"
+-  [% connector = "?" %]
+-  [% IF cgi.request_method == "GET" AND cgi.query_string %]
+-    [% connector = "&" %]
+-  [% END %]
+-  [% script_name = login_target _ connector _ "GoAheadAndLogIn=1" %]
+-  <a id="login_link[% qs_suffix %]" href="[% script_name FILTER html %]"
 -     onclick="return show_mini_login_form('[% qs_suffix %]')">Log In</a>
 -  <form action="[% login_target FILTER html %]" method="POST" 
 -        class="mini_login bz_default_hidden"
@@ -95,7 +95,7 @@
 -</li>
 -<li id="forgot_container[% qs_suffix %]">
 -  <span class="separator">| </span>
--  <a id="forgot_link[% qs_suffix %]" href="?GoAheadAndLogIn=1#forgot"
+-  <a id="forgot_link[% qs_suffix %]" href="[% script_name FILTER html %]#forgot"
 -     onclick="return show_forgot_form('[% qs_suffix %]')">Forgot Password</a>
 -  <form action="token.cgi" method="post" id="forgot_form[% qs_suffix %]"
 -        class="mini_forgot bz_default_hidden">

@@ -1,6 +1,6 @@
---- login.html.tmpl.orig	2011-09-25 13:58:47.636562030 -0700
-+++ login.html.tmpl	2011-09-25 13:58:47.636562030 -0700
-@@ -30,94 +30,13 @@
+--- login.html.tmpl.orig	2012-03-15 18:28:35.000000000 -0700
++++ login.html.tmpl	2012-03-15 18:54:40.661577325 -0700
+@@ -30,91 +30,13 @@
  [% PROCESS global/variables.none.tmpl %]
  
  [% PROCESS global/header.html.tmpl
@@ -13,7 +13,7 @@
  
  <p>
 -  I need a legitimate login and password to continue.
-+  I need a legitimate login and password to continue. Please <a href="/login.php?returnto=%2Ftracker%2F[% target FILTER html %]">log in</a> or <a href="/register.php">create an account</a>.
++I need a legitimate login and password to continue. Please <a href="/login.php?returnto=%2Ftracker%2F[% target FILTER html %]">log in</a> or <a href="/register.php">create an account</a>.
  </p>
  
 -<form name="login" action="[% target FILTER html %]" method="POST"
@@ -45,17 +45,15 @@
 -      </tr>
 -    [% END %]
 -
--    [% IF Param('loginnetmask') < 32 %]
--      <tr>
--        <th>&nbsp;</th>
--        <td>
--          <input type="checkbox" id="Bugzilla_restrictlogin" name="Bugzilla_restrictlogin"
--                 checked="checked">
--          <label for="Bugzilla_restrictlogin">Restrict this session to this IP address
--          (using this option improves security)</label>
--        </td>
--      </tr>
--    [% END %]
+-    <tr>
+-      <th>&nbsp;</th>
+-      <td>
+-        <input type="checkbox" id="Bugzilla_restrictlogin" name="Bugzilla_restrictlogin"
+-               checked="checked">
+-        <label for="Bugzilla_restrictlogin">Restrict this session to this IP address
+-        (using this option improves security)</label>
+-      </td>
+-    </tr>
 -  </table>
 -
 -  [% PROCESS "global/hidden-fields.html.tmpl"
@@ -85,8 +83,7 @@
 -  [% IF user.authorizer.can_change_password %]
 -    <hr>
 -
--    <a name="forgot"></a>
--    <form method="get" action="token.cgi">
+-    <form id="forgot" method="get" action="token.cgi">
 -      <input type="hidden" name="a" value="reqpw">
 -      If you have an account, but have forgotten your password,
 -      enter your login name below and submit a request

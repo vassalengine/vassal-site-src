@@ -1,0 +1,14 @@
+--- common-links.html.tmpl.orig	2011-09-25 13:58:47.637562029 -0700
++++ common-links.html.tmpl	2011-09-25 13:58:47.636562030 -0700
+@@ -69,11 +69,6 @@
+ 
+     <li>
+       <span class="separator">| </span>
+-      [% IF user.authorizer.can_logout %]
+-        <a href="index.cgi?logout=1">Log&nbsp;out</a>
+-      [% ELSE %]
+-        Logged&nbsp;in&nbsp;as
+-      [% END %]
+       [% IF sudoer %]
+         [%+ sudoer.login FILTER html %] (<b>impersonating
+         [%+ user.login FILTER html %]</b>

@@ -1,0 +1,20 @@
+--- header.html.tmpl.orig	2011-09-25 13:58:47.638562028 -0700
++++ header.html.tmpl	2011-09-25 13:58:47.638562028 -0700
+@@ -231,6 +231,7 @@
+     <link rel="search" type="application/opensearchdescription+xml"
+                        title="[% terms.Bugzilla %]" href="./search_plugin.cgi">
+     <link rel="shortcut icon" href="images/favicon.ico" >
++    <link rel="icon" type="image/png" href="/images/VASSAL.png"/>
+     [% Hook.process("additional_header") %]
+   </head>
+ 
+@@ -248,6 +249,9 @@
+   # 'bannerhtml'
+   #%]
+ 
++[% INCLUDE "global/vassal-header.html.tmpl" %]
++<div id="wrapper">
++
+ <div id="header">
+ 
+ [% INCLUDE global/banner.html.tmpl %]

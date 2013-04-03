@@ -1,8 +1,8 @@
---- mime.info.orig	2011-09-25 13:58:47.639562028 -0700
-+++ mime.info	2011-09-25 13:58:47.639562028 -0700
-@@ -61,6 +61,10 @@
- application/x-tar	[ARCHIVE]
+--- mime.info.orig	2013-04-03 14:27:02.862668170 -0700
++++ mime.info	2013-04-03 14:29:33.665674316 -0700
+@@ -69,6 +69,10 @@
  application/x-stuffit	[ARCHIVE]
+ application/x-opc+zip	[ARCHIVE]
  
 +application/vnd.vassalengine.game-log         [ARCHIVE]
 +application/vnd.vassalengine.module           [ARCHIVE]

@@ -1,9 +1,9 @@
---- mime.types.orig	2011-09-25 13:58:47.639562028 -0700
-+++ mime.types	2011-09-25 13:58:47.639562028 -0700
-@@ -15,6 +15,10 @@
+--- mime.types.orig	2013-04-03 14:24:22.164780602 -0700
++++ mime.types	2013-04-03 14:31:42.300117980 -0700
+@@ -16,6 +16,10 @@
  application/vnd.mif mif
- application/vnd.ms-excel xls xlsx xlsb xlam xltx xltm
- application/vnd.ms-powerpoint ppt pptm pptx pot potx potm ppsm ppam
+ application/vnd.ms-excel xls xlt xla
+ application/vnd.ms-powerpoint ppt pot pps ppa
 +application/vnd.vassalengine.game-log vlog
 +application/vnd.vassalengine.module vmod
 +application/vnd.vassalengine.module-extension vmdx
@@ -11,12 +11,12 @@
  application/vnd.wap.wbxml wbxml
  application/vnd.wap.wmlc wmlc
  application/vnd.wap.wmlscriptc wmlsc
-@@ -58,7 +62,7 @@
+@@ -59,7 +63,7 @@
  application/xslt+xml xslt
- application/xml xml xsl xsd
+ application/xml xml xsl xsd kml
  application/xml-dtd dtd
--application/zip zip jar xpi  sxc stc  sxd std   sxi sti   sxm stm   sxw stw
-+application/zip zip jar xpi  sxc stc  sxd std   sxi sti   sxm stm   sxw stw   vmod vmdx vlog vsav
+-application/zip zip jar xpi sxc stc sxd std sxi sti sxm stm sxw stw
++application/zip zip jar xpi sxc stc sxd std sxi sti sxm stm sxw stw vmod vmdx vlog vsav
  application/x-rar rar
  audio/basic au snd
  audio/midi mid midi kar

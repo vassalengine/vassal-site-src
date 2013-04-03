@@ -196,7 +196,7 @@ class vassalTemplate extends QuickTemplate {
 				 	&& in_array( $key, array( 'edit', 'watch', 'unwatch' ))) {
 				 		echo $skin->tooltip( "ca-$key" );
 				 	} else {
-				 		echo $skin->tooltipAndAccesskey( "ca-$key" );
+				 		echo $skin->tooltipAndAccesskeyAttribs( "ca-$key" );
 				 	}
 				 	echo '>'.htmlspecialchars($tab['text']).'</a></li>';
 				} ?>
@@ -213,7 +213,7 @@ class vassalTemplate extends QuickTemplate {
 ?>
 				<li id="<?php echo Sanitizer::escapeId( "pt-$key" ) ?>"<?php
 					if ($item['active']) { ?> class="active"<?php } ?>><a href="<?php
-				echo htmlspecialchars($item['href']) ?>"<?php echo $skin->tooltipAndAccesskey('pt-'.$key) ?><?php
+				echo htmlspecialchars($item['href']) ?>"<?php echo $skin->tooltipAndAccesskeyAttribs('pt-'.$key) ?><?php
 				if(!empty($item['class'])) { ?> class="<?php
 				echo htmlspecialchars($item['class']) ?>"<?php } ?>><?php
 				echo htmlspecialchars($item['text']) ?></a></li>
@@ -226,7 +226,7 @@ class vassalTemplate extends QuickTemplate {
 	<div class="portlet" id="p-logo">
 		<a style="background-image: url(<?php $this->text('logopath') ?>);" <?php
 			?>href="<?php echo htmlspecialchars($this->data['nav_urls']['mainpage']['href'])?>"<?php
-			echo $skin->tooltipAndAccesskey('n-mainpage') ?>></a>
+			echo $skin->tooltipAndAccesskeyAttribs('n-mainpage') ?>></a>
 	</div>
 -->
 	<script type="<?php $this->text('jsmimetype') ?>"> if (window.isMSIE55) fixalpha(); </script>
@@ -307,11 +307,11 @@ class vassalTemplate extends QuickTemplate {
 		<h5><label for="searchInput"><?php $this->msg('search') ?></label></h5>
 		<div id="searchBody" class="pBody">
 			<form action="<?php $this->text('searchaction') ?>" id="searchform"><div>
-				<input id="searchInput" name="search" type="text"<?php echo $this->skin->tooltipAndAccesskey('search');
+				<input id="searchInput" name="search" type="text"<?php echo $this->skin->tooltipAndAccesskeyAttribs('search');
 					if( isset( $this->data['search'] ) ) {
 						?> value="<?php $this->text('search') ?>"<?php } ?> />
-				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="<?php $this->msg('searcharticle') ?>"<?php echo $this->skin->tooltipAndAccesskey( 'search-go' ); ?> />&nbsp;
-				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="<?php $this->msg('searchbutton') ?>"<?php echo $this->skin->tooltipAndAccesskey( 'search-fulltext' ); ?> />
+				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="<?php $this->msg('searcharticle') ?>"<?php echo $this->skin->tooltipAndAccesskeyAttribs( 'search-go' ); ?> />&nbsp;
+				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="<?php $this->msg('searchbutton') ?>"<?php echo $this->skin->tooltipAndAccesskeyAttribs( 'search-fulltext' ); ?> />
 			</div></form>
 		</div>
 	</div>
@@ -329,23 +329,23 @@ class vassalTemplate extends QuickTemplate {
 		if($this->data['notspecialpage']) { ?>
 				<li id="t-whatlinkshere"><a href="<?php
 				echo htmlspecialchars($this->data['nav_urls']['whatlinkshere']['href'])
-				?>"<?php echo $this->skin->tooltipAndAccesskey('t-whatlinkshere') ?>><?php $this->msg('whatlinkshere') ?></a></li>
+				?>"<?php echo $this->skin->tooltipAndAccesskeyAttribs('t-whatlinkshere') ?>><?php $this->msg('whatlinkshere') ?></a></li>
 <?php
 			if( $this->data['nav_urls']['recentchangeslinked'] ) { ?>
 				<li id="t-recentchangeslinked"><a href="<?php
 				echo htmlspecialchars($this->data['nav_urls']['recentchangeslinked']['href'])
-				?>"<?php echo $this->skin->tooltipAndAccesskey('t-recentchangeslinked') ?>><?php $this->msg('recentchangeslinked') ?></a></li>
+				?>"<?php echo $this->skin->tooltipAndAccesskeyAttribs('t-recentchangeslinked') ?>><?php $this->msg('recentchangeslinked') ?></a></li>
 <?php 		}
 		}
 		if(isset($this->data['nav_urls']['trackbacklink'])) { ?>
 			<li id="t-trackbacklink"><a href="<?php
 				echo htmlspecialchars($this->data['nav_urls']['trackbacklink']['href'])
-				?>"<?php echo $this->skin->tooltipAndAccesskey('t-trackbacklink') ?>><?php $this->msg('trackbacklink') ?></a></li>
+				?>"<?php echo $this->skin->tooltipAndAccesskeyAttribs('t-trackbacklink') ?>><?php $this->msg('trackbacklink') ?></a></li>
 <?php 	}
 		if($this->data['feeds']) { ?>
 			<li id="feedlinks"><?php foreach($this->data['feeds'] as $key => $feed) {
 					?><span id="<?php echo Sanitizer::escapeId( "feed-$key" ) ?>"><a href="<?php
-					echo htmlspecialchars($feed['href']) ?>"<?php echo $this->skin->tooltipAndAccesskey('feed-'.$key) ?>><?php echo htmlspecialchars($feed['text'])?></a>&nbsp;</span>
+					echo htmlspecialchars($feed['href']) ?>"<?php echo $this->skin->tooltipAndAccesskeyAttribs('feed-'.$key) ?>><?php echo htmlspecialchars($feed['text'])?></a>&nbsp;</span>
 					<?php } ?></li><?php
 		}
 
@@ -353,18 +353,18 @@ class vassalTemplate extends QuickTemplate {
 
 			if($this->data['nav_urls'][$special]) {
 				?><li id="t-<?php echo $special ?>"><a href="<?php echo htmlspecialchars($this->data['nav_urls'][$special]['href'])
-				?>"<?php echo $this->skin->tooltipAndAccesskey('t-'.$special) ?>><?php $this->msg($special) ?></a></li>
+				?>"<?php echo $this->skin->tooltipAndAccesskeyAttribs('t-'.$special) ?>><?php $this->msg($special) ?></a></li>
 <?php		}
 		}
 
 		if(!empty($this->data['nav_urls']['print']['href'])) { ?>
 				<li id="t-print"><a href="<?php echo htmlspecialchars($this->data['nav_urls']['print']['href'])
-				?>"<?php echo $this->skin->tooltipAndAccesskey('t-print') ?>><?php $this->msg('printableversion') ?></a></li><?php
+				?>"<?php echo $this->skin->tooltipAndAccesskeyAttribs('t-print') ?>><?php $this->msg('printableversion') ?></a></li><?php
 		}
 
 		if(!empty($this->data['nav_urls']['permalink']['href'])) { ?>
 				<li id="t-permalink"><a href="<?php echo htmlspecialchars($this->data['nav_urls']['permalink']['href'])
-				?>"<?php echo $this->skin->tooltipAndAccesskey('t-permalink') ?>><?php $this->msg('permalink') ?></a></li><?php
+				?>"<?php echo $this->skin->tooltipAndAccesskeyAttribs('t-permalink') ?>><?php $this->msg('permalink') ?></a></li><?php
 		} elseif ($this->data['nav_urls']['permalink']['href'] === '') { ?>
 				<li id="t-ispermalink"<?php echo $this->skin->tooltip('t-ispermalink') ?>><?php $this->msg('permalink') ?></li><?php
 		}
@@ -408,7 +408,7 @@ class vassalTemplate extends QuickTemplate {
 <?php 			foreach($cont as $key => $val) { ?>
 				<li id="<?php echo Sanitizer::escapeId($val['id']) ?>"<?php
 					if ( $val['active'] ) { ?> class="active" <?php }
-				?>><a href="<?php echo htmlspecialchars($val['href']) ?>"<?php echo $this->skin->tooltipAndAccesskey($val['id']) ?>><?php echo htmlspecialchars($val['text']) ?></a></li>
+				?>><a href="<?php echo htmlspecialchars($val['href']) ?>"<?php echo $this->skin->tooltipAndAccesskeyAttribs($val['id']) ?>><?php echo htmlspecialchars($val['text']) ?></a></li>
 <?php			} ?>
 			</ul>
 <?php   } else {

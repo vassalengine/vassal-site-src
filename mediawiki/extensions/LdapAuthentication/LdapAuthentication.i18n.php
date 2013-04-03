@@ -17,9 +17,10 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Fryed-peach
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'ldapauthentication-desc' => '{{desc}}',
+	'ldapauthentication-desc' => '{{desc|name=LDAP Authentication|url=http://www.mediawiki.org/wiki/Extension:LDAP_Authentication}}',
 );
 
 /** Afrikaans (Afrikaans)
@@ -43,63 +44,85 @@ $messages['ar'] = array(
 	'ldapauthentication-desc' => 'إضافة تحقيق LDAP بدعم لوسائل تحقيق LDAP متعددة',
 );
 
-/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'ldapauthentication-desc' => "Complemento p'autenticación LDAP con sofitu pa dellos métodos d'autenticación LDAP",
+);
+
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  */
 $messages['be-tarask'] = array(
 	'ldapauthentication-desc' => 'Дапаўненьне LDAP-аўтэнтыфікацыі з падтрымкай некалькіх мэтадаў аўтэнтыфікацыі LDAP',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
 	'ldapauthentication-desc' => 'Adveziant gwiriekaat LDAP ennañ meur a hentenn wiriekaat LDAP',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
 	'ldapauthentication-desc' => 'Proširenje LDAP autentifikacije sa podrškom za mnoge metode LDAP autentifikacije',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Paucabot
  */
 $messages['ca'] = array(
 	'ldapauthentication-desc' => "Connector d'autentificació LDAP amb suport per a diversos mètodes d'autenticació LDAP",
 );
 
-/** German (Deutsch)
- * @author Imre
+/** Czech (česky)
+ * @author Mormegil
  */
-$messages['de'] = array(
-	'ldapauthentication-desc' => 'Plug-in für LDAP-Authentifizierung mit Unterstützung einiger LDAP-Authentifizierungsmethoden',
+$messages['cs'] = array(
+	'ldapauthentication-desc' => 'Autentizační modul pro LDAP podporující několik autentizačních metod LDAP',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** German (Deutsch)
+ * @author Imre
+ * @author Kghbln
+ */
+$messages['de'] = array(
+	'ldapauthentication-desc' => 'Ermöglicht die LDAP-Authentifizierung mit Hilfe mehrerer Authentifizierungsmethoden',
+);
+
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
 	'ldapauthentication-desc' => 'Tykac awtentifikacije LDAP z pódpěru za někotare metody LDAP-awtentifikacije',
 );
 
-/** Spanish (Español)
+/** Esperanto (Esperanto)
+ * @author Blahma
+ */
+$messages['eo'] = array(
+	'ldapauthentication-desc' => 'LDAP-aŭtentiga kromprogramo kun subteno de pluraj LDAP-aŭtentigaj metodoj',
+);
+
+/** Spanish (español)
  * @author Translationista
  */
 $messages['es'] = array(
 	'ldapauthentication-desc' => 'Complemento de autentificación LDAP con apoyo de múltiples métodos de autentificación LDAP',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Centerlink
  */
 $messages['fi'] = array(
 	'ldapauthentication-desc' => 'LDAP-todentamisliitännäinen useiden LDAP-todennustapojen tuella',
 );
 
-/** French (Français)
+/** French (français)
  * @author IAlex
  * @author Urhixidur
  */
@@ -107,7 +130,7 @@ $messages['fr'] = array(
 	'ldapauthentication-desc' => 'Extension d’authentification LDAP prenant en charge de multiples méthodes d’authentification LDAP',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -121,21 +144,28 @@ $messages['gsw'] = array(
 	'ldapauthentication-desc' => 'LDAP-Authentifizierigs-Plugin mit Unterstitzig fir multipli LDAP-Authentifizierigs-Merthode',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Hebrew (עברית)
+ * @author YaronSh
+ */
+$messages['he'] = array(
+	'ldapauthentication-desc' => 'תוסף אימות LDAP עם תמיכה במספר שיטות LDAP לאימות',
+);
+
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
 	'ldapauthentication-desc' => 'Tykač awtentifikacije LDAP z podpěru za wjacore metody LDAP-awtentifikacije',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Glanthor Reviol
  */
 $messages['hu'] = array(
 	'ldapauthentication-desc' => 'LDAP hitelesítési bővítmény többféle LDAP azonosítási módszer támogatásával',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -149,7 +179,7 @@ $messages['id'] = array(
 	'ldapauthentication-desc' => 'Pengaya otentikasi LDAP dengan dukungan untuk berbagai metode otentikasi LDAP',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author HalphaZ
  */
 $messages['it'] = array(
@@ -158,9 +188,17 @@ $messages['it'] = array(
 
 /** Japanese (日本語)
  * @author Aotake
+ * @author Shirayuki
  */
 $messages['ja'] = array(
-	'ldapauthentication-desc' => '複数のLDAP認証方式をサポートするLDAP認証プラグイン',
+	'ldapauthentication-desc' => '複数の LDAP 認証方式対応の LDAP 認証プラグイン',
+);
+
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'ldapauthentication-desc' => '여러 LDAP 인증 방법에 대해 지원하는 LDAP 인증 플러그인',
 );
 
 /** Colognian (Ripoarisch)
@@ -177,11 +215,25 @@ $messages['lb'] = array(
 	'ldapauthentication-desc' => 'Authentifikatiouns-Plugin fir LDAP mat Ënnerstëtzung fir multipel LDAP Authentifikatiouns-Methoden',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
 	'ldapauthentication-desc' => 'LDAP приклучок за потврдување со поддршка за повеќе методи на LDAP потврдување',
+);
+
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'ldapauthentication-desc' => 'Pemalam pengesahan LDAP dengan sokongan untuk berbilang kaedah pengesahan LDAP',
+);
+
+/** Norwegian Bokmål (norsk (bokmål)‎)
+ * @author Nghtwlkr
+ */
+$messages['nb'] = array(
+	'ldapauthentication-desc' => 'Programutvidelse for LDAP-autentisering med støtte for flere LDAP-autentiseringsmetoder',
 );
 
 /** Dutch (Nederlands)
@@ -191,21 +243,14 @@ $messages['nl'] = array(
 	'ldapauthentication-desc' => 'LDAP-authenticatieplug-in met ondersteuning voor meerdere LDAP-authenticatiemethoden',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Nghtwlkr
- */
-$messages['no'] = array(
-	'ldapauthentication-desc' => 'Programutvidelse for LDAP-autentisering med støtte for flere LDAP-autentiseringsmetoder',
-);
-
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
 	'ldapauthentication-desc' => "Plugin d'autentificacion LDAP amb supòrt de metòdes d'autentificacion LDAP multiples",
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -220,54 +265,55 @@ $messages['pms'] = array(
 	'ldapauthentication-desc' => "Plugin për l'autenticassion LDAP con apògg për vàire manere d'autenticassion LDAP",
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  */
 $messages['pt'] = array(
 	'ldapauthentication-desc' => "''Plugin'' de autenticação LDAP, com suporte para vários métodos de autenticação",
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Giro720
  */
 $messages['pt-br'] = array(
 	'ldapauthentication-desc' => "''Plugin'' de autenticação LDAP, com suporte para vários métodos de autenticação",
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
 	'ldapauthentication-desc' => "plugin de autendicazione LDAP cu 'u supporte pe autendicaziune multeple de metode LDAP",
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Александр Сигачёв
  */
 $messages['ru'] = array(
 	'ldapauthentication-desc' => 'Плагин LDAP-аутентификации с поддержкой нескольких методов проверки подлинности LDAP',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
 	'ldapauthentication-desc' => 'Zásuvný modul na autentifikáciu prostredníctvom LDAP s podporou viacerých metód LDAP',
 );
 
-/** Serbian Cyrillic ekavian (Српски (ћирилица))
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Михајло Анђелковић
  */
 $messages['sr-ec'] = array(
 	'ldapauthentication-desc' => 'Плагин за LDAP ауторизацију, са подршком за више метода LDAP ауторизације',
 );
 
-/** Serbian Latin ekavian (Srpski (latinica)) */
+/** Serbian (Latin script) (srpski (latinica)‎)
+ */
 $messages['sr-el'] = array(
 	'ldapauthentication-desc' => 'Plagin za LDAP autorizaciju, sa podrškom za više metoda LDAP autorizacije',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Boivie
  */
 $messages['sv'] = array(
@@ -288,3 +334,30 @@ $messages['tr'] = array(
 	'ldapauthentication-desc' => 'Birden çok LDAP kimlik doğrulama yöntemini destekleyen LDAP kimlik doğrulama eklentisi',
 );
 
+/** Ukrainian (українська)
+ * @author Ytsukeng Fyvaprol
+ */
+$messages['uk'] = array(
+	'ldapauthentication-desc' => 'Плагін LDAP-аутентифікації з підтримкою декількох методів перевірки автентичності LDAP',
+);
+
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'ldapauthentication-desc' => 'Phần bổ trợ xác thực LDAP hỗ trợ nhiều phương pháp xác thực LDAP',
+);
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yanmiao liu
+ */
+$messages['zh-hans'] = array(
+	'ldapauthentication-desc' => '具有多种LDAP认证方法支持的LDAP认证插件',
+);
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Anakmalaysia
+ */
+$messages['zh-hant'] = array(
+	'ldapauthentication-desc' => '具有多種LDAP認證方法支持的LDAP認證外掛程式',
+);

@@ -5,36 +5,21 @@ class LdapAutoAuthentication {
 	/**
 	 * Does the web server authentication piece of the LDAP plugin.
 	 *
-	 * @access public
+	 * @param $user User
+	 * @param $result bool
+	 * @return bool
 	 */
-	static function Authenticate( $user, &$result = null ) {
-		global $wgUser;
+	public static function Authenticate( $user, &$result = null ) {
+		/**
+		 * @var $wgAuth LdapAuthenticationPlugin
+		 */
 		global $wgAuth;
-		global $wgLDAPAutoAuthUsername;
-		global $wgVersion;
 
 		$wgAuth->printDebug( "Entering AutoAuthentication.", NONSENSITIVE );
 
-		if ( version_compare( $wgVersion, '1.14.0', '<' ) ) {
-			// The following section is a hack to determine whether or not
-			// the user is logged in. We need a core fix to make this simpler.
-			if ( isset( $_SESSION['wsUserID'] ) ) {
-				$user->setID( $_SESSION['wsUserID'] );
-				if ( $user->loadFromId() ) {
-					if ( $_SESSION['wsToken'] == $user->mToken  && $_SESSION['wsUserName'] == $user->mName ) {
-						$wgAuth->printDebug( "User is already logged in.", NONSENSITIVE );
-						$result = true;
-						return true;
-					} else {
-						$user->loadDefaults();
-					}
-				}
-			}
-		} else {
-			if ( $user->isLoggedIn() ) {
-				$wgAuth->printDebug( "User is already logged in.", NONSENSITIVE );
-				return true;
-			}
+		if ( $user->isLoggedIn() ) {
+			$wgAuth->printDebug( "User is already logged in.", NONSENSITIVE );
+			return true;
 		}
 
 		$wgAuth->printDebug( "User isn't logged in, calling setup.", NONSENSITIVE );
@@ -43,9 +28,11 @@ class LdapAutoAuthentication {
 		// authentication chaining
 		$wgAuth->autoAuthSetup();
 
-		$wgAuth->printDebug( "Calling authenticate with username ($wgLDAPAutoAuthUsername).", NONSENSITIVE );
+		$autoauthname = $wgAuth->getConf( 'AutoAuthUsername' );
+		$wgAuth->printDebug( "Calling authenticate with username ($autoauthname).", NONSENSITIVE );
+
 		// The user hasn't already been authenticated, let's check them
-		$authenticated = $wgAuth->authenticate( $wgLDAPAutoAuthUsername );
+		$authenticated = $wgAuth->authenticate( $autoauthname, '' );
 		if ( !$authenticated ) {
 			// If the user doesn't exist in LDAP, there isn't much reason to
 			// go any further.
@@ -53,12 +40,11 @@ class LdapAutoAuthentication {
 			return false;
 		}
 
-		// We need the username that MediaWiki will always use, *not* the one we
+		// We need the username that MediaWiki will always use, not necessarily the one we
 		// get from LDAP.
-		$mungedUsername = $wgAuth->getCanonicalName( $wgLDAPAutoAuthUsername );
+		$mungedUsername = $wgAuth->getCanonicalName( $autoauthname );
 
 		$wgAuth->printDebug( "User exists in LDAP; finding the user by name ($mungedUsername) in MediaWiki.", NONSENSITIVE );
-
 		$localId = User::idFromName( $mungedUsername );
 		$wgAuth->printDebug( "Got id ($localId).", NONSENSITIVE );
 
@@ -82,7 +68,15 @@ class LdapAutoAuthentication {
 		return true;
 	}
 
-	static function attemptAddUser( $user, $mungedUsername ) {
+	/**
+	 * @param $user User
+	 * @param $mungedUsername String
+	 * @return bool
+	 */
+	public static function attemptAddUser( $user, $mungedUsername ) {
+		/**
+		 * @var $wgAuth LdapAuthenticationPlugin
+		 */
 		global $wgAuth;
 
 		if ( !$wgAuth->autoCreate() ) {
@@ -91,32 +85,40 @@ class LdapAutoAuthentication {
 		}
 
 		$wgAuth->printDebug( "User does not exist in local database; creating.", NONSENSITIVE );
-
 		// Checks passed, create the user
 		$user->loadDefaults( $mungedUsername );
-		$user->addToDatabase();
-
+		$status = $user->addToDatabase();
+		if ( $status !== null && !$status->isOK() ) {
+			$wgAuth->printDebug( "Creation failed: " . $status->getWikiText(), NONSENSITIVE );
+			return false;
+		}
 		$wgAuth->initUser( $user, true );
 		$user->setCookies();
 		wfSetupSession();
-
 		# Update user count
 		$ssUpdate = new SiteStatsUpdate( 0, 0, 0, 0, 1 );
 		$ssUpdate->doUpdate();
-
 		# Notify hooks (e.g. Newuserlog)
 		wfRunHooks( 'AuthPluginAutoCreate', array( $user ) );
 
 		return true;
 	}
 
-	/* No logout link in MW */
-	static function NoLogout( &$personal_urls, $title ) {
+	/**
+	 * No logout link in MW
+	 * @param $personal_urls array
+	 * @param $title Title
+	 * @return bool
+	 */
+	public static function NoLogout( &$personal_urls, $title ) {
+		/**
+		 * @var $wgAuth LdapAuthenticationPlugin
+		 */
 		global $wgAuth;
+
 		$wgAuth->printDebug( "Entering NoLogout.", NONSENSITIVE );
-
-		$personal_urls['logout'] = null;
-
+		unset( $personal_urls['logout'] );
 		return true;
 	}
+
 }

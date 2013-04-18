@@ -1,6 +1,6 @@
---- login.html.tmpl.orig	2012-03-15 18:28:35.000000000 -0700
-+++ login.html.tmpl	2012-03-15 18:54:40.661577325 -0700
-@@ -30,91 +30,13 @@
+--- login.html.tmpl.orig	2013-04-18 10:21:44.000000000 -0700
++++ login.html.tmpl	2013-04-18 10:24:17.378862530 -0700
+@@ -30,94 +30,13 @@
  [% PROCESS global/variables.none.tmpl %]
  
  [% PROCESS global/header.html.tmpl
@@ -67,6 +67,8 @@
 -  </p>
 -</form>
 -
+-[% Hook.process('additional_methods') %]
+-
 -[%# Allow the user to create a new account, or request a token to change
 -  # their password, assuming that our auth method allows that.
 -  #%]
@@ -89,6 +91,7 @@
 -      enter your login name below and submit a request
 -      to change your password.<br>
 -      <input size="35" name="loginname">
+-      <input type="hidden" id="token" name="token" value="[% issue_hash_token(['reqpw']) FILTER html %]">
 -      <input type="submit" id="request" value="Reset Password">
 -    </form>
 -  [% END %]

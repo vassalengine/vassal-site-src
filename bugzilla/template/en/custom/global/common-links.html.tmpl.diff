@@ -1,5 +1,5 @@
---- common-links.html.tmpl.orig	2011-09-25 13:58:47.637562029 -0700
-+++ common-links.html.tmpl	2011-09-25 13:58:47.636562030 -0700
+--- common-links.html.tmpl.orig	2013-04-18 10:34:18.361658028 -0700
++++ common-links.html.tmpl	2013-04-18 10:46:03.243917945 -0700
 @@ -69,11 +69,6 @@
  
      <li>

@@ -1,6 +1,6 @@
---- login-small.html.tmpl.orig	2012-03-15 18:28:03.000000000 -0700
-+++ login-small.html.tmpl	2012-03-15 18:58:42.365334316 -0700
-@@ -1,121 +0,0 @@
+--- login-small.html.tmpl.orig	2013-04-18 10:13:43.125329846 -0700
++++ login-small.html.tmpl	2013-04-18 10:15:42.394218449 -0700
+@@ -1,129 +0,0 @@
 -[%# The contents of this file are subject to the Mozilla Public
 -  # License Version 1.1 (the "License"); you may not use this file
 -  # except in compliance with the License. You may obtain a copy of
@@ -39,9 +39,12 @@
 -  [% IF cgi.request_method == "GET" AND cgi.query_string %]
 -    [% connector = "&" %]
 -  [% END %]
--  [% script_name = login_target _ connector _ "GoAheadAndLogIn=1" %]
--  <a id="login_link[% qs_suffix %]" href="[% script_name FILTER html %]"
+-  [% script_url = login_target _ connector _ "GoAheadAndLogIn=1" %]
+-  <a id="login_link[% qs_suffix %]" href="[% script_url FILTER html %]"
 -     onclick="return show_mini_login_form('[% qs_suffix %]')">Log In</a>
+-
+-  [% Hook.process('additional_methods') %]
+-  
 -  <form action="[% login_target FILTER html %]" method="POST" 
 -        class="mini_login bz_default_hidden"
 -        id="mini_login[% qs_suffix FILTER html %]"
@@ -50,15 +53,18 @@
 -    <input id="Bugzilla_login[% qs_suffix FILTER html %]" 
 -           class="bz_login"
 -           name="Bugzilla_login"
+-           title="Login"
 -           onfocus="mini_login_on_focus('[% qs_suffix FILTER js %]')"
 -    >
 -    <input class="bz_password" 
 -           id="Bugzilla_password[% qs_suffix FILTER html %]" 
 -           name="Bugzilla_password"
 -           type="password"
+-           title="Password"
 -    >
 -    <input class="bz_password bz_default_hidden bz_mini_login_help" type="text" 
 -           id="Bugzilla_password_dummy[% qs_suffix %]" value="password"
+-           title="Password"
 -           onfocus="mini_login_on_focus('[% qs_suffix FILTER js %]')"
 -    >
 -    [% IF Param('rememberlogin') == 'defaulton' ||
@@ -111,14 +117,16 @@
 -</li>
 -<li id="forgot_container[% qs_suffix %]">
 -  <span class="separator">| </span>
--  <a id="forgot_link[% qs_suffix %]" href="[% script_name FILTER html %]#forgot"
+-  <a id="forgot_link[% qs_suffix %]" href="[% script_url FILTER html %]#forgot"
 -     onclick="return show_forgot_form('[% qs_suffix %]')">Forgot Password</a>
 -  <form action="token.cgi" method="post" id="forgot_form[% qs_suffix %]"
 -        class="mini_forgot bz_default_hidden">
--    <label>Login: <input type="text" name="loginname" size="20"></label>
+-    <label for="login[% qs_suffix FILTER html %]">Login:</label>
+-    <input type="text" name="loginname" size="20" id="login[% qs_suffix FILTER html %]">
 -    <input id="forgot_button[% qs_suffix %]" value="Reset Password" 
 -           type="submit">
 -    <input type="hidden" name="a" value="reqpw">
+-    <input type="hidden" id="token" name="token" value="[% issue_hash_token(['reqpw']) FILTER html %]">
 -    <a href="#" onclick="return hide_forgot_form('[% qs_suffix %]')">[x]</a>
 -  </form>
 -</li>

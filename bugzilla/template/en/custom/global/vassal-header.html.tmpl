@@ -16,9 +16,9 @@
   [% script_name = '/tracker/' _ script_name %]
 
   [% IF user.authorizer.can_logout %]
-    <a href="/modify.php">Modify account</a> / <a href="/logout.php?returnto=[% script_name FILTER url_quote %]">Log out</a>
+    <a href="/modify.php">Modify account</a> / <a href="/logout.php?returnto=[% script_name FILTER uri %]">Log out</a>
   [% ELSE %]
-    <a href="/register.php">Create account</a> / <a href="/login.php?returnto=[% script_name FILTER url_quote %]">Log in</a>
+    <a href="/register.php">Create account</a> / <a href="/login.php?returnto=[% script_name FILTER uri %]">Log in</a>
   [% END %]
   </div>
 </div>

@@ -1,4 +1,4 @@
---- login-small.html.tmpl.orig	2013-04-18 10:13:43.125329846 -0700
+--- login-small.html.tmpl.orig	2013-06-10 14:03:21.921746558 -0700
 +++ login-small.html.tmpl	2013-04-18 10:15:42.394218449 -0700
 @@ -1,129 +0,0 @@
 -[%# The contents of this file are subject to the Mozilla Public
@@ -126,7 +126,7 @@
 -    <input id="forgot_button[% qs_suffix %]" value="Reset Password" 
 -           type="submit">
 -    <input type="hidden" name="a" value="reqpw">
--    <input type="hidden" id="token" name="token" value="[% issue_hash_token(['reqpw']) FILTER html %]">
+-    <input type="hidden" id="token[% qs_suffix FILTER html %]" name="token" value="[% issue_hash_token(['reqpw']) FILTER html %]">
 -    <a href="#" onclick="return hide_forgot_form('[% qs_suffix %]')">[x]</a>
 -  </form>
 -</li>

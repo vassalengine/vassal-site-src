@@ -235,6 +235,7 @@
     <link rel="search" type="application/opensearchdescription+xml"
                        title="[% terms.Bugzilla %]" href="./search_plugin.cgi">
     <link rel="shortcut icon" href="images/favicon.ico" >
+    <link rel="icon" type="image/png" href="/images/VASSAL.png"/>
     [% Hook.process("additional_header") %]
   </head>
 
@@ -251,6 +252,9 @@
 [%# Migration note: the following file corresponds to the old Param
   # 'bannerhtml'
   #%]
+
+[% INCLUDE "global/vassal-header.html.tmpl" %]
+<div id="wrapper">
 
 <div id="header">
 

@@ -1,0 +1,14 @@
+
+module bugzilla_abr 1.0;
+
+require {
+	type httpd_t;
+	type httpd_bugzilla_content_t;
+	class file { execute execute_no_trans };
+}
+
+#============= httpd_t ==============
+allow httpd_t httpd_bugzilla_content_t:file execute_no_trans;
+#!!!! This avc is allowed in the current policy
+
+allow httpd_t httpd_bugzilla_content_t:file execute;

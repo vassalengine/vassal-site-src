@@ -63,6 +63,13 @@ $messages['es'] = array(
 	'userfunctions-desc' => 'Mejorar el analizador (parser) con funciones de usuario',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'userfunctions-desc' => 'افزایش تجزیه کننده با فعالیت کاربر',
+);
+
 /** French (français)
  * @author Gomoko
  */
@@ -129,9 +136,10 @@ $messages['ksh'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
-	'userfunctions-desc' => 'Verbessert de Parser mat Benotzer-Fonctiounen',
+	'userfunctions-desc' => 'Verbessert de Parser mat Benotzerfunktiounen',
 );
 
 /** Minangkabau (Baso Minangkabau)
@@ -177,11 +185,25 @@ $messages['pms'] = array(
 	'userfunctions-desc' => "Amelioré l'analisator con dle funsion utent",
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Cainamarques
+ */
+$messages['pt-br'] = array(
+	'userfunctions-desc' => 'Melhora o analisador (parser) com funções sintáticas sobre o usuário',
+);
+
 /** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
 	'userfunctions-desc' => 'Analizzatore avanzate cu le funziune utende',
+);
+
+/** Russian (русский)
+ * @author Putnik
+ */
+$messages['ru'] = array(
+	'userfunctions-desc' => 'Добавление пользовательских функций в парсер',
 );
 
 /** Sinhala (සිංහල)

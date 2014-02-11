@@ -2,7 +2,7 @@
 #
 # Kills the running server, rotates the logs, restarts the server
  
-cd /home/gameserver/server/log
+cd /home/vserver/server/log
 
 killall -s SIGKILL /usr/bin/java
 setenv date `date +%Y%m%d-%H%M%S`

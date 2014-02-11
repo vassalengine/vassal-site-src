@@ -9,7 +9,7 @@
 # modified 20 Jan 2007 by RK:  use last-modified time of log file to determine server health
 #
  
-cd /home/gameserver/server
+cd /home/vserver/server
 
 setenv pid `cat pid`
 setenv running `find log/vassal-server -mmin -10 | wc -l`

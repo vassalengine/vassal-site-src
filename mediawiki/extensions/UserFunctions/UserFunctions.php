@@ -66,7 +66,8 @@ function wfRegisterUserFunctions( $parser ) {
 	$special = false;
 
 	// Initialize NS
-	$cur_ns = RequestContext::getMain()->getTitle()->getNamespace();
+	$title = RequestContext::getMain()->getTitle();
+	$cur_ns = $title === null ? -1 : $title->getNamespace();
 	if ( $cur_ns == -1 ) {
 		$special = true;
 	}

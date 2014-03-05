@@ -4,7 +4,7 @@
  
 cd /home/vserver/server/log
 
-killall -s SIGKILL /usr/bin/java
+killall -s SIGKILL java
 setenv date `date +%Y%m%d-%H%M%S`
 cp vassal-server "vassal-server.${date}"
 gzip "vassal-server.${date}"

@@ -1,5 +1,5 @@
---- mime.types.orig	2013-04-03 14:24:22.164780602 -0700
-+++ mime.types	2013-04-03 14:31:42.300117980 -0700
+--- mime.types.orig	2014-09-09 22:53:35.732434349 +0200
++++ mime.types	2014-09-09 22:56:04.192923148 +0200
 @@ -16,6 +16,10 @@
  application/vnd.mif mif
  application/vnd.ms-excel xls xlt xla
@@ -20,3 +20,12 @@
  application/x-rar rar
  audio/basic au snd
  audio/midi mid midi kar
+@@ -110,7 +114,7 @@
+ text/calendar ics ifb
+ text/css css
+ text/html html htm
+-text/plain txt
++text/plain txt vdck
+ text/richtext rtx
+ text/rtf rtf
+ text/sgml sgml sgm

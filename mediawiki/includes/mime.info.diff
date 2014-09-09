@@ -1,6 +1,6 @@
---- mime.info.orig	2013-04-03 14:27:02.862668170 -0700
-+++ mime.info	2013-04-03 14:29:33.665674316 -0700
-@@ -69,6 +69,10 @@
+--- mime.info.orig	2014-09-09 22:54:02.642972586 +0200
++++ mime.info	2014-09-09 22:54:08.908330760 +0200
+@@ -73,6 +73,10 @@
  application/x-stuffit	[ARCHIVE]
  application/x-opc+zip	[ARCHIVE]
  

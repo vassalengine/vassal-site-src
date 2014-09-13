@@ -124,7 +124,7 @@ class VassalTemplate extends QuickTemplate {
     <div id="vassal-login">
     <?php
       $returnto = urlencode($_SERVER['REQUEST_URI']);
-      $op = isset($this->data['personal_urls']['logout']) ? 'out' : 'in';
+      $op = $skin->getUser()->isLoggedIn() ? 'out' : 'in';
 
       if ($op == 'in') {
         echo "<a href=\"/register.php\">Create account</a>";

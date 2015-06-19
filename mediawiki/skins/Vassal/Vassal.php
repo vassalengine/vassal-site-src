@@ -13,6 +13,8 @@
 if( !defined( 'MEDIAWIKI' ) )
 	die( -1 );
 
+$wgValidSkinNames['vassal'] = 'Vassal';
+
 /**
  * Inherit main code from SkinTemplate, set the CSS and template filter.
  * @todo document
@@ -24,7 +26,7 @@ class SkinVassal extends SkinTemplate {
 		parent::initPage( $out );
 		$this->skinname  = 'vassal';
 		$this->stylename = 'vassal';
-		$this->template  = 'vassalTemplate';
+		$this->template  = 'VassalTemplate';
 
 	}
 
@@ -34,18 +36,18 @@ class SkinVassal extends SkinTemplate {
 		parent::setupSkinUserCss( $out );
 
 		// Append to the default screen common & print styles...
-		$out->addStyle( 'vassal/main.css', 'screen' );
+		$out->addStyle( 'Vassal/main.css', 'screen' );
 		if( $wgHandheldStyle ) {
 			// Currently in testing... try 'chick/main.css'
 			$out->addStyle( $wgHandheldStyle, 'handheld' );
 		}
 
-		$out->addStyle( 'vassal/IE50Fixes.css', 'screen', 'lt IE 5.5000' );
-		$out->addStyle( 'vassal/IE55Fixes.css', 'screen', 'IE 5.5000' );
-		$out->addStyle( 'vassal/IE60Fixes.css', 'screen', 'IE 6' );
-		$out->addStyle( 'vassal/IE70Fixes.css', 'screen', 'IE 7' );
+		$out->addStyle( 'Vassal/IE50Fixes.css', 'screen', 'lt IE 5.5000' );
+		$out->addStyle( 'Vassal/IE55Fixes.css', 'screen', 'IE 5.5000' );
+		$out->addStyle( 'Vassal/IE60Fixes.css', 'screen', 'IE 6' );
+		$out->addStyle( 'Vassal/IE70Fixes.css', 'screen', 'IE 7' );
 
-		$out->addStyle( 'vassal/rtl.css', 'screen', '', 'rtl' );
+		$out->addStyle( 'Vassal/rtl.css', 'screen', '', 'rtl' );
 
 		$out->addStyle( '/css/site.css', 'screen' );
 	}
@@ -55,7 +57,7 @@ class SkinVassal extends SkinTemplate {
  * @todo document
  * @ingroup Skins
  */
-class vassalTemplate extends QuickTemplate {
+class VassalTemplate extends QuickTemplate {
 	var $skin;
 	/**
 	 * Template filter callback for MonoBook skin.
@@ -81,6 +83,7 @@ class vassalTemplate extends QuickTemplate {
 	<head>
 		<meta http-equiv="Content-Type" content="<?php $this->text('mimetype') ?>; charset=<?php $this->text('charset') ?>" />
 		<?php $this->html('headlinks') ?>
+
 		<title><?php $this->text('pagetitle') ?></title>
 		<?php $this->html('csslinks') ?>
 
@@ -121,7 +124,7 @@ class vassalTemplate extends QuickTemplate {
     <div id="vassal-login">
     <?php
       $returnto = urlencode($_SERVER['REQUEST_URI']);
-      $op = isset($this->data['personal_urls']['logout']) ? 'out' : 'in';
+      $op = $skin->getUser()->isLoggedIn() ? 'out' : 'in';
 
       if ($op == 'in') {
         echo "<a href=\"/register.php\">Create account</a>";
@@ -143,11 +146,11 @@ class vassalTemplate extends QuickTemplate {
 -->    
     <?php foreach($this->data['content_actions'] as $key => $action) {
       if ($key == 'edit' || $key == 'history' || $key == 'watch' || $key == 'unwatch' || $key == 'talk'){ ?>
-        <a href="<?php echo htmlspecialchars($action['href']);?>" title="<?php echo htmlspecialchars($action['text']) ?>"><img src="<?php $this->text('stylepath') ?>/vassal/<?php echo htmlspecialchars($action['text']) ?>-small.png"  class="<?php echo htmlspecialchars($action['class']) ?>" alt="<?php echo htmlspecialchars($action['text']) ?>"/></a>
+        <a href="<?php echo htmlspecialchars($action['href']);?>" title="<?php echo htmlspecialchars($action['text']) ?>"><img src="<?php $this->text('stylepath') ?>/Vassal/<?php echo htmlspecialchars($action['text']) ?>-small.png"  class="<?php echo htmlspecialchars($action['class']) ?>" alt="<?php echo htmlspecialchars($action['text']) ?>"/></a>
       <?php } ?>
 
       <?php if ($key == 'nstab-main' || $key == 'nstab-user' || $key == 'nstab-wp' || $key == 'nstab-help'){ ?>
-        <a href="<?php echo htmlspecialchars($action['href']);?>" title="<?php echo htmlspecialchars($action['text']) ?>"><img src="<?php $this->text('stylepath') ?>/vassal/Article-small.png" class="<?php echo htmlspecialchars($action['class']) ?>" alt="<?php echo htmlspecialchars($action['text']) ?>"/></a>
+        <a href="<?php echo htmlspecialchars($action['href']);?>" title="<?php echo htmlspecialchars($action['text']) ?>"><img src="<?php $this->text('stylepath') ?>/Vassal/Article-small.png" class="<?php echo htmlspecialchars($action['class']) ?>" alt="<?php echo htmlspecialchars($action['text']) ?>"/></a>
       <?php } ?>
     <?php } ?>
   </div>
@@ -157,7 +160,7 @@ class vassalTemplate extends QuickTemplate {
 	<div id="content">
 		<a name="top" id="top"></a>
 		<?php if($this->data['sitenotice']) { ?><div id="siteNotice"><?php $this->html('sitenotice') ?></div><?php } ?>
-		<h1 id="firstHeading" class="firstHeading"><?php $this->data['displaytitle']!=""?$this->html('title'):$this->text('title') ?></h1>
+		<h1 id="firstHeading" class="firstHeading"><?php $this->data['displaytitle']==""?$this->html('title'):$this->text('title') ?></h1>
 		<div id="bodyContent">
 			<h3 id="siteSub"><?php $this->msg('tagline') ?></h3>
 			<div id="contentSub"><?php $this->html('subtitle') ?></div>
@@ -369,7 +372,7 @@ class vassalTemplate extends QuickTemplate {
 				<li id="t-ispermalink"<?php echo $this->skin->tooltip('t-ispermalink') ?>><?php $this->msg('permalink') ?></li><?php
 		}
 
-		wfRunHooks( 'vassalTemplateToolboxEnd', array( &$this ) );
+		wfRunHooks( 'VassalTemplateToolboxEnd', array( &$this ) );
 		wfRunHooks( 'SkinTemplateToolboxEnd', array( &$this ) );
 ?>
 			</ul>

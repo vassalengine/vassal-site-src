@@ -1,6 +1,6 @@
---- header.html.tmpl.orig	2013-04-18 10:45:50.120944217 -0700
-+++ header.html.tmpl	2013-04-18 10:46:18.074888685 -0700
-@@ -241,6 +241,7 @@
+--- header.html.tmpl.orig	2015-06-19 19:59:06.481689939 +0200
++++ header.html.tmpl	2015-06-19 19:59:16.469247537 +0200
+@@ -212,6 +212,7 @@
      <link rel="search" type="application/opensearchdescription+xml"
                         title="[% terms.Bugzilla %]" href="./search_plugin.cgi">
      <link rel="shortcut icon" href="images/favicon.ico" >
@@ -8,7 +8,7 @@
      [% Hook.process("additional_header") %]
    </head>
  
-@@ -258,6 +259,9 @@
+@@ -229,6 +230,9 @@
    # 'bannerhtml'
    #%]
  

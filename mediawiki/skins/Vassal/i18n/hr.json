@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ex13",
+			"Tivek",
+			"Bugoslav"
+		]
+	},
+	"vassal-action-addsection": "Dodaj temu",
+	"vassal-action-delete": "Izbriši",
+	"vassal-action-move": "Premjesti",
+	"vassal-action-protect": "Zaštiti",
+	"vassal-action-undelete": "Vrati",
+	"vassal-action-unprotect": "Promijeni zaštitu",
+	"vassal-view-create": "Započni",
+	"vassal-view-edit": "Uredi",
+	"vassal-view-history": "Vidi stare izmjene",
+	"vassal-view-view": "Čitaj",
+	"vassal-view-viewsource": "Vidi izvor",
+	"vassal-more-actions": "Više"
+}

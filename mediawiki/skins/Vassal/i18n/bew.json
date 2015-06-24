@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Naval Scene"
+		]
+	},
+	"vassal-action-delete": "Ngapus",
+	"vassal-action-move": "Pindahin",
+	"vassal-action-undelete": "Balikin nyang keapus",
+	"vassal-view-create": "Bikin"
+}

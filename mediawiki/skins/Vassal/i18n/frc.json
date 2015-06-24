@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ebe123",
+			"Hangmanwa7id"
+		]
+	},
+	"vassal-action-delete": "Supprimer",
+	"vassal-action-move": "Renommer",
+	"vassal-action-protect": "Protéger",
+	"vassal-view-create": "Créer",
+	"vassal-view-edit": "Changer",
+	"vassal-view-view": "Lire",
+	"vassal-view-viewsource": "Regarder la source",
+	"vassal-more-actions": "Plus"
+}

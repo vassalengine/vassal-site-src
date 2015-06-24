@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"AZISS",
+			"Arystanbek",
+			"Gulmammad",
+			"Sortilegus",
+			"Vago",
+			"Vugar 1981",
+			"Wertuose"
+		]
+	},
+	"skinname-vassal": "Vassal",
+	"vassal.css": "/* Burada yerləşən CSS Vassal istifadəçilərinə tətbiq olunur */",
+	"vassal.js": "/* Burada Vassal skin istifadəçiləri üçün istənilən JavaScript yüklənəcək */",
+	"vassal-action-addsection": "Mövzu əlavə et",
+	"vassal-action-delete": "Sil",
+	"vassal-action-move": "Adını dəyişdir",
+	"vassal-action-protect": "Mühafizə et",
+	"vassal-action-undelete": "Bərpa et",
+	"vassal-action-unprotect": "Mühafizəni kənarlaşdır",
+	"vassal-view-create": "Yarat",
+	"vassal-view-edit": "Redaktə",
+	"vassal-view-history": "Tarixçəyə bax",
+	"vassal-view-view": "Oxu",
+	"vassal-view-viewsource": "Mənbəyə bax",
+	"vassal-more-actions": "Daha"
+}

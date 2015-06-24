@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Juanpabl"
+		]
+	},
+	"skinname-vassal": "Vassal",
+	"vassal.css": "/* Os estilos CSS colocaus aquí s'aplicarán ta totz os usuarios que faigan servir l'apariencia Vassal */",
+	"vassal.js": "/* Qualsiquier codigo Javascript escrito aquí se cargará ta totz os usuarios que usen a piel Vassal */",
+	"vassal-action-addsection": "Adhibir nueva sección",
+	"vassal-action-delete": "Borrar",
+	"vassal-action-move": "Tresladar",
+	"vassal-action-protect": "Protecher",
+	"vassal-action-undelete": "Restaurar",
+	"vassal-action-unprotect": "Cambiar protección",
+	"vassal-view-create": "Creyar",
+	"vassal-view-edit": "Editar",
+	"vassal-view-history": "Amostrar l'historial",
+	"vassal-view-view": "Leyer",
+	"vassal-view-viewsource": "Veyer o codigo fuent"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Silvicola"
+		]
+	},
+	"vassal.css": "/* CSS hiir beâjflusd nôr dii Vassal-schelfn. Wen'd ale uf ôômôôl beâjflusn wilsch, muâsch an MediaWiki:Common.css was ändârn. */",
+	"vassal-action-addsection": "Ân najn abschnid ôôfangn",
+	"vassal-action-delete": "Leschn",
+	"vassal-action-move": "Umdaafn",
+	"vassal-action-protect": "Schidsn",
+	"vassal-action-undelete": "Leschn riggängich machn",
+	"vassal-action-unprotect": "Schuds ufgeebn",
+	"vassal-view-create": "Ôôleechn",
+	"vassal-view-edit": "Bearbajdn",
+	"vassal-view-history": "Wärsjoonsfolche",
+	"vassal-view-view": "Leesn",
+	"vassal-view-viewsource": "Gwäl-dhägsd ôôgugn"
+}

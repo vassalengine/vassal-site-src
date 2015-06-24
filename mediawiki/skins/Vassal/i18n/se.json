@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gálaniitoluodda",
+			"Jeblad",
+			"Trondtr"
+		]
+	},
+	"vassal-action-addsection": "Lasit fáttá",
+	"vassal-action-delete": "Sihko",
+	"vassal-action-move": "Sirdde",
+	"vassal-action-protect": "Suodjal",
+	"vassal-action-undelete": "Máhcat",
+	"vassal-action-unprotect": "Rievdat suodjaleami",
+	"vassal-view-create": "Álggat",
+	"vassal-view-edit": "Rievdat",
+	"vassal-view-history": "Geahča historjjá",
+	"vassal-view-view": "Loga",
+	"vassal-view-viewsource": "Geahča gáldokoda"
+}

@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Calak",
+			"Istabani",
+			"Noor2020",
+			"Tahir mq",
+			"محبوب عالم",
+			"عثمان خان شاہ"
+		]
+	},
+	"vassal-action-addsection": "نیا موضوع",
+	"vassal-action-delete": "حذف کرو",
+	"vassal-action-move": "منتقل کرو",
+	"vassal-action-protect": "محفوظ کرو",
+	"vassal-action-undelete": "بحال",
+	"vassal-action-unprotect": "تحفظ میں تبدیلی",
+	"vassal-view-create": "تخلیق",
+	"vassal-view-edit": "ترمیم",
+	"vassal-view-history": "تاریخچہ دکھائیے",
+	"vassal-view-view": "مطالعہ",
+	"vassal-view-viewsource": "مسودہ",
+	"vassal-more-actions": "مزید"
+}

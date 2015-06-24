@@ -1,0 +1,6 @@
+Hooks provided by the Vassal skin.
+
+'SkinVassalStyleModules': Called when defining the list of module styles to be
+loaded by the Vassal skin.
+$skin: SkinVassal object
+&$styles: Array of module names whose style will be loaded for the skin

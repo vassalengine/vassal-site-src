@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Geoleplubo"
+		]
+	},
+	"vassal-action-addsection": "Rajouter un sujeut",
+	"vassal-action-delete": "Défacer",
+	"vassal-action-move": "Canger ch'nom",
+	"vassal-action-protect": "Garantir",
+	"vassal-action-undelete": "N'poin défacher",
+	"vassal-action-unprotect": "Canger l'garantie",
+	"vassal-view-create": "Créer",
+	"vassal-view-edit": "Éditer",
+	"vassal-view-history": "Vir l'histoère",
+	"vassal-view-view": "Lire",
+	"vassal-view-viewsource": "Vir l'source"
+}

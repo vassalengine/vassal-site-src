@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Boukman",
+			"Internoob",
+			"Masterches"
+		]
+	},
+	"vassal-action-addsection": "Ajoute yon sijè",
+	"vassal-action-delete": "Efase",
+	"vassal-action-move": "Chanje non",
+	"vassal-action-protect": "Pwoteje",
+	"vassal-action-undelete": "Retabli",
+	"vassal-action-unprotect": "Pa pwoteje",
+	"vassal-view-create": "Kreye",
+	"vassal-view-edit": "Modifye",
+	"vassal-view-history": "Gade istorik",
+	"vassal-view-view": "Li",
+	"vassal-view-viewsource": "Wè kòd tèks sa a"
+}

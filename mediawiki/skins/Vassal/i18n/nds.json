@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Slomox",
+			"Zylbath"
+		]
+	},
+	"vassal-action-addsection": "Thema tofögen",
+	"vassal-action-delete": "Wegdoon",
+	"vassal-action-move": "Schuven",
+	"vassal-action-protect": "Schulen",
+	"vassal-action-undelete": "Wedderhalen",
+	"vassal-action-unprotect": "Siedenschuul ännern",
+	"vassal-view-create": "Opstellen",
+	"vassal-view-edit": "Ännern",
+	"vassal-view-history": "Historie bekieken",
+	"vassal-view-view": "Lesen",
+	"vassal-view-viewsource": "Borntext bekieken"
+}

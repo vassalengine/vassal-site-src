@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dasius",
+			"GretaDoci",
+			"MicroBoy",
+			"Mikullovci11",
+			"Olsi"
+		]
+	},
+	"vassal-action-addsection": "Shto një temë",
+	"vassal-action-delete": "Grise",
+	"vassal-action-move": "Zhvendose",
+	"vassal-action-protect": "Mbroje",
+	"vassal-action-undelete": "Anullo fshirjen",
+	"vassal-action-unprotect": "Ndrysho mbrojtjen",
+	"vassal-view-create": "Krijo",
+	"vassal-view-edit": "Redakto",
+	"vassal-view-history": "Shiko historikun",
+	"vassal-view-view": "Lexo",
+	"vassal-view-viewsource": "Shiko tekstin",
+	"vassal-more-actions": "Më tepër..."
+}

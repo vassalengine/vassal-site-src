@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Csisc",
+			"Malekbr",
+			"GeekEmad"
+		]
+	},
+	"vassal-action-addsection": "أضف موضوعا",
+	"vassal-action-delete": "احذف",
+	"vassal-action-move": "انقل",
+	"vassal-action-protect": "احم",
+	"vassal-action-undelete": "استرجع الحذف",
+	"vassal-action-unprotect": "غير الحماية",
+	"vassal-view-create": "أنشئ",
+	"vassal-view-edit": "Baddel",
+	"vassal-view-history": "Warri listorik",
+	"vassal-view-view": "Aqra",
+	"vassal-view-viewsource": "اعرض المصدر"
+}

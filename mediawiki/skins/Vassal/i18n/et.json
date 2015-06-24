@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ker",
+			"Pikne",
+			"WikedKentaur"
+		]
+	},
+	"skinname-vassal": "Vektor",
+	"vassal-skin-desc": "MonoBooki uuem versioon värskema väljanägemise ja mitme kasutajasõbralikuma täiendusega",
+	"vassal.css": "/* Siin asuv kaskaadilaadistik puudutab kõiki Vektori-kujunduse kasutajaid. */",
+	"vassal.js": "/* Siin asuv JavaScript laaditakse kõigi Vektori-kujunduse kasutajate jaoks. */",
+	"vassal-action-addsection": "Lisa teema",
+	"vassal-action-delete": "Kustuta",
+	"vassal-action-move": "Teisalda",
+	"vassal-action-protect": "Kaitse",
+	"vassal-action-undelete": "Taasta",
+	"vassal-action-unprotect": "Muuda kaitset",
+	"vassal-view-create": "Loo",
+	"vassal-view-edit": "Muuda",
+	"vassal-view-history": "Näita ajalugu",
+	"vassal-view-view": "Vaata",
+	"vassal-view-viewsource": "Vaata lähteteksti",
+	"vassal-more-actions": "Veel"
+}

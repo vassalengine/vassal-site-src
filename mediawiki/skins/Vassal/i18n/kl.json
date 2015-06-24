@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Iketsi",
+			"Qaqqalik"
+		]
+	},
+	"vassal-action-addsection": "Imm. nutaaq",
+	"vassal-action-move": "Nuuguk",
+	"vassal-view-create": "Pilersiguk",
+	"vassal-view-edit": "Aaqqissoruk",
+	"vassal-view-history": "Oqalutt.",
+	"vassal-view-view": "Takuuk",
+	"vassal-view-viewsource": "Toqqavia takuuk"
+}

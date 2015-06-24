@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Isidore Dantas",
+			"The Discoverer"
+		]
+	},
+	"vassal-action-addsection": "Vixoi zodd",
+	"vassal-action-delete": "Kadd",
+	"vassal-action-move": "Zago bodol",
+	"vassal-action-protect": "Rakh",
+	"vassal-view-create": "Roch",
+	"vassal-view-edit": "Sudar",
+	"vassal-view-history": "Itihas polloi",
+	"vassal-view-view": "Vach",
+	"vassal-view-viewsource": "Mull polloi",
+	"vassal-more-actions": "Anik"
+}

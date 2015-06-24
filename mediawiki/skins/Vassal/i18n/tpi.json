@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Iketsi",
+			"Wantok"
+		]
+	},
+	"vassal-action-delete": "Rausim",
+	"vassal-action-move": "Surikim",
+	"vassal-action-protect": "Tambuim",
+	"vassal-view-create": "Kirapim",
+	"vassal-view-edit": "Senisim",
+	"vassal-view-history": "Ol senis",
+	"vassal-view-view": "Rit",
+	"vassal-view-viewsource": "Lukim as tok"
+}

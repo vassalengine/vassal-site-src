@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"skinname-vassal": "Vassal",
+	"vassal-skin-desc": "Modern Versioun vu Monobook mat frëschem Look a ville Verbesserunge vun der Benotzerfrëndlechkeet",
+	"vassal.css": "/* CSS deen hei steet huet Afloss op all Benotzer vum Ausgesinn Vassal */",
+	"vassal.js": "/* All JavaScript hei gëtt gelueden esoubal ee Benotzer d'Ausgesinn Vassal benotzt */",
+	"vassal-action-addsection": "Sujet derbäisetzen",
+	"vassal-action-delete": "Läschen",
+	"vassal-action-move": "Réckelen",
+	"vassal-action-protect": "Spären",
+	"vassal-action-undelete": "Restauréieren",
+	"vassal-action-unprotect": "Spär änneren",
+	"vassal-view-create": "Uleeën",
+	"vassal-view-edit": "Änneren",
+	"vassal-view-history": "Versioune weisen",
+	"vassal-view-view": "Liesen",
+	"vassal-view-viewsource": "Quellcode weisen",
+	"vassal-more-actions": "Méi"
+}

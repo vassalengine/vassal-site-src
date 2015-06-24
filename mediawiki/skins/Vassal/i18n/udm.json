@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andrewboltachev"
+		]
+	},
+	"vassal-action-addsection": "Выль темаез ватсано",
+	"vassal-action-delete": "Быдтоно",
+	"vassal-action-move": "Мукет интые выжтыны",
+	"vassal-action-protect": "Утьыны",
+	"vassal-view-create": "Кылдытоно",
+	"vassal-view-edit": "Тупатоно",
+	"vassal-view-history": "История",
+	"vassal-view-view": "Лыдӟоно",
+	"vassal-view-viewsource": "Кодзэ учкыны"
+}

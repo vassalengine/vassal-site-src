@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saiddzone",
+			"Saimawnkham"
+		]
+	},
+	"vassal-action-addsection": "ထႅမ်သႂ်ႇ ႁူဝ်ၶေႃႈ",
+	"vassal-action-move": "ၶၢႆႉ",
+	"vassal-action-protect": "ႁေႉၵင်ႈ",
+	"vassal-view-create": "သၢင်ႈ",
+	"vassal-view-edit": "မူၼ်ႉမႄး",
+	"vassal-view-history": "တူၺ်းပိုၼ်း",
+	"vassal-view-view": "လူတူၺ်း",
+	"vassal-view-viewsource": "တူၺ်း ငဝ်ႈငႃႇ",
+	"vassal-more-actions": "ၼမ်လိူဝ်"
+}

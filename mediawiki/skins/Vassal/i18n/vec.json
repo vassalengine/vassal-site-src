@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alunardon90",
+			"Candalua",
+			"Frigotoni",
+			"GatoSelvadego",
+			"Vajotwo"
+		]
+	},
+	"vassal-action-addsection": "Xonta discusion",
+	"vassal-action-delete": "Scanseƚa",
+	"vassal-action-move": "Sposta",
+	"vassal-action-protect": "Protegi",
+	"vassal-action-undelete": "Recupera",
+	"vassal-action-unprotect": "Canbia ƚa protesion",
+	"vassal-view-create": "Crea",
+	"vassal-view-edit": "Canbia",
+	"vassal-view-history": "Varda ƚa stòria",
+	"vassal-view-view": "Lexi",
+	"vassal-view-viewsource": "Varda el testo"
+}

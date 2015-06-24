@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"StefanusRA"
+		]
+	},
+	"vassal-action-addsection": "Nambah topik",
+	"vassal-action-delete": "Busek",
+	"vassal-action-move": "Pindah",
+	"vassal-action-protect": "Reksa",
+	"vassal-action-undelete": "Batalna pambusakan",
+	"vassal-action-unprotect": "Owahi pangreksan",
+	"vassal-view-create": "Gawe",
+	"vassal-view-edit": "Sunting",
+	"vassal-view-history": "Sajarah kaca",
+	"vassal-view-view": "Waca",
+	"vassal-view-viewsource": "Deleng sumbere"
+}

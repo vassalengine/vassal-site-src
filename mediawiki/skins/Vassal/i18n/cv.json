@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chavash",
+			"FLAGELLVM DEI",
+			"Chuvash2014"
+		]
+	},
+	"vassal-action-addsection": "Тема хуш",
+	"vassal-action-delete": "Кăларса пăрах",
+	"vassal-action-move": "Ятне улăштар",
+	"vassal-action-protect": "Хӳтĕле",
+	"vassal-view-create": "Çĕннине ту",
+	"vassal-view-edit": "Тӳрлет",
+	"vassal-view-history": "Истори",
+	"vassal-view-view": "Вула",
+	"vassal-view-viewsource": "Кодне пăх",
+	"vassal-more-actions": "Тата"
+}

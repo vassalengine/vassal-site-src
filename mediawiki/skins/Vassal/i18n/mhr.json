@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Azim",
+			"Sergey Ivanov",
+			"Сай",
+			"Санюн Вадик"
+		]
+	},
+	"vassal-action-addsection": "У ӱжашым тӱҥалаш",
+	"vassal-action-delete": "Шӧраш",
+	"vassal-action-move": "Лӱмым вашталташ",
+	"vassal-action-protect": "Тӧрлатымаш деч аралаш",
+	"vassal-action-undelete": "Шӧрымым пӧртылаш",
+	"vassal-action-unprotect": "Оролым вашталташ",
+	"vassal-view-create": "Ышташ",
+	"vassal-view-edit": "Тӧрлаташ",
+	"vassal-view-history": "Эртымгорным ончалаш",
+	"vassal-view-view": "Лудаш",
+	"vassal-view-viewsource": "Тӱҥалтыш текстым ончалаш"
+}

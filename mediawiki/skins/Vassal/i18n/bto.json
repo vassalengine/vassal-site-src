@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Filipinayzd"
+		]
+	},
+	"vassal-action-delete": "Puraon",
+	"vassal-action-move": "Ilipat",
+	"vassal-action-protect": "Protektaran",
+	"vassal-action-undelete": "Ibalik",
+	"vassal-action-unprotect": "Ribayan a proteksyon",
+	"vassal-view-create": "Gumibo",
+	"vassal-view-edit": "Balyowan",
+	"vassal-view-history": "Baydon a kasaysayan",
+	"vassal-view-view": "Basahon",
+	"vassal-view-viewsource": "Baydon a ginikanan",
+	"vassal-more-actions": "Dakul pa"
+}

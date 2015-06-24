@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sasan700",
+			"Умар"
+		]
+	},
+	"skinname-vassal": "Векторан",
+	"vassal-action-addsection": "ТӀетоха хьедар",
+	"vassal-action-delete": "ДӀаяккха",
+	"vassal-action-move": "ЦӀе хийца",
+	"vassal-action-protect": "Гlаролла дé",
+	"vassal-action-undelete": "МеттахӀоттае",
+	"vassal-action-unprotect": "ГӀароллех къаста",
+	"vassal-view-create": "Кхоллар",
+	"vassal-view-edit": "Нисъе",
+	"vassal-view-history": "АгӀона хийцамаш",
+	"vassal-view-view": "Éшар",
+	"vassal-view-viewsource": "Билглонашка хьажа",
+	"vassal-more-actions": "Кхин"
+}

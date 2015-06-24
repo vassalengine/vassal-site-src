@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andria",
+			"Marzedu",
+			"Via maxima",
+			"Uharteko",
+			"Taxandru"
+		]
+	},
+	"vassal-action-addsection": "Giunghe cuntierra",
+	"vassal-action-delete": "Burra",
+	"vassal-action-move": "Move",
+	"vassal-action-protect": "Barda",
+	"vassal-action-undelete": "Recùpera",
+	"vassal-view-create": "Crea",
+	"vassal-view-edit": "Càmbia",
+	"vassal-view-history": "Càstia istòria",
+	"vassal-view-view": "Leghe",
+	"vassal-view-viewsource": "Càstia mitza",
+	"vassal-more-actions": "Prus"
+}

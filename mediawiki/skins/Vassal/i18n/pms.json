@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt"
+		]
+	},
+	"vassal-action-addsection": "Gionté n'argoment",
+	"vassal-action-delete": "Scancelé",
+	"vassal-action-move": "Tramudé",
+	"vassal-action-protect": "Protege",
+	"vassal-action-undelete": "Arcuperé",
+	"vassal-action-unprotect": "Cangé la protession",
+	"vassal-view-create": "Creé",
+	"vassal-view-edit": "Modifiché",
+	"vassal-view-history": "Smon-e la stòria",
+	"vassal-view-view": "Lese",
+	"vassal-view-viewsource": "Vëdde la sorgiss",
+	"vassal-more-actions": "Ëd pi"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gion-andri"
+		]
+	},
+	"vassal-action-addsection": "Agiuntar chapitel",
+	"vassal-action-delete": "Stizzar",
+	"vassal-action-move": "Spustar",
+	"vassal-action-protect": "Bloccar",
+	"vassal-action-undelete": "Restituir",
+	"vassal-action-unprotect": "Midar la protecziun",
+	"vassal-view-create": "Crear",
+	"vassal-view-edit": "Modifitgar",
+	"vassal-view-history": "Cronologia",
+	"vassal-view-view": "Leger",
+	"vassal-view-viewsource": "Mussar il code"
+}

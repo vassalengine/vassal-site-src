@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"NamwikiTL",
+			"VASANTH S.N."
+		]
+	},
+	"vassal-action-addsection": "ವಿಷಯ ಸೇರಾಲೆ",
+	"vassal-action-delete": "ದೆತ್ತ್ ಪಾಡ್ಲೆ",
+	"vassal-action-move": "ಸ್ಥಳಾಂತರ ಮಲ್ಪುಲೆ",
+	"vassal-action-protect": "ಸ೦ರಕ್ಷಿಸಾಲೆ",
+	"vassal-action-undelete": "ಮಾಜಾವಡೆ",
+	"vassal-action-unprotect": "ಬದಲಾವಣೆನ್ ರಕ್ಷಿಸಾಲೆ",
+	"vassal-view-create": " ಸುರು ಮಲ್ಪುಲೆ",
+	"vassal-view-edit": "ಸಂಪಾದನೆ ಮಲ್ಪುಲೆ",
+	"vassal-view-history": "ಇತಿಹಾಸೊನು ತೂಲೆ",
+	"vassal-view-view": "ಓದ್ಲೇ",
+	"vassal-view-viewsource": "ಮೂಲೊನು ತೂಲೆ",
+	"vassal-more-actions": "ನನಲಾ"
+}

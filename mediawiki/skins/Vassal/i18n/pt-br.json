@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cainamarques",
+			"Diego Queiroz",
+			"Giro720",
+			"Helder.wiki",
+			555,
+			"He7d3r"
+		]
+	},
+	"vassal.js": "/* Qualquer JavaScript aqui colocado afetará os usuários do skin Vassal */",
+	"vassal-action-addsection": "Adicionar tópico",
+	"vassal-action-delete": "Eliminar",
+	"vassal-action-move": "Mover",
+	"vassal-action-protect": "Proteger",
+	"vassal-action-undelete": "Restaurar",
+	"vassal-action-unprotect": "Alterar a proteção",
+	"vassal-view-create": "Criar",
+	"vassal-view-edit": "Editar",
+	"vassal-view-history": "Ver histórico",
+	"vassal-view-view": "Ler",
+	"vassal-view-viewsource": "Ver código-fonte",
+	"vassal-more-actions": "Mais"
+}

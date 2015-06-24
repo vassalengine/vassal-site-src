@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyt"
+		]
+	},
+	"vassal-action-addsection": "Ousnit bietouföigje",
+	"vassal-action-delete": "Läskje",
+	"vassal-action-move": "Ferskuuwe",
+	"vassal-action-protect": "Skutsje",
+	"vassal-action-undelete": "Wierhäärstaale",
+	"vassal-action-unprotect": "Siedenskuts annerje",
+	"vassal-view-create": "Moakje",
+	"vassal-view-edit": "Beoarbaidje",
+	"vassal-view-history": "Versionsgeskichte",
+	"vassal-view-view": "Leese",
+	"vassal-view-viewsource": "Wältext bekiekje"
+}

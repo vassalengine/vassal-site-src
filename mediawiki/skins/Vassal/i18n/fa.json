@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Calak",
+			"Ebraminio",
+			"Huji",
+			"Reza1615",
+			"Zack90"
+		]
+	},
+	"skinname-vassal": "برداری",
+	"vassal-skin-desc": "نسخه مدرن منوبوک با نگاه تازه و بهبود قابلیت استفاده",
+	"vassal.css": "/* دستورات این بخش کاربرانی را که از پوستهٔ وکتور استفاده کنند تحت تاثیر قرار می‌دهند. */",
+	"vassal.js": "/ * کدهای جاوااسکریپتی که در اینجا قرار می‌گیرند برای کاربران پوستهٔ وکتور  بارگیری می‌شود * /",
+	"vassal-action-addsection": "افزودن بخش",
+	"vassal-action-delete": "حذف",
+	"vassal-action-move": "انتقال",
+	"vassal-action-protect": "محافظت",
+	"vassal-action-undelete": "احیا",
+	"vassal-action-unprotect": "تغییر سطح حفاظت",
+	"vassal-view-create": "ایجاد",
+	"vassal-view-edit": "ویرایش",
+	"vassal-view-history": "نمایش تاریخچه",
+	"vassal-view-view": "خواندن",
+	"vassal-view-viewsource": "نمایش مبدأ",
+	"vassal-more-actions": "بیشتر"
+}

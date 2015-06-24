@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrisportelli",
+			"Leli Forte"
+		]
+	},
+	"vassal-action-addsection": "Żid diskussjoni",
+	"vassal-action-delete": "Ħassar",
+	"vassal-action-move": "Mexxi",
+	"vassal-action-protect": "Ipproteġi",
+	"vassal-action-undelete": "Irkupra",
+	"vassal-action-unprotect": "Biddel il-protezzjoni",
+	"vassal-view-create": "Oħloq",
+	"vassal-view-edit": "Editja",
+	"vassal-view-history": "Ara l-kronoloġija",
+	"vassal-view-view": "Aqra",
+	"vassal-view-viewsource": "Ara s-sors",
+	"vassal-more-actions": "Aktar"
+}

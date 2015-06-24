@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ibou"
+		]
+	},
+	"vassal-action-addsection": "Yokkuw tëriit",
+	"vassal-action-delete": "Far",
+	"vassal-action-move": "Tuddewaat",
+	"vassal-action-protect": "Aar",
+	"vassal-action-undelete": "Delloowaat",
+	"vassal-action-unprotect": "Aaradi",
+	"vassal-view-create": "Sos",
+	"vassal-view-edit": "Soppi",
+	"vassal-view-history": "Wone jaar-jaaram",
+	"vassal-view-view": "Jàng",
+	"vassal-view-viewsource": "Wone gongikuwaayam"
+}

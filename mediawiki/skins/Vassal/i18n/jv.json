@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pras"
+		]
+	},
+	"vassal-action-addsection": "Tambah topik",
+	"vassal-action-delete": "Busak",
+	"vassal-action-move": "Pindhahna",
+	"vassal-action-protect": "Reksa",
+	"vassal-action-undelete": "Batalna pambusakan",
+	"vassal-action-unprotect": "Owahi pangreksan",
+	"vassal-view-create": "Gawé",
+	"vassal-view-edit": "Sunting",
+	"vassal-view-history": "Sajarah kaca",
+	"vassal-view-view": "Waca",
+	"vassal-view-viewsource": "Pirsani sumber"
+}

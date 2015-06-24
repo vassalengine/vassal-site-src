@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borislav",
+			"DCLXVI",
+			"Spiritia",
+			"StanProg"
+		]
+	},
+	"vassal-action-addsection": "Добавяне на тема",
+	"vassal-action-delete": "Изтриване",
+	"vassal-action-move": "Преместване",
+	"vassal-action-protect": "Защита",
+	"vassal-action-undelete": "Възстановяване",
+	"vassal-action-unprotect": "Промяна на защитата",
+	"vassal-view-create": "Създаване",
+	"vassal-view-edit": "Редактиране",
+	"vassal-view-history": "История",
+	"vassal-view-view": "Преглед",
+	"vassal-view-viewsource": "Преглед на кода",
+	"vassal-more-actions": "Още"
+}

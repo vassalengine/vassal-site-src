@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Omnipaedista",
+			"Sinopeus",
+			"ZaDiak"
+		]
+	},
+	"vassal-action-delete": "Σβήσον",
+	"vassal-action-move": "Ετεροχλάεμαν",
+	"vassal-action-protect": "Ασπάλιγμαν",
+	"vassal-action-undelete": "Κλώσιμον",
+	"vassal-action-unprotect": "Άνοιγμαν",
+	"vassal-view-create": "Ποίσον",
+	"vassal-view-edit": "Άλλαξον",
+	"vassal-view-history": "Τερέστεν ιστορίαν",
+	"vassal-view-view": "Δεάβασον",
+	"vassal-view-viewsource": "Τερέστεν κωδικόν"
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Darshan kandolkar",
+			"Pooja tople",
+			"Sanket.prabhu26",
+			"Supriya kankumbikar"
+		]
+	},
+	"vassal-action-addsection": "माथाळो दियात",
+	"vassal-action-delete": "काडून उडयात",
+	"vassal-action-move": "दुसरेकडे व्हरात",
+	"vassal-action-protect": "राख",
+	"vassal-view-create": "निर्माण कर",
+	"vassal-view-edit": "बदल",
+	"vassal-view-history": "इतिहास पळेयात",
+	"vassal-view-view": "वाचचें",
+	"vassal-view-viewsource": "उगम पळेयात",
+	"vassal-more-actions": "आनीक"
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator",
+			"DzWiki",
+			"KWiki",
+			"Edinwiki"
+		]
+	},
+	"vassal-action-addsection": "Dodaj temu",
+	"vassal-action-delete": "Izbriši",
+	"vassal-action-move": "Preusmjeri",
+	"vassal-action-protect": "Zaštiti",
+	"vassal-action-undelete": "Vrati obrisano",
+	"vassal-action-unprotect": "Promijeni zaštitu",
+	"vassal-view-create": "Napravi",
+	"vassal-view-edit": "Uredi",
+	"vassal-view-history": "Pregled historije",
+	"vassal-view-view": "Čitanje",
+	"vassal-view-viewsource": "Pogledaj izvor",
+	"vassal-more-actions": "Više"
+}

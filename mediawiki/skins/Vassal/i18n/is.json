@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Friðrik Bragi Dýrfjörð",
+			"Maxí",
+			"Snævar",
+			"Ævar Arnfjörð Bjarmason"
+		]
+	},
+	"vassal-action-addsection": "Bæta við umræðu",
+	"vassal-action-delete": "Eyða",
+	"vassal-action-move": "Færa",
+	"vassal-action-protect": "Vernda",
+	"vassal-action-undelete": "Hætta við eyðingu",
+	"vassal-action-unprotect": "Breyta verndunarstigi",
+	"vassal-view-create": "Skapa",
+	"vassal-view-edit": "Breyta",
+	"vassal-view-history": "Breytingaskrá",
+	"vassal-view-view": "Lesa",
+	"vassal-view-viewsource": "Sýna frumkóða",
+	"vassal-more-actions": "Meira"
+}

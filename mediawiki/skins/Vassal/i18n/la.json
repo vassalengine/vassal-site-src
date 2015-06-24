@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"UV"
+		]
+	},
+	"vassal-action-addsection": "Partem novam addere",
+	"vassal-action-delete": "Delere",
+	"vassal-action-move": "Movere",
+	"vassal-action-protect": "Protegere",
+	"vassal-action-undelete": "Restituere",
+	"vassal-action-unprotect": "Protectionem mutare",
+	"vassal-view-create": "Creare",
+	"vassal-view-edit": "Recensere",
+	"vassal-view-history": "Historiam inspicere",
+	"vassal-view-view": "Legere",
+	"vassal-view-viewsource": "Fontem inspicere",
+	"vassal-more-actions": "Plus"
+}

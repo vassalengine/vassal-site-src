@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mayooranathan",
+			"Shanmugamp7",
+			"Surya Prakash.S.A.",
+			"TRYPPN"
+		]
+	},
+	"vassal-action-addsection": "தலைப்பைச் சேர்",
+	"vassal-action-delete": "நீக்குக",
+	"vassal-action-move": "நகர்த்தவும்",
+	"vassal-action-protect": "காக்கவும்",
+	"vassal-action-undelete": "நீக்கத்தை நிறுத்து",
+	"vassal-action-unprotect": "காப்பை மாற்று",
+	"vassal-view-create": "உருவாக்கவும்",
+	"vassal-view-edit": "தொகு",
+	"vassal-view-history": "வரலாற்றைக் காட்டவும்",
+	"vassal-view-view": "படிக்கவும்",
+	"vassal-view-viewsource": "மூலத்தைக் காட்டவும்"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Iltever",
+			"Къарачайлы"
+		]
+	},
+	"skinname-vassal": "Вектор",
+	"vassal-action-addsection": "Джангы тема къош",
+	"vassal-action-delete": "Кетер",
+	"vassal-action-move": "Атын ауушдур",
+	"vassal-action-protect": "Джакъла",
+	"vassal-action-undelete": "Къайтар",
+	"vassal-action-unprotect": "Джакълауну тюрлендир",
+	"vassal-view-create": "Къура",
+	"vassal-view-edit": "Тюрлендир",
+	"vassal-view-history": "Тарихи",
+	"vassal-view-view": "Окъу",
+	"vassal-view-viewsource": "Кодха къара",
+	"vassal-more-actions": "Энтда"
+}

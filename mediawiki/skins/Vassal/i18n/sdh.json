@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Paraw2"
+		]
+	},
+	"vassal-action-addsection": "بابەت تازە بدە سەری",
+	"vassal-action-delete": "بسڕەوە",
+	"vassal-action-move": "جیوەجی بکە",
+	"vassal-action-protect": "بپیەرێزەێ",
+	"vassal-view-create": "درسکردن",
+	"vassal-view-edit": "وێراشتەێ بکە",
+	"vassal-view-history": "دیرۆکەگەی بۊن",
+	"vassal-view-view": "بخوەنە",
+	"vassal-view-viewsource": "سەرچاوەگەێ بۊن"
+}

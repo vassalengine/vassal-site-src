@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kaszeba",
+			"Kuvaly"
+		]
+	},
+	"vassal-action-addsection": "Dodôj témã",
+	"vassal-action-delete": "Rëmôj",
+	"vassal-action-move": "Przeniesë",
+	"vassal-action-protect": "Zazychrëjë",
+	"vassal-action-undelete": "Doprowôdzë nazôd",
+	"vassal-action-unprotect": "Òdzychrëjë",
+	"vassal-view-create": "Ùsôdzë",
+	"vassal-view-edit": "Edicëjô",
+	"vassal-view-history": "Historëjô lopka",
+	"vassal-view-view": "Czëtôj",
+	"vassal-view-viewsource": "Zdrojowi tekst"
+}

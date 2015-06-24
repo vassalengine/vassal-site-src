@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Garas",
+			"Homo",
+			"Matasg",
+			"Perkunas",
+			"Hugo.arg",
+			"Tomasdd"
+		]
+	},
+	"skinname-vassal": "Vektorinė",
+	"vassal-action-addsection": "Pridėti temą",
+	"vassal-action-delete": "Ištrinti",
+	"vassal-action-move": "Pervardyti",
+	"vassal-action-protect": "Užrakinti",
+	"vassal-action-undelete": "Atkurti",
+	"vassal-action-unprotect": "Keisti apsaugą",
+	"vassal-view-create": "Kurti",
+	"vassal-view-edit": "Redaguoti",
+	"vassal-view-history": "Peržiūrėti istoriją",
+	"vassal-view-view": "Skaityti",
+	"vassal-view-viewsource": "Žiūrėti kodą",
+	"vassal-more-actions": "Daugiau"
+}

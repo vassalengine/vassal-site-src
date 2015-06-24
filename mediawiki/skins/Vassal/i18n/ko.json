@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"ITurtle",
+			"Kwj2772",
+			"아라"
+		]
+	},
+	"skinname-vassal": "벡터",
+	"vassal-skin-desc": "모노북 스킨을 사용할 때 사용자 인터페이스를 향상합니다",
+	"vassal.css": "/* 이 CSS 설정은 벡터 스킨을 사용하는 사용자에게 적용됩니다 */",
+	"vassal.js": "/* 이 자바스크립트 설정은 벡터 스킨을 사용하는 사용자에게 적용됩니다 */",
+	"vassal-action-addsection": "새 주제",
+	"vassal-action-delete": "삭제",
+	"vassal-action-move": "옮기기",
+	"vassal-action-protect": "보호",
+	"vassal-action-undelete": "삭제 취소",
+	"vassal-action-unprotect": "보호 설정 바꾸기",
+	"vassal-view-create": "만들기",
+	"vassal-view-edit": "편집",
+	"vassal-view-history": "역사 보기",
+	"vassal-view-view": "읽기",
+	"vassal-view-viewsource": "원본 보기",
+	"vassal-more-actions": "더 보기"
+}

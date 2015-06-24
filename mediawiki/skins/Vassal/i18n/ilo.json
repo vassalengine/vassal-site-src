@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lam-ang",
+			"Saluyot"
+		]
+	},
+	"vassal-skin-desc": "Moderno a bersion ti MonoBook nga addaan iti baro a langa ken adu kadagiti naserbi a panagpasayaat",
+	"vassal-action-addsection": "Agnayon ti topiko",
+	"vassal-action-delete": "Ikkaten",
+	"vassal-action-move": "Iyalis",
+	"vassal-action-protect": "Salakniban",
+	"vassal-action-undelete": "Isubli ti inikkat",
+	"vassal-action-unprotect": "Sukatan ti salaknib",
+	"vassal-view-create": "Agaramid",
+	"vassal-view-edit": "Urnosen",
+	"vassal-view-history": "Kitaen ti pakasaritaan",
+	"vassal-view-view": "Basaen",
+	"vassal-view-viewsource": "Kitaen ti taudan",
+	"vassal-more-actions": "Adu pay"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ibrahim"
+		]
+	},
+	"vassal-action-addsection": "Иловаи унвон",
+	"vassal-action-delete": "Ҳазф",
+	"vassal-action-move": "Кӯчонидан",
+	"vassal-action-protect": "Муҳофизат",
+	"vassal-action-undelete": "Эҳё",
+	"vassal-action-unprotect": "Тағйири муҳофизат",
+	"vassal-view-create": "Эҷод",
+	"vassal-view-edit": "Вироиш",
+	"vassal-view-history": "Намоиши таърих",
+	"vassal-view-view": "Хондан",
+	"vassal-view-viewsource": "Намоиши манбаъ"
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Asmen",
+			"Calak",
+			"Erdemaslancan",
+			"Mirzali"
+		]
+	},
+	"skinname-vassal": "Vektor",
+	"vassal-action-addsection": "Mewzu vıraze",
+	"vassal-action-delete": "Bestere",
+	"vassal-action-move": "Bere",
+	"vassal-action-protect": "Bışevekne",
+	"vassal-action-undelete": "Esterıtışi peyser bıgê",
+	"vassal-action-unprotect": "Starkerdışi bıvurne",
+	"vassal-view-create": "Vıraze",
+	"vassal-view-edit": "Bıvurne",
+	"vassal-view-history": "Tarixê pele bıvêne",
+	"vassal-view-view": "Bıwane",
+	"vassal-view-viewsource": "Çımey bıvêne",
+	"vassal-more-actions": "Zêde"
+}

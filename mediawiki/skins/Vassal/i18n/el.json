@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Calak",
+			"Crazymadlover",
+			"Evropi",
+			"Omnipaedista",
+			"Protnet",
+			"ZaDiak",
+			"Geraki"
+		]
+	},
+	"vassal-skin-desc": "Σύγχρονη έκδοση του MonoBook με φρέσκια ματιά και πολλές βελτιώσεις χρηστικότητας",
+	"vassal.css": "/* Το τοποθετημένο εδώ CSS θα επηρεάσει χρήστες του Vassal skin */",
+	"vassal.js": "/* Οποιοσδήποτε κώδικας JavaScript εδώ θα φορτωθεί για χρήστες που χρησιμοποιούν το Vassal skin */",
+	"vassal-action-addsection": "Προσθήκη θέματος",
+	"vassal-action-delete": "Διαγραφή",
+	"vassal-action-move": "Μετακίνηση",
+	"vassal-action-protect": "Προστασία",
+	"vassal-action-undelete": "Επαναφορά",
+	"vassal-action-unprotect": "Αλλαγή προστασίας",
+	"vassal-view-create": "Δημιουργία",
+	"vassal-view-edit": "Επεξεργασία",
+	"vassal-view-history": "Προβολή ιστορικού",
+	"vassal-view-view": "Ανάγνωση",
+	"vassal-view-viewsource": "Προβολή κώδικα",
+	"vassal-more-actions": "Περισσότερα"
+}

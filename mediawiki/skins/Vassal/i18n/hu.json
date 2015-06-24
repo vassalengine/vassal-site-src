@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bdamokos",
+			"Dani",
+			"Dj",
+			"Misibacsi",
+			"Tacsipacsi",
+			"Tgr"
+		]
+	},
+	"vassal-skin-desc": "A MonoBook felület modern változata frissebb kinézettel és sok használhatóságot javító fejlesztéssel",
+	"vassal.css": "/* Az ide elhelyezett CSS hatással lesz a Vassal felület használóira */",
+	"vassal.js": "/* A Vassal felületet használó szerkesztők számára betöltendő JavaScriptek */",
+	"vassal-action-addsection": "Új téma nyitása",
+	"vassal-action-delete": "Törlés",
+	"vassal-action-move": "Átnevezés",
+	"vassal-action-protect": "Lapvédelem",
+	"vassal-action-undelete": "Visszaállítás",
+	"vassal-action-unprotect": "Védelem módosítása",
+	"vassal-view-create": "Létrehozás",
+	"vassal-view-edit": "Szerkesztés",
+	"vassal-view-history": "Laptörténet",
+	"vassal-view-view": "Olvasás",
+	"vassal-view-viewsource": "A lap forrása",
+	"vassal-more-actions": "Több"
+}

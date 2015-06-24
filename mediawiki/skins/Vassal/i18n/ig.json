@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ukabia"
+		]
+	},
+	"vassal-action-addsection": "Tinyé Okwu",
+	"vassal-action-delete": "Kàcha",
+	"vassal-action-move": "Páfụ",
+	"vassal-action-protect": "Cẹdolu",
+	"vassal-action-undelete": "Á gbàkashikwà",
+	"vassal-action-unprotect": "Nchẹdo mgbanwe",
+	"vassal-view-create": "Ké",
+	"vassal-view-edit": "Mèzi",
+	"vassal-view-history": "Zí ịta",
+	"vassal-view-view": "Gụ́",
+	"vassal-view-viewsource": "Zi mkpurụ"
+}

@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abdulla",
+			"Arystanbek",
+			"Casual",
+			"CoderSI",
+			"Sociologist",
+			"Nataev"
+		]
+	},
+	"skinname-vassal": "Vektor",
+	"vassal-action-addsection": "Mavzu qoʻshish",
+	"vassal-action-delete": "O‘chirish",
+	"vassal-action-move": "Ko‘chirish",
+	"vassal-action-protect": "Himoyalash",
+	"vassal-action-undelete": "Tiklash",
+	"vassal-action-unprotect": "Himoyani oʻzgartirish",
+	"vassal-view-create": "Yaratish",
+	"vassal-view-edit": "Tahrirlash",
+	"vassal-view-history": "Tarix",
+	"vassal-view-view": "Mutolaa",
+	"vassal-view-viewsource": "Manbasini koʻrish",
+	"vassal-more-actions": "Yana"
+}

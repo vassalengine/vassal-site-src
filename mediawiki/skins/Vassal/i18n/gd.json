@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Akerbeltz",
+			"GunChleoc"
+		]
+	},
+	"vassal-skin-desc": "Tionndadh ùr-nodha de MonoBook le dreach ùr air 's iomadh leasachadh air a sho-chleachdachd",
+	"vassal-action-addsection": "Cuir ris cuspair",
+	"vassal-action-delete": "Sguab às",
+	"vassal-action-move": "Gluais",
+	"vassal-action-protect": "Dìon",
+	"vassal-action-undelete": "Neo-dhèan an sguabadh às",
+	"vassal-action-unprotect": "Atharraich an dìon",
+	"vassal-view-create": "Cruthaich",
+	"vassal-view-edit": "Deasaich",
+	"vassal-view-history": "Seall an eachdraidh",
+	"vassal-view-view": "Leugh",
+	"vassal-view-viewsource": "Seall an tùs",
+	"vassal-more-actions": "Barrachd"
+}

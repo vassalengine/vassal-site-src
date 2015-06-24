@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Felis",
+			"Jun Misugi"
+		]
+	},
+	"vassal-action-addsection": "Aggiungì oggettu",
+	"vassal-action-delete": "Canzella",
+	"vassal-action-move": "Ippustha",
+	"vassal-action-protect": "Pruteggì",
+	"vassal-view-create": "Cria",
+	"vassal-view-edit": "Mudifigga",
+	"vassal-view-history": "Vèdi isthòria",
+	"vassal-view-view": "Leggi",
+	"vassal-view-viewsource": "Vèdi fonti"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kilavagora",
+			"Lika2672",
+			"Machirkholi"
+		]
+	},
+	"vassal-action-addsection": "თემაშ მიშაძინა",
+	"vassal-action-delete": "ლასუა",
+	"vassal-action-move": "გინოღალა",
+	"vassal-action-protect": "თხილუა",
+	"vassal-view-create": "დორსხუაფა",
+	"vassal-view-edit": "რედაქტირაფა",
+	"vassal-view-history": "ისტორიაშ ძირაფა",
+	"vassal-view-view": "კითხირი",
+	"vassal-view-viewsource": "ქიძირე წყუ"
+}

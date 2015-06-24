@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ushau97",
+			"Glaisher"
+		]
+	},
+	"vassal-action-addsection": "ޚިޔާލެއް އިތުރުކުރައްވާ",
+	"vassal-action-delete": "ފޮހެލައްވާ",
+	"vassal-action-move": "ތަން ބަދަލުކުރައްވާ",
+	"vassal-action-protect": "ދިފާޢުކުރައްވާ",
+	"vassal-action-undelete": "އިޔާދަކުރައްވާ",
+	"vassal-action-unprotect": "ދިފާޢުކުރުން ބަދަލުކުރައްވާ",
+	"vassal-view-create": "ފަށްޓަވާ",
+	"vassal-view-edit": "އުނިއިތުރު ގެންނަވާ",
+	"vassal-view-history": "ޞަފްޙާގެ ތާރީޚް",
+	"vassal-view-view": "ކިޔުއްވާ",
+	"vassal-view-viewsource": "މަސްދަރު ބައްލަވާ",
+	"vassal-more-actions": "އިތުރަށް"
+}

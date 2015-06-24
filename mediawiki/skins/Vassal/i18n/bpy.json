@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Usingha"
+		]
+	},
+	"vassal-action-addsection": "বিষয় তিলকর",
+	"vassal-action-delete": "পুসে বেলা",
+	"vassal-action-move": "থেইকর",
+	"vassal-action-protect": "লুকর",
+	"vassal-action-undelete": "নাপুসি",
+	"vassal-action-unprotect": "লুকরানিহান সিলকর",
+	"vassal-view-create": "হঙকরিক",
+	"vassal-view-edit": "পতানি",
+	"vassal-view-history": "ইতিহাস চেইক",
+	"vassal-view-view": "পাকরিক",
+	"vassal-view-viewsource": "সোর্স চেইক"
+}

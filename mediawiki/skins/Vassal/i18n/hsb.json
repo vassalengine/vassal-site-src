@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"vassal-action-addsection": "Temu přidać",
+	"vassal-action-delete": "wušmórnyć",
+	"vassal-action-move": "přesunyć",
+	"vassal-action-protect": "škitać",
+	"vassal-action-undelete": "Wobnowić",
+	"vassal-action-unprotect": "Škit wotstronić",
+	"vassal-view-create": "Wutworić",
+	"vassal-view-edit": "Wobdźěłać",
+	"vassal-view-history": "Stawizny",
+	"vassal-view-view": "Čitać",
+	"vassal-view-viewsource": "Žórło sej wobhladać",
+	"vassal-more-actions": "Wjace"
+}

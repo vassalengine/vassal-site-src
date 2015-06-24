@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm",
+			"Toliño",
+			"Vivaelcelta"
+		]
+	},
+	"vassal-skin-desc": "Versión moderna da aparencia MonoBook, cun aspecto fresco e moitas melloras na usabilidade",
+	"vassal.css": "/* O CSS que se coloque aquí afectará a quen use a aparencia Vassal */",
+	"vassal.js": "/* Calquera JavaScript que haxa aquí será cargado para os usuarios que usen a aparencia Vassal */",
+	"vassal-action-addsection": "Nova sección",
+	"vassal-action-delete": "Borrar",
+	"vassal-action-move": "Mover",
+	"vassal-action-protect": "Protexer",
+	"vassal-action-undelete": "Restaurar",
+	"vassal-action-unprotect": "Cambiar a protección",
+	"vassal-view-create": "Crear",
+	"vassal-view-edit": "Editar",
+	"vassal-view-history": "Ver o historial",
+	"vassal-view-view": "Ler",
+	"vassal-view-viewsource": "Ver o código fonte",
+	"vassal-more-actions": "Máis"
+}

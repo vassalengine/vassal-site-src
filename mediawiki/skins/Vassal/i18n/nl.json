@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Calak",
+			"Romaine",
+			"SPQRobin",
+			"Siebrand",
+			"Troefkaart",
+			"Sjoerddebruin"
+		]
+	},
+	"skinname-vassal": "Vassal",
+	"vassal-skin-desc": "Moderne versie van MonoBook met een fris uiterlijk en verbeteringen op het gebied van gebruiksvriendelijkheid",
+	"vassal.css": "/* CSS die hier wordt geplaatst heeft alleen invloed op de skin Vassal */",
+	"vassal.js": "/* JavaScript die hier wordt geplaatst heeft alleen invloed op gebruikers die de skin Vassal gebruiken */",
+	"vassal-action-addsection": "Kopje toevoegen",
+	"vassal-action-delete": "Verwijderen",
+	"vassal-action-move": "Hernoemen",
+	"vassal-action-protect": "Beveiligen",
+	"vassal-action-undelete": "Terugplaatsen",
+	"vassal-action-unprotect": "Beveiliging wijzigen",
+	"vassal-view-create": "Aanmaken",
+	"vassal-view-edit": "Bewerken",
+	"vassal-view-history": "Geschiedenis weergeven",
+	"vassal-view-view": "Lezen",
+	"vassal-view-viewsource": "Brontekst bekijken",
+	"vassal-more-actions": "Meer"
+}

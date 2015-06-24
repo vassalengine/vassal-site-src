@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lionslayer",
+			"Myanmars"
+		]
+	},
+	"vassal-action-addsection": "အကြောင်းအရာအသစ် ထပ်ထည့်ရန်",
+	"vassal-action-delete": "ဖျက်​ပါ​",
+	"vassal-action-move": "ရွှေ့ပါ",
+	"vassal-action-protect": "ထိမ်း​သိမ်း​ပါ​",
+	"vassal-action-undelete": "မဖျက်တော့ရန်",
+	"vassal-action-unprotect": "ကာကွယ်ခြင်းကို ပြောင်းလဲရန်",
+	"vassal-view-create": "စတင်ရေးသားရန်",
+	"vassal-view-edit": "ပြင်ရန်",
+	"vassal-view-history": "ရာဇဝင်ကြည့်ရန်",
+	"vassal-view-view": "ဖတ်ရန်",
+	"vassal-view-viewsource": "ရင်းမြစ်ကို ကြည့်ရန်"
+}

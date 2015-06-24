@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hanberke"
+		]
+	},
+	"vassal-action-addsection": "Tema goş",
+	"vassal-action-delete": "Öçür",
+	"vassal-action-move": "Adyny üýtget",
+	"vassal-action-protect": "Goraga al",
+	"vassal-action-undelete": "Öçürmäni yzyna al",
+	"vassal-action-unprotect": "Goragy üýtget",
+	"vassal-view-create": "Döret",
+	"vassal-view-edit": "Üýtget",
+	"vassal-view-history": "Taryhy gör",
+	"vassal-view-view": "Oka",
+	"vassal-view-viewsource": "Çeşmäni gör"
+}

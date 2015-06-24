@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Agilight",
+			"Sborsody"
+		]
+	},
+	"skinname-vassal": "Вектор",
+	"vassal-action-addsection": "Кол сөстү немелээри",
+	"vassal-action-delete": "Ырадыры",
+	"vassal-action-move": "Шимчээри",
+	"vassal-action-protect": "Камгалаары",
+	"vassal-action-undelete": "Эгидер",
+	"vassal-action-unprotect": "Камгалалды өскертири",
+	"vassal-view-create": "Чаяары",
+	"vassal-view-edit": "Эдер",
+	"vassal-view-history": "Төөгүнү көөрү",
+	"vassal-view-view": "Номчуур",
+	"vassal-view-viewsource": "Дөзү бижиин көөрү"
+}

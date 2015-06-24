@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Don Alessandro",
+			"Rinatus",
+			"Ильнар",
+			"Рашат Якупов",
+			"Derslek"
+		]
+	},
+	"skinname-vassal": "Сызымлы",
+	"vassal-action-addsection": "Яңа тема өстәү",
+	"vassal-action-delete": "Бетерү",
+	"vassal-action-move": "Күчерү",
+	"vassal-action-protect": "Яклау",
+	"vassal-action-undelete": "Кайтару",
+	"vassal-action-unprotect": "Яклауны үзгәртү",
+	"vassal-view-create": "Төзү",
+	"vassal-view-edit": "Үзгәртү",
+	"vassal-view-history": "Тарихын карау",
+	"vassal-view-view": "Уку",
+	"vassal-view-viewsource": "Чыганагын карау",
+	"vassal-more-actions": "Тагын"
+}

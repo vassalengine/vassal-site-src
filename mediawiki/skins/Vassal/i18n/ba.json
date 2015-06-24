@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Assele",
+			"Haqmar"
+		]
+	},
+	"skinname-vassal": "Векторлы",
+	"vassal-action-addsection": "Тема өҫтәргә",
+	"vassal-action-delete": "Юйырға",
+	"vassal-action-move": "Исемен үҙгәртергә",
+	"vassal-action-protect": "Һаҡларға",
+	"vassal-action-undelete": "Тергеҙергә",
+	"vassal-action-unprotect": "Һаҡлауҙы үҙгәртергә",
+	"vassal-view-create": "Яһау",
+	"vassal-view-edit": "Үҙгәртергә",
+	"vassal-view-history": "Тарихты ҡарау",
+	"vassal-view-view": "Уҡыу",
+	"vassal-view-viewsource": "Сығанаҡты ҡарарға"
+}

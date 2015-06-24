@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mogoeilor"
+		]
+	},
+	"vassal-action-addsection": "داسون اضاف بكيد",
+	"vassal-action-delete": "پاکسا کردن",
+	"vassal-action-move": "جاوه جا بوئيت",
+	"vassal-action-protect": "پر و پیم بكيد",
+	"vassal-action-undelete": "حذف نبيئني",
+	"vassal-action-unprotect": "حمايت آلشت بكيد",
+	"vassal-view-create": "راس كردن",
+	"vassal-view-edit": "ويرايشت",
+	"vassal-view-history": "ديئن ويرگار",
+	"vassal-view-view": "حنن",
+	"vassal-view-viewsource": "سرچشمه نه بوينيت",
+	"vassal-more-actions": "بیشتر"
+}

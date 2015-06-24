@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amikeco",
+			"Bouron"
+		]
+	},
+	"vassal-action-addsection": "Нæуæг ныхас бакæнын",
+	"vassal-action-delete": "Схафын",
+	"vassal-action-move": "Ном ивын",
+	"vassal-action-protect": "Сæхгæнын",
+	"vassal-action-undelete": "Рацаразын",
+	"vassal-action-unprotect": "Ивын хъахъхъæд",
+	"vassal-view-create": "Скæнын",
+	"vassal-view-edit": "Ивын",
+	"vassal-view-history": "Истори",
+	"vassal-view-view": "Кæсын",
+	"vassal-view-viewsource": "Код кæсын",
+	"vassal-more-actions": "Фылдæр"
+}

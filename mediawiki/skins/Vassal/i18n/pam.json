@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Katimawan2005",
+			"Val2397"
+		]
+	},
+	"vassal-action-addsection": "Dagdagan ing pisasabian",
+	"vassal-action-delete": "Buran",
+	"vassal-action-move": "Iyalis",
+	"vassal-action-protect": "Protectan/kambilan",
+	"vassal-action-undelete": "Isubli/iurung ya pangabura",
+	"vassal-action-unprotect": "Idayu ya panga-protecta",
+	"vassal-view-create": "Maglalang",
+	"vassal-view-edit": "Alilan",
+	"vassal-view-history": "Lawen ya ing amlat",
+	"vassal-view-view": "Basan",
+	"vassal-view-viewsource": "Lawen ya ing pikuanan"
+}

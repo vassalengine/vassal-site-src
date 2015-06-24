@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ezagren",
+			"J Subhi"
+		]
+	},
+	"vassal-action-addsection": "Tambahi tupik",
+	"vassal-action-delete": "Hapus",
+	"vassal-action-move": "Pindahakan",
+	"vassal-action-protect": "Lindungi",
+	"vassal-action-undelete": "Pawalangan pahapusan",
+	"vassal-action-unprotect": "Palindungan",
+	"vassal-view-create": "Ulah",
+	"vassal-view-edit": "Babak",
+	"vassal-view-history": "Tiringi halam",
+	"vassal-view-view": "Baca",
+	"vassal-view-viewsource": "Tiringi asal mula"
+}

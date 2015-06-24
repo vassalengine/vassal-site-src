@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hazard-SJ",
+			"Yocahuna"
+		]
+	},
+	"vassal-action-addsection": "Ad tapik",
+	"vassal-action-delete": "Diliit",
+	"vassal-action-move": "Muuv",
+	"vassal-action-protect": "Protek",
+	"vassal-action-undelete": "Andiliit",
+	"vassal-action-unprotect": "Neu protektian",
+	"vassal-view-create": "Kriet",
+	"vassal-view-edit": "Hedit",
+	"vassal-view-history": "Vyuu ischri",
+	"vassal-view-view": "Riid",
+	"vassal-view-viewsource": "Vyuu Suos"
+}

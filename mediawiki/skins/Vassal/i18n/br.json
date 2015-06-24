@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fulup",
+			"Y-M D"
+		]
+	},
+	"skinname-vassal": "Vektor",
+	"vassal.css": "/* Talvezout a raio ar CSS lakaet amañ evit implijerien ar gwiskadur Vektor */",
+	"vassal.js": "/* Kement JavaScript amañ a vo karget evit an implijerien a ra gant ar gwiskadur Vektor */",
+	"vassal-action-addsection": "Rannbennad nevez",
+	"vassal-action-delete": "Diverkañ",
+	"vassal-action-move": "Adenvel",
+	"vassal-action-protect": "Gwareziñ",
+	"vassal-action-undelete": "Diziverkañ",
+	"vassal-action-unprotect": "Cheñch gwarez",
+	"vassal-view-create": "Krouiñ",
+	"vassal-view-edit": "Kemmañ",
+	"vassal-view-history": "Gwelet an istor",
+	"vassal-view-view": "Lenn",
+	"vassal-view-viewsource": "Sellet ouzh tarzh an destenn",
+	"vassal-more-actions": "Muioc'h"
+}

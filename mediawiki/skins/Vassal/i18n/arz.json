@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ghaly",
+			"Meno25",
+			"Ramsis II"
+		]
+	},
+	"vassal.css": "/* CSS اللى هنا حتأثر على اليوزرز اللى بيستخدموا واجهة فكتور */",
+	"vassal.js": "/* اى جافاسكريبت هنا حتتحمل لكل يوزر بيستخدم واجهة فكتور */",
+	"vassal-action-addsection": "ضيف موضوع",
+	"vassal-action-delete": "مسح",
+	"vassal-action-move": "نقل",
+	"vassal-action-protect": "حمايه",
+	"vassal-action-undelete": "الغى المسح",
+	"vassal-action-unprotect": "غير الحمايه",
+	"vassal-view-create": "اعمل",
+	"vassal-view-edit": "تعديل",
+	"vassal-view-history": "استعراض التاريخ",
+	"vassal-view-view": "قرايه",
+	"vassal-view-viewsource": "استعراض المصدر"
+}

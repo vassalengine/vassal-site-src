@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arifin.wijaya",
+			"Bennylin",
+			"Farras",
+			"Iwan Novirion",
+			"Rex"
+		]
+	},
+	"skinname-vassal": "Vektor",
+	"vassal-skin-desc": "Versi modern dari MonoBook dengan tampilan segar dan banyak perbaikan kegunaan",
+	"vassal.css": "/* CSS yang ada di sini akan diterapkan pada kulit Vektor. */",
+	"vassal.js": "/* Semua JavaScript di sini akan dimuatkan untuk para pengguna yang menggunakan kulit Vassal */",
+	"vassal-action-addsection": "Bagian baru",
+	"vassal-action-delete": "Hapus",
+	"vassal-action-move": "Pindahkan",
+	"vassal-action-protect": "Lindungi",
+	"vassal-action-undelete": "Pembatalan penghapusan",
+	"vassal-action-unprotect": "Ubah perlindungan",
+	"vassal-view-create": "Buat",
+	"vassal-view-edit": "Sunting",
+	"vassal-view-history": "Versi terdahulu",
+	"vassal-view-view": "Baca",
+	"vassal-view-viewsource": "Lihat sumber",
+	"vassal-more-actions": "Lainnya"
+}

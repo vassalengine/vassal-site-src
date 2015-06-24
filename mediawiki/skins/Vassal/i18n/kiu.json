@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirzali"
+		]
+	},
+	"vassal-action-addsection": "Mewzu ilawe ke",
+	"vassal-action-delete": "Bestere",
+	"vassal-action-move": "Bere",
+	"vassal-action-protect": "Bısevekne",
+	"vassal-action-undelete": "Esterıtene peyser bıcê",
+	"vassal-action-unprotect": "Rake",
+	"vassal-view-create": "Vıraze",
+	"vassal-view-edit": "Bıvurne",
+	"vassal-view-history": "Tarixi basne",
+	"vassal-view-view": "Bıwane",
+	"vassal-view-viewsource": "Çımey bıvêne"
+}

@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Darth Kule",
+			"Gianfranco",
+			"Melos",
+			"Pietrodn",
+			"FRacco",
+			"Elitre"
+		]
+	},
+	"vassal-skin-desc": "Versione moderna del MonoBook con un aspetto rinnovato e molti miglioramenti dell'usabilità",
+	"vassal.css": "/* Gli stili CSS inseriti qui si applicano agli utenti che usano la skin Vassal */",
+	"vassal.js": "/* Il codice JavaScript inserito qui viene caricato dagli utenti che usano la skin Vassal */",
+	"vassal-action-addsection": "Aggiungi discussione",
+	"vassal-action-delete": "Cancella",
+	"vassal-action-move": "Sposta",
+	"vassal-action-protect": "Proteggi",
+	"vassal-action-undelete": "Ripristina",
+	"vassal-action-unprotect": "Cambia la protezione",
+	"vassal-view-create": "Crea",
+	"vassal-view-edit": "Modifica",
+	"vassal-view-history": "Cronologia",
+	"vassal-view-view": "Leggi",
+	"vassal-view-viewsource": "Visualizza wikitesto",
+	"vassal-more-actions": "Altro"
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eruedin",
+			"Moyogo"
+		]
+	},
+	"vassal-action-addsection": "Kobakisa mpɔ̂",
+	"vassal-action-delete": "Kolímwisa",
+	"vassal-action-move": "Kobóngola nkómbó",
+	"vassal-action-protect": "Kobátela",
+	"vassal-action-undelete": "Kolímwisa tɛ̂",
+	"vassal-action-unprotect": " Kobátela tɛ̂",
+	"vassal-view-create": "Kokela",
+	"vassal-view-edit": "Kobɔngisa",
+	"vassal-view-history": "Komɔ́nisa mokóló",
+	"vassal-view-view": "Kotánga",
+	"vassal-view-viewsource": "Komɔ́nisa mosólo",
+	"vassal-more-actions": "Elandí"
+}

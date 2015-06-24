@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Paulu"
+		]
+	},
+	"vassal-action-addsection": "Aghjunghje discussione",
+	"vassal-action-delete": "Supprimà",
+	"vassal-action-move": "Cullucà",
+	"vassal-action-protect": "Pruteghje",
+	"vassal-action-unprotect": "Cambià a prutezzione",
+	"vassal-view-create": "Creà",
+	"vassal-view-edit": "Mudificà",
+	"vassal-view-history": "Vede a cronolugia",
+	"vassal-view-view": "Leghje",
+	"vassal-view-viewsource": "Vede a surghjente"
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Boulaur",
+			"Cedric31"
+		]
+	},
+	"vassal.css": "/* Lo CSS plaçat aicí afectarà los utilizaires de l’abilhatge Vassal */",
+	"vassal.js": "/* Tot JavaScript aicí serà cargat amb las paginas accedidas pels utilizaires de l’abilhatge Vassal unicament. */",
+	"vassal-action-addsection": "Apondre un subjècte",
+	"vassal-action-delete": "Suprimir",
+	"vassal-action-move": "Tornar nomenar",
+	"vassal-action-protect": "Protegir",
+	"vassal-action-undelete": "Restablir",
+	"vassal-action-unprotect": "Suprimir la proteccion",
+	"vassal-view-create": "Crear",
+	"vassal-view-edit": "Modificar",
+	"vassal-view-history": "Veire l'istoric",
+	"vassal-view-view": "Legir",
+	"vassal-view-viewsource": "Veire la font",
+	"vassal-more-actions": "Mai"
+}

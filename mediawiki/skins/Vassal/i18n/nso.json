@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mohau"
+		]
+	},
+	"vassal-action-addsection": "Lokela sererwa",
+	"vassal-action-delete": "Phumula",
+	"vassal-action-move": "Huduša",
+	"vassal-action-protect": "Lota",
+	"vassal-view-create": "Hlola",
+	"vassal-view-edit": "Fetola",
+	"vassal-view-history": "Laetša histori",
+	"vassal-view-view": "Bala",
+	"vassal-view-viewsource": "Lebelela mothopo"
+}

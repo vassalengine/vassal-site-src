@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Klenje",
+			"Tocaibon"
+		]
+	},
+	"vassal-action-addsection": "Gnove sezion",
+	"vassal-action-delete": "Elimine",
+	"vassal-action-move": "Môf",
+	"vassal-action-protect": "Protêç",
+	"vassal-action-undelete": "Recupere",
+	"vassal-action-unprotect": "Gambie la protezion",
+	"vassal-view-create": "Cree",
+	"vassal-view-edit": "Cambie",
+	"vassal-view-history": "Cjale il storic",
+	"vassal-view-view": "Lei",
+	"vassal-view-viewsource": "Cjale risultive"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ferhengvan",
+			"Gomada"
+		]
+	},
+	"vassal-action-addsection": "Mijarekê lê zêde bike",
+	"vassal-action-delete": "Jê bibe",
+	"vassal-action-move": "Nav biguherîne",
+	"vassal-action-protect": "Biparêze",
+	"vassal-action-undelete": "Jê nebe",
+	"vassal-action-unprotect": "Parastinê rake",
+	"vassal-view-create": "Çêke",
+	"vassal-view-edit": "Biguherîne",
+	"vassal-view-history": "Dîrokê bibîne",
+	"vassal-view-view": "Bixwîne",
+	"vassal-view-viewsource": "Çavkaniyan bibîne"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"DasRakel"
+		]
+	},
+	"vassal-action-delete": "Wegdoen",
+	"vassal-action-move": "Ernoemn",
+	"vassal-view-create": "Anmoakn",
+	"vassal-view-edit": "Bewerkn",
+	"vassal-view-history": "Geschiedenisse bekykn",
+	"vassal-view-view": "Leezn",
+	"vassal-view-viewsource": "Brontekst bekykn"
+}

@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matma Rex",
+			"Sp5uhe"
+		]
+	},
+	"skinname-vassal": "Wektor",
+	"vassal-skin-desc": "Odświeżona wersja skórki Książka, z nowym wyglądem i usprawnieniami",
+	"vassal.css": "/* Umieszczony tutaj kod CSS wpłynie na wygląd skórki Wektor */",
+	"vassal.js": "/* Umieszczony tutaj kod JavaScript zostanie załadowany wyłącznie przez użytkowników korzystających ze skórki Wektor */",
+	"vassal-action-addsection": "Dodaj temat",
+	"vassal-action-delete": "Usuń",
+	"vassal-action-move": "Przenieś",
+	"vassal-action-protect": "Zabezpiecz",
+	"vassal-action-undelete": "Odtwórz",
+	"vassal-action-unprotect": "Zmień zabezpieczenie",
+	"vassal-view-create": "Utwórz",
+	"vassal-view-edit": "Edytuj",
+	"vassal-view-history": "Wyświetl historię",
+	"vassal-view-view": "Czytaj",
+	"vassal-view-viewsource": "Tekst źródłowy",
+	"vassal-more-actions": "Więcej"
+}

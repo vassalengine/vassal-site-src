@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ahmed-Najib-Biabani-Ibrahimkhel"
+		]
+	},
+	"skinname-vassal": "وېکټور",
+	"vassal.css": "/* د CSS هره بڼه چې دلته ځای پر ځای کېږي هغه به د وېکټور د پوښ ټولو کارنانو لپاره کار کوي */",
+	"vassal.js": "/* د جاوا هر يو سکرېپټ چې دلته ځای پر ځای کېږي هغه به د وېکټور د پوښ ټولو کارنانو لپاره کار کوي */",
+	"vassal-action-addsection": "سرليک ورگډول",
+	"vassal-action-delete": "ړنگول",
+	"vassal-action-move": "لېږدول",
+	"vassal-action-protect": "ژغورل",
+	"vassal-action-undelete": "ناړنگول",
+	"vassal-action-unprotect": "ژغورنه بدلول",
+	"vassal-view-create": "جوړول",
+	"vassal-view-edit": "سمول",
+	"vassal-view-history": "پېښليک کتل",
+	"vassal-view-view": "لوستل",
+	"vassal-view-viewsource": "سرچينه کتل",
+	"vassal-more-actions": "نور"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"ОйЛ"
+		]
+	},
+	"vassal-action-addsection": "новꙑ бєсѣдꙑ чѧсти сътворѥниѥ",
+	"vassal-action-delete": "поничьжєниѥ",
+	"vassal-action-move": "прѣимєнованиѥ",
+	"vassal-action-protect": "ꙁабранѥниѥ",
+	"vassal-action-unprotect": "иꙁмѣни ꙁабранѥниꙗ обраꙁъ",
+	"vassal-view-create": "сътворѥниѥ",
+	"vassal-view-edit": "исправи",
+	"vassal-view-history": "їсторїꙗ",
+	"vassal-view-view": "чьтѥниѥ",
+	"vassal-view-viewsource": "страницѧ источьнъ обраꙁъ",
+	"vassal-more-actions": "вѧщє"
+}

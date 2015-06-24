@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"គីមស៊្រុន",
+			"វ័ណថារិទ្ធ"
+		]
+	},
+	"skinname-vassal": "វ៉ិចទ័រ​​",
+	"vassal.css": "/* CSS បានដាក់ទីនេះនឹងមានអនុភាពលើអ្នកប្រើប្រាស់នៃសំបក Vassal */",
+	"vassal-action-addsection": "បន្ថែម​ប្រធានបទ​",
+	"vassal-action-delete": "លុបចោល",
+	"vassal-action-move": "ប្តូរទីតាំង",
+	"vassal-action-protect": "ការពារ",
+	"vassal-action-undelete": "ឈប់លុបចោល",
+	"vassal-action-unprotect": "ប្ដូរការការពារ",
+	"vassal-view-create": "បង្កើត​",
+	"vassal-view-edit": "កែប្រែ​",
+	"vassal-view-history": "មើល​ប្រវត្តិ​",
+	"vassal-view-view": "អាន",
+	"vassal-view-viewsource": "មើល​កូដ"
+}

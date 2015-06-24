@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fadli Idris",
+			"Si Gam Acèh"
+		]
+	},
+	"vassal-action-addsection": "Tamah bhaih",
+	"vassal-action-delete": "Sampôh",
+	"vassal-action-move": "Pupinah",
+	"vassal-action-protect": "Peulindông",
+	"vassal-action-undelete": "Bateuë sampôh",
+	"vassal-action-unprotect": "Gantoe neulindông",
+	"vassal-view-create": "Peugöt",
+	"vassal-view-edit": "Andam",
+	"vassal-view-history": "Eu riwayat",
+	"vassal-view-view": "Beuët",
+	"vassal-view-viewsource": "Eu nè",
+	"vassal-more-actions": "Lom"
+}

@@ -97,23 +97,20 @@ class VassalTemplate extends BaseTemplate {
       </div>
       <?php include('/var/www/html/site/inc/navigation.shtml'); ?>
       <div id="vassal-login">
-<!--
-      <?php
-/*
-        $returnto = urlencode($_SERVER['REQUEST_URI']);
-        $op = $skin->getUser()->isLoggedIn() ? 'out' : 'in';
+        <?php
+          $returnto = urlencode($_SERVER['REQUEST_URI']);
+          $op = $this->getSkin()->getUser()->isLoggedIn() ? 'out' : 'in';
 
-        if ($op == 'in') {
-          echo "<a href=\"/register.php\">Create account</a>";
-        }
-        else {
-          echo "<a href=\"/modify.php\">Modify account</a>";
-        }
-
-        echo " / <a href=\"/log$op.php?returnto=$returnto\">Log $op</a>";
-*/
-      ?>
--->
+          if ($op == 'in') {
+            $href = '/register.php';
+            $text = 'Create';
+          }
+          else {
+            $href = '/modify.php';
+            $text = 'Modify';
+          }
+        ?>
+        <a href="<?php echo $href ?>"><?php echo $text ?> Account</a> / <a href="/log<?php echo $op ?>.php?returnto=<?php echo $returnto ?>">Log <?php echo $op ?></a>
       </div>
     </div>
     <div>

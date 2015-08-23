@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"vassal-action-addsection": "Temu pśidaś",
+	"vassal-action-delete": "Wulašowaś",
+	"vassal-action-move": "Pśesunuś",
+	"vassal-action-protect": "Šćitaś",
+	"vassal-action-undelete": "Wótnowiś",
+	"vassal-action-unprotect": "Šćit změniś",
+	"vassal-view-create": "Napóraś",
+	"vassal-view-edit": "Wobźěłaś",
+	"vassal-view-history": "Wersije a awtory",
+	"vassal-view-view": "Cytaś",
+	"vassal-view-viewsource": "Žrědło se woglědaś"
+}

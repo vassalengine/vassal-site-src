@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dalinanir"
+		]
+	},
+	"vassal-action-addsection": "Zayd amli",
+	"vassal-action-delete": "Ḥiyd",
+	"vassal-action-move": "Smmatti",
+	"vassal-action-protect": "Ḥbu",
+	"vassal-action-undelete": "Rard may mayḥiydn",
+	"vassal-action-unprotect": "Ḥiyd aḥbu",
+	"vassal-view-create": "Skert",
+	"vassal-view-edit": "Ara",
+	"vassal-view-history": "Mel amzruy",
+	"vassal-view-view": "ɣr",
+	"vassal-view-viewsource": "Ẓr asagm"
+}

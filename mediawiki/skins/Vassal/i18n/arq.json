@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bachounda",
+			"Oldstoneage"
+		]
+	},
+	"vassal-action-addsection": "زيد موضوع",
+	"vassal-action-delete": "امحي",
+	"vassal-action-move": "حول",
+	"vassal-action-protect": "بروجي",
+	"vassal-action-undelete": "ردّ كيما كان",
+	"vassal-action-unprotect": "بدّل الـحماية",
+	"vassal-view-create": "أصنع",
+	"vassal-view-edit": "بدل",
+	"vassal-view-history": "روح للتاريخي",
+	"vassal-view-view": "أقرى",
+	"vassal-view-viewsource": "شوف المصدر",
+	"vassal-more-actions": "زيادة"
+}

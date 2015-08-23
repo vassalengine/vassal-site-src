@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mikalai Udodau",
+			"Yury Tarasievich",
+			"Дзяніс Тутэйшы",
+			"Хомелка"
+		]
+	},
+	"vassal-skin-desc": "Сучасная версія вокладкі Манабук, з абноўленым відам і шматлікімі зручнымі паляпшэннямі",
+	"vassal-action-addsection": "Дадаць тэму",
+	"vassal-action-delete": "Сцерці",
+	"vassal-action-move": "Перанесці",
+	"vassal-action-protect": "Ахова",
+	"vassal-action-undelete": "Аднавіць",
+	"vassal-action-unprotect": "Змяніць ахову",
+	"vassal-view-create": "Стварыць",
+	"vassal-view-edit": "Правіць",
+	"vassal-view-history": "Паказаць гісторыю",
+	"vassal-view-view": "Чытаць",
+	"vassal-view-viewsource": "Паказаць зыходны тэкст",
+	"vassal-more-actions": "Яшчэ"
+}

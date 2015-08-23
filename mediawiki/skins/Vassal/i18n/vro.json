@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Võrok"
+		]
+	},
+	"vassal-action-addsection": "Vahtsõ teema ülespandminõ",
+	"vassal-action-delete": "Kistudaq ärq",
+	"vassal-action-move": "Nõstaq ümbre",
+	"vassal-action-protect": "Kaidsaq",
+	"vassal-action-undelete": "Tiiq tagasi",
+	"vassal-action-unprotect": "Muudaq kaidsõt",
+	"vassal-view-create": "Luuq",
+	"vassal-view-edit": "Toimõndaq",
+	"vassal-view-history": "Näütäq aoluku",
+	"vassal-view-view": "Loeq",
+	"vassal-view-viewsource": "Kaeq lätteteksti"
+}

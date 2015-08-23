@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ianbu"
+		]
+	},
+	"vassal-action-addsection": "Ke chi̍t-ê toān-lo̍h",
+	"vassal-action-delete": "Thâi",
+	"vassal-action-move": "Sóa khì",
+	"vassal-action-protect": "Pó-hō·",
+	"vassal-action-undelete": "chhú-siau thâi tiàu",
+	"vassal-action-unprotect": "kái pó-hō·",
+	"vassal-view-create": "Khai-sí siá",
+	"vassal-view-edit": "Siu-kái",
+	"vassal-view-history": "khoàⁿ le̍k-sú",
+	"vassal-view-view": "Tha̍k",
+	"vassal-view-viewsource": "Khoàⁿ goân-sú lōe-iông",
+	"vassal-more-actions": "閣看"
+}

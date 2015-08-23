@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abanima",
+			"Calak",
+			"Meno25",
+			"Mido",
+			"OsamaK",
+			"أحمد",
+			"زكريا",
+			"Khaled"
+		]
+	},
+	"skinname-vassal": "فكتور",
+	"vassal-skin-desc": "نسة حديثة من مونوبوك بمظهر جديد وسهولة الاستخدام",
+	"vassal.css": "/* الأنماط المتراصة CSS المعروضة هنا ستؤثر على مستخدمي واجهة فكتور */",
+	"vassal.js": "/* أي جافاسكريبت هنا سيتم تحميلها للمستخدمين الذين يستعملون واجهة فكتور */",
+	"vassal-action-addsection": "أضف موضوعا",
+	"vassal-action-delete": "احذف",
+	"vassal-action-move": "انقل",
+	"vassal-action-protect": "احم",
+	"vassal-action-undelete": "ألغ الحذف",
+	"vassal-action-unprotect": "غير الحماية",
+	"vassal-view-create": "أنشئ",
+	"vassal-view-edit": "عدل",
+	"vassal-view-history": "اعرض التاريخ",
+	"vassal-view-view": "اقرأ",
+	"vassal-view-viewsource": "اعرض المصدر",
+	"vassal-more-actions": "مزيد"
+}

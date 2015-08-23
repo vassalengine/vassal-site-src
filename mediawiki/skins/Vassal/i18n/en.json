@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"skinname-vassal": "Vassal",
+	"vassal-skin-desc": "Modern version of MonoBook with fresh look and many usability improvements",
+	"vassal.css": "/* CSS placed here will affect users of the Vassal skin */",
+	"vassal.js": "/* Any JavaScript here will be loaded for users using the Vassal skin */",
+	"vassal-action-addsection": "Add topic",
+	"vassal-action-delete": "Delete",
+	"vassal-action-move": "Move",
+	"vassal-action-protect": "Protect",
+	"vassal-action-undelete": "Undelete",
+	"vassal-action-unprotect": "Change protection",
+	"vassal-view-create": "Create",
+	"vassal-view-edit": "Edit",
+	"vassal-view-history": "View history",
+	"vassal-view-view": "Read",
+	"vassal-view-viewsource": "View source",
+	"vassal-more-actions": "More"
+}

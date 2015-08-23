@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"HalanTul"
+		]
+	},
+	"vassal-action-addsection": "Тиэмэ эбии",
+	"vassal-action-delete": "Сот",
+	"vassal-action-move": "Аатын уларыт",
+	"vassal-action-protect": "Уларыйбат гын",
+	"vassal-action-undelete": "Төннөр",
+	"vassal-action-unprotect": "Көмүскэлин уларыт",
+	"vassal-view-create": "Ай",
+	"vassal-view-edit": "Уларыт",
+	"vassal-view-history": "Устуоруйатын көрүү",
+	"vassal-view-view": "Ааҕыы",
+	"vassal-view-viewsource": "Бэлиэлэрин көрүү",
+	"vassal-more-actions": "Эбии"
+}

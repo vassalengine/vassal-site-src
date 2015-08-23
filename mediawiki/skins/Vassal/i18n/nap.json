@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chelin",
+			"C.R."
+		]
+	},
+	"vassal-skin-desc": "Verziona muderna 'e MonoBook cu n'aspetto nuovo nuovo e tante migliuramente d'uso",
+	"vassal-action-addsection": "Aggiunge chiacchierata",
+	"vassal-action-delete": "Scancèlla",
+	"vassal-action-move": "Spusta",
+	"vassal-action-protect": "Prutegge",
+	"vassal-action-undelete": "Arrepiglia",
+	"vassal-action-unprotect": "Càgna prutezzione",
+	"vassal-view-create": "Cria",
+	"vassal-view-edit": "Càgna",
+	"vassal-view-history": "Vere cronologgia",
+	"vassal-view-view": "Liegge",
+	"vassal-view-viewsource": "Vere sorgente",
+	"vassal-more-actions": "Cchiù"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Malafaya"
+		]
+	},
+	"vassal-action-addsection": "Lüükön yegädi",
+	"vassal-action-delete": "Moükön",
+	"vassal-action-move": "Topätükön",
+	"vassal-action-protect": "Jelön",
+	"vassal-action-undelete": "Sämoükön",
+	"vassal-action-unprotect": "Votükön jeli",
+	"vassal-view-create": "Jafön",
+	"vassal-view-edit": "Redakön",
+	"vassal-view-history": "Logön jenotemi",
+	"vassal-view-view": "Reidön",
+	"vassal-view-viewsource": "Logön fonäti",
+	"vassal-more-actions": "Pluikos"
+}

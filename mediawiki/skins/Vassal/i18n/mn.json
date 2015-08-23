@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chinneeb",
+			"MongolWiki",
+			"Wisdom"
+		]
+	},
+	"vassal-action-addsection": "Сэдэв нэмэх",
+	"vassal-action-delete": "Устгах",
+	"vassal-action-move": "Зөөх",
+	"vassal-action-protect": "Хамгаалах",
+	"vassal-action-undelete": "Үл устгах",
+	"vassal-action-unprotect": "Хамгаалалтаа солих",
+	"vassal-view-create": "Үүсгэх",
+	"vassal-view-edit": "Засварлах",
+	"vassal-view-history": "Түүх",
+	"vassal-view-view": "Унших",
+	"vassal-view-viewsource": "Кодыг харах"
+}

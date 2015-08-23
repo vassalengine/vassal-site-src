@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lloffiwr"
+		]
+	},
+	"vassal-action-addsection": "Ychwanegu adran",
+	"vassal-action-delete": "Dileu",
+	"vassal-action-move": "Symud",
+	"vassal-action-protect": "Diogelu",
+	"vassal-action-undelete": "Adfer",
+	"vassal-action-unprotect": "Newid y diogelwch",
+	"vassal-view-create": "Dechrau",
+	"vassal-view-edit": "Golygu",
+	"vassal-view-history": "Gweld yr hanes",
+	"vassal-view-view": "Darllen",
+	"vassal-view-viewsource": "Dangos côd y dudalen",
+	"vassal-more-actions": "Rhagor"
+}

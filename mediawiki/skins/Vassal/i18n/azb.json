@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"E THP",
+			"Ebrahimi-amir",
+			"Mousa",
+			"Amir a57"
+		]
+	},
+	"vassal-action-addsection": "قوْنو آرتیر",
+	"vassal-action-delete": "سیل",
+	"vassal-action-move": "داشی",
+	"vassal-action-protect": "قوْرو",
+	"vassal-action-undelete": "سیلمگی قایتار",
+	"vassal-action-unprotect": "قوْروماغی دَییشدیر",
+	"vassal-view-create": "یارات",
+	"vassal-view-edit": "دَییشدیر",
+	"vassal-view-history": "گئچمیشه باخ",
+	"vassal-view-view": "اوْخو",
+	"vassal-view-viewsource": "قایناغا باخ",
+	"vassal-more-actions": "داها"
+}

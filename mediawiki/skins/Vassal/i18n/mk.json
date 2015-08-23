@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Brest"
+		]
+	},
+	"skinname-vassal": "Векторско",
+	"vassal-skin-desc": "Современа верзија на рувото МоноБук со свеж изглед и многу подобрувања на употребливоста",
+	"vassal.css": "/* Тука поставениот CSS се однесува на корисниците на рувото „Векторско“ */",
+	"vassal.js": "/* Тука поставениот JavaScript  ќе им се вчитува на корисниците што го користат рувото „Векторско“ */",
+	"vassal-action-addsection": "Додај тема",
+	"vassal-action-delete": "Избриши",
+	"vassal-action-move": "Премести",
+	"vassal-action-protect": "Заштити",
+	"vassal-action-undelete": "Врати",
+	"vassal-action-unprotect": "Измени заштита",
+	"vassal-view-create": "Создај",
+	"vassal-view-edit": "Уреди",
+	"vassal-view-history": "Историја",
+	"vassal-view-view": "Читај",
+	"vassal-view-viewsource": "Извор",
+	"vassal-more-actions": "Повеќе"
+}

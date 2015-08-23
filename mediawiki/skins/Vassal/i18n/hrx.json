@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Paul Beppler"
+		]
+	},
+	"vassal-action-addsection": "Abschnitt hinzufüche",
+	"vassal-action-delete": "Lösche",
+	"vassal-action-move": "Verschiebe",
+	"vassal-action-protect": "Schütz",
+	"vassal-action-undelete": "Wiederherstelle",
+	"vassal-action-unprotect": "Seiteschutz ännre",
+	"vassal-view-create": "Erstell",
+	"vassal-view-edit": "Beoorbeite",
+	"vassal-view-history": "Versionsgeschicht",
+	"vassal-view-view": "Lese",
+	"vassal-view-viewsource": "Quelltext oonzeiche"
+}

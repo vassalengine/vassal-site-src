@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arystanbek",
+			"Emperyan",
+			"Joseph",
+			"Stultiwikia",
+			"Vito Genovese"
+		]
+	},
+	"vassal-action-addsection": "Konu ekle",
+	"vassal-action-delete": "Sil",
+	"vassal-action-move": "Taşı",
+	"vassal-action-protect": "Koru",
+	"vassal-action-undelete": "Silinmeyi geri al",
+	"vassal-action-unprotect": "Korumayı değiştir",
+	"vassal-view-create": "Oluştur",
+	"vassal-view-edit": "Düzenle",
+	"vassal-view-history": "Geçmişi gör",
+	"vassal-view-view": "Oku",
+	"vassal-view-viewsource": "Kaynağı gör",
+	"vassal-more-actions": "Diğer"
+}

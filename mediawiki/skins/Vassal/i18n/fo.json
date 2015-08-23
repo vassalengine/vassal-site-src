@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Diupwijk",
+			"EileenSanda"
+		]
+	},
+	"vassal-action-addsection": "Nýtt evni",
+	"vassal-action-delete": "Strika",
+	"vassal-action-move": "Flyt",
+	"vassal-action-protect": "Friða",
+	"vassal-action-undelete": "Endurstovna",
+	"vassal-action-unprotect": "Broyt verju",
+	"vassal-view-create": "Stovna",
+	"vassal-view-edit": "Rætta",
+	"vassal-view-history": "Vís søgu",
+	"vassal-view-view": "Les",
+	"vassal-view-viewsource": "Vís keldu",
+	"vassal-more-actions": "Meira"
+}

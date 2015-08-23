@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mestos"
+		]
+	},
+	"vassal-action-addsection": "Lissää aine",
+	"vassal-action-delete": "Ota poies",
+	"vassal-action-move": "Siirä",
+	"vassal-action-protect": "Suojaa",
+	"vassal-action-undelete": "Pane takashiin",
+	"vassal-action-unprotect": "Muuta suojaa",
+	"vassal-view-create": "Luo",
+	"vassal-view-edit": "Mookkaa",
+	"vassal-view-history": "Näytä histuuria",
+	"vassal-view-view": "Lue",
+	"vassal-view-viewsource": "Näytä lähekooti"
+}

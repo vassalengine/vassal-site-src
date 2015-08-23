@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esbardu",
+			"Xuacu"
+		]
+	},
+	"skinname-vassal": "Vassal",
+	"vassal-skin-desc": "Versión moderna de MonoBook, con un aspeutu frescu y munchos ameyoramientos d'usabilidá",
+	"vassal.css": "/* Los CSS allugaos equí afeutarán a los usuarios del aspeutu Vassal */",
+	"vassal.js": "/* Cualesquier JavaScript que tea equí se cargará pa los usuarios del aspeutu Vassal */",
+	"vassal-action-addsection": "Amestar seición",
+	"vassal-action-delete": "Desaniciar",
+	"vassal-action-move": "Treslladar",
+	"vassal-action-protect": "Protexer",
+	"vassal-action-undelete": "Restaurar",
+	"vassal-action-unprotect": "Camudar la proteición",
+	"vassal-view-create": "Crear",
+	"vassal-view-edit": "Editar",
+	"vassal-view-history": "Ver historial",
+	"vassal-view-view": "Lleer",
+	"vassal-view-viewsource": "Ver fonte",
+	"vassal-more-actions": "Más"
+}

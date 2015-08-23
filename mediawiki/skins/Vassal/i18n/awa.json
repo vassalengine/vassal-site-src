@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"1AnuraagPandey"
+		]
+	},
+	"vassal-action-addsection": "शिर्षक जोडा जाय",
+	"vassal-action-delete": "मेटावा जाय",
+	"vassal-action-move": "घुस्कावा जाय",
+	"vassal-action-protect": "सुरक्षित करा जाय",
+	"vassal-action-undelete": "हटाइब वापस लिहा जाय",
+	"vassal-action-unprotect": "सुरक्षा परिवर्तन करा जाय",
+	"vassal-view-create": "बनावा जाय",
+	"vassal-view-edit": "सम्पादन",
+	"vassal-view-history": "इतिहास देखा जाय",
+	"vassal-view-view": "पढा जाय",
+	"vassal-view-viewsource": "स्रोत देखा जाय",
+	"vassal-more-actions": "अउर"
+}

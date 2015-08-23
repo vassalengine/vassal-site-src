@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Maor X"
+		]
+	},
+	"vassal-action-delete": "Ojuichajaa",
+	"vassal-action-move": "Ansülaa",
+	"vassal-action-protect": "Eisalajaa",
+	"vassal-view-create": "Akumajaa",
+	"vassal-view-edit": "Anaataa",
+	"vassal-view-history": "Achikii a'wanajaayamaajatü",
+	"vassal-view-view": "Aashaje'eraa",
+	"vassal-view-viewsource": "Anüliaa eejeetülee"
+}

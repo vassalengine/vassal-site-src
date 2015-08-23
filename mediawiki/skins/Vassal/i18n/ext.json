@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Better"
+		]
+	},
+	"vassal-action-addsection": "Añiil tema",
+	"vassal-action-delete": "Esborral",
+	"vassal-action-move": "Mual",
+	"vassal-action-protect": "Protegel",
+	"vassal-action-undelete": "Esborral",
+	"vassal-action-unprotect": "Esprotegel",
+	"vassal-view-create": "Crial",
+	"vassal-view-edit": "Eital",
+	"vassal-view-history": "Guipal estorial",
+	"vassal-view-view": "Leyel",
+	"vassal-view-viewsource": "Guipal cóigu"
+}

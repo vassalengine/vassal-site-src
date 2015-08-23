@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Szonja"
+		]
+	},
+	"vassal-action-addsection": "Tilja topikos",
+	"vassal-action-delete": "Tšuu nikki",
+	"vassal-action-undelete": "Tšuu paale",
+	"vassal-view-create": "Luona",
+	"vassal-view-edit": "Muoka",
+	"vassal-view-history": "Sik histores",
+	"vassal-view-view": "Draba",
+	"vassal-view-viewsource": "Sik navasiinako koodos"
+}

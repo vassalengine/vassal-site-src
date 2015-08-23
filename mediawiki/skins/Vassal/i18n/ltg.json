@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dark Eagle"
+		]
+	},
+	"vassal-action-addsection": "Dalikt padaļu",
+	"vassal-action-delete": "Iztreit",
+	"vassal-action-move": "Puorceļt",
+	"vassal-action-protect": "Apsorguot",
+	"vassal-action-unprotect": "Puormeit apsardzeibu",
+	"vassal-view-edit": "Pataiseit",
+	"vassal-view-history": "Viesture",
+	"vassal-view-view": "Vērtīs"
+}

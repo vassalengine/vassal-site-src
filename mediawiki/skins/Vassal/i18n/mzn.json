@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mjbmr",
+			"محک"
+		]
+	},
+	"vassal-action-addsection": "ترنه گپ بزوئن",
+	"vassal-action-delete": "پاک هاکردن",
+	"vassal-action-move": "دکش هاکردن",
+	"vassal-action-protect": "زلفن بزوئن",
+	"vassal-action-undelete": "دباره بنویشته بیّن",
+	"vassal-action-unprotect": "زلفن عوض هاکردن",
+	"vassal-view-create": "بساتن",
+	"vassal-view-edit": "دچی‌ین",
+	"vassal-view-history": "تاریخچه ره بَدی‌ین",
+	"vassal-view-view": "بخوندستن",
+	"vassal-view-viewsource": "ونه منبع ره هارشائن"
+}

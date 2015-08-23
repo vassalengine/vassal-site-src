@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Red Winged Duck",
+			"Wizardist"
+		]
+	},
+	"skinname-vassal": "Вэктар",
+	"vassal-skin-desc": "Сучасная вэрсія MonoBook з абноўленым выглядам і шматлікімі паляпшэньнямі",
+	"vassal-action-addsection": "Дадаць тэму",
+	"vassal-action-delete": "Выдаліць",
+	"vassal-action-move": "Перанесьці",
+	"vassal-action-protect": "Абараніць",
+	"vassal-action-undelete": "Аднавіць",
+	"vassal-action-unprotect": "Зьмяніць абарону",
+	"vassal-view-create": "Стварыць",
+	"vassal-view-edit": "Рэдагаваць",
+	"vassal-view-history": "Паказаць гісторыю",
+	"vassal-view-view": "Чытаць",
+	"vassal-view-viewsource": "Паказаць крыніцу",
+	"vassal-more-actions": "Болей"
+}

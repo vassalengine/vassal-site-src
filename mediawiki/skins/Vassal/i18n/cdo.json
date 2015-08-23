@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yejianfei",
+			"唐吉訶德的侍從"
+		]
+	},
+	"vassal-action-addsection": "加話題",
+	"vassal-action-delete": "刪掉咯",
+	"vassal-action-move": "移動",
+	"vassal-action-protect": "保護",
+	"vassal-action-undelete": "取消刪除",
+	"vassal-action-unprotect": "改變保護",
+	"vassal-view-create": "創建",
+	"vassal-view-edit": "修改",
+	"vassal-view-history": "看歷史",
+	"vassal-view-view": "讀",
+	"vassal-view-viewsource": "看源代碼",
+	"vassal-more-actions": "再看"
+}

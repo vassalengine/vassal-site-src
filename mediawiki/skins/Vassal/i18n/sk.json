@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84",
+			"Rudko",
+			"Sudo77(new)"
+		]
+	},
+	"skinname-vassal": "Vassal",
+	"vassal.css": "/* Tu umiestnené CSS bude ovplyvňovať používateľov štýlu Vassal */",
+	"vassal.js": "/* Tu sa nachádzajúci JavaScript sa načíta používateľom vzhľadu Vassal */",
+	"vassal-action-addsection": "Pridať tému",
+	"vassal-action-delete": "Zmazať",
+	"vassal-action-move": "Presunúť",
+	"vassal-action-protect": "Zamknúť",
+	"vassal-action-undelete": "Obnoviť",
+	"vassal-action-unprotect": "Zmeniť stav ochrany",
+	"vassal-view-create": "Vytvoriť",
+	"vassal-view-edit": "Upraviť",
+	"vassal-view-history": "Zobraziť históriu",
+	"vassal-view-view": "Čítať",
+	"vassal-view-viewsource": "Zobraziť zdroj",
+	"vassal-more-actions": "Viac"
+}

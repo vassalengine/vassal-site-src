@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aalam",
+			"Babanwalia",
+			"Raj Singh",
+			"TariButtar"
+		]
+	},
+	"vassal-action-addsection": "ਵਿਸ਼ਾ ਜੋੜੋ",
+	"vassal-action-delete": "ਹਟਾਓ",
+	"vassal-action-move": "ਭੇਜੋ",
+	"vassal-action-protect": "ਸੁਰੱਖਿਆ",
+	"vassal-action-undelete": "ਹਟਾਉਣਾ-ਵਾਪਸ",
+	"vassal-action-unprotect": "ਸੁਰੱਖਿਆ ਬਦਲੋ",
+	"vassal-view-create": "ਬਣਾਓ",
+	"vassal-view-edit": "ਸੋਧੋ",
+	"vassal-view-history": "ਅਤੀਤ ਵੇਖੋ",
+	"vassal-view-view": "ਪੜ੍ਹੋ",
+	"vassal-view-viewsource": "ਸਰੋਤ ਵੇਖੋ",
+	"vassal-more-actions": "ਹੋਰ"
+}

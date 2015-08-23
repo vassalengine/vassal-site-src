@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Гусейн"
+		]
+	},
+	"vassal-action-addsection": "Мывзу зијод кардеј",
+	"vassal-action-delete": "Рәдд кардеј",
+	"vassal-action-move": "Номи дәгиш кардеј",
+	"vassal-action-protect": "Мыдофијә кардеј",
+	"vassal-action-undelete": "Бәрпо кардеј",
+	"vassal-action-unprotect": "Мыдофијә дәгиш кардеј",
+	"vassal-view-create": "Офәјеј",
+	"vassal-view-edit": "Сәрост кардеј",
+	"vassal-view-history": "Тарых",
+	"vassal-view-view": "Һандемон",
+	"vassal-view-viewsource": "Дијә кардеј"
+}

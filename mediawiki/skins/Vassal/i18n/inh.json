@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Sapral Mikail"
+		]
+	},
+	"vassal-action-addsection": "БӀагал тӀатоха",
+	"vassal-action-delete": "ДӀадаккха",
+	"vassal-action-move": "ЦӀи хувца",
+	"vassal-action-protect": "Лораде",
+	"vassal-action-undelete": "Юхаоттаде",
+	"vassal-action-unprotect": "Лорам хувца",
+	"vassal-view-create": "Кхолларле",
+	"vassal-view-edit": "Хувцам",
+	"vassal-view-history": "Искар",
+	"vassal-view-view": "Дешар",
+	"vassal-view-viewsource": "Зембакхама бӀаргтассам"
+}

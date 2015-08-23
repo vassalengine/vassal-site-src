@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hydra",
+			"Liangent",
+			"Liuxinyu970226",
+			"Xiaomingyan",
+			"Cwek"
+		]
+	},
+	"skinname-vassal": "Vassal",
+	"vassal-skin-desc": "提供清新的外观和许多可用性改进的现代版MonoBook",
+	"vassal.css": "/* 放置于这里的CSS将影响使用Vassal皮肤的用户 */",
+	"vassal.js": "/* 这里的任何JavaScript将为使用Vassal皮肤的用户加载 */",
+	"vassal-action-addsection": "添加话题",
+	"vassal-action-delete": "删除",
+	"vassal-action-move": "移动",
+	"vassal-action-protect": "保护",
+	"vassal-action-undelete": "还原",
+	"vassal-action-unprotect": "更改保护",
+	"vassal-view-create": "创建",
+	"vassal-view-edit": "编辑",
+	"vassal-view-history": "查看历史",
+	"vassal-view-view": "阅读",
+	"vassal-view-viewsource": "查看源代码",
+	"vassal-more-actions": "更多"
+}

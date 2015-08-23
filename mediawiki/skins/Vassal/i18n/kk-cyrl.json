@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arystanbek",
+			"Daniyar",
+			"GaiJin",
+			"Kaztrans"
+		]
+	},
+	"vassal-action-addsection": "Тақырып қосу",
+	"vassal-action-delete": "Жою",
+	"vassal-action-move": "Атауын өзгерту",
+	"vassal-action-protect": "Қорғау",
+	"vassal-action-undelete": "Жоймау",
+	"vassal-action-unprotect": "Қорғанысын өзгерту",
+	"vassal-view-create": "Бастау",
+	"vassal-view-edit": "Өңдеу",
+	"vassal-view-history": "Өңделу тарихы",
+	"vassal-view-view": "Оқу",
+	"vassal-view-viewsource": "Қайнарын қарау",
+	"vassal-more-actions": "Тағы"
+}

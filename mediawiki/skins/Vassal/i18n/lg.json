@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kizito"
+		]
+	},
+	"vassal-action-addsection": "Tandikawo emboozi endala",
+	"vassal-action-delete": "Gyawo olupapula luno",
+	"vassal-action-move": "Simbuliza",
+	"vassal-action-protect": "Ssiba",
+	"vassal-action-undelete": "Zawo",
+	"vassal-action-unprotect": "Kyusa ebikugizo",
+	"vassal-view-create": "Lukolewo",
+	"vassal-view-edit": "Kyusa",
+	"vassal-view-history": "Ennanda ya fayiro eno",
+	"vassal-view-view": "Soma",
+	"vassal-view-viewsource": "Kebera obulambike obw'ennono obw'olupapula luno"
+}

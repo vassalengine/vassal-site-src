@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nertiks",
+			"Peteris"
+		]
+	},
+	"vassal-action-delete": "Āupausinais",
+	"vassal-action-move": "Prapīdais",
+	"vassal-action-protect": "Kūnsteis",
+	"vassal-action-unprotect": "Etkūnteis",
+	"vassal-view-create": "Teīkeis",
+	"vassal-view-edit": "Redigīs",
+	"vassal-view-history": "Enwaidinnais istōrijan",
+	"vassal-view-view": "Skaitāis",
+	"vassal-view-viewsource": "Enwaidinnais appun"
+}

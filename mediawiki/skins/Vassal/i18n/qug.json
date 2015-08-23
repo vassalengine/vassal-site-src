@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sylvain2803"
+		]
+	},
+	"vassal-action-addsection": "Shuk mushuk rimanakuyta kallarina",
+	"vassal-action-delete": "Pichana",
+	"vassal-action-move": "Apakuna",
+	"vassal-action-protect": "Harkana",
+	"vassal-action-undelete": "Kutin wacharichina",
+	"vassal-action-unprotect": "Harkayta shukchina",
+	"vassal-view-create": "Kamarina",
+	"vassal-view-edit": "Killkana",
+	"vassal-view-history": "Wiñay kawsayta rikuna",
+	"vassal-view-view": "Killkakatina",
+	"vassal-view-viewsource": "Pukyu killkata rikuna"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"MacTire02",
+			"Shimmin Beg"
+		]
+	},
+	"vassal-action-addsection": "Cur cooish noa rish",
+	"vassal-action-delete": "Scryss",
+	"vassal-action-move": "Scugh",
+	"vassal-action-protect": "Coadee",
+	"vassal-action-undelete": "Jee-scryss",
+	"vassal-action-unprotect": "Caghlaa coadey",
+	"vassal-view-create": "Croo",
+	"vassal-view-edit": "Reagh",
+	"vassal-view-history": "Jeeagh er shennaghys",
+	"vassal-view-view": "Lhaih",
+	"vassal-view-viewsource": "Jeeagh er bun"
+}

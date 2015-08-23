@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gunnernett",
+			"Njardarlogar"
+		]
+	},
+	"vassal-action-addsection": "Nytt emne",
+	"vassal-action-delete": "Slett",
+	"vassal-action-move": "Flytt",
+	"vassal-action-protect": "Vern",
+	"vassal-action-undelete": "Gjenopprett",
+	"vassal-action-unprotect": "Endra vern",
+	"vassal-view-create": "Opprett",
+	"vassal-view-edit": "Endre",
+	"vassal-view-history": "Sjå historikken",
+	"vassal-view-view": "Les",
+	"vassal-view-viewsource": "Sjå kjelda",
+	"vassal-more-actions": "Meir"
+}

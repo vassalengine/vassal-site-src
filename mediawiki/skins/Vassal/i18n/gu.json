@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aritra",
+			"Ashok modhvadia",
+			"Dsvyas",
+			"KartikMistry"
+		]
+	},
+	"vassal-skin-desc": "તાજા દેખાવ અને વધુ ઉપયોગી સુધારાઓ સાથે મોનોબુકની આધુનિક આવૃત્તિ",
+	"vassal-action-addsection": "નવી ચર્ચા",
+	"vassal-action-delete": "રદ કરો",
+	"vassal-action-move": "ખસેડો",
+	"vassal-action-protect": "સુરક્ષિત કરો",
+	"vassal-action-undelete": "રદ કરેલું પાછું વાળો",
+	"vassal-action-unprotect": "સુરક્ષા બદલો",
+	"vassal-view-create": "બનાવો",
+	"vassal-view-edit": "ફેરફાર કરો",
+	"vassal-view-history": "ઇતિહાસ જુઓ",
+	"vassal-view-view": "વાંચો",
+	"vassal-view-viewsource": "સ્રોત જુઓ",
+	"vassal-more-actions": "વધુ"
+}

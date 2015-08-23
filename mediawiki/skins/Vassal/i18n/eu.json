@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Unai Fdz. de Betoño",
+			"Xabier Armendaritz",
+			"Fitoschido",
+			"Subi"
+		]
+	},
+	"vassal-skin-desc": "MonoBook-en bertsio modernoa, itxura berriarekin eta erabilgarritasun hobekuntza askorekin",
+	"vassal-action-addsection": "Gehitu atala",
+	"vassal-action-delete": "Ezabatu",
+	"vassal-action-move": "Mugitu",
+	"vassal-action-protect": "Babestu",
+	"vassal-action-undelete": "Berreskuratu",
+	"vassal-action-unprotect": "Babesa aldatu",
+	"vassal-view-create": "Sortu",
+	"vassal-view-edit": "Aldatu",
+	"vassal-view-history": "Ikusi historia",
+	"vassal-view-view": "Irakurri",
+	"vassal-view-viewsource": "Kodea ikusia",
+	"vassal-more-actions": "Gehiago"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rachitrali"
+		]
+	},
+	"vassal-action-addsection": "نوغ موضوع",
+	"vassal-action-delete": "بوغاوے",
+	"vassal-action-move": "منتقل کورے",
+	"vassal-action-protect": "محفوظ کورے",
+	"vassal-action-undelete": "اچی انگیے",
+	"vassal-action-unprotect": "غیر محفوظ",
+	"vassal-view-create": "ساوزاوے",
+	"vassal-view-edit": "ایڈٹ کورے",
+	"vassal-view-history": "تاریخچہ",
+	"vassal-view-view": "راوے",
+	"vassal-view-viewsource": "مسودہ"
+}

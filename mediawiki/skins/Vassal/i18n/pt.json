@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Giro720",
+			"Hamilton Abreu",
+			"Malafaya",
+			"Vitorvicentevalente",
+			"Waldir"
+		]
+	},
+	"skinname-vassal": "Vassal",
+	"vassal-skin-desc": "Versão moderna do MonoBook com um visual fresco e várias melhorias de usabilidade",
+	"vassal.css": "/* Código CSS colocado aqui afectará os utilizadores do tema Vassal */",
+	"vassal.js": "/* Código Javascript colocado aqui será carregado para utilizadores do tema Vassal */",
+	"vassal-action-addsection": "Adicionar&nbsp;tópico",
+	"vassal-action-delete": "Eliminar",
+	"vassal-action-move": "Mover",
+	"vassal-action-protect": "Proteger",
+	"vassal-action-undelete": "Restaurar",
+	"vassal-action-unprotect": "Alterar protecção",
+	"vassal-view-create": "Criar",
+	"vassal-view-edit": "Editar",
+	"vassal-view-history": "Ver histórico",
+	"vassal-view-view": "Ler",
+	"vassal-view-viewsource": "Ver fonte",
+	"vassal-more-actions": "Mais"
+}

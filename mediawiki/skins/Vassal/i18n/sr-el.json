@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michaello",
+			"Milicevic01",
+			"Rancher",
+			"Жељко Тодоровић"
+		]
+	},
+	"skinname-vassal": "Vektorsko",
+	"vassal.css": "/* CSS postavljen ovde će uticati na sve korisnike teme „Vektorsko“ */",
+	"vassal.js": "/* Javaskript postavljen ovde će se učitati za sve one koji koriste temu „Vektorsko“ */",
+	"vassal-action-addsection": "Dodaj temu",
+	"vassal-action-delete": "Obriši",
+	"vassal-action-move": "Premesti",
+	"vassal-action-protect": "Zaštiti",
+	"vassal-action-undelete": "Vrati",
+	"vassal-action-unprotect": "Promeni zaštitu",
+	"vassal-view-create": "Napravi",
+	"vassal-view-edit": "Uredi",
+	"vassal-view-history": "Istorija",
+	"vassal-view-view": "Čitaj",
+	"vassal-view-viewsource": "Izvorni kod",
+	"vassal-more-actions": "Više"
+}

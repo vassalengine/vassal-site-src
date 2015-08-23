@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Servien"
+		]
+	},
+	"vassal-action-addsection": "Niej onderwarp",
+	"vassal-action-delete": "Vortdoon",
+	"vassal-action-move": "Herneumen",
+	"vassal-action-protect": "Beveiligen",
+	"vassal-action-undelete": "Weerummeplaotsen",
+	"vassal-action-unprotect": "Beveiliging wiezigen",
+	"vassal-view-create": "Anmaken",
+	"vassal-view-edit": "Bewarken",
+	"vassal-view-history": "Geschiedenisse bekieken",
+	"vassal-view-view": "Lezen",
+	"vassal-view-viewsource": "Brontekste bekieken",
+	"vassal-more-actions": "Meer"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"AlimanRuna"
+		]
+	},
+	"vassal-action-addsection": "Allwiyta yapay",
+	"vassal-action-delete": "Qulluy",
+	"vassal-action-move": "Astay",
+	"vassal-action-protect": "Amachay",
+	"vassal-action-undelete": "Qullusqata paqarichiy",
+	"vassal-action-unprotect": "Amachayta wakinchay",
+	"vassal-view-create": "Kamariy",
+	"vassal-view-edit": "Llamk'apuy",
+	"vassal-view-history": "Wiñay kawsayta qhaway",
+	"vassal-view-view": "Ñawiriy",
+	"vassal-view-viewsource": "Pukyu qillqata qhaway",
+	"vassal-more-actions": "Aswan"
+}

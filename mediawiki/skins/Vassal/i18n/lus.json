@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"RMizo"
+		]
+	},
+	"vassal-action-addsection": "Thupui belhna",
+	"vassal-action-delete": "Paihna",
+	"vassal-action-move": "Sawnna",
+	"vassal-action-protect": "Venhimna",
+	"vassal-action-undelete": "Lak kir lehna",
+	"vassal-action-unprotect": "Venhimna dinhmun tidanglam rawh",
+	"vassal-view-create": "Siamna",
+	"vassal-view-edit": "Siamţhatna",
+	"vassal-view-history": "Hunhlui-chanchin",
+	"vassal-view-view": "Chhiarna",
+	"vassal-view-viewsource": "A hnar enna"
+}

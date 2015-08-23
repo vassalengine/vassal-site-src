@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mmistmurt"
+		]
+	},
+	"vassal-action-addsection": "Rnud ameggay",
+	"vassal-action-delete": "Mḥu",
+	"vassal-action-move": "Smimeḍ",
+	"vassal-action-protect": "Mmesten",
+	"vassal-action-undelete": "Uɣaled",
+	"vassal-action-unprotect": "Beddel amesten",
+	"vassal-view-create": "Snulfu",
+	"vassal-view-edit": "Ẓẓiẓreg",
+	"vassal-view-history": "Ẓeṛ amazray",
+	"vassal-view-view": "Ɣer",
+	"vassal-view-viewsource": "Ẓer aɣbalu"
+}

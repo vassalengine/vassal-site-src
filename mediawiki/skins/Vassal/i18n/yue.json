@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ktchankt",
+			"Waihorace",
+			"Yueman"
+		]
+	},
+	"skinname-vassal": "Vassal",
+	"vassal-skin-desc": "MonoBook嘅摩登版，有新嘅樣，又有好多功能改進",
+	"vassal.css": "/* 響呢度放 CSS 碼去改用戶用嘅域達畫面 */",
+	"vassal.js": "/* 響每一次個頁面載入時，用域達畫面嘅用戶都會載入呢度任何嘅JavaScript */",
+	"vassal-action-addsection": "加主題",
+	"vassal-action-delete": "剷走",
+	"vassal-action-move": "搬",
+	"vassal-action-protect": "保護",
+	"vassal-action-undelete": "取消剷走",
+	"vassal-action-unprotect": "改保護",
+	"vassal-view-create": "開",
+	"vassal-view-edit": "改",
+	"vassal-view-history": "睇吓歷史",
+	"vassal-view-view": "閱",
+	"vassal-view-viewsource": "睇吓原始碼",
+	"vassal-more-actions": "更多"
+}

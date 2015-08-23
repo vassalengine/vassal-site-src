@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChrisPtDe"
+		]
+	},
+	"skinname-vassal": "Vèctor",
+	"vassal.css": "/* Lo code CSS betâ ique afècterat los usanciérs de l’habelyâjo « Vèctor ». */",
+	"vassal.js": "/* Tot code JavaScript betâ ique serat chargiê per los usanciérs de l’habelyâjo « Vèctor ». */",
+	"vassal-action-addsection": "Apondre na chousa",
+	"vassal-action-delete": "Suprimar",
+	"vassal-action-move": "Dèplaciér",
+	"vassal-action-protect": "Protègiér",
+	"vassal-action-undelete": "Refâre",
+	"vassal-action-unprotect": "Changiér la protèccion",
+	"vassal-view-create": "Fâre",
+	"vassal-view-edit": "Changiér",
+	"vassal-view-history": "Vêre l’historico",
+	"vassal-view-view": "Liére",
+	"vassal-view-viewsource": "Vêre lo tèxto sôrsa"
+}

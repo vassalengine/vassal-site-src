@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ignatus",
+			"JenVan",
+			"Kaganer",
+			"Nemo bis",
+			"Okras",
+			"Александр Сигачёв"
+		]
+	},
+	"skinname-vassal": "Векторное",
+	"vassal-skin-desc": "Современная версия MonoBook с обновлённым оформлением и многими улучшениями в юзабилити",
+	"vassal.css": "/* Размещённый здесь CSS будет применяться к векторной теме оформления  */",
+	"vassal.js": "/* Размещённый здесь код JavaScript будет загружаться пользователям, использующим тему оформления Vassal */",
+	"vassal-action-addsection": "Добавить тему",
+	"vassal-action-delete": "Удалить",
+	"vassal-action-move": "Переименовать",
+	"vassal-action-protect": "Защитить",
+	"vassal-action-undelete": "Восстановить",
+	"vassal-action-unprotect": "Изменить защиту",
+	"vassal-view-create": "Создать",
+	"vassal-view-edit": "Править",
+	"vassal-view-history": "История",
+	"vassal-view-view": "Читать",
+	"vassal-view-viewsource": "Просмотр разметки",
+	"vassal-more-actions": "Ещё"
+}

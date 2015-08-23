@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"vassal-skin-desc": "Version moderne de MonoBook con aspecto rejuvenescite e multe meliorationes de usabilitate.",
+	"vassal.css": "/* Le CSS placiate hic afficera le usatores del apparentia Vassal */",
+	"vassal.js": "/* Omne JavaScript hic se executara pro le usatores del apparentia Vassal */",
+	"vassal-action-addsection": "Adder topico",
+	"vassal-action-delete": "Deler",
+	"vassal-action-move": "Renominar",
+	"vassal-action-protect": "Proteger",
+	"vassal-action-undelete": "Restaurar",
+	"vassal-action-unprotect": "Cambiar protection",
+	"vassal-view-create": "Crear",
+	"vassal-view-edit": "Modificar",
+	"vassal-view-history": "Vider historia",
+	"vassal-view-view": "Leger",
+	"vassal-view-viewsource": "Vider texto fonte",
+	"vassal-more-actions": "Plus"
+}

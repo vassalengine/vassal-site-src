@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Maax"
+		]
+	},
+	"vassal-action-addsection": "Hadal ku dar",
+	"vassal-action-delete": "Tirtir",
+	"vassal-action-move": "Wareeji",
+	"vassal-action-protect": "Difaac",
+	"vassal-action-undelete": "Ha tirtirin",
+	"vassal-action-unprotect": "Bedel difaacida",
+	"vassal-view-create": "Sameey",
+	"vassal-view-edit": "Wax ka bedel",
+	"vassal-view-history": "Itusi taariikhda",
+	"vassal-view-view": "Akhri",
+	"vassal-view-viewsource": "Itusi xogta"
+}

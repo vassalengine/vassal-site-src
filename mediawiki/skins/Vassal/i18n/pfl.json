@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Manuae"
+		]
+	},
+	"vassal-action-addsection": "Abschnidd dzufiesche",
+	"vassal-action-delete": "Lesche",
+	"vassal-action-move": "Vaschiewe",
+	"vassal-action-protect": "Schidze",
+	"vassal-action-undelete": "Zriggbringe",
+	"vassal-view-create": "Oaleesche",
+	"vassal-view-edit": "Droa schaffe",
+	"vassal-view-history": "Dadaigschischd",
+	"vassal-view-view": "Lese",
+	"vassal-view-viewsource": "Gwelltegschd zaische",
+	"vassal-more-actions": "Mea"
+}

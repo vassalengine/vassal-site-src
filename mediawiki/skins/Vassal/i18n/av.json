@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар",
+			"Gazimagomedov"
+		]
+	},
+	"vassal-skin-desc": "MonoBook'алъул цӀияб версия цияб куцгун ва цӀиял юзабилитиялгун",
+	"vassal-action-addsection": "Тема жубазе",
+	"vassal-action-delete": "БацIцIине",
+	"vassal-action-move": "ЦӀар хисизе",
+	"vassal-action-protect": "Хиса-басияздасан цIунизе",
+	"vassal-action-undelete": "БукӀараб гӀадин гьабизе",
+	"vassal-action-unprotect": "ЦӀуни хисизе",
+	"vassal-view-create": "Гьабизе",
+	"vassal-view-edit": "Хисизабизе",
+	"vassal-view-history": "Тарих балагьизе",
+	"vassal-view-view": "ЦӀализе",
+	"vassal-view-viewsource": "Вики-текст балагьизе",
+	"vassal-more-actions": "Жеги"
+}

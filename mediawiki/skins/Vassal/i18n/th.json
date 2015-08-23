@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Horus",
+			"Octahedron80",
+			"Woraponboonkerd"
+		]
+	},
+	"skinname-vassal": "เวกเตอร์",
+	"vassal.css": "/* สไตล์ชีตในหน้านี้จะส่งผลแก่ผู้ใช้ที่ใช้สกินเวกเตอร์ */",
+	"vassal.js": "/* จาวาสคริปต์ใด ๆ ในหน้านี้จะถูกโหลดให้แก่ผู้ใช้ที่ใช้สกินเวกเตอร์ */",
+	"vassal-action-addsection": "เพิ่มหัวข้อ",
+	"vassal-action-delete": "ลบ",
+	"vassal-action-move": "เปลี่ยนชื่อ",
+	"vassal-action-protect": "ล็อก",
+	"vassal-action-undelete": "กู้คืน",
+	"vassal-action-unprotect": "เปลี่ยนการล็อก",
+	"vassal-view-create": "สร้าง",
+	"vassal-view-edit": "แก้ไข",
+	"vassal-view-history": "ดูประวัติ",
+	"vassal-view-view": "อ่าน",
+	"vassal-view-viewsource": "ดูโค้ด",
+	"vassal-more-actions": "เพิ่มเติม"
+}

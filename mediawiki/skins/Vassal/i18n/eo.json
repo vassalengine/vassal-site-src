@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"KuboF",
+			"Objectivesea",
+			"Yekrats"
+		]
+	},
+	"skinname-vassal": "Vektoro",
+	"vassal.css": "/* La jena CSS influos la paĝaspekton por uzantoj de la Vektora temo. */",
+	"vassal.js": "/* La jena Ĝavaskripto ŝargiĝos por uzantoj de la Vektora temo. */",
+	"vassal-action-addsection": "Aldoni temon",
+	"vassal-action-delete": "Forigi",
+	"vassal-action-move": "Alinomi",
+	"vassal-action-protect": "Protekti",
+	"vassal-action-undelete": "Malforigi",
+	"vassal-action-unprotect": "Ŝanĝi protektadon",
+	"vassal-view-create": "Krei",
+	"vassal-view-edit": "Redakti",
+	"vassal-view-history": "Vidi historion",
+	"vassal-view-view": "Legi",
+	"vassal-view-viewsource": "Vidi fonton",
+	"vassal-more-actions": "Pli"
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Albinus",
+			"Samar88",
+			"Srabony90"
+		]
+	},
+	"vassal-action-addsection": "Asol katha joṛaome",
+	"vassal-action-delete": "Giḍi",
+	"vassal-action-move": "Ocoḱ́me",
+	"vassal-action-protect": "Bańcao",
+	"vassal-action-undelete": "Bań getgiḍi",
+	"vassal-action-unprotect": "Bodol rukhiyạ",
+	"vassal-view-create": "Tearme",
+	"vassal-view-edit": "So̠mpado̠n",
+	"vassal-view-history": "Jạṛ ńelme",
+	"vassal-view-view": "Paṛhaḱme",
+	"vassal-view-viewsource": "Ńamoḱaḱ ńelme"
+}

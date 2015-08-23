@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Warbola"
+		]
+	},
+	"vassal-action-addsection": "Pangid jūrõ tēma",
+	"vassal-action-delete": "Kištāntõgid jarā",
+	"vassal-action-move": "Vīž jarā",
+	"vassal-action-protect": "Kaitsõmi",
+	"vassal-view-create": "Lūo",
+	"vassal-view-edit": "Redigīer",
+	"vassal-view-history": "Nägţ istōrijõ",
+	"vassal-view-view": "Vaņ",
+	"vassal-view-viewsource": "Vaņ ovāt tekstõ"
+}

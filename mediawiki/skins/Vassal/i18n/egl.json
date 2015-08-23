@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lévi"
+		]
+	},
+	"vassal-action-addsection": "Zûnta discusiòun",
+	"vassal-action-delete": "Scanşèla",
+	"vassal-action-move": "Spôsta",
+	"vassal-action-protect": "Prutēz",
+	"vassal-action-undelete": "Fà al recóper",
+	"vassal-action-unprotect": "Câmbia la prutesiòun",
+	"vassal-view-create": "Invèinta",
+	"vassal-view-edit": "Mudéfica",
+	"vassal-view-history": "Guêrda la stôria",
+	"vassal-view-view": "Lēş",
+	"vassal-view-viewsource": "Guêrda la surzéia",
+	"vassal-more-actions": "Êter"
+}

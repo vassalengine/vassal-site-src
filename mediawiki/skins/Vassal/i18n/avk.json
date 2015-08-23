@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wikimistusik"
+		]
+	},
+	"vassal-action-addsection": "Loplekura va detce",
+	"vassal-action-delete": "Sulara",
+	"vassal-action-move": "Arrundara",
+	"vassal-action-protect": "Nendara",
+	"vassal-view-create": "Redura",
+	"vassal-view-edit": "Betara",
+	"vassal-view-history": "Wira va izvot",
+	"vassal-view-view": "Belira",
+	"vassal-view-viewsource": "klitawira"
+}

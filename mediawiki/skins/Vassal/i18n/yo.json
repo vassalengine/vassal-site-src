@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Demmy"
+		]
+	},
+	"vassal-action-addsection": "Àfikún orí-ọ̀rọ̀",
+	"vassal-action-delete": "Ìparẹ́",
+	"vassal-action-move": "Ìyípòdà",
+	"vassal-action-protect": "Àbò",
+	"vassal-action-undelete": "Ìmúkúrò ìparẹ́",
+	"vassal-action-unprotect": "Ìyípadà àbò",
+	"vassal-view-create": "Ṣ'èdá",
+	"vassal-view-edit": "Àtúnṣe",
+	"vassal-view-history": "Wo ìtàn",
+	"vassal-view-view": "Àwòkà",
+	"vassal-view-viewsource": "Wo àmìọ̀rọ̀"
+}

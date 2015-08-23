@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Numulunj pilgae"
+		]
+	},
+	"vassal-action-addsection": "Поладомс мезень колга корхтамс",
+	"vassal-action-delete": "Нардамс",
+	"vassal-action-move": "Шашфтомс",
+	"vassal-action-protect": "Араламс",
+	"vassal-action-undelete": "Мърдафтомс",
+	"vassal-action-unprotect": "Араламать полафтомс",
+	"vassal-view-create": "Тиемс",
+	"vassal-view-edit": "Петнемс",
+	"vassal-view-history": "История няфтемс",
+	"vassal-view-view": "Морафтомс",
+	"vassal-view-viewsource": "Лисьма няфтемс"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amdf"
+		]
+	},
+	"vassal-action-delete": "Карангдаш",
+	"vassal-action-move": "Лӹмӹм вашталташ",
+	"vassal-action-protect": "Ӹшӹклӓш",
+	"vassal-view-create": "Ӹштӓш",
+	"vassal-view-edit": "Тӧрлӹмӓш",
+	"vassal-view-history": "Историм анжымаш",
+	"vassal-view-view": "Лыдмаш",
+	"vassal-view-viewsource": "Сек пӹтӓриш кодым анжалаш"
+}

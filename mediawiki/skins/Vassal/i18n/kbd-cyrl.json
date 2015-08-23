@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bogups",
+			"Тамэ Балъкъэрхэ"
+		]
+	},
+	"vassal-action-addsection": "Теухугъуэ щӀэуэ щӀэдзэн",
+	"vassal-action-delete": "Ихын",
+	"vassal-action-move": "ЦӀэр хъуэжын",
+	"vassal-action-protect": "Хъумэн",
+	"vassal-action-undelete": "ЗыфӀэгъэувэжын",
+	"vassal-action-unprotect": "Хъумэныр техыжын",
+	"vassal-view-create": "ЩӀын",
+	"vassal-view-edit": "Гъэтэрэзын",
+	"vassal-view-history": "Тхыдэм еплъын",
+	"vassal-view-view": "Еджэн",
+	"vassal-view-viewsource": "КъызхэкӀам еплъын"
+}

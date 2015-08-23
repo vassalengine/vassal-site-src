@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kernoweger",
+			"Kw-Moon",
+			"Nrowe"
+		]
+	},
+	"vassal-action-addsection": "Keworra testen",
+	"vassal-action-delete": "Dilea",
+	"vassal-action-move": "Gwaya",
+	"vassal-action-protect": "Difres",
+	"vassal-action-undelete": "Disdhilea",
+	"vassal-action-unprotect": "Chanjya difresans",
+	"vassal-view-create": "Gwruthyl",
+	"vassal-view-edit": "Chanjya",
+	"vassal-view-history": "Gweles an istori",
+	"vassal-view-view": "Redya",
+	"vassal-view-viewsource": "Gweles an bennfenten"
+}

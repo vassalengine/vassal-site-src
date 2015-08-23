@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Iwan Novirion",
+			"Luthfi94",
+			"VoteITP"
+		]
+	},
+	"skinname-vassal": "Vektor",
+	"vassal-action-addsection": "Bagian baru",
+	"vassal-action-delete": "Hapuih",
+	"vassal-action-move": "Pindahkan",
+	"vassal-action-protect": "Linduangkan",
+	"vassal-action-undelete": "Pambatalan pangapuihan",
+	"vassal-action-unprotect": "Tuka palinduangan",
+	"vassal-view-create": "Buek",
+	"vassal-view-edit": "Suntiang",
+	"vassal-view-history": "Riwayaik",
+	"vassal-view-view": "Baco",
+	"vassal-view-viewsource": "Caliak sumber"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jagwar"
+		]
+	},
+	"vassal-action-addsection": "Hanampy lohahevitra",
+	"vassal-action-delete": "Fafana",
+	"vassal-action-move": "Hanolo anarana",
+	"vassal-action-protect": "Arovy",
+	"vassal-action-undelete": "Avereno",
+	"vassal-action-unprotect": "Hanala ny fiarovana",
+	"vassal-view-create": "Foronona",
+	"vassal-view-edit": "Hanova",
+	"vassal-view-history": "Hijery ny tantara",
+	"vassal-view-view": "Hamaky",
+	"vassal-view-viewsource": "Hijery fango"
+}

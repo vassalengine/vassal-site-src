@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Botuzhaleny-sodamo"
+		]
+	},
+	"vassal-action-addsection": "Поладомс мезде кортамс",
+	"vassal-action-delete": "Нардамс",
+	"vassal-action-move": "Печтевтемс",
+	"vassal-action-protect": "Аравтомс ванстомас",
+	"vassal-action-undelete": "Вельмевтемс нардазенть",
+	"vassal-action-unprotect": "Полавтомс ванстоманзо",
+	"vassal-view-create": "Теемс-Шкамс",
+	"vassal-view-edit": "Витнемс-петнемс",
+	"vassal-view-history": "Ваномс юронзо-путовксонзо",
+	"vassal-view-view": "Ловномс",
+	"vassal-view-viewsource": "Ваномс косто саезь"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Atabek"
+		]
+	},
+	"vassal-action-addsection": "Tema qosıw",
+	"vassal-action-delete": "O'shiriw",
+	"vassal-action-move": "Ko'shiriw",
+	"vassal-action-protect": "Qorg'aw",
+	"vassal-action-undelete": "Qayta tiklew",
+	"vassal-action-unprotect": "Qorg'awdı o'zgertiw",
+	"vassal-view-create": "Jaratıw",
+	"vassal-view-edit": "O'zgertiw",
+	"vassal-view-history": "Tariyxın ko'riw",
+	"vassal-view-view": "Oqıw",
+	"vassal-view-viewsource": "Deregin ko'riw"
+}

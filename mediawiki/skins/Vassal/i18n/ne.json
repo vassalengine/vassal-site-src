@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bhawani Gautam",
+			"RajeshPandey",
+			"सरोज कुमार ढकाल",
+			"बिप्लब आनन्द"
+		]
+	},
+	"skinname-vassal": "भेक्टर",
+	"vassal.css": "/* यहाँ राखिएको CSS ले भेक्टर स्किनको प्रयोगकर्ताहरुलाई प्रभावित गर्ने छ  */",
+	"vassal-action-addsection": "विषय थप्नुहोस",
+	"vassal-action-delete": "हटाउने",
+	"vassal-action-move": "सार्ने",
+	"vassal-action-protect": "सुरक्षित गर्ने",
+	"vassal-action-undelete": "हटाएको रद्द गर्ने",
+	"vassal-action-unprotect": "सुरक्षा परिवर्तन गर्ने",
+	"vassal-view-create": "सृजना गर्ने",
+	"vassal-view-edit": "सम्पादन",
+	"vassal-view-history": "इतिहास हेर्ने",
+	"vassal-view-view": "पढ्ने",
+	"vassal-view-viewsource": "स्रोत हेर्ने",
+	"vassal-more-actions": "थप"
+}

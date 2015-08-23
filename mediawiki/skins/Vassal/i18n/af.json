@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Byeboer",
+			"Naudefj"
+		]
+	},
+	"vassal-action-addsection": "Nuwe onderwerp",
+	"vassal-action-delete": "Skrap",
+	"vassal-action-move": "Skuif",
+	"vassal-action-protect": "Beskerm",
+	"vassal-action-undelete": "Ontskrap",
+	"vassal-action-unprotect": "Wysig beskerming",
+	"vassal-view-create": "Skep",
+	"vassal-view-edit": "Wysig",
+	"vassal-view-history": "Wys geskiedenis",
+	"vassal-view-view": "Lees",
+	"vassal-view-viewsource": "Wys bronteks",
+	"vassal-more-actions": "Meer"
+}

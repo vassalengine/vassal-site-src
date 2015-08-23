@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Murma174",
+			"Pyt"
+		]
+	},
+	"vassal-skin-desc": "Modern werjuun faan Monobook mä frisk skak an föl muar mögelkhaiden",
+	"vassal-action-addsection": "Nei kirew began",
+	"vassal-action-delete": "Strik",
+	"vassal-action-move": "Fersküüw",
+	"vassal-action-protect": "Seekre",
+	"vassal-action-undelete": "Weder iinstel",
+	"vassal-action-unprotect": "Sidjenseekerhaid",
+	"vassal-view-create": "Maage",
+	"vassal-view-edit": "Bewerke",
+	"vassal-view-history": "Ferluup uunluke",
+	"vassal-view-view": "Lees",
+	"vassal-view-viewsource": "Kweltekst uunluke",
+	"vassal-more-actions": "Muar"
+}

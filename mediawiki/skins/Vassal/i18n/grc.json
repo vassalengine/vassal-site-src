@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Omnipaedista"
+		]
+	},
+	"vassal-action-addsection": "Θέμα προστιθέναι",
+	"vassal-action-delete": "Σβεννύναι",
+	"vassal-action-move": "Κινεῖν",
+	"vassal-action-protect": "Φυλάττειν",
+	"vassal-action-undelete": "Ἀποκαθιστάναι",
+	"vassal-action-unprotect": "Ἄλλαξον τὴν φύλαξιν",
+	"vassal-view-create": "Ποιεῖν",
+	"vassal-view-edit": "Μεταγράφειν",
+	"vassal-view-history": "Ἱστορίαν ὁρᾶν",
+	"vassal-view-view": "Ἀναγνῶναι",
+	"vassal-view-viewsource": "Ὁρᾶν τὴν πηγήν"
+}

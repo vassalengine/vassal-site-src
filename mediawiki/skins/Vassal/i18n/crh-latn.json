@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Don Alessandro"
+		]
+	},
+	"vassal-action-addsection": "Mevzu qoş",
+	"vassal-action-delete": "Yoq et",
+	"vassal-action-move": "Adını deñiştir",
+	"vassal-action-protect": "Qorçala",
+	"vassal-action-undelete": "Yañıdan yarat",
+	"vassal-action-unprotect": "Qorçalavnı deñiştir",
+	"vassal-view-create": "Yarat",
+	"vassal-view-edit": "Deñiştir",
+	"vassal-view-history": "Keçmişini köster",
+	"vassal-view-view": "Oqu",
+	"vassal-view-viewsource": "Menba kodunı köster"
+}

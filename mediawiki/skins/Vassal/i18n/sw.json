@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lloffiwr",
+			"Muddyb Blast Producer"
+		]
+	},
+	"vassal-action-addsection": "Weka mada",
+	"vassal-action-delete": "Futa",
+	"vassal-action-move": "Hamisha",
+	"vassal-action-protect": "Linda",
+	"vassal-action-undelete": "Rudisha",
+	"vassal-action-unprotect": "Badilisha ulinzi",
+	"vassal-view-create": "Anzisha",
+	"vassal-view-edit": "Hariri",
+	"vassal-view-history": "Fungua historia",
+	"vassal-view-view": "Soma",
+	"vassal-view-viewsource": "Tazama msimbo"
+}

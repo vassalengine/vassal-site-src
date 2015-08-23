@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Enzoreg",
+			"Zanatos"
+		]
+	},
+	"vassal-action-addsection": "Zid topic",
+	"vassal-action-delete": "Suprimi",
+	"vassal-action-move": "Neqel",
+	"vassal-action-protect": "Ḫami",
+	"vassal-action-undelete": "rja lhadf",
+	"vassal-action-unprotect": "Ḫiyed l-ḫimaya",
+	"vassal-view-create": "Ĥṫareĝ",
+	"vassal-view-edit": "Ĝedel",
+	"vassal-view-history": "Ṫariĥ l-fiċyé",
+	"vassal-view-view": "Qra",
+	"vassal-view-viewsource": "Ċof l-masdar"
+}

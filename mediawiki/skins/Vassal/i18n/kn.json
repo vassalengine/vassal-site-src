@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ktkaushik",
+			"Nayvik",
+			"VASANTH S.N.",
+			"Omshivaprakash"
+		]
+	},
+	"vassal-action-addsection": "ವಿಷಯ ಸೇರಿಸಿ",
+	"vassal-action-delete": "ಅಳಿಸು",
+	"vassal-action-move": "ಸ್ಥಳಾಂತರಿಸಿ",
+	"vassal-action-protect": "ಸಂರಕ್ಷಿಸು",
+	"vassal-action-undelete": "ಅಳಿಸಬೇಡ",
+	"vassal-action-unprotect": "ರಕ್ಷಣೆಯನ್ನು ಬದಲಾವಣೆ",
+	"vassal-view-create": "ಸೃಷ್ಟಿಸು",
+	"vassal-view-edit": "ಸಂಪಾದಿಸಿ",
+	"vassal-view-history": "ಇತಿಹಾಸವನ್ನು ನೋಡಿ",
+	"vassal-view-view": "ಓದು",
+	"vassal-view-viewsource": "ಆಕರ ವೀಕ್ಷಿಸು",
+	"vassal-more-actions": "ಇನ್ನಷ್ಟು"
+}

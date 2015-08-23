@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Insübrich",
+			"Ninonino"
+		]
+	},
+	"vassal-action-addsection": "Giunta argument",
+	"vassal-action-delete": "Scancela",
+	"vassal-action-move": "Sposta",
+	"vassal-action-protect": "Prutegg",
+	"vassal-action-undelete": "Recüpera",
+	"vassal-action-unprotect": "Càmbia la protesiù",
+	"vassal-view-create": "Crea",
+	"vassal-view-edit": "Mudifega",
+	"vassal-view-history": "Varda la storia",
+	"vassal-view-view": "Legg",
+	"vassal-view-viewsource": "Varda el codes",
+	"vassal-more-actions": "Amò"
+}

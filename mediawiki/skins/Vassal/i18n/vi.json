@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen",
+			"Vinhtantran",
+			"Withoutaname"
+		]
+	},
+	"skinname-vassal": "Vectơ",
+	"vassal-skin-desc": "Giao diện làm lại từ MonoBook có màu tươi và khả dụng hơn",
+	"vassal.css": "/* Mã CSS đặt ở đây sẽ ảnh hưởng đến thành viên sử dụng giao diện Vectơ */",
+	"vassal.js": "/* Mã JavaScript tại đây sẽ được tải khi người dùng sử dụng giao diện Vectơ */",
+	"vassal-action-addsection": "Thêm chủ đề",
+	"vassal-action-delete": "Xóa",
+	"vassal-action-move": "Di chuyển",
+	"vassal-action-protect": "Khóa",
+	"vassal-action-undelete": "Phục hồi",
+	"vassal-action-unprotect": "Đổi mức khóa",
+	"vassal-view-create": "Tạo",
+	"vassal-view-edit": "Sửa đổi",
+	"vassal-view-history": "Xem lịch sử",
+	"vassal-view-view": "Đọc",
+	"vassal-view-viewsource": "Xem mã nguồn",
+	"vassal-more-actions": "Khác"
+}

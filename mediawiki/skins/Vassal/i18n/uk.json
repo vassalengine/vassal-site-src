@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"AS",
+			"Ahonc",
+			"Base",
+			"Calak",
+			"Dim Grits",
+			"NickK",
+			"Prima klasy4na",
+			"Тест",
+			"Ата"
+		]
+	},
+	"skinname-vassal": "Векторне",
+	"vassal-skin-desc": "Сучасна версія MonoBook зі свіжим виглядом і багатьма зручними покращеннями",
+	"vassal.css": "/* Розміщений тут CSS-код буде використаний в темі оформлення Векторне */",
+	"vassal.js": "/* Розміщений тут код JavaScript буде завантажений для всіх користувачів, що використовують векторну тему оформлення */",
+	"vassal-action-addsection": "Додати тему",
+	"vassal-action-delete": "Вилучити",
+	"vassal-action-move": "Перейменувати",
+	"vassal-action-protect": "Захистити",
+	"vassal-action-undelete": "Відновити",
+	"vassal-action-unprotect": "Зміна захисту",
+	"vassal-view-create": "Створити",
+	"vassal-view-edit": "Редагувати",
+	"vassal-view-history": "Переглянути історію",
+	"vassal-view-view": "Читати",
+	"vassal-view-viewsource": "Переглянути код",
+	"vassal-more-actions": "Ще"
+}

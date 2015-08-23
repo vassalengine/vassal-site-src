@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mdkidiri"
+		]
+	},
+	"vassal-action-addsection": "Zîa mbênî lilö daä",
+	"vassal-action-delete": "Lungûla",
+	"vassal-action-move": "Sanzêe ïrï",
+	"vassal-action-protect": "Funga",
+	"vassal-action-undelete": "Kîri na nî",
+	"vassal-action-unprotect": "Sanzêe fungä",
+	"vassal-view-create": "Seka",
+	"vassal-view-edit": "Sepe",
+	"vassal-view-history": "Tanda mbai nî",
+	"vassal-view-view": "Dîko",
+	"vassal-view-viewsource": "Fa ligbî nî"
+}

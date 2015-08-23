@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chorobek",
+			"Growingup",
+			"Ztimur",
+			"Викиней"
+		]
+	},
+	"vassal-action-addsection": "Тема кошуу",
+	"vassal-action-delete": "Өчүрүү",
+	"vassal-action-move": "Аталышын өзгөртүү",
+	"vassal-action-protect": "Коргоо",
+	"vassal-action-undelete": "Калыбына келтирүү",
+	"vassal-action-unprotect": "Коргоону өзгөртүү",
+	"vassal-view-create": "Түзүү",
+	"vassal-view-edit": "Оңдоо",
+	"vassal-view-history": "Тарыхын кароо",
+	"vassal-view-view": "Окуу",
+	"vassal-view-viewsource": "Кайнарын кароо"
+}

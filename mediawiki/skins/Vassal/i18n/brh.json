@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Imdadb"
+		]
+	},
+	"vassal-action-addsection": "Púskun sarhál",
+	"vassal-action-delete": "Mesa",
+	"vassal-action-move": "Surif",
+	"vassal-action-protect": "Rakk",
+	"vassal-view-create": "Biná",
+	"vassal-view-edit": "Radbadal",
+	"vassal-view-history": "Lekav e ur",
+	"vassal-view-view": "Xuán",
+	"vassal-view-viewsource": "Bumpad e ur"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Capisano",
+			"Oxyzen"
+		]
+	},
+	"vassal-action-addsection": "Magdugang sang topiko",
+	"vassal-action-delete": "Panason",
+	"vassal-action-move": "Isdogon",
+	"vassal-action-protect": "Protektahan",
+	"vassal-action-undelete": "Indi pag panason",
+	"vassal-action-unprotect": "Islan ang proteksyon",
+	"vassal-view-create": "Ubrahon",
+	"vassal-view-edit": "Bag-uhon",
+	"vassal-view-history": "Ipakita ang kasaysayan",
+	"vassal-view-view": "Basahon",
+	"vassal-view-viewsource": "Lantawon ang ginhalinan"
+}

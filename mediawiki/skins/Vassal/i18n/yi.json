@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joystick",
+			"פוילישער",
+			"Har-wradim"
+		]
+	},
+	"skinname-vassal": "וועקטאר",
+	"vassal-skin-desc": "מאדערנע ווערסיע פון מאנאבוק מיט פרישן אויסזען און א סך באניצער־פריינדלעכקייט פארבעסערונגען",
+	"vassal.css": "/* CSS געשטעלט דא ווירקט נאר אויפן וועקטאר סקין */",
+	"vassal-action-addsection": "צושטעלן טעמע",
+	"vassal-action-delete": "אויסמעקן",
+	"vassal-action-move": "באַוועגן",
+	"vassal-action-protect": "שיצן",
+	"vassal-action-undelete": "מבטל זיין אויסמעקן",
+	"vassal-action-unprotect": "ענדערונג באַשיצונג",
+	"vassal-view-create": "שאַפֿן",
+	"vassal-view-edit": "רעדאַקטירן",
+	"vassal-view-history": "ווייזן היסטאָריע",
+	"vassal-view-view": "לייענען",
+	"vassal-view-viewsource": "ווײַזן מקור",
+	"vassal-more-actions": "נאך"
+}

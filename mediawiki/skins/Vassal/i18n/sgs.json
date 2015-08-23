@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hugo.arg"
+		]
+	},
+	"vassal-action-addsection": "Pridietė tema",
+	"vassal-action-delete": "Trintė",
+	"vassal-action-move": "Parvadintė",
+	"vassal-action-protect": "Ožrakintė",
+	"vassal-action-undelete": "Atkortė",
+	"vassal-action-unprotect": "Keistė apsauga",
+	"vassal-view-create": "Sokortė",
+	"vassal-view-edit": "Taisītė",
+	"vassal-view-history": "Veizietė istuorėjė",
+	"vassal-view-view": "Skaitītė",
+	"vassal-view-viewsource": "Veizietė kuoda",
+	"vassal-more-actions": "Dā"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Universal Life"
+		]
+	},
+	"vassal-action-addsection": "Ajustar sujeto",
+	"vassal-action-delete": "Efassar",
+	"vassal-action-move": "Taşirear",
+	"vassal-action-protect": "Guadrar",
+	"vassal-action-undelete": "Traer atrás",
+	"vassal-action-unprotect": "Trocar proteksyon",
+	"vassal-view-create": "Criar",
+	"vassal-view-edit": "Trocar",
+	"vassal-view-history": "Ver la istoria",
+	"vassal-view-view": "Meldar",
+	"vassal-view-viewsource": "Ver su manadero"
+}

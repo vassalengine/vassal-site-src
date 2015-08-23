@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"334a",
+			"Basharh",
+			"Michaelovic"
+		]
+	},
+	"vassal-action-addsection": "ܐܘܣܦ ܡܠܘܐܐ",
+	"vassal-action-delete": "ܫܘܦ",
+	"vassal-action-move": "ܫܢܝ",
+	"vassal-action-protect": "ܛܪ",
+	"vassal-action-undelete": "ܠܐ ܫܘܦ",
+	"vassal-action-unprotect": "ܫܚܠܦ ܢܛܝܪܘܬܐ",
+	"vassal-view-create": "ܒܪܝ",
+	"vassal-view-edit": "ܫܚܠܦ",
+	"vassal-view-history": "ܚܙܝ ܬܫܥܝܬܐ",
+	"vassal-view-view": "ܩܪܝ",
+	"vassal-view-viewsource": "ܚܙܝ ܡܒܘܥܐ"
+}

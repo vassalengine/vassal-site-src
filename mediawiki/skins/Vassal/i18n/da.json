@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Byrial",
+			"Christian List",
+			"Peter Alberti"
+		]
+	},
+	"vassal-skin-desc": "Moderne version af MonoBook med frisk udseende og mange forbedringer af brugervenligheden",
+	"vassal-action-addsection": "Nyt emne",
+	"vassal-action-delete": "Slet",
+	"vassal-action-move": "Flyt",
+	"vassal-action-protect": "Beskyt",
+	"vassal-action-undelete": "Gendan",
+	"vassal-action-unprotect": "Ændr beskyttelse",
+	"vassal-view-create": "Opret",
+	"vassal-view-edit": "Redigér",
+	"vassal-view-history": "Se historik",
+	"vassal-view-view": "Læs",
+	"vassal-view-viewsource": "Se kilden",
+	"vassal-more-actions": "Mere"
+}

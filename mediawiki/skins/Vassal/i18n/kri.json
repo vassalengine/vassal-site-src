@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Protostar"
+		]
+	},
+	"vassal-action-addsection": "Add tòpik",
+	"vassal-action-delete": "Delet",
+	"vassal-action-move": "Muf",
+	"vassal-action-protect": "Protèkt",
+	"vassal-view-create": "Kreat",
+	"vassal-view-edit": "Chenj",
+	"vassal-view-history": "Luk historia",
+	"vassal-view-view": "Rid",
+	"vassal-view-viewsource": "Luk dhi sòrs"
+}

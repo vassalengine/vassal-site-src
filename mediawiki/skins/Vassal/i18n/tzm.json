@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Moha",
+			"Tifinaghes"
+		]
+	},
+	"skinname-vassal": "Vassal",
+	"vassal-action-addsection": "ⵔⵏⵓ ⴰⵙⵏⵜⵍ",
+	"vassal-action-delete": "ⵓⴽⵓⵙ",
+	"vassal-action-move": "ⵙⵎⵓⵜⵜⵉ",
+	"vassal-action-undelete": "ⵙⵙⵓⵖⴰⵍ ⵓⴽⵓⵙ",
+	"vassal-action-unprotect": "ⴱⴷⴷⴻⵍ ⵜⴰⵙⵜⴰⵏⵜ",
+	"vassal-view-create": "ⴰⵔⴰ",
+	"vassal-view-edit": "ⴱⴷⴷⴻⵍ",
+	"vassal-view-history": "ⵥⵕ ⴰⵎⵣⵔⵓⵢ",
+	"vassal-view-view": "ⵖⵔ",
+	"vassal-view-viewsource": "ⵥⵕ ⴰⵖⴱⴰⵍⵓ"
+}

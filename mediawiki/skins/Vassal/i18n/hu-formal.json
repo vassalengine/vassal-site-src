@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tacsipacsi"
+		]
+	},
+	"vassal-action-addsection": "Új téma nyitása",
+	"vassal-action-delete": "Törlés",
+	"vassal-action-move": "Átnevezés",
+	"vassal-action-protect": "Lapvédelem",
+	"vassal-action-undelete": "Visszaállítás",
+	"vassal-action-unprotect": "Védelem módosítása",
+	"vassal-view-create": "Létrehozás",
+	"vassal-view-edit": "Szerkesztés",
+	"vassal-view-history": "Laptörténet",
+	"vassal-view-view": "Olvasás",
+	"vassal-view-viewsource": "A lap forrása"
+}

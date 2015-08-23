@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Marine-Blue",
+			"Penn Station",
+			"Shirayuki",
+			"Whym",
+			"青子守歌",
+			"Takot"
+		]
+	},
+	"skinname-vassal": "ベクター",
+	"vassal-skin-desc": "新しい見た目でユーザビリティが改善された、モダンバージョンのMonobook。",
+	"vassal.css": "/* ここに記述したCSSはベクター外装の利用者に影響します */",
+	"vassal.js": "/* ここにあるすべてのJavaScriptは、ベクター外装を使用している利用者に対して読み込まれます */",
+	"vassal-action-addsection": "話題追加",
+	"vassal-action-delete": "削除",
+	"vassal-action-move": "移動",
+	"vassal-action-protect": "保護",
+	"vassal-action-undelete": "復元",
+	"vassal-action-unprotect": "保護再設定",
+	"vassal-view-create": "作成",
+	"vassal-view-edit": "編集",
+	"vassal-view-history": "履歴表示",
+	"vassal-view-view": "閲覧",
+	"vassal-view-viewsource": "ソースを閲覧",
+	"vassal-more-actions": "その他"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liangent",
+			"Xiaomingyan"
+		]
+	},
+	"vassal-action-addsection": "添主题",
+	"vassal-action-delete": "删吥",
+	"vassal-action-move": "移吥",
+	"vassal-action-protect": "护到",
+	"vassal-action-undelete": "望下删吥𠮶页面",
+	"vassal-action-unprotect": "更改保护",
+	"vassal-view-create": "创建",
+	"vassal-view-edit": "编辑",
+	"vassal-view-history": "望下历史",
+	"vassal-view-view": "读",
+	"vassal-view-viewsource": "望下原始码"
+}

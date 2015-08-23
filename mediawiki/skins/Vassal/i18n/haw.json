@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kolonahe"
+		]
+	},
+	"vassal-action-addsection": "Hoʻohui kumuhana",
+	"vassal-action-delete": "Holoi",
+	"vassal-action-move": "E hoʻoneʻe",
+	"vassal-action-protect": "E hoʻomalu",
+	"vassal-action-undelete": "Holoiʻole",
+	"vassal-action-unprotect": "E hoʻololi i ka hoʻomalu",
+	"vassal-view-create": "Haku",
+	"vassal-view-edit": "Hoʻololi",
+	"vassal-view-history": "Nānā i ka mōʻaukala",
+	"vassal-view-view": "Heluhelu",
+	"vassal-view-viewsource": "Nānā i ke kumu"
+}

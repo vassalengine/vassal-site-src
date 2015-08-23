@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Akeron",
+			"Crochet.david",
+			"DavidL",
+			"Gomoko",
+			"Jean-Frédéric",
+			"Od1n"
+		]
+	},
+	"skinname-vassal": "Vassal",
+	"vassal-skin-desc": "Version moderne de MonoBook avec un aspect rajeuni et beaucoup d’améliorations ergonomiques",
+	"vassal.css": "/* Le CSS placé ici affectera les utilisateurs de l’habillage Vassal. */",
+	"vassal.js": "/* Tout code JavaScript placé ici sera chargé pour les utilisateurs de l’habillage Vassal */",
+	"vassal-action-addsection": "Ajouter un sujet",
+	"vassal-action-delete": "Supprimer",
+	"vassal-action-move": "Renommer",
+	"vassal-action-protect": "Protéger",
+	"vassal-action-undelete": "Rétablir",
+	"vassal-action-unprotect": "Changer la protection",
+	"vassal-view-create": "Créer",
+	"vassal-view-edit": "Modifier",
+	"vassal-view-history": "Historique",
+	"vassal-view-view": "Lire",
+	"vassal-view-viewsource": "Voir la source",
+	"vassal-more-actions": "Plus"
+}

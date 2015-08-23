@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bua333",
+			"Mucalexx"
+		]
+	},
+	"vassal-action-addsection": "An Obschnitt dazua doa",
+	"vassal-action-delete": "Leschn",
+	"vassal-action-move": "Vaschiabm",
+	"vassal-action-protect": "Schitzn",
+	"vassal-action-undelete": "Wiederherstön",
+	"vassal-action-unprotect": "freigeem",
+	"vassal-view-create": "Aufbaun",
+	"vassal-view-edit": "Werkln",
+	"vassal-view-history": "Gschicht oschaugn",
+	"vassal-view-view": "Lesn",
+	"vassal-view-viewsource": "Quejtext ozoagn"
+}

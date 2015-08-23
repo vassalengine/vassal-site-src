@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Freeyak",
+			"Phurbutsering"
+		]
+	},
+	"vassal-action-addsection": "བརྗོད་གཞི་ཁ་སྣོན།",
+	"vassal-action-delete": "སུབས།",
+	"vassal-action-move": "སྤོར་བ།",
+	"vassal-action-protect": "འགོག་སྲུང།",
+	"vassal-action-undelete": "མི་བསུབས་",
+	"vassal-action-unprotect": "སྲུང་སྐྱོབ་གློད་པ།",
+	"vassal-view-create": "གསར་བཟོ།",
+	"vassal-view-edit": "རྩོམ་སྒྲིག",
+	"vassal-view-history": "ལོ་རྒྱུས་ལ་ལྟ་བ།",
+	"vassal-view-view": "ཀློག་པ།",
+	"vassal-view-viewsource": "ཁུངས་ལ་ལྟ་བ།"
+}

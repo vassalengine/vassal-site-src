@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chaduvari",
+			"Kiranmayee",
+			"Praveen Illa",
+			"Ravichandra",
+			"Veeven"
+		]
+	},
+	"skinname-vassal": "వెక్టర్",
+	"vassal-action-addsection": "విషయాన్ని చేర్చు",
+	"vassal-action-delete": "తొలగించు",
+	"vassal-action-move": "తరలించు",
+	"vassal-action-protect": "సంరక్షించు",
+	"vassal-action-undelete": "తొలగింపును రద్దుచెయ్యి",
+	"vassal-action-unprotect": "సంరక్షణను మార్చు",
+	"vassal-view-create": "సృష్టించు",
+	"vassal-view-edit": "సవరించు",
+	"vassal-view-history": "చరిత్రను చూడండి",
+	"vassal-view-view": "చదువు",
+	"vassal-view-viewsource": "మూలాన్ని చూపించు",
+	"vassal-more-actions": "మరిన్ని"
+}

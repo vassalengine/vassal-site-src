@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ooswesthoesbes"
+		]
+	},
+	"vassal-action-addsection": "Voeg kopje toe",
+	"vassal-action-delete": "Wissen",
+	"vassal-action-move": "Verschuuf",
+	"vassal-action-protect": "Bescherm",
+	"vassal-action-undelete": "Plaets truhhe",
+	"vassal-action-unprotect": "Beveiligienge anpass'n",
+	"vassal-view-create": "Anmaeken",
+	"vassal-view-edit": "Bewerk",
+	"vassal-view-history": "Geschiedenisse bekiek'n",
+	"vassal-view-view": "Lezen",
+	"vassal-view-viewsource": "Brontekst bekieken"
+}

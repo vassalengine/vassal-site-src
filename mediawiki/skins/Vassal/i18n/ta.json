@@ -4,7 +4,8 @@
 			"Mayooranathan",
 			"Shanmugamp7",
 			"Surya Prakash.S.A.",
-			"TRYPPN"
+			"TRYPPN",
+			"Jayarathina"
 		]
 	},
 	"vassal-action-addsection": "தலைப்பைச் சேர்",
@@ -17,5 +18,6 @@
 	"vassal-view-edit": "தொகு",
 	"vassal-view-history": "வரலாற்றைக் காட்டவும்",
 	"vassal-view-view": "படிக்கவும்",
-	"vassal-view-viewsource": "மூலத்தைக் காட்டவும்"
+	"vassal-view-viewsource": "மூலத்தைக் காட்டவும்",
+	"vassal-more-actions": "மேலும்"
 }

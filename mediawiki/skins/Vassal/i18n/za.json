@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Biŋhai"
+			"Biŋhai",
+			"唐吉訶德的侍從"
 		]
 	},
 	"vassal-action-delete": "Ca",
@@ -9,5 +10,6 @@
 	"vassal-action-protect": "Bauj",
 	"vassal-view-create": "Laeb",
 	"vassal-view-edit": "gaij",
-	"vassal-view-history": "Cazyawj lizsij"
+	"vassal-view-history": "Cazyawj lizsij",
+	"vassal-view-view": "Doeg"
 }

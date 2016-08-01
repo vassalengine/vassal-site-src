@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Natsubee"
+			"Natsubee",
+			"Aguve"
 		]
 	},
 	"vassal-action-delete": "Tutui",
@@ -10,5 +11,6 @@
 	"vassal-view-edit": "Trɔ asi le eŋu",
 	"vassal-view-history": "Kpɔ xoxoawo",
 	"vassal-view-view": "Xlẽ",
-	"vassal-view-viewsource": "Kpɔ alesi woŋlɔe"
+	"vassal-view-viewsource": "Kpɔ alesi woŋlɔe",
+	"vassal-more-actions": "Bubuwo"
 }

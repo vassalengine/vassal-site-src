@@ -4,7 +4,8 @@
 			"Chorobek",
 			"Growingup",
 			"Ztimur",
-			"Викиней"
+			"Викиней",
+			"Janatkg"
 		]
 	},
 	"vassal-action-addsection": "Тема кошуу",
@@ -17,5 +18,6 @@
 	"vassal-view-edit": "Оңдоо",
 	"vassal-view-history": "Тарыхын кароо",
 	"vassal-view-view": "Окуу",
-	"vassal-view-viewsource": "Кайнарын кароо"
+	"vassal-view-viewsource": "Кайнарын кароо",
+	"vassal-more-actions": "Кененирээк"
 }

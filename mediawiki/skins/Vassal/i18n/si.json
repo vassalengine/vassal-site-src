@@ -4,18 +4,19 @@
 			"Thushara",
 			"දසනැබළයෝ",
 			"පසිඳු කාවින්ද",
-			"සුරනිමල"
+			"සුරනිමල",
+			"Singhalawap"
 		]
 	},
-	"vassal-action-addsection": "මාතෘකාව එක්කරන්න",
+	"vassal-action-addsection": "මාතෘකාවක් එක්කරන්න",
 	"vassal-action-delete": "මකන්න",
 	"vassal-action-move": "ගෙනයන්න",
 	"vassal-action-protect": "ආරක්‍ෂණය",
 	"vassal-action-undelete": "මකාදැමීම අවලංගු කරන්න",
 	"vassal-action-unprotect": "ආරක්ෂණ තත්වය වෙනස් කරන්න",
 	"vassal-view-create": "තනන්න",
-	"vassal-view-edit": "සංස්කරණය",
-	"vassal-view-history": "ඉතිහාසය නරඹන්න",
+	"vassal-view-edit": "සංස්කරණය කරන්න",
+	"vassal-view-history": "ඉතිහාසය බලන්න",
 	"vassal-view-view": "කියවන්න",
 	"vassal-view-viewsource": "මූලාශ්‍රය නරඹන්න",
 	"vassal-more-actions": "තවත්"

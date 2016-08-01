@@ -9,11 +9,12 @@
 	"vassal-action-delete": "अपाक्रियताम्",
 	"vassal-action-move": "शीर्षकं परिवर्त्यताम्",
 	"vassal-action-protect": "संरक्ष्यताम्",
-	"vassal-action-undelete": "नापाकृतं",
+	"vassal-action-undelete": "अनपाक्रियाम्",
 	"vassal-action-unprotect": "संरक्षणं परिवर्तयतु",
 	"vassal-view-create": "सृज्यताम्",
 	"vassal-view-edit": "सम्पाद्यताम्",
 	"vassal-view-history": "इतिहासः दृश्यताम्",
 	"vassal-view-view": "पठ्यताम्",
-	"vassal-view-viewsource": "स्रोतः दृश्यताम्"
+	"vassal-view-viewsource": "स्रोतः दृश्यताम्",
+	"vassal-more-actions": "अधिकम्"
 }

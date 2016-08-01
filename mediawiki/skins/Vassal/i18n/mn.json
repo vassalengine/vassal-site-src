@@ -3,7 +3,8 @@
 		"authors": [
 			"Chinneeb",
 			"MongolWiki",
-			"Wisdom"
+			"Wisdom",
+			"Sembuk"
 		]
 	},
 	"vassal-action-addsection": "Сэдэв нэмэх",
@@ -16,5 +17,6 @@
 	"vassal-view-edit": "Засварлах",
 	"vassal-view-history": "Түүх",
 	"vassal-view-view": "Унших",
-	"vassal-view-viewsource": "Кодыг харах"
+	"vassal-view-viewsource": "Кодыг харах",
+	"vassal-more-actions": "Дэлгэрэнгүй"
 }

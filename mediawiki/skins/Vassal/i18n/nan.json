@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ianbu"
+			"Ianbu",
+			"唐吉訶德的侍從"
 		]
 	},
 	"vassal-action-addsection": "Ke chi̍t-ê toān-lo̍h",
@@ -15,5 +16,5 @@
 	"vassal-view-history": "khoàⁿ le̍k-sú",
 	"vassal-view-view": "Tha̍k",
 	"vassal-view-viewsource": "Khoàⁿ goân-sú lōe-iông",
-	"vassal-more-actions": "閣看"
+	"vassal-more-actions": "Koh khoàⁿ"
 }

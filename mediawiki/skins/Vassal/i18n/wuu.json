@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Benojan"
+			"Benojan",
+			"Poiuyt"
 		]
 	},
 	"vassal-action-addsection": "加話題",
@@ -14,5 +15,6 @@
 	"vassal-view-edit": "编",
 	"vassal-view-history": "望页史",
 	"vassal-view-view": "读",
-	"vassal-view-viewsource": "望源码"
+	"vassal-view-viewsource": "望源码",
+	"vassal-more-actions": "还多"
 }

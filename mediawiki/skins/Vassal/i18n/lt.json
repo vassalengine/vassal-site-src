@@ -6,10 +6,12 @@
 			"Matasg",
 			"Perkunas",
 			"Hugo.arg",
-			"Tomasdd"
+			"Tomasdd",
+			"Albertas"
 		]
 	},
 	"skinname-vassal": "Vektorinė",
+	"vassal-skin-desc": "Moderni MonoBook versija su šviežiausia išvaizda ir daugybe panaudojamumo patobulinimų",
 	"vassal-action-addsection": "Pridėti temą",
 	"vassal-action-delete": "Ištrinti",
 	"vassal-action-move": "Pervardyti",

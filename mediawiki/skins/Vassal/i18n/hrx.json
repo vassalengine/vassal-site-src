@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Paul Beppler"
+			"Paul Beppler",
+			"Midnight Gambler"
 		]
 	},
 	"vassal-action-addsection": "Abschnitt hinzufüche",
@@ -14,5 +15,6 @@
 	"vassal-view-edit": "Beoorbeite",
 	"vassal-view-history": "Versionsgeschicht",
 	"vassal-view-view": "Lese",
-	"vassal-view-viewsource": "Quelltext oonzeiche"
+	"vassal-view-viewsource": "Quelltext oonzeiche",
+	"vassal-more-actions": "Meahr"
 }

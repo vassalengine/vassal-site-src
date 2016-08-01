@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Juanpabl"
+			"Juanpabl",
+			"Carlos Cristia"
 		]
 	},
 	"skinname-vassal": "Vassal",
@@ -17,5 +18,6 @@
 	"vassal-view-edit": "Editar",
 	"vassal-view-history": "Amostrar l'historial",
 	"vassal-view-view": "Leyer",
-	"vassal-view-viewsource": "Veyer o codigo fuent"
+	"vassal-view-viewsource": "Veyer o codigo fuent",
+	"vassal-more-actions": "Mas"
 }

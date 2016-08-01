@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Assele",
-			"Haqmar"
+			"Haqmar",
+			"Рустам Нурыев"
 		]
 	},
 	"skinname-vassal": "Векторлы",
@@ -16,5 +17,6 @@
 	"vassal-view-edit": "Үҙгәртергә",
 	"vassal-view-history": "Тарихты ҡарау",
 	"vassal-view-view": "Уҡыу",
-	"vassal-view-viewsource": "Сығанаҡты ҡарарға"
+	"vassal-view-viewsource": "Сығанаҡты ҡарарға",
+	"vassal-more-actions": "Тағы"
 }

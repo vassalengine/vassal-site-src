@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Denö",
+			"Ilja.mos",
+			"Mashoi7"
+		]
+	},
+	"vassal-action-addsection": "Ližiä aihe",
+	"vassal-action-move": "Siirrä",
+	"vassal-action-protect": "Suojua",
+	"vassal-action-unprotect": "Vaihta suojavustu",
+	"vassal-view-create": "Luaji",
+	"vassal-view-edit": "Korjua",
+	"vassal-view-history": "Kačo histourii",
+	"vassal-view-view": "Luve",
+	"vassal-view-viewsource": "Kačo algukoodu",
+	"vassal-more-actions": "Vie"
+}

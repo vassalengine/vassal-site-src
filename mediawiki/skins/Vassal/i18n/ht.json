@@ -3,7 +3,8 @@
 		"authors": [
 			"Boukman",
 			"Internoob",
-			"Masterches"
+			"Masterches",
+			"Tisave"
 		]
 	},
 	"vassal-action-addsection": "Ajoute yon sijè",
@@ -16,5 +17,6 @@
 	"vassal-view-edit": "Modifye",
 	"vassal-view-history": "Gade istorik",
 	"vassal-view-view": "Li",
-	"vassal-view-viewsource": "Wè kòd tèks sa a"
+	"vassal-view-viewsource": "Wè kòd tèks sa a",
+	"vassal-more-actions": "Plis"
 }

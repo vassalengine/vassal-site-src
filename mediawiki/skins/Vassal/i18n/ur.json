@@ -6,7 +6,8 @@
 			"Noor2020",
 			"Tahir mq",
 			"محبوب عالم",
-			"عثمان خان شاہ"
+			"عثمان خان شاہ",
+			"عرفان ارشد"
 		]
 	},
 	"vassal-action-addsection": "نیا موضوع",
@@ -17,7 +18,7 @@
 	"vassal-action-unprotect": "تحفظ میں تبدیلی",
 	"vassal-view-create": "تخلیق",
 	"vassal-view-edit": "ترمیم",
-	"vassal-view-history": "تاریخچہ دکھائیے",
+	"vassal-view-history": "تاریخچہ",
 	"vassal-view-view": "مطالعہ",
 	"vassal-view-viewsource": "مسودہ",
 	"vassal-more-actions": "مزید"

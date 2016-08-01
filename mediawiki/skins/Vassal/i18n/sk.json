@@ -3,10 +3,13 @@
 		"authors": [
 			"Helix84",
 			"Rudko",
-			"Sudo77(new)"
+			"Sudo77(new)",
+			"KuboF",
+			"Mikulas1"
 		]
 	},
 	"skinname-vassal": "Vassal",
+	"vassal-skin-desc": "Moderná verzia MonoBooku so sviežim vzhľadom a vylepšenou použiteľnosťou",
 	"vassal.css": "/* Tu umiestnené CSS bude ovplyvňovať používateľov štýlu Vassal */",
 	"vassal.js": "/* Tu sa nachádzajúci JavaScript sa načíta používateľom vzhľadu Vassal */",
 	"vassal-action-addsection": "Pridať tému",

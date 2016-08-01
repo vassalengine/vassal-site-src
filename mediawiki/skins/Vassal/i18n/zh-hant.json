@@ -4,14 +4,15 @@
 			"Cwlin0416",
 			"Justincheng12345",
 			"Liuxinyu970226",
-			"Mark85296341"
+			"Mark85296341",
+			"LNDDYL"
 		]
 	},
 	"skinname-vassal": "Vassal",
 	"vassal-skin-desc": "現代版的 MonoBook，有著較新穎的外觀與許多使用性的改進",
 	"vassal.css": "/* 此 CSS 會影響使用 Vassal 介面外觀的使用者 */",
 	"vassal.js": "/* 此 JavaScript 會用於使用 Vassal 介面外觀的使用者 */",
-	"vassal-action-addsection": "新增主題",
+	"vassal-action-addsection": "新增話題",
 	"vassal-action-delete": "刪除",
 	"vassal-action-move": "移動",
 	"vassal-action-protect": "保護",

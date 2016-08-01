@@ -3,11 +3,12 @@
 		"authors": [
 			"Gmelfi",
 			"Melos",
-			"Pippinu"
+			"Pippinu",
+			"Sarvaturi"
 		]
 	},
-	"vassal-skin-desc": "Virsioni muderna di MonoBook cu' n'aspettu novu e tanti migghiuramenti nta l'usabbilità",
-	"vassal-action-addsection": "Agghiunci argumentu",
+	"vassal-skin-desc": "Virsioni muderna di MonoBook cu n'aspettu novu e tanti migghiuramenti nta l'usabbilità",
+	"vassal-action-addsection": "Agghiunci n'argumentu",
 	"vassal-action-delete": "Cancella",
 	"vassal-action-move": "Sposta",
 	"vassal-action-protect": "Pruteggi",
@@ -15,8 +16,8 @@
 	"vassal-action-unprotect": "Cancia la prutizzioni",
 	"vassal-view-create": "Crea",
 	"vassal-view-edit": "Cancia",
-	"vassal-view-history": "Talìa la crunuluggìa",
+	"vassal-view-history": "Talìa la cronuluggìa",
 	"vassal-view-view": "Leggi",
-	"vassal-view-viewsource": "Talìa lu surgenti",
+	"vassal-view-viewsource": "Talìa la surgenti",
 	"vassal-more-actions": "Àutri cosi"
 }

@@ -46,6 +46,11 @@ class SkinVassal extends SkinTemplate {
 	public function initPage( OutputPage $out ) {
 		parent::initPage( $out );
 
+		if ( $this->vassalConfig->get( 'VassalResponsive' ) ) {
+			$out->addMeta( 'viewport', 'width=device-width, initial-scale=1' );
+			$out->addModuleStyles( 'skins.vassal.styles.responsive' );
+		}
+
 		// Append CSS which includes IE only behavior fixes for hover support -
 		// this is better than including this in a CSS file since it doesn't
 		// wait for the CSS file to load before fetching the HTC file.
@@ -57,7 +62,6 @@ class SkinVassal extends SkinTemplate {
 		);
 
 		$out->addModules( array( 'skins.vassal.js' ) );
-
     $out->addStyle( '/css/site.css' );
 	}
 
@@ -69,7 +73,7 @@ class SkinVassal extends SkinTemplate {
 		parent::setupSkinUserCss( $out );
 
 		$styles = array( 'mediawiki.skinning.interface', 'skins.vassal.styles' );
-		wfRunHooks( 'SkinVassalStyleModules', array( $this, &$styles ) );
+		Hooks::run( 'SkinVassalStyleModules', array( $this, &$styles ) );
 		$out->addModuleStyles( $styles );
 	}
 

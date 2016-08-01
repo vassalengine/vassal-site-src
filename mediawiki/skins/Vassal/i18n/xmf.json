@@ -3,7 +3,8 @@
 		"authors": [
 			"Kilavagora",
 			"Lika2672",
-			"Machirkholi"
+			"Machirkholi",
+			"Silovan"
 		]
 	},
 	"vassal-action-addsection": "თემაშ მიშაძინა",
@@ -14,5 +15,6 @@
 	"vassal-view-edit": "რედაქტირაფა",
 	"vassal-view-history": "ისტორიაშ ძირაფა",
 	"vassal-view-view": "კითხირი",
-	"vassal-view-viewsource": "ქიძირე წყუ"
+	"vassal-view-viewsource": "ქიძირე წყუ",
+	"vassal-more-actions": "უმოსი"
 }

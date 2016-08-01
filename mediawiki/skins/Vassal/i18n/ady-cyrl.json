@@ -4,18 +4,23 @@
 			"Adamsa123",
 			"Amire80",
 			"Celekan",
-			"Siklawy"
+			"Siklawy",
+			"GR44 Luc",
+			"SamGamgee",
+			"SmartNart12",
+			"Inyzh"
 		]
 	},
-	"vassal-action-addsection": "1офтхьабз",
+	"vassal-action-addsection": "Iофтхьабз",
 	"vassal-action-delete": "ЛъэкӀ",
 	"vassal-action-move": "Хьы",
 	"vassal-action-protect": "Иухъумэ",
 	"vassal-action-undelete": "Умылъэк1",
 	"vassal-action-unprotect": "Умыухъумэ",
-	"vassal-view-create": "Игъэхъу",
-	"vassal-view-edit": "Гъэтэрэзыжь",
+	"vassal-view-create": "КъэшI",
+	"vassal-view-edit": "ХэӀэзыхь",
 	"vassal-view-history": "Тарихъым eплъ",
 	"vassal-view-view": "Едж",
-	"vassal-view-viewsource": "Еплъ лъапсэм"
+	"vassal-view-viewsource": "Еплъ лъапсэм",
+	"vassal-more-actions": "Джыри"
 }

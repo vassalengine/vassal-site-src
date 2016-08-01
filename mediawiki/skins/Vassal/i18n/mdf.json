@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Numulunj pilgae"
+			"Numulunj pilgae",
+			"Metsavend"
 		]
 	},
 	"vassal-action-addsection": "Поладомс мезень колга корхтамс",
@@ -14,5 +15,6 @@
 	"vassal-view-edit": "Петнемс",
 	"vassal-view-history": "История няфтемс",
 	"vassal-view-view": "Морафтомс",
-	"vassal-view-viewsource": "Лисьма няфтемс"
+	"vassal-view-viewsource": "Лисьма няфтемс",
+	"vassal-more-actions": "Сяда лама"
 }

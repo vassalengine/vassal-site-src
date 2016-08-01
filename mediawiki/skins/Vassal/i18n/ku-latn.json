@@ -2,7 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Ferhengvan",
-			"Gomada"
+			"Gomada",
+			"Bikarhêner",
+			"George Animal"
 		]
 	},
 	"vassal-action-addsection": "Mijarekê lê zêde bike",
@@ -10,10 +12,11 @@
 	"vassal-action-move": "Nav biguherîne",
 	"vassal-action-protect": "Biparêze",
 	"vassal-action-undelete": "Jê nebe",
-	"vassal-action-unprotect": "Parastinê rake",
+	"vassal-action-unprotect": "Parastinê biguherîne",
 	"vassal-view-create": "Çêke",
 	"vassal-view-edit": "Biguherîne",
 	"vassal-view-history": "Dîrokê bibîne",
 	"vassal-view-view": "Bixwîne",
-	"vassal-view-viewsource": "Çavkaniyan bibîne"
+	"vassal-view-viewsource": "Çavkaniyan bibîne",
+	"vassal-more-actions": "Bêhtir"
 }

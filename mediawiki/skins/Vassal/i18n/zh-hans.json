@@ -9,7 +9,7 @@
 		]
 	},
 	"skinname-vassal": "Vassal",
-	"vassal-skin-desc": "提供清新的外观和许多可用性改进的现代版MonoBook",
+	"vassal-skin-desc": "提供清新的外观和很多可用性改进的现代版MonoBook",
 	"vassal.css": "/* 放置于这里的CSS将影响使用Vassal皮肤的用户 */",
 	"vassal.js": "/* 这里的任何JavaScript将为使用Vassal皮肤的用户加载 */",
 	"vassal-action-addsection": "添加话题",

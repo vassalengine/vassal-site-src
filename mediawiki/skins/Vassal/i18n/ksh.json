@@ -5,7 +5,7 @@
 		]
 	},
 	"skinname-vassal": "Väktor",
-	"vassal-skin-desc": "En modärne Väsjohn vun dä ällere Bedehnbovverfläsch „Monobooch“ met enem neue Ußsinn un Verbäßeronge bem Bedehne.",
+	"vassal-skin-desc": "En modärne Väsjohn vun dä älldere Bedehnbovverfläsch „Monobooch“ met enem neue Ußsinn un Verbäßeronge bem Bedehne.",
 	"vassal.css": "/* Dat CSS heh aan dä Schtäll wirrek blohß op de Bedehnbovverfläsch „Väktor“ */",
 	"vassal.js": "/* De JavaSkreppte fun heh krejje alle Sigge met dä Bedehnbovverfläsch „Väktor“ jeschek */",
 	"vassal-action-addsection": "Ne neue Afschnet onge drahn!",
@@ -16,8 +16,8 @@
 	"vassal-action-unprotect": "Schoz ändere!",
 	"vassal-view-create": "Neu Schrihve!",
 	"vassal-view-edit": "Änndere!",
-	"vassal-view-history": "Versione zeije!",
+	"vassal-view-history": "Väsjohne zeije!",
 	"vassal-view-view": "Lässe!",
-	"vassal-view-viewsource": "Der Wikitäx aanlohre!",
-	"vassal-more-actions": "Mieh"
+	"vassal-view-viewsource": "Der Wikkitäx aanlohre!",
+	"vassal-more-actions": "Mih"
 }

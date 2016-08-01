@@ -5,6 +5,7 @@
 			"Oldstoneage"
 		]
 	},
+	"vassal-skin-desc": "طبعة جديدة تاع مونوبوك، ب شبحة جديدة و تحسانات فل إستعماليّة",
 	"vassal-action-addsection": "زيد موضوع",
 	"vassal-action-delete": "امحي",
 	"vassal-action-move": "حول",
@@ -13,7 +14,7 @@
 	"vassal-action-unprotect": "بدّل الـحماية",
 	"vassal-view-create": "أصنع",
 	"vassal-view-edit": "بدل",
-	"vassal-view-history": "روح للتاريخي",
+	"vassal-view-history": "السجّيل تاع الحدات",
 	"vassal-view-view": "أقرى",
 	"vassal-view-viewsource": "شوف المصدر",
 	"vassal-more-actions": "زيادة"

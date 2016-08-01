@@ -1,10 +1,17 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": [
+			"Sindhu"
+		]
+	},
 	"vassal-action-delete": "ڊاھيو",
 	"vassal-action-move": "چوريو",
 	"vassal-action-protect": "تحفظيو",
 	"vassal-action-unprotect": "اڻتحفظيو",
 	"vassal-view-create": "سرجيو",
 	"vassal-view-edit": "سنواريو",
-	"vassal-view-viewsource": "ڪوڊ ڏسو"
+	"vassal-view-history": "تاريخ يا سوانح ڏسو",
+	"vassal-view-view": "پڙه",
+	"vassal-view-viewsource": "ڪوڊ ڏسو",
+	"vassal-more-actions": "وڌيڪ"
 }

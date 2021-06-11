@@ -1,5 +1,5 @@
 
-all: bugzilla_abr.pp hddtemp_sg.pp listbridge.pp phpbb.pp
+all: bugzilla_abr.pp listbridge.pp phpbb.pp
 
 %.mod: %.te
 	checkmodule -M -m $< -o $@

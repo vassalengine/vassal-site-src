@@ -1,13 +1,14 @@
---- footer.html.tmpl.orig	2015-06-19 19:54:45.221050902 +0200
-+++ footer.html.tmpl	2015-06-19 19:54:56.673692795 +0200
-@@ -32,5 +32,10 @@
+--- footer.html.tmpl.orig	2021-06-09 21:29:09.048358555 +0100
++++ footer.html.tmpl	2021-06-09 21:30:38.783023952 +0100
+@@ -23,5 +23,11 @@
+     </div>
  
- [% Hook.process("end") %]
- 
-+[%# Close the wrapper. %]
-+</div>
+     [% Hook.process("end") %]
 +
-+[% INSERT "global/vassal-footer.html.tmpl" %]
++    [%# Close the wrapper. %]
++    </div>
 +
- </body>
++    [% INSERT "global/vassal-footer.html.tmpl" %]
++
+   </body>
  </html>

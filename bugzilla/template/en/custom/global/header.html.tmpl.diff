@@ -1,20 +1,20 @@
---- header.html.tmpl.orig	2015-06-19 19:59:06.481689939 +0200
-+++ header.html.tmpl	2015-06-19 19:59:16.469247537 +0200
-@@ -212,6 +212,7 @@
+--- header.html.tmpl.orig	2021-06-09 21:34:30.951156821 +0100
++++ header.html.tmpl	2021-06-09 21:35:56.261837211 +0100
+@@ -210,6 +210,7 @@
      <link rel="search" type="application/opensearchdescription+xml"
                         title="[% terms.Bugzilla %]" href="./search_plugin.cgi">
-     <link rel="shortcut icon" href="images/favicon.ico" >
+     <link rel="shortcut icon" href="[% favicon_url FILTER html %]">
 +    <link rel="icon" type="image/png" href="/images/VASSAL.png"/>
      [% Hook.process("additional_header") %]
    </head>
  
-@@ -229,6 +230,9 @@
-   # 'bannerhtml'
-   #%]
+@@ -219,6 +220,9 @@
+                  [%+ class FILTER css_class_quote %]
+                [% END %] yui-skin-sam">
  
-+[% INCLUDE "global/vassal-header.html.tmpl" %]
-+<div id="wrapper">
++  [% INCLUDE "global/vassal-header.html.tmpl" %]
++  <div id="wrapper">
 +
- <div id="header">
+   <div id="header">
+     [% INCLUDE global/banner.html.tmpl %]
  
- [% INCLUDE global/banner.html.tmpl %]

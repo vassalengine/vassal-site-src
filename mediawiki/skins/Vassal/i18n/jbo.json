@@ -4,18 +4,18 @@
 			"Gleki"
 		]
 	},
-	"skinname-vassal": "la vektor",
-	"vassal-skin-desc": "lo cabna versio be la monobuk i vifne tarmi i so'i da nu xamgu zenba",
-	"vassal-action-addsection": "jmina la'e se casnu",
-	"vassal-action-delete": "vimcu",
-	"vassal-action-move": "stika lo cmene",
-	"vassal-action-protect": "bandu",
-	"vassal-action-undelete": "volvygau",
-	"vassal-action-unprotect": "cnegau lo bandu",
-	"vassal-view-create": "zbasu",
-	"vassal-view-edit": "stika",
-	"vassal-view-history": "lo ckupau citri",
-	"vassal-view-view": "tcidu",
-	"vassal-view-viewsource": "cpacu lo krasi",
-	"vassal-more-actions": "ji'a"
+	"skinname-vector": "la vektor",
+	"vector-skin-desc": "lo cabna versio be la monobuk i vifne tarmi i so'i da nu xamgu zenba",
+	"vector-action-addsection": "jmina la'e se casnu",
+	"vector-action-delete": "vimcu",
+	"vector-action-move": "stika lo cmene",
+	"vector-action-protect": "bandu",
+	"vector-action-undelete": "volvygau",
+	"vector-action-unprotect": "cnegau lo bandu",
+	"vector-view-create": "zbasu",
+	"vector-view-edit": "stika",
+	"vector-view-history": "lo ckupau citri",
+	"vector-view-view": "tcidu",
+	"vector-view-viewsource": "cpacu lo krasi",
+	"vector-more-actions": "ji'a"
 }

@@ -6,16 +6,16 @@
 			"Moydow"
 		]
 	},
-	"skinname-vassal": "Veicteoir",
-	"vassal-action-addsection": "Cuir topaic leis",
-	"vassal-action-delete": "Scrios",
-	"vassal-action-move": "Athainmnigh",
-	"vassal-action-protect": "Glasáil",
-	"vassal-action-undelete": "Díscrios",
-	"vassal-action-unprotect": "Díghlasáil",
-	"vassal-view-create": "Cruthaigh",
-	"vassal-view-edit": "Athraigh an lch seo",
-	"vassal-view-history": "Féach ar stair",
-	"vassal-view-view": "Léigh",
-	"vassal-view-viewsource": "Féach ar fhoinse"
+	"skinname-vector": "Veicteoir",
+	"vector-action-addsection": "Cuir topaic leis",
+	"vector-action-delete": "Scrios",
+	"vector-action-move": "Athainmnigh",
+	"vector-action-protect": "Glasáil",
+	"vector-action-undelete": "Díscrios",
+	"vector-action-unprotect": "Díghlasáil",
+	"vector-view-create": "Cruthaigh",
+	"vector-view-edit": "Athraigh an lch seo",
+	"vector-view-history": "Féach ar stair",
+	"vector-view-view": "Léigh",
+	"vector-view-viewsource": "Féach ar fhoinse"
 }

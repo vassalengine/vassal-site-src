@@ -5,13 +5,13 @@
 			"BASAbali"
 		]
 	},
-	"vassal-action-addsection": "imbuhin indik wacana",
-	"vassal-action-delete": "ngapus",
-	"vassal-action-move": "kisidang",
-	"vassal-action-protect": "nyaga",
-	"vassal-view-create": "ngawe",
-	"vassal-view-edit": "mecikang",
-	"vassal-view-history": "indik sane lintang",
-	"vassal-view-view": "Waca",
-	"vassal-view-viewsource": "cingak witnyane"
+	"vector-action-addsection": "imbuhin indik wacana",
+	"vector-action-delete": "ngapus",
+	"vector-action-move": "kisidang",
+	"vector-action-protect": "nyaga",
+	"vector-view-create": "ngawe",
+	"vector-view-edit": "mecikang",
+	"vector-view-history": "indik sane lintang",
+	"vector-view-view": "Waca",
+	"vector-view-viewsource": "cingak witnyane"
 }

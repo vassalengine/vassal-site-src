@@ -5,17 +5,17 @@
 			"Calak"
 		]
 	},
-	"skinname-vassal": "ڤێکتۆر",
-	"vassal-action-addsection": "بابەت دابنێ",
-	"vassal-action-delete": "بیسڕەوە",
-	"vassal-action-move": "بیگوازەوە",
-	"vassal-action-protect": "بیپارێزە",
-	"vassal-action-undelete": "سڕینەوە بگەڕێنەوە",
-	"vassal-action-unprotect": "پاراستن بگۆڕە",
-	"vassal-view-create": "دروستکردن",
-	"vassal-view-edit": "دەستکاریی بکە",
-	"vassal-view-history": "مێژووەکەی ببینە",
-	"vassal-view-view": "بیخوێنەوە",
-	"vassal-view-viewsource": "سەرچاوەکەی ببینە",
-	"vassal-more-actions": "زیاتر"
+	"skinname-vector": "ڤێکتۆر",
+	"vector-action-addsection": "بابەت دابنێ",
+	"vector-action-delete": "بیسڕەوە",
+	"vector-action-move": "بیگوازەوە",
+	"vector-action-protect": "بیپارێزە",
+	"vector-action-undelete": "سڕینەوە بگەڕێنەوە",
+	"vector-action-unprotect": "پاراستن بگۆڕە",
+	"vector-view-create": "دروستکردن",
+	"vector-view-edit": "دەستکاریی بکە",
+	"vector-view-history": "مێژووەکەی ببینە",
+	"vector-view-view": "بیخوێنەوە",
+	"vector-view-viewsource": "سەرچاوەکەی ببینە",
+	"vector-more-actions": "زیاتر"
 }

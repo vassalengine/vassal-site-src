@@ -4,15 +4,15 @@
 			"Mirzali"
 		]
 	},
-	"vassal-action-addsection": "Mewzu ilawe ke",
-	"vassal-action-delete": "Bestere",
-	"vassal-action-move": "Bere",
-	"vassal-action-protect": "Bısevekne",
-	"vassal-action-undelete": "Esterıtene peyser bıcê",
-	"vassal-action-unprotect": "Rake",
-	"vassal-view-create": "Vıraze",
-	"vassal-view-edit": "Bıvurne",
-	"vassal-view-history": "Tarixi basne",
-	"vassal-view-view": "Bıwane",
-	"vassal-view-viewsource": "Çımey bıvêne"
+	"vector-action-addsection": "Mewzu ilawe ke",
+	"vector-action-delete": "Bestere",
+	"vector-action-move": "Bere",
+	"vector-action-protect": "Bısevekne",
+	"vector-action-undelete": "Esterıtene peyser bıcê",
+	"vector-action-unprotect": "Rake",
+	"vector-view-create": "Vıraze",
+	"vector-view-edit": "Bıvurne",
+	"vector-view-history": "Tarixi basne",
+	"vector-view-view": "Bıwane",
+	"vector-view-viewsource": "Çımey bıvêne"
 }

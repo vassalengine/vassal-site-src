@@ -4,15 +4,15 @@
 			"Ukabia"
 		]
 	},
-	"vassal-action-addsection": "Tinyé Okwu",
-	"vassal-action-delete": "Kàcha",
-	"vassal-action-move": "Páfụ",
-	"vassal-action-protect": "Cẹdolu",
-	"vassal-action-undelete": "Á gbàkashikwà",
-	"vassal-action-unprotect": "Nchẹdo mgbanwe",
-	"vassal-view-create": "Ké",
-	"vassal-view-edit": "Mèzi",
-	"vassal-view-history": "Zí ịta",
-	"vassal-view-view": "Gụ́",
-	"vassal-view-viewsource": "Zi mkpurụ"
+	"vector-action-addsection": "Tinyé Okwu",
+	"vector-action-delete": "Kàcha",
+	"vector-action-move": "Páfụ",
+	"vector-action-protect": "Cẹdolu",
+	"vector-action-undelete": "Á gbàkashikwà",
+	"vector-action-unprotect": "Nchẹdo mgbanwe",
+	"vector-view-create": "Ké",
+	"vector-view-edit": "Mèzi",
+	"vector-view-history": "Zí ịta",
+	"vector-view-view": "Gụ́",
+	"vector-view-viewsource": "Zi mkpurụ"
 }

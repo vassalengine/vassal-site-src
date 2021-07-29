@@ -7,16 +7,16 @@
 			"Ævar Arnfjörð Bjarmason"
 		]
 	},
-	"vassal-action-addsection": "Bæta við umræðu",
-	"vassal-action-delete": "Eyða",
-	"vassal-action-move": "Færa",
-	"vassal-action-protect": "Vernda",
-	"vassal-action-undelete": "Hætta við eyðingu",
-	"vassal-action-unprotect": "Breyta verndunarstigi",
-	"vassal-view-create": "Skapa",
-	"vassal-view-edit": "Breyta",
-	"vassal-view-history": "Breytingaskrá",
-	"vassal-view-view": "Lesa",
-	"vassal-view-viewsource": "Sýna frumkóða",
-	"vassal-more-actions": "Meira"
+	"vector-action-addsection": "Bæta við umræðu",
+	"vector-action-delete": "Eyða",
+	"vector-action-move": "Færa",
+	"vector-action-protect": "Vernda",
+	"vector-action-undelete": "Hætta við eyðingu",
+	"vector-action-unprotect": "Breyta verndunarstigi",
+	"vector-view-create": "Skapa",
+	"vector-view-edit": "Breyta",
+	"vector-view-history": "Breytingaskrá",
+	"vector-view-view": "Lesa",
+	"vector-view-viewsource": "Sýna frumkóða",
+	"vector-more-actions": "Meira"
 }

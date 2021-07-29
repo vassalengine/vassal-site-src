@@ -4,15 +4,15 @@
 			"StefanusRA"
 		]
 	},
-	"vassal-action-addsection": "Nambah topik",
-	"vassal-action-delete": "Busek",
-	"vassal-action-move": "Pindah",
-	"vassal-action-protect": "Reksa",
-	"vassal-action-undelete": "Batalna pambusakan",
-	"vassal-action-unprotect": "Owahi pangreksan",
-	"vassal-view-create": "Gawe",
-	"vassal-view-edit": "Sunting",
-	"vassal-view-history": "Sajarah kaca",
-	"vassal-view-view": "Waca",
-	"vassal-view-viewsource": "Deleng sumbere"
+	"vector-action-addsection": "Nambah topik",
+	"vector-action-delete": "Busek",
+	"vector-action-move": "Pindah",
+	"vector-action-protect": "Reksa",
+	"vector-action-undelete": "Batalna pambusakan",
+	"vector-action-unprotect": "Owahi pangreksan",
+	"vector-view-create": "Gawe",
+	"vector-view-edit": "Sunting",
+	"vector-view-history": "Sajarah kaca",
+	"vector-view-view": "Waca",
+	"vector-view-viewsource": "Deleng sumbere"
 }

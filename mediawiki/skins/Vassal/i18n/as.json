@@ -6,16 +6,16 @@
 			"Gitartha.bordoloi"
 		]
 	},
-	"vassal-action-addsection": "বিষয় যোগ",
-	"vassal-action-delete": "বিলোপ কৰক",
-	"vassal-action-move": "স্থানান্তৰ কৰক",
-	"vassal-action-protect": "সুৰক্ষিত কৰক",
-	"vassal-action-undelete": "পুনৰুদ্ধাৰ কৰক",
-	"vassal-action-unprotect": "সুৰক্ষা সলনি কৰক",
-	"vassal-view-create": "সৃষ্টি কৰক",
-	"vassal-view-edit": "সম্পাদনা",
-	"vassal-view-history": "ইতিহাস চাওক",
-	"vassal-view-view": "পঢ়ক",
-	"vassal-view-viewsource": "উৎস চাওক",
-	"vassal-more-actions": "অধিক"
+	"vector-action-addsection": "বিষয় যোগ",
+	"vector-action-delete": "বিলোপ কৰক",
+	"vector-action-move": "স্থানান্তৰ কৰক",
+	"vector-action-protect": "সুৰক্ষিত কৰক",
+	"vector-action-undelete": "পুনৰুদ্ধাৰ কৰক",
+	"vector-action-unprotect": "সুৰক্ষা সলনি কৰক",
+	"vector-view-create": "সৃষ্টি কৰক",
+	"vector-view-edit": "সম্পাদনা",
+	"vector-view-history": "ইতিহাস চাওক",
+	"vector-view-view": "পঢ়ক",
+	"vector-view-viewsource": "উৎস চাওক",
+	"vector-more-actions": "অধিক"
 }

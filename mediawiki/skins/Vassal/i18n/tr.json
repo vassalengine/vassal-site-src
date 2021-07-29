@@ -9,17 +9,17 @@
 			"Rapsar"
 		]
 	},
-	"vassal-skin-desc": "Taze bir görünüm ile MonoBook Modern versiyonu ve kullanılabilirlik iyileştirmeler",
-	"vassal-action-addsection": "Konu ekle",
-	"vassal-action-delete": "Sil",
-	"vassal-action-move": "Taşı",
-	"vassal-action-protect": "Koru",
-	"vassal-action-undelete": "Silinmeyi geri al",
-	"vassal-action-unprotect": "Korumayı değiştir",
-	"vassal-view-create": "Oluştur",
-	"vassal-view-edit": "Değiştir",
-	"vassal-view-history": "Geçmişi gör",
-	"vassal-view-view": "Oku",
-	"vassal-view-viewsource": "Kaynağı gör",
-	"vassal-more-actions": "Diğer"
+	"vector-skin-desc": "Taze bir görünüm ile MonoBook Modern versiyonu ve kullanılabilirlik iyileştirmeler",
+	"vector-action-addsection": "Konu ekle",
+	"vector-action-delete": "Sil",
+	"vector-action-move": "Taşı",
+	"vector-action-protect": "Koru",
+	"vector-action-undelete": "Silinmeyi geri al",
+	"vector-action-unprotect": "Korumayı değiştir",
+	"vector-view-create": "Oluştur",
+	"vector-view-edit": "Değiştir",
+	"vector-view-history": "Geçmişi gör",
+	"vector-view-view": "Oku",
+	"vector-view-viewsource": "Kaynağı gör",
+	"vector-more-actions": "Diğer"
 }

@@ -4,12 +4,12 @@
 			"Ricardo gs"
 		]
 	},
-	"vassal-action-delete": "Ticpolōz",
-	"vassal-action-move": "Ticzacāz",
-	"vassal-action-protect": "Ticquīxtīz",
-	"vassal-view-create": "Ticchīhuāz",
-	"vassal-view-edit": "Ticpatlāz",
-	"vassal-view-history": "Tlahcuilōlli tlahcuilōlloh",
-	"vassal-view-view": "Tāmapōhuaz",
-	"vassal-view-viewsource": "Tiquittāz in mēyalli"
+	"vector-action-delete": "Ticpolōz",
+	"vector-action-move": "Ticzacāz",
+	"vector-action-protect": "Ticquīxtīz",
+	"vector-view-create": "Ticchīhuāz",
+	"vector-view-edit": "Ticpatlāz",
+	"vector-view-history": "Tlahcuilōlli tlahcuilōlloh",
+	"vector-view-view": "Tāmapōhuaz",
+	"vector-view-viewsource": "Tiquittāz in mēyalli"
 }

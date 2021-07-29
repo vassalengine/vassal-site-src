@@ -7,15 +7,15 @@
 			"WBT009Anju"
 		]
 	},
-	"vassal-action-addsection": "Bagian na imbaru",
-	"vassal-action-delete": "Sesa",
-	"vassal-action-move": "Pahusor",
-	"vassal-action-protect": "Ramoti",
-	"vassal-action-undelete": "unang sesa",
-	"vassal-action-unprotect": "Uba parlindungan",
-	"vassal-view-create": "Tompa",
-	"vassal-view-edit": "Paubah",
-	"vassal-view-history": "Patudu andorang na",
-	"vassal-view-view": "Jaha",
-	"vassal-view-viewsource": "Ida haroanna"
+	"vector-action-addsection": "Bagian na imbaru",
+	"vector-action-delete": "Sesa",
+	"vector-action-move": "Pahusor",
+	"vector-action-protect": "Ramoti",
+	"vector-action-undelete": "unang sesa",
+	"vector-action-unprotect": "Uba parlindungan",
+	"vector-view-create": "Tompa",
+	"vector-view-edit": "Paubah",
+	"vector-view-history": "Patudu andorang na",
+	"vector-view-view": "Jaha",
+	"vector-view-viewsource": "Ida haroanna"
 }

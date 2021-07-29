@@ -7,17 +7,17 @@
 			"Sarvaturi"
 		]
 	},
-	"vassal-skin-desc": "Virsioni muderna di MonoBook cu n'aspettu novu e tanti migghiuramenti nta l'usabbilità",
-	"vassal-action-addsection": "Agghiunci n'argumentu",
-	"vassal-action-delete": "Cancella",
-	"vassal-action-move": "Sposta",
-	"vassal-action-protect": "Pruteggi",
-	"vassal-action-undelete": "Annulla la cancillazzioni",
-	"vassal-action-unprotect": "Cancia la prutizzioni",
-	"vassal-view-create": "Crea",
-	"vassal-view-edit": "Cancia",
-	"vassal-view-history": "Talìa la cronuluggìa",
-	"vassal-view-view": "Leggi",
-	"vassal-view-viewsource": "Talìa la surgenti",
-	"vassal-more-actions": "Àutri cosi"
+	"vector-skin-desc": "Virsioni muderna di MonoBook cu n'aspettu novu e tanti migghiuramenti nta l'usabbilità",
+	"vector-action-addsection": "Agghiunci n'argumentu",
+	"vector-action-delete": "Cancella",
+	"vector-action-move": "Sposta",
+	"vector-action-protect": "Pruteggi",
+	"vector-action-undelete": "Annulla la cancillazzioni",
+	"vector-action-unprotect": "Cancia la prutizzioni",
+	"vector-view-create": "Crea",
+	"vector-view-edit": "Cancia",
+	"vector-view-history": "Talìa la cronuluggìa",
+	"vector-view-view": "Leggi",
+	"vector-view-viewsource": "Talìa la surgenti",
+	"vector-more-actions": "Àutri cosi"
 }

@@ -4,13 +4,13 @@
 			"Warbola"
 		]
 	},
-	"vassal-action-addsection": "Pangid jūrõ tēma",
-	"vassal-action-delete": "Kištāntõgid jarā",
-	"vassal-action-move": "Vīž jarā",
-	"vassal-action-protect": "Kaitsõmi",
-	"vassal-view-create": "Lūo",
-	"vassal-view-edit": "Redigīer",
-	"vassal-view-history": "Nägţ istōrijõ",
-	"vassal-view-view": "Vaņ",
-	"vassal-view-viewsource": "Vaņ ovāt tekstõ"
+	"vector-action-addsection": "Pangid jūrõ tēma",
+	"vector-action-delete": "Kištāntõgid jarā",
+	"vector-action-move": "Vīž jarā",
+	"vector-action-protect": "Kaitsõmi",
+	"vector-view-create": "Lūo",
+	"vector-view-edit": "Redigīer",
+	"vector-view-history": "Nägţ istōrijõ",
+	"vector-view-view": "Vaņ",
+	"vector-view-viewsource": "Vaņ ovāt tekstõ"
 }

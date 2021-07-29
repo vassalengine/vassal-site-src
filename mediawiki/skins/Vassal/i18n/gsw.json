@@ -4,16 +4,16 @@
 			"Als-Holder"
 		]
 	},
-	"vassal-action-addsection": "Abschnitt zuefiege",
-	"vassal-action-delete": "Lesche",
-	"vassal-action-move": "Verschiebe",
-	"vassal-action-protect": "Schitze",
-	"vassal-action-undelete": "Widerhärstelle",
-	"vassal-action-unprotect": "Syteschutz ändere",
-	"vassal-view-create": "Aalege",
-	"vassal-view-edit": "Bearbeite",
-	"vassal-view-history": "Versionsgschicht",
-	"vassal-view-view": "Läse",
-	"vassal-view-viewsource": "Quälltext aaluege",
-	"vassal-more-actions": "Meh"
+	"vector-action-addsection": "Abschnitt zuefiege",
+	"vector-action-delete": "Lesche",
+	"vector-action-move": "Verschiebe",
+	"vector-action-protect": "Schitze",
+	"vector-action-undelete": "Widerhärstelle",
+	"vector-action-unprotect": "Syteschutz ändere",
+	"vector-view-create": "Aalege",
+	"vector-view-edit": "Bearbeite",
+	"vector-view-history": "Versionsgschicht",
+	"vector-view-view": "Läse",
+	"vector-view-viewsource": "Quälltext aaluege",
+	"vector-more-actions": "Meh"
 }

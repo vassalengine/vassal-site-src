@@ -5,15 +5,15 @@
 			"Yocahuna"
 		]
 	},
-	"vassal-action-addsection": "Ad tapik",
-	"vassal-action-delete": "Diliit",
-	"vassal-action-move": "Muuv",
-	"vassal-action-protect": "Protek",
-	"vassal-action-undelete": "Andiliit",
-	"vassal-action-unprotect": "Neu protektian",
-	"vassal-view-create": "Kriet",
-	"vassal-view-edit": "Hedit",
-	"vassal-view-history": "Vyuu ischri",
-	"vassal-view-view": "Riid",
-	"vassal-view-viewsource": "Vyuu Suos"
+	"vector-action-addsection": "Ad tapik",
+	"vector-action-delete": "Diliit",
+	"vector-action-move": "Muuv",
+	"vector-action-protect": "Protek",
+	"vector-action-undelete": "Andiliit",
+	"vector-action-unprotect": "Neu protektian",
+	"vector-view-create": "Kriet",
+	"vector-view-edit": "Hedit",
+	"vector-view-history": "Vyuu ischri",
+	"vector-view-view": "Riid",
+	"vector-view-viewsource": "Vyuu Suos"
 }

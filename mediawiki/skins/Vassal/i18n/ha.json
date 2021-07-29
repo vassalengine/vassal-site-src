@@ -1,7 +1,7 @@
 {
 	"@metadata": [],
-	"vassal-action-delete": "Soke",
-	"vassal-action-move": "Gusarwa",
-	"vassal-action-protect": "A kare",
-	"vassal-view-create": "Ƙirƙira"
+	"vector-action-delete": "Soke",
+	"vector-action-move": "Gusarwa",
+	"vector-action-protect": "A kare",
+	"vector-view-create": "Ƙirƙira"
 }

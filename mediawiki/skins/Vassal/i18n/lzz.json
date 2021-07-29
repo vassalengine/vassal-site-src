@@ -6,10 +6,10 @@
 			"Erdemaslancan"
 		]
 	},
-	"vassal-action-delete": "Jili",
-	"vassal-action-move": "Tori",
-	"vassal-action-protect": "İçvi",
-	"vassal-view-create": "dokʼidi",
-	"vassal-view-edit": "Doktiri",
-	"vassal-view-view": "İǩitxi"
+	"vector-action-delete": "Jili",
+	"vector-action-move": "Tori",
+	"vector-action-protect": "İçvi",
+	"vector-view-create": "dokʼidi",
+	"vector-view-edit": "Doktiri",
+	"vector-view-view": "İǩitxi"
 }

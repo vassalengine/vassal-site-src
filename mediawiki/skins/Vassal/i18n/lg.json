@@ -4,15 +4,15 @@
 			"Kizito"
 		]
 	},
-	"vassal-action-addsection": "Tandikawo emboozi endala",
-	"vassal-action-delete": "Gyawo olupapula luno",
-	"vassal-action-move": "Simbuliza",
-	"vassal-action-protect": "Ssiba",
-	"vassal-action-undelete": "Zawo",
-	"vassal-action-unprotect": "Kyusa ebikugizo",
-	"vassal-view-create": "Lukolewo",
-	"vassal-view-edit": "Kyusa",
-	"vassal-view-history": "Ennanda ya fayiro eno",
-	"vassal-view-view": "Soma",
-	"vassal-view-viewsource": "Kebera obulambike obw'ennono obw'olupapula luno"
+	"vector-action-addsection": "Tandikawo emboozi endala",
+	"vector-action-delete": "Gyawo olupapula luno",
+	"vector-action-move": "Simbuliza",
+	"vector-action-protect": "Ssiba",
+	"vector-action-undelete": "Zawo",
+	"vector-action-unprotect": "Kyusa ebikugizo",
+	"vector-view-create": "Lukolewo",
+	"vector-view-edit": "Kyusa",
+	"vector-view-history": "Ennanda ya fayiro eno",
+	"vector-view-view": "Soma",
+	"vector-view-viewsource": "Kebera obulambike obw'ennono obw'olupapula luno"
 }

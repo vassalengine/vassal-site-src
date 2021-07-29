@@ -1,6 +1,6 @@
 <?php
 /**
- * Vassal - Modern version of MonoBook with fresh look and many usability
+ * Vector - Modern version of MonoBook with fresh look and many usability
  * improvements.
  *
  * This program is free software; you can redistribute it and/or modify
@@ -23,10 +23,10 @@
  */
 
 /**
- * QuickTemplate class for Vassal skin
+ * QuickTemplate class for Vector skin
  * @ingroup Skins
  */
-class VassalTemplate extends BaseTemplate {
+class VectorTemplate extends BaseTemplate {
 	/* Functions */
 
 	/**
@@ -36,7 +36,7 @@ class VassalTemplate extends BaseTemplate {
 		// Build additional attributes for navigation urls
 		$nav = $this->data['content_navigation'];
 
-		if ( $this->config->get( 'VassalUseIconWatch' ) ) {
+		if ( $this->config->get( 'VectorUseIconWatch' ) ) {
 			$mode = $this->getSkin()->getUser()->isWatched( $this->getSkin()->getRelevantTitle() )
 				? 'unwatch'
 				: 'watch';
@@ -95,12 +95,12 @@ class VassalTemplate extends BaseTemplate {
 		$this->html( 'headelement' );
 		?>
 <!-- begin VASSAL site header -->
-    <div id="vassal-header">
-      <div id="vassal-logo">
+    <div id="vector-header">
+      <div id="vector-logo">
         <a href="/index.php"><img src="/images/header.png"/></a>
       </div>
       <?php include('/var/www/html/site/inc/navigation.shtml'); ?>
-      <div id="vassal-login">
+      <div id="vector-login">
         <?php
           $returnto = urlencode($_SERVER['REQUEST_URI']);
           $op = $this->getSkin()->getUser()->isLoggedIn() ? 'out' : 'in';
@@ -375,7 +375,7 @@ class VassalTemplate extends BaseTemplate {
 			switch ( $element ) {
 				case 'NAMESPACES':
 					?>
-					<div id="p-namespaces" role="navigation" class="vassalTabs<?php
+					<div id="p-namespaces" role="navigation" class="vectorTabs<?php
 					if ( count( $this->data['namespace_urls'] ) == 0 ) {
 						echo ' emptyPortlet';
 					}
@@ -404,7 +404,7 @@ class VassalTemplate extends BaseTemplate {
 					break;
 				case 'VARIANTS':
 					?>
-					<div id="p-variants" role="navigation" class="vassalMenu<?php
+					<div id="p-variants" role="navigation" class="vectorMenu<?php
 					if ( count( $this->data['variant_urls'] ) == 0 ) {
 						echo ' emptyPortlet';
 					}
@@ -449,7 +449,7 @@ class VassalTemplate extends BaseTemplate {
 					break;
 				case 'VIEWS':
 					?>
-					<div id="p-views" role="navigation" class="vassalTabs<?php
+					<div id="p-views" role="navigation" class="vectorTabs<?php
 					if ( count( $this->data['view_urls'] ) == 0 ) {
 						echo ' emptyPortlet';
 					}
@@ -483,13 +483,13 @@ class VassalTemplate extends BaseTemplate {
 					break;
 				case 'ACTIONS':
 					?>
-					<div id="p-cactions" role="navigation" class="vassalMenu<?php
+					<div id="p-cactions" role="navigation" class="vectorMenu<?php
 					if ( count( $this->data['action_urls'] ) == 0 ) {
 						echo ' emptyPortlet';
 					}
 					?>" aria-labelledby="p-cactions-label">
 						<h3 id="p-cactions-label"><span><?php
-							$this->msg( 'vassal-more-actions' )
+							$this->msg( 'vector-more-actions' )
 						?></span><a href="#"></a></h3>
 
 						<div class="menu">
@@ -539,7 +539,7 @@ class VassalTemplate extends BaseTemplate {
 						</h3>
 
 						<form action="<?php $this->text( 'wgScript' ) ?>" id="searchform">
-							<div<?php echo $this->config->get( 'VassalUseSimpleSearch' ) ? ' id="simpleSearch"' : '' ?>>
+							<div<?php echo $this->config->get( 'VectorUseSimpleSearch' ) ? ' id="simpleSearch"' : '' ?>>
 							<?php
 							echo $this->makeSearchInput( array( 'id' => 'searchInput' ) );
 							echo Html::hidden( 'title', $this->get( 'searchtitle' ) );

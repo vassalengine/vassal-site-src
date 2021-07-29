@@ -6,17 +6,17 @@
 			"Yerpo"
 		]
 	},
-	"vassal-skin-desc": "Sodobna različica MonoBook s svežim videzom in mnogimi izboljšavami uporabnosti",
-	"vassal-action-addsection": "Dodaj temo",
-	"vassal-action-delete": "Izbriši",
-	"vassal-action-move": "Prestavi",
-	"vassal-action-protect": "Zaščiti",
-	"vassal-action-undelete": "Vrni",
-	"vassal-action-unprotect": "Spremeni zaščito",
-	"vassal-view-create": "Ustvari",
-	"vassal-view-edit": "Uredi",
-	"vassal-view-history": "Zgodovina",
-	"vassal-view-view": "Preberi",
-	"vassal-view-viewsource": "Izvorno besedilo",
-	"vassal-more-actions": "Več"
+	"vector-skin-desc": "Sodobna različica MonoBook s svežim videzom in mnogimi izboljšavami uporabnosti",
+	"vector-action-addsection": "Dodaj temo",
+	"vector-action-delete": "Izbriši",
+	"vector-action-move": "Prestavi",
+	"vector-action-protect": "Zaščiti",
+	"vector-action-undelete": "Vrni",
+	"vector-action-unprotect": "Spremeni zaščito",
+	"vector-view-create": "Ustvari",
+	"vector-view-edit": "Uredi",
+	"vector-view-history": "Zgodovina",
+	"vector-view-view": "Preberi",
+	"vector-view-viewsource": "Izvorno besedilo",
+	"vector-more-actions": "Več"
 }

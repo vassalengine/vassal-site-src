@@ -4,16 +4,16 @@
 			"HalanTul"
 		]
 	},
-	"vassal-action-addsection": "Тиэмэ эбии",
-	"vassal-action-delete": "Сот",
-	"vassal-action-move": "Аатын уларыт",
-	"vassal-action-protect": "Уларыйбат гын",
-	"vassal-action-undelete": "Төннөр",
-	"vassal-action-unprotect": "Көмүскэлин уларыт",
-	"vassal-view-create": "Ай",
-	"vassal-view-edit": "Уларыт",
-	"vassal-view-history": "Устуоруйатын көрүү",
-	"vassal-view-view": "Ааҕыы",
-	"vassal-view-viewsource": "Бэлиэлэрин көрүү",
-	"vassal-more-actions": "Эбии"
+	"vector-action-addsection": "Тиэмэ эбии",
+	"vector-action-delete": "Сот",
+	"vector-action-move": "Аатын уларыт",
+	"vector-action-protect": "Уларыйбат гын",
+	"vector-action-undelete": "Төннөр",
+	"vector-action-unprotect": "Көмүскэлин уларыт",
+	"vector-view-create": "Ай",
+	"vector-view-edit": "Уларыт",
+	"vector-view-history": "Устуоруйатын көрүү",
+	"vector-view-view": "Ааҕыы",
+	"vector-view-viewsource": "Бэлиэлэрин көрүү",
+	"vector-more-actions": "Эбии"
 }

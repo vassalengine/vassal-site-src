@@ -4,9 +4,9 @@
 			"MF-Warburg"
 		]
 	},
-	"vassal-action-protect": "Proteje",
-	"vassal-view-create": "Kria",
-	"vassal-view-edit": "Edita",
-	"vassal-view-history": "Haree istória",
-	"vassal-view-view": "Lee"
+	"vector-action-protect": "Proteje",
+	"vector-view-create": "Kria",
+	"vector-view-edit": "Edita",
+	"vector-view-history": "Haree istória",
+	"vector-view-view": "Lee"
 }

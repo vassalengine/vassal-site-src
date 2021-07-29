@@ -4,15 +4,15 @@
 			"Malafaya"
 		]
 	},
-	"vassal-action-addsection": "Adjuntar topiko",
-	"vassal-action-delete": "Efacar",
-	"vassal-action-move": "Movar",
-	"vassal-action-protect": "Protektar",
-	"vassal-action-undelete": "Rekuperar",
-	"vassal-action-unprotect": "Desprotektar",
-	"vassal-view-create": "Krear",
-	"vassal-view-edit": "Redaktar",
-	"vassal-view-history": "Vidar versionaro",
-	"vassal-view-view": "Lektar",
-	"vassal-view-viewsource": "Vidar fonto"
+	"vector-action-addsection": "Adjuntar topiko",
+	"vector-action-delete": "Efacar",
+	"vector-action-move": "Movar",
+	"vector-action-protect": "Protektar",
+	"vector-action-undelete": "Rekuperar",
+	"vector-action-unprotect": "Desprotektar",
+	"vector-view-create": "Krear",
+	"vector-view-edit": "Redaktar",
+	"vector-view-history": "Vidar versionaro",
+	"vector-view-view": "Lektar",
+	"vector-view-viewsource": "Vidar fonto"
 }

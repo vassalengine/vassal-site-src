@@ -5,12 +5,12 @@
 			"Elvonudinium"
 		]
 	},
-	"vassal-action-addsection": "Һэдэб нэмэхэ",
-	"vassal-action-delete": "Усадхаха",
-	"vassal-action-move": "Зөөхэ",
-	"vassal-view-create": "Үүдхэхэ",
-	"vassal-view-edit": "Заһабарилха",
-	"vassal-view-history": "Түүхые хараха",
-	"vassal-view-view": "Уншаха",
-	"vassal-view-viewsource": "эшэ үндэһэндэнь хандаха"
+	"vector-action-addsection": "Һэдэб нэмэхэ",
+	"vector-action-delete": "Усадхаха",
+	"vector-action-move": "Зөөхэ",
+	"vector-view-create": "Үүдхэхэ",
+	"vector-view-edit": "Заһабарилха",
+	"vector-view-history": "Түүхые хараха",
+	"vector-view-view": "Уншаха",
+	"vector-view-viewsource": "эшэ үндэһэндэнь хандаха"
 }

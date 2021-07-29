@@ -6,14 +6,14 @@
 			"ZaDiak"
 		]
 	},
-	"vassal-action-delete": "Σβήσον",
-	"vassal-action-move": "Ετεροχλάεμαν",
-	"vassal-action-protect": "Ασπάλιγμαν",
-	"vassal-action-undelete": "Κλώσιμον",
-	"vassal-action-unprotect": "Άνοιγμαν",
-	"vassal-view-create": "Ποίσον",
-	"vassal-view-edit": "Άλλαξον",
-	"vassal-view-history": "Τερέστεν ιστορίαν",
-	"vassal-view-view": "Δεάβασον",
-	"vassal-view-viewsource": "Τερέστεν κωδικόν"
+	"vector-action-delete": "Σβήσον",
+	"vector-action-move": "Ετεροχλάεμαν",
+	"vector-action-protect": "Ασπάλιγμαν",
+	"vector-action-undelete": "Κλώσιμον",
+	"vector-action-unprotect": "Άνοιγμαν",
+	"vector-view-create": "Ποίσον",
+	"vector-view-edit": "Άλλαξον",
+	"vector-view-history": "Τερέστεν ιστορίαν",
+	"vector-view-view": "Δεάβασον",
+	"vector-view-viewsource": "Τερέστεν κωδικόν"
 }

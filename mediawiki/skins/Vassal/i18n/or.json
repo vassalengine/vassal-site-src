@@ -5,16 +5,16 @@
 			"Psubhashish"
 		]
 	},
-	"vassal-action-addsection": "ନୂଆ ଯୋଡ଼ନ୍ତୁ",
-	"vassal-action-delete": "ଲିଭାଇବେ",
-	"vassal-action-move": "ଘୁଞ୍ଚାଇବେ",
-	"vassal-action-protect": "କିଳିବେ",
-	"vassal-action-undelete": "ଲିଭାଇବେ ନାହିଁ",
-	"vassal-action-unprotect": "କିଳିବେ ନାହିଁ",
-	"vassal-view-create": "ତିଆରି କରନ୍ତୁ",
-	"vassal-view-edit": "ସମ୍ପାଦନା (Edit)",
-	"vassal-view-history": "ଇତିହାସ",
-	"vassal-view-view": "ପଢ଼ନ୍ତୁ",
-	"vassal-view-viewsource": "ସୋର୍ସ ଦେଖନ୍ତୁ",
-	"vassal-more-actions": "ଅଧିକ"
+	"vector-action-addsection": "ନୂଆ ଯୋଡ଼ନ୍ତୁ",
+	"vector-action-delete": "ଲିଭାଇବେ",
+	"vector-action-move": "ଘୁଞ୍ଚାଇବେ",
+	"vector-action-protect": "କିଳିବେ",
+	"vector-action-undelete": "ଲିଭାଇବେ ନାହିଁ",
+	"vector-action-unprotect": "କିଳିବେ ନାହିଁ",
+	"vector-view-create": "ତିଆରି କରନ୍ତୁ",
+	"vector-view-edit": "ସମ୍ପାଦନା (Edit)",
+	"vector-view-history": "ଇତିହାସ",
+	"vector-view-view": "ପଢ଼ନ୍ତୁ",
+	"vector-view-viewsource": "ସୋର୍ସ ଦେଖନ୍ତୁ",
+	"vector-more-actions": "ଅଧିକ"
 }

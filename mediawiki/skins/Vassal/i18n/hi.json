@@ -6,16 +6,16 @@
 			"रोहित रावत"
 		]
 	},
-	"vassal-action-addsection": "विषय जोड़ें",
-	"vassal-action-delete": "हटाएँ",
-	"vassal-action-move": "स्थानांतरण करें",
-	"vassal-action-protect": "सुरक्षित करें",
-	"vassal-action-undelete": "हटाना वापस लें",
-	"vassal-action-unprotect": "सुरक्षा बदलें",
-	"vassal-view-create": "बनाएँ",
-	"vassal-view-edit": "सम्पादन",
-	"vassal-view-history": "इतिहास देखें",
-	"vassal-view-view": "पढ़ें",
-	"vassal-view-viewsource": "स्रोत देखें",
-	"vassal-more-actions": "अधिक"
+	"vector-action-addsection": "विषय जोड़ें",
+	"vector-action-delete": "हटाएँ",
+	"vector-action-move": "स्थानांतरण करें",
+	"vector-action-protect": "सुरक्षित करें",
+	"vector-action-undelete": "हटाना वापस लें",
+	"vector-action-unprotect": "सुरक्षा बदलें",
+	"vector-view-create": "बनाएँ",
+	"vector-view-edit": "सम्पादन",
+	"vector-view-history": "इतिहास देखें",
+	"vector-view-view": "पढ़ें",
+	"vector-view-viewsource": "स्रोत देखें",
+	"vector-more-actions": "अधिक"
 }

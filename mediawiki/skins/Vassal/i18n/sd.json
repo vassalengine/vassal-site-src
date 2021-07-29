@@ -4,14 +4,14 @@
 			"Sindhu"
 		]
 	},
-	"vassal-action-delete": "ڊاھيو",
-	"vassal-action-move": "چوريو",
-	"vassal-action-protect": "تحفظيو",
-	"vassal-action-unprotect": "اڻتحفظيو",
-	"vassal-view-create": "سرجيو",
-	"vassal-view-edit": "سنواريو",
-	"vassal-view-history": "تاريخ يا سوانح ڏسو",
-	"vassal-view-view": "پڙه",
-	"vassal-view-viewsource": "ڪوڊ ڏسو",
-	"vassal-more-actions": "وڌيڪ"
+	"vector-action-delete": "ڊاھيو",
+	"vector-action-move": "چوريو",
+	"vector-action-protect": "تحفظيو",
+	"vector-action-unprotect": "اڻتحفظيو",
+	"vector-view-create": "سرجيو",
+	"vector-view-edit": "سنواريو",
+	"vector-view-history": "تاريخ يا سوانح ڏسو",
+	"vector-view-view": "پڙه",
+	"vector-view-viewsource": "ڪوڊ ڏسو",
+	"vector-more-actions": "وڌيڪ"
 }

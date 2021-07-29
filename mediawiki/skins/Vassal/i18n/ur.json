@@ -10,16 +10,16 @@
 			"عرفان ارشد"
 		]
 	},
-	"vassal-action-addsection": "نیا موضوع",
-	"vassal-action-delete": "حذف کرو",
-	"vassal-action-move": "منتقل کرو",
-	"vassal-action-protect": "محفوظ کرو",
-	"vassal-action-undelete": "بحال",
-	"vassal-action-unprotect": "تحفظ میں تبدیلی",
-	"vassal-view-create": "تخلیق",
-	"vassal-view-edit": "ترمیم",
-	"vassal-view-history": "تاریخچہ",
-	"vassal-view-view": "مطالعہ",
-	"vassal-view-viewsource": "مسودہ",
-	"vassal-more-actions": "مزید"
+	"vector-action-addsection": "نیا موضوع",
+	"vector-action-delete": "حذف کرو",
+	"vector-action-move": "منتقل کرو",
+	"vector-action-protect": "محفوظ کرو",
+	"vector-action-undelete": "بحال",
+	"vector-action-unprotect": "تحفظ میں تبدیلی",
+	"vector-view-create": "تخلیق",
+	"vector-view-edit": "ترمیم",
+	"vector-view-history": "تاریخچہ",
+	"vector-view-view": "مطالعہ",
+	"vector-view-viewsource": "مسودہ",
+	"vector-more-actions": "مزید"
 }

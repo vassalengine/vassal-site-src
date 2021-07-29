@@ -4,8 +4,8 @@
 			"Naval Scene"
 		]
 	},
-	"vassal-action-delete": "Ngapus",
-	"vassal-action-move": "Pindahin",
-	"vassal-action-undelete": "Balikin nyang keapus",
-	"vassal-view-create": "Bikin"
+	"vector-action-delete": "Ngapus",
+	"vector-action-move": "Pindahin",
+	"vector-action-undelete": "Balikin nyang keapus",
+	"vector-view-create": "Bikin"
 }

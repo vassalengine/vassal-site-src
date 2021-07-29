@@ -4,17 +4,17 @@
 			"Kandar"
 		]
 	},
-	"vassal-skin-desc": "MonoBook vérsi modéren dina pidangan anu leuwih anyar jeung leuwih hadé",
-	"vassal-action-addsection": "Jejer anyar",
-	"vassal-action-delete": "Hapus",
-	"vassal-action-move": "Pindahkeun",
-	"vassal-action-protect": "Konci",
-	"vassal-action-undelete": "Bolaykeun ngahapus",
-	"vassal-action-unprotect": "Robah protéksi",
-	"vassal-view-create": "Jieun",
-	"vassal-view-edit": "Édit",
-	"vassal-view-history": "Témbongkeun jujutan",
-	"vassal-view-view": "Baca",
-	"vassal-view-viewsource": "Témbongkeun sumber",
-	"vassal-more-actions": "Lianna"
+	"vector-skin-desc": "MonoBook vérsi modéren dina pidangan anu leuwih anyar jeung leuwih hadé",
+	"vector-action-addsection": "Jejer anyar",
+	"vector-action-delete": "Hapus",
+	"vector-action-move": "Pindahkeun",
+	"vector-action-protect": "Konci",
+	"vector-action-undelete": "Bolaykeun ngahapus",
+	"vector-action-unprotect": "Robah protéksi",
+	"vector-view-create": "Jieun",
+	"vector-view-edit": "Édit",
+	"vector-view-history": "Témbongkeun jujutan",
+	"vector-view-view": "Baca",
+	"vector-view-viewsource": "Témbongkeun sumber",
+	"vector-more-actions": "Lianna"
 }

@@ -4,12 +4,12 @@
 			"Szonja"
 		]
 	},
-	"vassal-action-addsection": "Tilja topikos",
-	"vassal-action-delete": "Tšuu nikki",
-	"vassal-action-undelete": "Tšuu paale",
-	"vassal-view-create": "Luona",
-	"vassal-view-edit": "Muoka",
-	"vassal-view-history": "Sik histores",
-	"vassal-view-view": "Draba",
-	"vassal-view-viewsource": "Sik navasiinako koodos"
+	"vector-action-addsection": "Tilja topikos",
+	"vector-action-delete": "Tšuu nikki",
+	"vector-action-undelete": "Tšuu paale",
+	"vector-view-create": "Luona",
+	"vector-view-edit": "Muoka",
+	"vector-view-history": "Sik histores",
+	"vector-view-view": "Draba",
+	"vector-view-viewsource": "Sik navasiinako koodos"
 }

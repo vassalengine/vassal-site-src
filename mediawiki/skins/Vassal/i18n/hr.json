@@ -6,16 +6,16 @@
 			"Bugoslav"
 		]
 	},
-	"vassal-action-addsection": "Dodaj temu",
-	"vassal-action-delete": "Izbriši",
-	"vassal-action-move": "Premjesti",
-	"vassal-action-protect": "Zaštiti",
-	"vassal-action-undelete": "Vrati",
-	"vassal-action-unprotect": "Promijeni zaštitu",
-	"vassal-view-create": "Započni",
-	"vassal-view-edit": "Uredi",
-	"vassal-view-history": "Vidi stare izmjene",
-	"vassal-view-view": "Čitaj",
-	"vassal-view-viewsource": "Vidi izvor",
-	"vassal-more-actions": "Više"
+	"vector-action-addsection": "Dodaj temu",
+	"vector-action-delete": "Izbriši",
+	"vector-action-move": "Premjesti",
+	"vector-action-protect": "Zaštiti",
+	"vector-action-undelete": "Vrati",
+	"vector-action-unprotect": "Promijeni zaštitu",
+	"vector-view-create": "Započni",
+	"vector-view-edit": "Uredi",
+	"vector-view-history": "Vidi stare izmjene",
+	"vector-view-view": "Čitaj",
+	"vector-view-viewsource": "Vidi izvor",
+	"vector-more-actions": "Više"
 }

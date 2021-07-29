@@ -4,15 +4,15 @@
 			"Botuzhaleny-sodamo"
 		]
 	},
-	"vassal-action-addsection": "Поладомс мезде кортамс",
-	"vassal-action-delete": "Нардамс",
-	"vassal-action-move": "Печтевтемс",
-	"vassal-action-protect": "Аравтомс ванстомас",
-	"vassal-action-undelete": "Вельмевтемс нардазенть",
-	"vassal-action-unprotect": "Полавтомс ванстоманзо",
-	"vassal-view-create": "Теемс-Шкамс",
-	"vassal-view-edit": "Витнемс-петнемс",
-	"vassal-view-history": "Ваномс юронзо-путовксонзо",
-	"vassal-view-view": "Ловномс",
-	"vassal-view-viewsource": "Ваномс косто саезь"
+	"vector-action-addsection": "Поладомс мезде кортамс",
+	"vector-action-delete": "Нардамс",
+	"vector-action-move": "Печтевтемс",
+	"vector-action-protect": "Аравтомс ванстомас",
+	"vector-action-undelete": "Вельмевтемс нардазенть",
+	"vector-action-unprotect": "Полавтомс ванстоманзо",
+	"vector-view-create": "Теемс-Шкамс",
+	"vector-view-edit": "Витнемс-петнемс",
+	"vector-view-history": "Ваномс юронзо-путовксонзо",
+	"vector-view-view": "Ловномс",
+	"vector-view-viewsource": "Ваномс косто саезь"
 }

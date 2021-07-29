@@ -1,6 +1,6 @@
 <?php
 /**
- * Vassal - Modern version of MonoBook with fresh look and many usability
+ * Vector - Modern version of MonoBook with fresh look and many usability
  * improvements.
  *
  * This program is free software; you can redistribute it and/or modify
@@ -23,20 +23,20 @@
  */
 
 /**
- * SkinTemplate class for Vassal skin
+ * SkinTemplate class for Vector skin
  * @ingroup Skins
  */
-class SkinVassal extends SkinTemplate {
-	public $skinname = 'vassal';
-	public $stylename = 'Vassal';
-	public $template = 'VassalTemplate';
+class SkinVector extends SkinTemplate {
+	public $skinname = 'vector';
+	public $stylename = 'Vector';
+	public $template = 'VectorTemplate';
 	/**
 	 * @var Config
 	 */
-	private $vassalConfig;
+	private $vectorConfig;
 
 	public function __construct() {
-		$this->vassalConfig = ConfigFactory::getDefaultInstance()->makeConfig( 'vassal' );
+		$this->vectorConfig = ConfigFactory::getDefaultInstance()->makeConfig( 'vector' );
 	}
 
 	/**
@@ -46,9 +46,9 @@ class SkinVassal extends SkinTemplate {
 	public function initPage( OutputPage $out ) {
 		parent::initPage( $out );
 
-		if ( $this->vassalConfig->get( 'VassalResponsive' ) ) {
+		if ( $this->vectorConfig->get( 'VectorResponsive' ) ) {
 			$out->addMeta( 'viewport', 'width=device-width, initial-scale=1' );
-			$out->addModuleStyles( 'skins.vassal.styles.responsive' );
+			$out->addModuleStyles( 'skins.vector.styles.responsive' );
 		}
 
 		// Append CSS which includes IE only behavior fixes for hover support -
@@ -61,7 +61,7 @@ class SkinVassal extends SkinTemplate {
 				"/{$this->stylename}/csshover{$min}.htc\")}</style><![endif]-->"
 		);
 
-		$out->addModules( array( 'skins.vassal.js' ) );
+		$out->addModules( array( 'skins.vector.js' ) );
     $out->addStyle( '/css/site.css' );
 	}
 
@@ -72,8 +72,8 @@ class SkinVassal extends SkinTemplate {
 	function setupSkinUserCss( OutputPage $out ) {
 		parent::setupSkinUserCss( $out );
 
-		$styles = array( 'mediawiki.skinning.interface', 'skins.vassal.styles' );
-		Hooks::run( 'SkinVassalStyleModules', array( $this, &$styles ) );
+		$styles = array( 'mediawiki.skinning.interface', 'skins.vector.styles' );
+		Hooks::run( 'SkinVectorStyleModules', array( $this, &$styles ) );
 		$out->addModuleStyles( $styles );
 	}
 
@@ -81,6 +81,6 @@ class SkinVassal extends SkinTemplate {
 	 * Override to pass our Config instance to it
 	 */
 	public function setupTemplate( $classname, $repository = false, $cache_dir = false ) {
-		return new $classname( $this->vassalConfig );
+		return new $classname( $this->vectorConfig );
 	}
 }

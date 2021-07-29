@@ -5,15 +5,15 @@
 			"Thakurji"
 		]
 	},
-	"vassal-action-addsection": "Topic jorro",
-	"vassal-action-delete": "Mitao",
-	"vassal-action-move": "Naam badlo",
-	"vassal-action-protect": "Bachao",
-	"vassal-action-undelete": "Pahile jaise karo",
-	"vassal-action-unprotect": "Surakchha ke badlo",
-	"vassal-view-create": "Banao",
-	"vassal-view-edit": "Badlo",
-	"vassal-view-history": "Itihaas dekho",
-	"vassal-view-view": "Parrho",
-	"vassal-view-viewsource": "Source dekho"
+	"vector-action-addsection": "Topic jorro",
+	"vector-action-delete": "Mitao",
+	"vector-action-move": "Naam badlo",
+	"vector-action-protect": "Bachao",
+	"vector-action-undelete": "Pahile jaise karo",
+	"vector-action-unprotect": "Surakchha ke badlo",
+	"vector-view-create": "Banao",
+	"vector-view-edit": "Badlo",
+	"vector-view-history": "Itihaas dekho",
+	"vector-view-view": "Parrho",
+	"vector-view-viewsource": "Source dekho"
 }

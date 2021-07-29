@@ -6,17 +6,17 @@
 			"Omnipaedista"
 		]
 	},
-	"vassal-skin-desc": "Modern version o MonoBook wi ae fresh luik n monie uisabeelitie impruivments",
-	"vassal-action-addsection": "Eik topic",
-	"vassal-action-delete": "Delyte",
-	"vassal-action-move": "Muiv",
-	"vassal-action-protect": "Fend",
-	"vassal-action-undelete": "Ondelyte",
-	"vassal-action-unprotect": "Chynge protection",
-	"vassal-view-create": "Ceaut",
-	"vassal-view-edit": "Eedit",
-	"vassal-view-history": "See histerie",
-	"vassal-view-view": "Read",
-	"vassal-view-viewsource": "See Soorce",
-	"vassal-more-actions": "Mair"
+	"vector-skin-desc": "Modern version o MonoBook wi ae fresh luik n monie uisabeelitie impruivments",
+	"vector-action-addsection": "Eik topic",
+	"vector-action-delete": "Delyte",
+	"vector-action-move": "Muiv",
+	"vector-action-protect": "Fend",
+	"vector-action-undelete": "Ondelyte",
+	"vector-action-unprotect": "Chynge protection",
+	"vector-view-create": "Ceaut",
+	"vector-view-edit": "Eedit",
+	"vector-view-history": "See histerie",
+	"vector-view-view": "Read",
+	"vector-view-viewsource": "See Soorce",
+	"vector-more-actions": "Mair"
 }

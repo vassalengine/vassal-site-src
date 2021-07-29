@@ -5,17 +5,17 @@
 			"Renan"
 		]
 	},
-	"vassal.css": "/* CSS colocat ci va afectar usatores de pelle Vassal */",
-	"vassal.js": "/* Alquel JavaScript ci va esser cargat por usatores que usa li pelle Vassal */",
-	"vassal-action-addsection": "Adjunter tema",
-	"vassal-action-delete": "Deleter",
-	"vassal-action-move": "Mover",
-	"vassal-action-protect": "Gardar",
-	"vassal-action-undelete": "Restituer",
-	"vassal-action-unprotect": "Desgardar",
-	"vassal-view-create": "Crear",
-	"vassal-view-edit": "Redacter",
-	"vassal-view-history": "Historie de versiones",
-	"vassal-view-view": "Leer",
-	"vassal-view-viewsource": "Vider fonte"
+	"vector.css": "/* CSS colocat ci va afectar usatores de pelle Vector */",
+	"vector.js": "/* Alquel JavaScript ci va esser cargat por usatores que usa li pelle Vector */",
+	"vector-action-addsection": "Adjunter tema",
+	"vector-action-delete": "Deleter",
+	"vector-action-move": "Mover",
+	"vector-action-protect": "Gardar",
+	"vector-action-undelete": "Restituer",
+	"vector-action-unprotect": "Desgardar",
+	"vector-view-create": "Crear",
+	"vector-view-edit": "Redacter",
+	"vector-view-history": "Historie de versiones",
+	"vector-view-view": "Leer",
+	"vector-view-viewsource": "Vider fonte"
 }

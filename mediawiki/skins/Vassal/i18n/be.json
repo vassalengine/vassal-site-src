@@ -7,17 +7,17 @@
 			"Хомелка"
 		]
 	},
-	"vassal-skin-desc": "Сучасная версія вокладкі Манабук, з абноўленым відам і шматлікімі зручнымі паляпшэннямі",
-	"vassal-action-addsection": "Дадаць тэму",
-	"vassal-action-delete": "Сцерці",
-	"vassal-action-move": "Перанесці",
-	"vassal-action-protect": "Ахова",
-	"vassal-action-undelete": "Аднавіць",
-	"vassal-action-unprotect": "Змяніць ахову",
-	"vassal-view-create": "Стварыць",
-	"vassal-view-edit": "Правіць",
-	"vassal-view-history": "Паказаць гісторыю",
-	"vassal-view-view": "Чытаць",
-	"vassal-view-viewsource": "Паказаць зыходны тэкст",
-	"vassal-more-actions": "Яшчэ"
+	"vector-skin-desc": "Сучасная версія вокладкі Манабук, з абноўленым відам і шматлікімі зручнымі паляпшэннямі",
+	"vector-action-addsection": "Дадаць тэму",
+	"vector-action-delete": "Сцерці",
+	"vector-action-move": "Перанесці",
+	"vector-action-protect": "Ахова",
+	"vector-action-undelete": "Аднавіць",
+	"vector-action-unprotect": "Змяніць ахову",
+	"vector-view-create": "Стварыць",
+	"vector-view-edit": "Правіць",
+	"vector-view-history": "Паказаць гісторыю",
+	"vector-view-view": "Чытаць",
+	"vector-view-viewsource": "Паказаць зыходны тэкст",
+	"vector-more-actions": "Яшчэ"
 }

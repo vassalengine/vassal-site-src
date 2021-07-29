@@ -5,15 +5,15 @@
 			"Omnipaedista"
 		]
 	},
-	"vassal-action-addsection": "Θέμα προστιθέναι",
-	"vassal-action-delete": "Σβεννύναι",
-	"vassal-action-move": "Κινεῖν",
-	"vassal-action-protect": "Φυλάττειν",
-	"vassal-action-undelete": "Ἀποκαθιστάναι",
-	"vassal-action-unprotect": "Ἄλλαξον τὴν φύλαξιν",
-	"vassal-view-create": "Ποιεῖν",
-	"vassal-view-edit": "Μεταγράφειν",
-	"vassal-view-history": "Ἱστορίαν ὁρᾶν",
-	"vassal-view-view": "Ἀναγνῶναι",
-	"vassal-view-viewsource": "Ὁρᾶν τὴν πηγήν"
+	"vector-action-addsection": "Θέμα προστιθέναι",
+	"vector-action-delete": "Σβεννύναι",
+	"vector-action-move": "Κινεῖν",
+	"vector-action-protect": "Φυλάττειν",
+	"vector-action-undelete": "Ἀποκαθιστάναι",
+	"vector-action-unprotect": "Ἄλλαξον τὴν φύλαξιν",
+	"vector-view-create": "Ποιεῖν",
+	"vector-view-edit": "Μεταγράφειν",
+	"vector-view-history": "Ἱστορίαν ὁρᾶν",
+	"vector-view-view": "Ἀναγνῶναι",
+	"vector-view-viewsource": "Ὁρᾶν τὴν πηγήν"
 }

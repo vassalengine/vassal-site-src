@@ -4,15 +4,15 @@
 			"Liangent"
 		]
 	},
-	"vassal-action-addsection": "Ilovai unvon",
-	"vassal-action-delete": "Hazf",
-	"vassal-action-move": "Kūconidan",
-	"vassal-action-protect": "Muhofizat",
-	"vassal-action-undelete": "Ehjo",
-	"vassal-action-unprotect": "Ba dar ovardan az muhofizat",
-	"vassal-view-create": "Eçod",
-	"vassal-view-edit": "Viroiş",
-	"vassal-view-history": "Namoişi ta'rix",
-	"vassal-view-view": "Xondan",
-	"vassal-view-viewsource": "Namoişi manba'"
+	"vector-action-addsection": "Ilovai unvon",
+	"vector-action-delete": "Hazf",
+	"vector-action-move": "Kūconidan",
+	"vector-action-protect": "Muhofizat",
+	"vector-action-undelete": "Ehjo",
+	"vector-action-unprotect": "Ba dar ovardan az muhofizat",
+	"vector-view-create": "Eçod",
+	"vector-view-edit": "Viroiş",
+	"vector-view-history": "Namoişi ta'rix",
+	"vector-view-view": "Xondan",
+	"vector-view-viewsource": "Namoişi manba'"
 }

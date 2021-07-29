@@ -5,17 +5,17 @@
 			"Умар"
 		]
 	},
-	"skinname-vassal": "Векторан",
-	"vassal-action-addsection": "ТӀетоха хьедар",
-	"vassal-action-delete": "ДӀаяккхар",
-	"vassal-action-move": "ЦӀе хийцар",
-	"vassal-action-protect": "Ларъяр",
-	"vassal-action-undelete": "МеттахӀоттае",
-	"vassal-action-unprotect": "ГӀароллех къаста",
-	"vassal-view-create": "Кхоллар",
-	"vassal-view-edit": "Нисъе",
-	"vassal-view-history": "АгӀона хийцамаш",
-	"vassal-view-view": "Éшар",
-	"vassal-view-viewsource": "Билглонашка хьажа",
-	"vassal-more-actions": "Кхин"
+	"skinname-vector": "Векторан",
+	"vector-action-addsection": "ТӀетоха хьедар",
+	"vector-action-delete": "ДӀаяккхар",
+	"vector-action-move": "ЦӀе хийцар",
+	"vector-action-protect": "Ларъяр",
+	"vector-action-undelete": "МеттахӀоттае",
+	"vector-action-unprotect": "ГӀароллех къаста",
+	"vector-view-create": "Кхоллар",
+	"vector-view-edit": "Нисъе",
+	"vector-view-history": "АгӀона хийцамаш",
+	"vector-view-view": "Éшар",
+	"vector-view-viewsource": "Билглонашка хьажа",
+	"vector-more-actions": "Кхин"
 }

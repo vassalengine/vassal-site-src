@@ -4,15 +4,15 @@
 			"Better"
 		]
 	},
-	"vassal-action-addsection": "Añiil tema",
-	"vassal-action-delete": "Esborral",
-	"vassal-action-move": "Mual",
-	"vassal-action-protect": "Protegel",
-	"vassal-action-undelete": "Esborral",
-	"vassal-action-unprotect": "Esprotegel",
-	"vassal-view-create": "Crial",
-	"vassal-view-edit": "Eital",
-	"vassal-view-history": "Guipal estorial",
-	"vassal-view-view": "Leyel",
-	"vassal-view-viewsource": "Guipal cóigu"
+	"vector-action-addsection": "Añiil tema",
+	"vector-action-delete": "Esborral",
+	"vector-action-move": "Mual",
+	"vector-action-protect": "Protegel",
+	"vector-action-undelete": "Esborral",
+	"vector-action-unprotect": "Esprotegel",
+	"vector-view-create": "Crial",
+	"vector-view-edit": "Eital",
+	"vector-view-history": "Guipal estorial",
+	"vector-view-view": "Leyel",
+	"vector-view-viewsource": "Guipal cóigu"
 }

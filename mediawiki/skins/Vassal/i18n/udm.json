@@ -4,13 +4,13 @@
 			"Andrewboltachev"
 		]
 	},
-	"vassal-action-addsection": "Выль темаез ватсано",
-	"vassal-action-delete": "Быдтоно",
-	"vassal-action-move": "Мукет интые выжтыны",
-	"vassal-action-protect": "Утьыны",
-	"vassal-view-create": "Кылдытоно",
-	"vassal-view-edit": "Тупатоно",
-	"vassal-view-history": "История",
-	"vassal-view-view": "Лыдӟоно",
-	"vassal-view-viewsource": "Кодзэ учкыны"
+	"vector-action-addsection": "Выль темаез ватсано",
+	"vector-action-delete": "Быдтоно",
+	"vector-action-move": "Мукет интые выжтыны",
+	"vector-action-protect": "Утьыны",
+	"vector-view-create": "Кылдытоно",
+	"vector-view-edit": "Тупатоно",
+	"vector-view-history": "История",
+	"vector-view-view": "Лыдӟоно",
+	"vector-view-viewsource": "Кодзэ учкыны"
 }

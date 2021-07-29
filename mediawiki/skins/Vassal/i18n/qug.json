@@ -4,15 +4,15 @@
 			"Sylvain2803"
 		]
 	},
-	"vassal-action-addsection": "Shuk mushuk rimanakuyta kallarina",
-	"vassal-action-delete": "Pichana",
-	"vassal-action-move": "Apakuna",
-	"vassal-action-protect": "Harkana",
-	"vassal-action-undelete": "Kutin wacharichina",
-	"vassal-action-unprotect": "Harkayta shukchina",
-	"vassal-view-create": "Kamarina",
-	"vassal-view-edit": "Killkana",
-	"vassal-view-history": "Wiñay kawsayta rikuna",
-	"vassal-view-view": "Killkakatina",
-	"vassal-view-viewsource": "Pukyu killkata rikuna"
+	"vector-action-addsection": "Shuk mushuk rimanakuyta kallarina",
+	"vector-action-delete": "Pichana",
+	"vector-action-move": "Apakuna",
+	"vector-action-protect": "Harkana",
+	"vector-action-undelete": "Kutin wacharichina",
+	"vector-action-unprotect": "Harkayta shukchina",
+	"vector-view-create": "Kamarina",
+	"vector-view-edit": "Killkana",
+	"vector-view-history": "Wiñay kawsayta rikuna",
+	"vector-view-view": "Killkakatina",
+	"vector-view-viewsource": "Pukyu killkata rikuna"
 }

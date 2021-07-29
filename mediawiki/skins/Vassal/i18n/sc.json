@@ -8,15 +8,15 @@
 			"Taxandru"
 		]
 	},
-	"vassal-action-addsection": "Agiunghe cuntierra",
-	"vassal-action-delete": "Burra",
-	"vassal-action-move": "Move",
-	"vassal-action-protect": "Barda",
-	"vassal-action-undelete": "Recùpera",
-	"vassal-view-create": "Crea",
-	"vassal-view-edit": "Modìfica",
-	"vassal-view-history": "Càstia istòria",
-	"vassal-view-view": "Leghe",
-	"vassal-view-viewsource": "Càstia mitza",
-	"vassal-more-actions": "Prus"
+	"vector-action-addsection": "Agiunghe cuntierra",
+	"vector-action-delete": "Burra",
+	"vector-action-move": "Move",
+	"vector-action-protect": "Barda",
+	"vector-action-undelete": "Recùpera",
+	"vector-view-create": "Crea",
+	"vector-view-edit": "Modìfica",
+	"vector-view-history": "Càstia istòria",
+	"vector-view-view": "Leghe",
+	"vector-view-viewsource": "Càstia mitza",
+	"vector-more-actions": "Prus"
 }

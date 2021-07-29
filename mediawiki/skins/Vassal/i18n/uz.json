@@ -9,17 +9,17 @@
 			"Nataev"
 		]
 	},
-	"skinname-vassal": "Vektor",
-	"vassal-action-addsection": "Mavzu qoʻshish",
-	"vassal-action-delete": "O‘chirish",
-	"vassal-action-move": "Ko‘chirish",
-	"vassal-action-protect": "Himoyalash",
-	"vassal-action-undelete": "Tiklash",
-	"vassal-action-unprotect": "Himoyani oʻzgartirish",
-	"vassal-view-create": "Yaratish",
-	"vassal-view-edit": "Tahrirlash",
-	"vassal-view-history": "Tarix",
-	"vassal-view-view": "Mutolaa",
-	"vassal-view-viewsource": "Manbasini koʻrish",
-	"vassal-more-actions": "Yana"
+	"skinname-vector": "Vektor",
+	"vector-action-addsection": "Mavzu qoʻshish",
+	"vector-action-delete": "O‘chirish",
+	"vector-action-move": "Ko‘chirish",
+	"vector-action-protect": "Himoyalash",
+	"vector-action-undelete": "Tiklash",
+	"vector-action-unprotect": "Himoyani oʻzgartirish",
+	"vector-view-create": "Yaratish",
+	"vector-view-edit": "Tahrirlash",
+	"vector-view-history": "Tarix",
+	"vector-view-view": "Mutolaa",
+	"vector-view-viewsource": "Manbasini koʻrish",
+	"vector-more-actions": "Yana"
 }

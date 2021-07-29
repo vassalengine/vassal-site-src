@@ -4,15 +4,15 @@
 			"Usingha"
 		]
 	},
-	"vassal-action-addsection": "বিষয় তিলকর",
-	"vassal-action-delete": "পুসে বেলা",
-	"vassal-action-move": "থেইকর",
-	"vassal-action-protect": "লুকর",
-	"vassal-action-undelete": "নাপুসি",
-	"vassal-action-unprotect": "লুকরানিহান সিলকর",
-	"vassal-view-create": "হঙকরিক",
-	"vassal-view-edit": "পতানি",
-	"vassal-view-history": "ইতিহাস চেইক",
-	"vassal-view-view": "পাকরিক",
-	"vassal-view-viewsource": "সোর্স চেইক"
+	"vector-action-addsection": "বিষয় তিলকর",
+	"vector-action-delete": "পুসে বেলা",
+	"vector-action-move": "থেইকর",
+	"vector-action-protect": "লুকর",
+	"vector-action-undelete": "নাপুসি",
+	"vector-action-unprotect": "লুকরানিহান সিলকর",
+	"vector-view-create": "হঙকরিক",
+	"vector-view-edit": "পতানি",
+	"vector-view-history": "ইতিহাস চেইক",
+	"vector-view-view": "পাকরিক",
+	"vector-view-viewsource": "সোর্স চেইক"
 }

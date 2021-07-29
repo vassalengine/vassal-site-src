@@ -4,15 +4,15 @@
 			"Don Alessandro"
 		]
 	},
-	"vassal-action-addsection": "Мевзу къош",
-	"vassal-action-delete": "Ёкъ эт",
-	"vassal-action-move": "Адыны денъиштир",
-	"vassal-action-protect": "Къорчала",
-	"vassal-action-undelete": "Янъыдан ярат",
-	"vassal-action-unprotect": "Къорчалавны денъиштир",
-	"vassal-view-create": "Ярат",
-	"vassal-view-edit": "Денъиштир",
-	"vassal-view-history": "Кечмишини косьтер",
-	"vassal-view-view": "Окъу",
-	"vassal-view-viewsource": "Менба кодуны косьтер"
+	"vector-action-addsection": "Мевзу къош",
+	"vector-action-delete": "Ёкъ эт",
+	"vector-action-move": "Адыны денъиштир",
+	"vector-action-protect": "Къорчала",
+	"vector-action-undelete": "Янъыдан ярат",
+	"vector-action-unprotect": "Къорчалавны денъиштир",
+	"vector-view-create": "Ярат",
+	"vector-view-edit": "Денъиштир",
+	"vector-view-history": "Кечмишини косьтер",
+	"vector-view-view": "Окъу",
+	"vector-view-viewsource": "Менба кодуны косьтер"
 }

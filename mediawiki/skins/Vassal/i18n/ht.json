@@ -7,16 +7,16 @@
 			"Tisave"
 		]
 	},
-	"vassal-action-addsection": "Ajoute yon sijè",
-	"vassal-action-delete": "Efase",
-	"vassal-action-move": "Chanje non",
-	"vassal-action-protect": "Pwoteje",
-	"vassal-action-undelete": "Retabli",
-	"vassal-action-unprotect": "Pa pwoteje",
-	"vassal-view-create": "Kreye",
-	"vassal-view-edit": "Modifye",
-	"vassal-view-history": "Gade istorik",
-	"vassal-view-view": "Li",
-	"vassal-view-viewsource": "Wè kòd tèks sa a",
-	"vassal-more-actions": "Plis"
+	"vector-action-addsection": "Ajoute yon sijè",
+	"vector-action-delete": "Efase",
+	"vector-action-move": "Chanje non",
+	"vector-action-protect": "Pwoteje",
+	"vector-action-undelete": "Retabli",
+	"vector-action-unprotect": "Pa pwoteje",
+	"vector-view-create": "Kreye",
+	"vector-view-edit": "Modifye",
+	"vector-view-history": "Gade istorik",
+	"vector-view-view": "Li",
+	"vector-view-viewsource": "Wè kòd tèks sa a",
+	"vector-more-actions": "Plis"
 }

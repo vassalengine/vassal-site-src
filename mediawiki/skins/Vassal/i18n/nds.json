@@ -5,15 +5,15 @@
 			"Zylbath"
 		]
 	},
-	"vassal-action-addsection": "Thema tofögen",
-	"vassal-action-delete": "Wegdoon",
-	"vassal-action-move": "Schuven",
-	"vassal-action-protect": "Schulen",
-	"vassal-action-undelete": "Wedderhalen",
-	"vassal-action-unprotect": "Siedenschuul ännern",
-	"vassal-view-create": "Opstellen",
-	"vassal-view-edit": "Ännern",
-	"vassal-view-history": "Historie bekieken",
-	"vassal-view-view": "Lesen",
-	"vassal-view-viewsource": "Borntext bekieken"
+	"vector-action-addsection": "Thema tofögen",
+	"vector-action-delete": "Wegdoon",
+	"vector-action-move": "Schuven",
+	"vector-action-protect": "Schulen",
+	"vector-action-undelete": "Wedderhalen",
+	"vector-action-unprotect": "Siedenschuul ännern",
+	"vector-view-create": "Opstellen",
+	"vector-view-edit": "Ännern",
+	"vector-view-history": "Historie bekieken",
+	"vector-view-view": "Lesen",
+	"vector-view-viewsource": "Borntext bekieken"
 }

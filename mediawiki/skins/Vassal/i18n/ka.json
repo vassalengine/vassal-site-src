@@ -6,18 +6,18 @@
 			"გიორგიმელა"
 		]
 	},
-	"skinname-vassal": "ვექტორული",
-	"vassal.css": "/* აქ ჩასმული CSS გამოყენებული იქნება ვექტორული გაფორმების თემაში */",
-	"vassal-action-addsection": "თემის ჩამატება",
-	"vassal-action-delete": "წაშლა",
-	"vassal-action-move": "გადატანა",
-	"vassal-action-protect": "დაცვა",
-	"vassal-action-undelete": "აღდგენა",
-	"vassal-action-unprotect": "დაცვის შეცვლა",
-	"vassal-view-create": "შექმნა",
-	"vassal-view-edit": "რედაქტირება",
-	"vassal-view-history": "ისტორია",
-	"vassal-view-view": "შემოწმებული სტატია",
-	"vassal-view-viewsource": "წყაროს ხილვა",
-	"vassal-more-actions": "მეტი"
+	"skinname-vector": "ვექტორული",
+	"vector.css": "/* აქ ჩასმული CSS გამოყენებული იქნება ვექტორული გაფორმების თემაში */",
+	"vector-action-addsection": "თემის ჩამატება",
+	"vector-action-delete": "წაშლა",
+	"vector-action-move": "გადატანა",
+	"vector-action-protect": "დაცვა",
+	"vector-action-undelete": "აღდგენა",
+	"vector-action-unprotect": "დაცვის შეცვლა",
+	"vector-view-create": "შექმნა",
+	"vector-view-edit": "რედაქტირება",
+	"vector-view-history": "ისტორია",
+	"vector-view-view": "შემოწმებული სტატია",
+	"vector-view-viewsource": "წყაროს ხილვა",
+	"vector-more-actions": "მეტი"
 }

@@ -4,16 +4,16 @@
 			"Pras"
 		]
 	},
-	"vassal-action-addsection": "Tambah topik",
-	"vassal-action-delete": "Busak",
-	"vassal-action-move": "Pindhahna",
-	"vassal-action-protect": "Reksa",
-	"vassal-action-undelete": "Batalna pambusakan",
-	"vassal-action-unprotect": "Owahi pangreksan",
-	"vassal-view-create": "Gawé",
-	"vassal-view-edit": "Sunting",
-	"vassal-view-history": "Sajarah kaca",
-	"vassal-view-view": "Waca",
-	"vassal-view-viewsource": "Pirsani sumber",
-	"vassal-more-actions": "Salajengipun"
+	"vector-action-addsection": "Tambah topik",
+	"vector-action-delete": "Busak",
+	"vector-action-move": "Pindhahna",
+	"vector-action-protect": "Reksa",
+	"vector-action-undelete": "Batalna pambusakan",
+	"vector-action-unprotect": "Owahi pangreksan",
+	"vector-view-create": "Gawé",
+	"vector-view-edit": "Sunting",
+	"vector-view-history": "Sajarah kaca",
+	"vector-view-view": "Waca",
+	"vector-view-viewsource": "Pirsani sumber",
+	"vector-more-actions": "Salajengipun"
 }

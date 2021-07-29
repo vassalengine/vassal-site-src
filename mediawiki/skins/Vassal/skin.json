@@ -1,33 +1,33 @@
 {
-	"name": "Vassal",
+	"name": "Vector",
 	"author": [
 		"Trevor Parscal",
 		"Roan Kattouw",
 		"..."
 	],
-	"url": "https://www.mediawiki.org/wiki/Skin:Vassal",
-	"descriptionmsg": "vassal-skin-desc",
-	"namemsg": "skinname-vassal",
+	"url": "https://www.mediawiki.org/wiki/Skin:Vector",
+	"descriptionmsg": "vector-skin-desc",
+	"namemsg": "skinname-vector",
 	"license-name": "GPL-2.0+",
 	"type": "skin",
 	"ConfigRegistry": {
-		"vassal": "GlobalVarConfig::newInstance"
+		"vector": "GlobalVarConfig::newInstance"
 	},
 	"ValidSkinNames": {
-		"vassal": "Vassal"
+		"vector": "Vector"
 	},
 	"MessagesDirs": {
-		"Vassal": [
+		"Vector": [
 			"i18n"
 		]
 	},
 	"AutoloadClasses": {
-		"SkinVassal": "SkinVassal.php",
-		"VassalTemplate": "VassalTemplate.php"
+		"SkinVector": "SkinVector.php",
+		"VectorTemplate": "VectorTemplate.php"
 	},
-	"@note": "When modifying skins.vassal.styles definition, make sure the installer still works",
+	"@note": "When modifying skins.vector.styles definition, make sure the installer still works",
 	"ResourceModules": {
-		"skins.vassal.styles": {
+		"skins.vector.styles": {
 			"position": "top",
 			"styles": {
 				"screen.less": {
@@ -38,7 +38,7 @@
 				}
 			}
 		},
-		"skins.vassal.styles.responsive": {
+		"skins.vector.styles.responsive": {
 			"position": "top",
 			"styles": {
 				"responsive.less": {
@@ -46,10 +46,10 @@
 				}
 			}
 		},
-		"skins.vassal.js": {
+		"skins.vector.js": {
 			"scripts": [
 				"collapsibleTabs.js",
-				"vassal.js"
+				"vector.js"
 			],
 			"position": "top",
 			"dependencies": [
@@ -60,10 +60,10 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteSkinPath": "Vassal"
+		"remoteSkinPath": "Vector"
 	},
 	"ResourceModuleSkinStyles": {
-		"vassal": {
+		"vector": {
 			"jquery.tipsy": "skinStyles/jquery.tipsy.less",
 			"jquery.ui.core": [
 				"skinStyles/jquery.ui/jquery.ui.core.css",
@@ -90,9 +90,9 @@
 		}
 	},
 	"config": {
-		"VassalUseSimpleSearch": true,
-		"VassalUseIconWatch": true,
-		"VassalResponsive": false
+		"VectorUseSimpleSearch": true,
+		"VectorUseIconWatch": true,
+		"VectorResponsive": false
 	},
 	"manifest_version": 1
 }

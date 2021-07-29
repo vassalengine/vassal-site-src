@@ -5,16 +5,16 @@
 			"唐吉訶德的侍從"
 		]
 	},
-	"vassal-action-addsection": "Ke chi̍t-ê toān-lo̍h",
-	"vassal-action-delete": "Thâi",
-	"vassal-action-move": "Sóa khì",
-	"vassal-action-protect": "Pó-hō·",
-	"vassal-action-undelete": "chhú-siau thâi tiàu",
-	"vassal-action-unprotect": "kái pó-hō·",
-	"vassal-view-create": "Khai-sí siá",
-	"vassal-view-edit": "Siu-kái",
-	"vassal-view-history": "khoàⁿ le̍k-sú",
-	"vassal-view-view": "Tha̍k",
-	"vassal-view-viewsource": "Khoàⁿ goân-sú lōe-iông",
-	"vassal-more-actions": "Koh khoàⁿ"
+	"vector-action-addsection": "Ke chi̍t-ê toān-lo̍h",
+	"vector-action-delete": "Thâi",
+	"vector-action-move": "Sóa khì",
+	"vector-action-protect": "Pó-hō·",
+	"vector-action-undelete": "chhú-siau thâi tiàu",
+	"vector-action-unprotect": "kái pó-hō·",
+	"vector-view-create": "Khai-sí siá",
+	"vector-view-edit": "Siu-kái",
+	"vector-view-history": "khoàⁿ le̍k-sú",
+	"vector-view-view": "Tha̍k",
+	"vector-view-viewsource": "Khoàⁿ goân-sú lōe-iông",
+	"vector-more-actions": "Koh khoàⁿ"
 }

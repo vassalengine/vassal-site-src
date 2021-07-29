@@ -4,16 +4,16 @@
 			"UV"
 		]
 	},
-	"vassal-action-addsection": "Partem novam addere",
-	"vassal-action-delete": "Delere",
-	"vassal-action-move": "Movere",
-	"vassal-action-protect": "Protegere",
-	"vassal-action-undelete": "Restituere",
-	"vassal-action-unprotect": "Protectionem mutare",
-	"vassal-view-create": "Creare",
-	"vassal-view-edit": "Recensere",
-	"vassal-view-history": "Historiam inspicere",
-	"vassal-view-view": "Legere",
-	"vassal-view-viewsource": "Fontem inspicere",
-	"vassal-more-actions": "Plus"
+	"vector-action-addsection": "Partem novam addere",
+	"vector-action-delete": "Delere",
+	"vector-action-move": "Movere",
+	"vector-action-protect": "Protegere",
+	"vector-action-undelete": "Restituere",
+	"vector-action-unprotect": "Protectionem mutare",
+	"vector-view-create": "Creare",
+	"vector-view-edit": "Recensere",
+	"vector-view-history": "Historiam inspicere",
+	"vector-view-view": "Legere",
+	"vector-view-viewsource": "Fontem inspicere",
+	"vector-more-actions": "Plus"
 }

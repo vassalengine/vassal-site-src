@@ -7,16 +7,16 @@
 			"StanProg"
 		]
 	},
-	"vassal-action-addsection": "Добавяне на тема",
-	"vassal-action-delete": "Изтриване",
-	"vassal-action-move": "Преместване",
-	"vassal-action-protect": "Защита",
-	"vassal-action-undelete": "Възстановяване",
-	"vassal-action-unprotect": "Промяна на защитата",
-	"vassal-view-create": "Създаване",
-	"vassal-view-edit": "Редактиране",
-	"vassal-view-history": "История",
-	"vassal-view-view": "Преглед",
-	"vassal-view-viewsource": "Преглед на кода",
-	"vassal-more-actions": "Още"
+	"vector-action-addsection": "Добавяне на тема",
+	"vector-action-delete": "Изтриване",
+	"vector-action-move": "Преместване",
+	"vector-action-protect": "Защита",
+	"vector-action-undelete": "Възстановяване",
+	"vector-action-unprotect": "Промяна на защитата",
+	"vector-view-create": "Създаване",
+	"vector-view-edit": "Редактиране",
+	"vector-view-history": "История",
+	"vector-view-view": "Преглед",
+	"vector-view-viewsource": "Преглед на кода",
+	"vector-more-actions": "Още"
 }

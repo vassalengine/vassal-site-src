@@ -6,18 +6,18 @@
 			"Wizardist"
 		]
 	},
-	"skinname-vassal": "Вэктар",
-	"vassal-skin-desc": "Сучасная вэрсія MonoBook з абноўленым выглядам і шматлікімі паляпшэньнямі",
-	"vassal-action-addsection": "Дадаць тэму",
-	"vassal-action-delete": "Выдаліць",
-	"vassal-action-move": "Перанесьці",
-	"vassal-action-protect": "Абараніць",
-	"vassal-action-undelete": "Аднавіць",
-	"vassal-action-unprotect": "Зьмяніць абарону",
-	"vassal-view-create": "Стварыць",
-	"vassal-view-edit": "Рэдагаваць",
-	"vassal-view-history": "Паказаць гісторыю",
-	"vassal-view-view": "Чытаць",
-	"vassal-view-viewsource": "Паказаць крыніцу",
-	"vassal-more-actions": "Болей"
+	"skinname-vector": "Вэктар",
+	"vector-skin-desc": "Сучасная вэрсія MonoBook з абноўленым выглядам і шматлікімі паляпшэньнямі",
+	"vector-action-addsection": "Дадаць тэму",
+	"vector-action-delete": "Выдаліць",
+	"vector-action-move": "Перанесьці",
+	"vector-action-protect": "Абараніць",
+	"vector-action-undelete": "Аднавіць",
+	"vector-action-unprotect": "Зьмяніць абарону",
+	"vector-view-create": "Стварыць",
+	"vector-view-edit": "Рэдагаваць",
+	"vector-view-history": "Паказаць гісторыю",
+	"vector-view-view": "Чытаць",
+	"vector-view-viewsource": "Паказаць крыніцу",
+	"vector-more-actions": "Болей"
 }

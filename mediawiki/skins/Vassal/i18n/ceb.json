@@ -4,15 +4,15 @@
 			"Jordz"
 		]
 	},
-	"vassal-action-addsection": "Pagdugang og topiko",
-	"vassal-action-delete": "Papasa",
-	"vassal-action-move": "Ibalhin",
-	"vassal-action-protect": "Protektahi",
-	"vassal-action-undelete": "Ayaw papasa",
-	"vassal-action-unprotect": "Ayaw protektahi",
-	"vassal-view-create": "Himoa",
-	"vassal-view-edit": "Usba",
-	"vassal-view-history": "Tan-awa ang kaagi",
-	"vassal-view-view": "Basaha",
-	"vassal-view-viewsource": "Tan-awa ang ginikanan"
+	"vector-action-addsection": "Pagdugang og topiko",
+	"vector-action-delete": "Papasa",
+	"vector-action-move": "Ibalhin",
+	"vector-action-protect": "Protektahi",
+	"vector-action-undelete": "Ayaw papasa",
+	"vector-action-unprotect": "Ayaw protektahi",
+	"vector-view-create": "Himoa",
+	"vector-view-edit": "Usba",
+	"vector-view-history": "Tan-awa ang kaagi",
+	"vector-view-view": "Basaha",
+	"vector-view-viewsource": "Tan-awa ang ginikanan"
 }

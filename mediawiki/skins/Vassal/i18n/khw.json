@@ -4,16 +4,16 @@
 			"Rachitrali"
 		]
 	},
-	"vassal-action-addsection": "نوغ موضوع",
-	"vassal-action-delete": "بوغاوے",
-	"vassal-action-move": "منتقل کورے",
-	"vassal-action-protect": "محفوظ کورے",
-	"vassal-action-undelete": "اچی انگیے",
-	"vassal-action-unprotect": "غیر محفوظ",
-	"vassal-view-create": "ساوزاوے",
-	"vassal-view-edit": "ایڈٹ کورے",
-	"vassal-view-history": "تاریخچہ",
-	"vassal-view-view": "راوے",
-	"vassal-view-viewsource": "مسودہ",
-	"vassal-more-actions": "مزید"
+	"vector-action-addsection": "نوغ موضوع",
+	"vector-action-delete": "بوغاوے",
+	"vector-action-move": "منتقل کورے",
+	"vector-action-protect": "محفوظ کورے",
+	"vector-action-undelete": "اچی انگیے",
+	"vector-action-unprotect": "غیر محفوظ",
+	"vector-view-create": "ساوزاوے",
+	"vector-view-edit": "ایڈٹ کورے",
+	"vector-view-history": "تاریخچہ",
+	"vector-view-view": "راوے",
+	"vector-view-viewsource": "مسودہ",
+	"vector-more-actions": "مزید"
 }

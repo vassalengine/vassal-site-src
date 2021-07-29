@@ -5,15 +5,15 @@
 			"Phurbutsering"
 		]
 	},
-	"vassal-action-addsection": "བརྗོད་གཞི་ཁ་སྣོན།",
-	"vassal-action-delete": "སུབས།",
-	"vassal-action-move": "སྤོར་བ།",
-	"vassal-action-protect": "འགོག་སྲུང།",
-	"vassal-action-undelete": "མི་བསུབས་",
-	"vassal-action-unprotect": "སྲུང་སྐྱོབ་གློད་པ།",
-	"vassal-view-create": "གསར་བཟོ།",
-	"vassal-view-edit": "རྩོམ་སྒྲིག",
-	"vassal-view-history": "ལོ་རྒྱུས་ལ་ལྟ་བ།",
-	"vassal-view-view": "ཀློག་པ།",
-	"vassal-view-viewsource": "ཁུངས་ལ་ལྟ་བ།"
+	"vector-action-addsection": "བརྗོད་གཞི་ཁ་སྣོན།",
+	"vector-action-delete": "སུབས།",
+	"vector-action-move": "སྤོར་བ།",
+	"vector-action-protect": "འགོག་སྲུང།",
+	"vector-action-undelete": "མི་བསུབས་",
+	"vector-action-unprotect": "སྲུང་སྐྱོབ་གློད་པ།",
+	"vector-view-create": "གསར་བཟོ།",
+	"vector-view-edit": "རྩོམ་སྒྲིག",
+	"vector-view-history": "ལོ་རྒྱུས་ལ་ལྟ་བ།",
+	"vector-view-view": "ཀློག་པ།",
+	"vector-view-viewsource": "ཁུངས་ལ་ལྟ་བ།"
 }

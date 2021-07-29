@@ -7,16 +7,16 @@
 			"Amir a57"
 		]
 	},
-	"vassal-action-addsection": "قوْنو آرتیر",
-	"vassal-action-delete": "سیل",
-	"vassal-action-move": "داشی",
-	"vassal-action-protect": "قوْرو",
-	"vassal-action-undelete": "سیلمگی قایتار",
-	"vassal-action-unprotect": "قوْروماغی دَییشدیر",
-	"vassal-view-create": "یارات",
-	"vassal-view-edit": "دَییشدیر",
-	"vassal-view-history": "گئچمیشه باخ",
-	"vassal-view-view": "اوْخو",
-	"vassal-view-viewsource": "قایناغا باخ",
-	"vassal-more-actions": "داها"
+	"vector-action-addsection": "قوْنو آرتیر",
+	"vector-action-delete": "سیل",
+	"vector-action-move": "داشی",
+	"vector-action-protect": "قوْرو",
+	"vector-action-undelete": "سیلمگی قایتار",
+	"vector-action-unprotect": "قوْروماغی دَییشدیر",
+	"vector-view-create": "یارات",
+	"vector-view-edit": "دَییشدیر",
+	"vector-view-history": "گئچمیشه باخ",
+	"vector-view-view": "اوْخو",
+	"vector-view-viewsource": "قایناغا باخ",
+	"vector-more-actions": "داها"
 }

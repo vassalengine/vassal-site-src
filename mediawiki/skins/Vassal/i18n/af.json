@@ -5,16 +5,16 @@
 			"Naudefj"
 		]
 	},
-	"vassal-action-addsection": "Nuwe onderwerp",
-	"vassal-action-delete": "Skrap",
-	"vassal-action-move": "Skuif",
-	"vassal-action-protect": "Beskerm",
-	"vassal-action-undelete": "Ontskrap",
-	"vassal-action-unprotect": "Wysig beskerming",
-	"vassal-view-create": "Skep",
-	"vassal-view-edit": "Wysig",
-	"vassal-view-history": "Wys geskiedenis",
-	"vassal-view-view": "Lees",
-	"vassal-view-viewsource": "Wys bronteks",
-	"vassal-more-actions": "Meer"
+	"vector-action-addsection": "Nuwe onderwerp",
+	"vector-action-delete": "Skrap",
+	"vector-action-move": "Skuif",
+	"vector-action-protect": "Beskerm",
+	"vector-action-undelete": "Ontskrap",
+	"vector-action-unprotect": "Wysig beskerming",
+	"vector-view-create": "Skep",
+	"vector-view-edit": "Wysig",
+	"vector-view-history": "Wys geskiedenis",
+	"vector-view-view": "Lees",
+	"vector-view-viewsource": "Wys bronteks",
+	"vector-more-actions": "Meer"
 }

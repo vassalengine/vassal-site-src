@@ -4,11 +4,11 @@
 			"Xqt"
 		]
 	},
-	"vassal-action-delete": "Verwische",
-	"vassal-action-move": "Ziehe",
-	"vassal-action-protect": "Schitze",
-	"vassal-view-create": "Schtaerte",
-	"vassal-view-edit": "Ennere",
-	"vassal-view-history": "Gschicht zeige",
-	"vassal-view-view": "Lese"
+	"vector-action-delete": "Verwische",
+	"vector-action-move": "Ziehe",
+	"vector-action-protect": "Schitze",
+	"vector-view-create": "Schtaerte",
+	"vector-view-edit": "Ennere",
+	"vector-view-history": "Gschicht zeige",
+	"vector-view-view": "Lese"
 }

@@ -8,16 +8,16 @@
 			"Vajotwo"
 		]
 	},
-	"vassal-action-addsection": "Xonta discusion",
-	"vassal-action-delete": "Scanseƚa",
-	"vassal-action-move": "Sposta",
-	"vassal-action-protect": "Protegi",
-	"vassal-action-undelete": "Recupera",
-	"vassal-action-unprotect": "Canbia ƚa protesion",
-	"vassal-view-create": "Crea",
-	"vassal-view-edit": "Canbia",
-	"vassal-view-history": "Varda ƚa stòria",
-	"vassal-view-view": "Lexi",
-	"vassal-view-viewsource": "Varda el testo",
-	"vassal-more-actions": "Piassè"
+	"vector-action-addsection": "Xonta discusion",
+	"vector-action-delete": "Scanseƚa",
+	"vector-action-move": "Sposta",
+	"vector-action-protect": "Protegi",
+	"vector-action-undelete": "Recupera",
+	"vector-action-unprotect": "Canbia ƚa protesion",
+	"vector-view-create": "Crea",
+	"vector-view-edit": "Canbia",
+	"vector-view-history": "Varda ƚa stòria",
+	"vector-view-view": "Lexi",
+	"vector-view-viewsource": "Varda el testo",
+	"vector-more-actions": "Piassè"
 }

@@ -6,18 +6,18 @@
 			"Ramsis II"
 		]
 	},
-	"vassal.css": "/* CSS اللى هنا حتأثر على اليوزرز اللى بيستخدموا واجهة فكتور */",
-	"vassal.js": "/* اى جافاسكريبت هنا حتتحمل لكل يوزر بيستخدم واجهة فكتور */",
-	"vassal-action-addsection": "ضيف موضوع",
-	"vassal-action-delete": "مسح",
-	"vassal-action-move": "نقل",
-	"vassal-action-protect": "حمايه",
-	"vassal-action-undelete": "الغى المسح",
-	"vassal-action-unprotect": "غير الحمايه",
-	"vassal-view-create": "اعمل",
-	"vassal-view-edit": "تعديل",
-	"vassal-view-history": "استعراض التاريخ",
-	"vassal-view-view": "قرايه",
-	"vassal-view-viewsource": "استعراض المصدر",
-	"vassal-more-actions": "اكتر"
+	"vector.css": "/* CSS اللى هنا حتأثر على اليوزرز اللى بيستخدموا واجهة فكتور */",
+	"vector.js": "/* اى جافاسكريبت هنا حتتحمل لكل يوزر بيستخدم واجهة فكتور */",
+	"vector-action-addsection": "ضيف موضوع",
+	"vector-action-delete": "مسح",
+	"vector-action-move": "نقل",
+	"vector-action-protect": "حمايه",
+	"vector-action-undelete": "الغى المسح",
+	"vector-action-unprotect": "غير الحمايه",
+	"vector-view-create": "اعمل",
+	"vector-view-edit": "تعديل",
+	"vector-view-history": "استعراض التاريخ",
+	"vector-view-view": "قرايه",
+	"vector-view-viewsource": "استعراض المصدر",
+	"vector-more-actions": "اكتر"
 }

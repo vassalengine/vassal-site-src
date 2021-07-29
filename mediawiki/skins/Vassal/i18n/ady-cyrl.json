@@ -11,16 +11,16 @@
 			"Inyzh"
 		]
 	},
-	"vassal-action-addsection": "Iофтхьабз",
-	"vassal-action-delete": "ЛъэкӀ",
-	"vassal-action-move": "Хьы",
-	"vassal-action-protect": "Иухъумэ",
-	"vassal-action-undelete": "Умылъэк1",
-	"vassal-action-unprotect": "Умыухъумэ",
-	"vassal-view-create": "КъэшI",
-	"vassal-view-edit": "ХэӀэзыхь",
-	"vassal-view-history": "Тарихъым eплъ",
-	"vassal-view-view": "Едж",
-	"vassal-view-viewsource": "Еплъ лъапсэм",
-	"vassal-more-actions": "Джыри"
+	"vector-action-addsection": "Iофтхьабз",
+	"vector-action-delete": "ЛъэкӀ",
+	"vector-action-move": "Хьы",
+	"vector-action-protect": "Иухъумэ",
+	"vector-action-undelete": "Умылъэк1",
+	"vector-action-unprotect": "Умыухъумэ",
+	"vector-view-create": "КъэшI",
+	"vector-view-edit": "ХэӀэзыхь",
+	"vector-view-history": "Тарихъым eплъ",
+	"vector-view-view": "Едж",
+	"vector-view-viewsource": "Еплъ лъапсэм",
+	"vector-more-actions": "Джыри"
 }

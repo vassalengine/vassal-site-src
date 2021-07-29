@@ -6,17 +6,17 @@
 			"Tulsi Bhagat"
 		]
 	},
-	"skinname-vassal": "सदिश",
-	"vassal-action-addsection": "विचार-बिन्दु जोड़ू",
-	"vassal-action-delete": "मेटाउ",
-	"vassal-action-move": "घसकाउ",
-	"vassal-action-protect": "रक्षण करू",
-	"vassal-action-undelete": "आपस लाउ",
-	"vassal-action-unprotect": "सुरक्षा बदलू",
-	"vassal-view-create": "बनाउ",
-	"vassal-view-edit": "सम्पादन करू",
-	"vassal-view-history": "इतिहास देखू",
-	"vassal-view-view": "पढ़ू",
-	"vassal-view-viewsource": "जड़ि देखू",
-	"vassal-more-actions": "आर"
+	"skinname-vector": "सदिश",
+	"vector-action-addsection": "विचार-बिन्दु जोड़ू",
+	"vector-action-delete": "मेटाउ",
+	"vector-action-move": "घसकाउ",
+	"vector-action-protect": "रक्षण करू",
+	"vector-action-undelete": "आपस लाउ",
+	"vector-action-unprotect": "सुरक्षा बदलू",
+	"vector-view-create": "बनाउ",
+	"vector-view-edit": "सम्पादन करू",
+	"vector-view-history": "इतिहास देखू",
+	"vector-view-view": "पढ़ू",
+	"vector-view-viewsource": "जड़ि देखू",
+	"vector-more-actions": "आर"
 }

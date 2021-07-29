@@ -6,14 +6,14 @@
 			"Mashoi7"
 		]
 	},
-	"vassal-action-addsection": "Ližiä aihe",
-	"vassal-action-move": "Siirrä",
-	"vassal-action-protect": "Suojua",
-	"vassal-action-unprotect": "Vaihta suojavustu",
-	"vassal-view-create": "Luaji",
-	"vassal-view-edit": "Korjua",
-	"vassal-view-history": "Kačo histourii",
-	"vassal-view-view": "Luve",
-	"vassal-view-viewsource": "Kačo algukoodu",
-	"vassal-more-actions": "Vie"
+	"vector-action-addsection": "Ližiä aihe",
+	"vector-action-move": "Siirrä",
+	"vector-action-protect": "Suojua",
+	"vector-action-unprotect": "Vaihta suojavustu",
+	"vector-view-create": "Luaji",
+	"vector-view-edit": "Korjua",
+	"vector-view-history": "Kačo histourii",
+	"vector-view-view": "Luve",
+	"vector-view-viewsource": "Kačo algukoodu",
+	"vector-more-actions": "Vie"
 }

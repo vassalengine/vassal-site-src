@@ -5,15 +5,15 @@
 			"Jetlag"
 		]
 	},
-	"vassal-action-addsection": "加入話題",
-	"vassal-action-delete": "刪除",
-	"vassal-action-move": "移動",
-	"vassal-action-protect": "保護",
-	"vassal-action-undelete": "恢復",
-	"vassal-action-unprotect": "更改保護",
-	"vassal-view-create": "建立",
-	"vassal-view-edit": "編寫",
-	"vassal-view-history": "查看歷史",
-	"vassal-view-view": "閱讀",
-	"vassal-view-viewsource": "查看源碼"
+	"vector-action-addsection": "加入話題",
+	"vector-action-delete": "刪除",
+	"vector-action-move": "移動",
+	"vector-action-protect": "保護",
+	"vector-action-undelete": "恢復",
+	"vector-action-unprotect": "更改保護",
+	"vector-view-create": "建立",
+	"vector-view-edit": "編寫",
+	"vector-view-history": "查看歷史",
+	"vector-view-view": "閱讀",
+	"vector-view-viewsource": "查看源碼"
 }

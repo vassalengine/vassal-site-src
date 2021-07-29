@@ -4,10 +4,10 @@
 			"Sibande"
 		]
 	},
-	"vassal-action-addsection": "Ngeta sihloko",
-	"vassal-action-move": "Khweshisa",
-	"vassal-view-create": "Create",
-	"vassal-view-edit": "Hlela",
-	"vassal-view-history": "Bona umlandvo",
-	"vassal-view-view": "Fundza"
+	"vector-action-addsection": "Ngeta sihloko",
+	"vector-action-move": "Khweshisa",
+	"vector-view-create": "Create",
+	"vector-view-edit": "Hlela",
+	"vector-view-history": "Bona umlandvo",
+	"vector-view-view": "Fundza"
 }

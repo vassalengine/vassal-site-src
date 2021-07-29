@@ -6,17 +6,17 @@
 			"Рустам Нурыев"
 		]
 	},
-	"skinname-vassal": "Векторлы",
-	"vassal-action-addsection": "Тема өҫтәргә",
-	"vassal-action-delete": "Юйырға",
-	"vassal-action-move": "Исемен үҙгәртергә",
-	"vassal-action-protect": "Һаҡларға",
-	"vassal-action-undelete": "Тергеҙергә",
-	"vassal-action-unprotect": "Һаҡлауҙы үҙгәртергә",
-	"vassal-view-create": "Яһау",
-	"vassal-view-edit": "Үҙгәртергә",
-	"vassal-view-history": "Тарихты ҡарау",
-	"vassal-view-view": "Уҡыу",
-	"vassal-view-viewsource": "Сығанаҡты ҡарарға",
-	"vassal-more-actions": "Тағы"
+	"skinname-vector": "Векторлы",
+	"vector-action-addsection": "Тема өҫтәргә",
+	"vector-action-delete": "Юйырға",
+	"vector-action-move": "Исемен үҙгәртергә",
+	"vector-action-protect": "Һаҡларға",
+	"vector-action-undelete": "Тергеҙергә",
+	"vector-action-unprotect": "Һаҡлауҙы үҙгәртергә",
+	"vector-view-create": "Яһау",
+	"vector-view-edit": "Үҙгәртергә",
+	"vector-view-history": "Тарихты ҡарау",
+	"vector-view-view": "Уҡыу",
+	"vector-view-viewsource": "Сығанаҡты ҡарарға",
+	"vector-more-actions": "Тағы"
 }

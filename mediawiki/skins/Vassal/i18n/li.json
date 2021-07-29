@@ -5,16 +5,16 @@
 			"Robin0van0der0vliet"
 		]
 	},
-	"vassal-action-addsection": "Voog köpke toe",
-	"vassal-action-delete": "Ewegsjaffe",
-	"vassal-action-move": "Verplaats",
-	"vassal-action-protect": "Besjirm",
-	"vassal-action-undelete": "Plaats trök",
-	"vassal-action-unprotect": "Anger beveiliging",
-	"vassal-view-create": "Maak aan",
-	"vassal-view-edit": "Bewirk",
-	"vassal-view-history": "Bekiek de gesjiedenis",
-	"vassal-view-view": "Laes",
-	"vassal-view-viewsource": "Bekiek bróntèks",
-	"vassal-more-actions": "Mieë"
+	"vector-action-addsection": "Voog köpke toe",
+	"vector-action-delete": "Ewegsjaffe",
+	"vector-action-move": "Verplaats",
+	"vector-action-protect": "Besjirm",
+	"vector-action-undelete": "Plaats trök",
+	"vector-action-unprotect": "Anger beveiliging",
+	"vector-view-create": "Maak aan",
+	"vector-view-edit": "Bewirk",
+	"vector-view-history": "Bekiek de gesjiedenis",
+	"vector-view-view": "Laes",
+	"vector-view-viewsource": "Bekiek bróntèks",
+	"vector-more-actions": "Mieë"
 }

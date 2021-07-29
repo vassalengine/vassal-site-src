@@ -5,17 +5,17 @@
 			"V.narsikar"
 		]
 	},
-	"skinname-vassal": "सदिश",
-	"vassal-action-addsection": "विषय जोडा",
-	"vassal-action-delete": "वगळा",
-	"vassal-action-move": "स्थानांतरण",
-	"vassal-action-protect": "सुरक्षित करा",
-	"vassal-action-undelete": "वगळलेले पुनर्स्थापित करा",
-	"vassal-action-unprotect": "सुरक्षितता बदला",
-	"vassal-view-create": "तयार करा",
-	"vassal-view-edit": "संपादन",
-	"vassal-view-history": "इतिहास पहा",
-	"vassal-view-view": "वाचा",
-	"vassal-view-viewsource": "स्रोत पहा",
-	"vassal-more-actions": "अधिक"
+	"skinname-vector": "सदिश",
+	"vector-action-addsection": "विषय जोडा",
+	"vector-action-delete": "वगळा",
+	"vector-action-move": "स्थानांतरण",
+	"vector-action-protect": "सुरक्षित करा",
+	"vector-action-undelete": "वगळलेले पुनर्स्थापित करा",
+	"vector-action-unprotect": "सुरक्षितता बदला",
+	"vector-view-create": "तयार करा",
+	"vector-view-edit": "संपादन",
+	"vector-view-history": "इतिहास पहा",
+	"vector-view-view": "वाचा",
+	"vector-view-viewsource": "स्रोत पहा",
+	"vector-more-actions": "अधिक"
 }

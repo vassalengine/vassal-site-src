@@ -8,14 +8,14 @@
 			"The Discoverer"
 		]
 	},
-	"vassal-action-addsection": "माथाळो ज़ोड",
-	"vassal-action-delete": "काडून उडयात",
-	"vassal-action-move": "दुसरेकडे व्हरात",
-	"vassal-action-protect": "राख",
-	"vassal-view-create": "रोच",
-	"vassal-view-edit": "बदल",
-	"vassal-view-history": "इतिहास पळेयात",
-	"vassal-view-view": "वाचचें",
-	"vassal-view-viewsource": "उगम पळेयात",
-	"vassal-more-actions": "आनीक"
+	"vector-action-addsection": "माथाळो ज़ोड",
+	"vector-action-delete": "काडून उडयात",
+	"vector-action-move": "दुसरेकडे व्हरात",
+	"vector-action-protect": "राख",
+	"vector-view-create": "रोच",
+	"vector-view-edit": "बदल",
+	"vector-view-history": "इतिहास पळेयात",
+	"vector-view-view": "वाचचें",
+	"vector-view-viewsource": "उगम पळेयात",
+	"vector-more-actions": "आनीक"
 }

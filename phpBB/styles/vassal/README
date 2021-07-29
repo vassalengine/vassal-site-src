@@ -1,3 +1,0 @@
-ln -s ../maxthon/theme
-ln -s /var/www/html/site/inc/footer.shtml template/site_footer.shtml
-ln -s /var/www/html/site/inc/navigation.shtml template/site_navigation.shtml

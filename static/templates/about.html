@@ -1,0 +1,188 @@
+{% extends "base.html" %}
+{% block title %}About Vassal{% endblock %}
+{% block description %}Questions about Vassal answered.{% endblock %}
+{% block content %}
+
+  <div class="hero border-bottom mb-5">
+    <div class="container-md px-5 py-5 mt-5">
+      <div class="row mb-4">
+        <div class="col text-center">
+          <h1 class="display-4 fw-bold">What is Vassal?</h1>
+        </div>
+      </div>
+      <div class="row justify-content-center text-md-center">
+        <div class="col-md-8">
+          <p class="fs-5">Vassal is a game engine for building and playing online adaptations of board games and card games. You can use Vassal to play in real time over the Internet or by email. Vassal runs on all platforms and is free, open-source software.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="container px-5">
+    <!-- games -->
+    <div id="games" class="row border-bottom py-4 my-2">
+      <div class="col-md-4">
+        <h3>What games can I play?</h3>
+      </div>
+      <div class="col-md">
+        <p>Thousands of boardgames have been converted for use with Vassal, so there's a good chance that you'll find the games you own in our <a href="/wiki/Category:Modules">module library</a> already. If there is not yet a Vassal module for your favorite game, you can use the Vassal Editor to build your own module, and should you run into trouble, help is only a click away in our <a href="https://forum.vassalengine.org">forum</a>.
+      </div>
+    </div>
+
+    <!-- requirements -->
+    <div id="requirements" class="row border-bottom py-4 my-2">
+      <div class="col-md-4">
+        <h3>What are the system requirements?</h3>
+      </div>
+      <div class="col-md">
+        <p>Vassal runs on Linux, MacOS, Windows, and any other system which has Java.</p>
+        <p>Vassal 3.5 requires Java 11 or later. The MacOS disk image and the Windows installer come with the version of Java Vassal will use. For Linux and other operating systems, install Java before running Vassal.</p>
+      </div>
+    </div>
+
+    <!-- download -->
+    <div id="download" class="row border-bottom py-4 my-2">
+      <div class="col-md-4">
+        <h3>How do I get it?</h3>
+      </div>
+      <div class="col-md">
+        <p>Download the latest release from <a href="https://github.com/vassalengine/vassal/releases/latest">GitHub</a>.</p>
+        <p>For changes since the previous release, see the <a href="/wiki/VASSAL_3.5_Release_Notes">release notes</a>.</p>
+      </div>
+    </div>
+
+    <!-- help -->
+    <div id="help" class="row border-bottom py-4 my-2">
+      <div class="col-md-4">
+        <h3>How can I get help?</h3>
+      </div>
+      <div class="col-md">
+        <p>Need help using Vassal? Stuck while creating a module? If you can't find an answer in our extensive <a href="/wiki/Category:Documentation">documentation</a>, check our friendly <a href="https://forum.vassalengine.org">forum</a> for help.</p>
+  
+        <p>For problems with the website, email the <a href="mailto:webmaster@vassalengine.org">webmaster</a>. For problems with mail, email the <a href="mailto:postmaster@vasaslengine.org">postmaster</a>.</p>
+      </div>
+    </div>
+
+    <!-- volunteer -->
+    <div id="volunteer" class="row border-bottom py-4 my-2">
+      <div class="col-md-4">
+        <h3>How can I get involved?</h3>
+      </div>
+      <div class="col-md">
+        <p>The Vassal project is run by volunteers and progresses through the efforts of volunteers. Is there a feature you'd like to see in the next release? Did you find a bug? Request that feature or report the bug <a href="https://github.com/vassalengine/vassal/issues">here</a>. Are you a programmer? We could use your help. Join us in the <a href="https://forum.vassalengine.org/c/developers/9">developers' forum</a>. Not a programmer? Help us improve our <a href="/wiki/Category:Documentation">documentation</a>.</p>
+      </div>
+    </div>
+
+    <!-- donate -->
+    <div id="donate" class="row border-bottom py-4 my-2">
+      <div class="col-md-4">
+        <h3>How can I contribute?</h3>
+      </div>
+      <div class="col-md">
+        <p>Vassal is free, open-source software, created by volunteers. While Vassal is free, development and hosting are not. If you enjoy using Vassal, please consider helping us with these costs.</p>
+        <div class="text-center">
+          <div class="btn btn-primary btn-lg px-4">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <button type="submit" name="submit">
+                <span>Support <abbr>Vassal</abbr></span>
+                <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate"/>
+              </button>
+              <input type="hidden" name="cmd" value="_s-xclick"/>
+              <input type="hidden" name="hosted_button_id" value="UQ943LRKHH7DL">
+            </form>
+          </div>
+        </div>
+      </div>       
+    </div>
+
+    <!-- license -->
+    <div id="license" class="row border-bottom py-4 my-2">
+      <div class="col-md-4">
+        <h3>How is the code licensed?</h3>
+      </div>
+      <div class="col-md">
+        <p>Vassal is released under <a href="https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser General Public License, version 2.1 or later</a>.</p>
+        <p>Licenses for Vassal's dependencies may be found <a href="/licenses.html">here</a>.</p> 
+        <p>Website content (except game modules) is released under the <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a> (cc by-nc-sa) license.</p>
+        <p>All products mentioned on these pages are trademarks of their respective owners, where appropriate.</p>
+      </div>
+    </div>
+
+    <!-- team -->
+    <div id="team" class="row py-4 my-2">
+      <div class="col-md-4">
+        <h3>Who are we?</h3>
+      </div>
+
+      <div class="col-md">
+        <h6 class="fw-bolder">In the beginning&hellip;</h6>
+        <p>Vassal began life as Virtual Advanced Squad Leader (<a href="https://vasl.info">VASL</a>) in 1996, written by our founder Rodney Kinney. VASL was for playing Advanced Squad Leader only, but its promise as a general virtual tabletop was obvious and by the end of 2002, Vassal was born and VASL transformed from a standalone program into one of many modules for Vassal.</p>
+
+        <h6 class="fw-bolder">Current staff</h6>
+
+        <dl>
+          <dt class="fw-normal fst-italic">Joel Uckelman</dt>
+          <dd>Developer and site maintainer</dd>
+          <dt class="fw-normal fst-italic">Brent Easton</dt>
+          <dd>Developer</dd>
+          <dt class="fw-normal fst-italic">Brian Reynolds</dt>
+          <dd>Developer</dd>
+          <dt class="fw-normal fst-italic">Tim McCarron</dt>
+          <dd>Module library maintainer, wiki moderator, forum moderator</dd>
+          <dt class="fw-normal fst-italic">Rich Johnston</dt>
+          <dd>News feed moderator</dd>
+        </dl>
+
+        <h6 class="fw-bolder">Contributors</h6>
+        <p>Many people have contributed code or documentation to Vassal (and to VASL before that):</p>
+        <div class="container mb-3">
+          <div class="row">
+            <div class="col-sm-6">Carl Bartlett</div>
+            <div class="col-sm-6">Tim Byrne</div>
+            <div class="col-sm-6">Mickaël Camelot</div>
+            <div class="col-sm-6">Claudio Ciardelli</div>
+            <div class="col-sm-6">Federico Corso</div>
+            <div class="col-sm-6">Jim Cotugno</div>
+            <div class="col-sm-6">Bob Davison</div>
+            <div class="col-sm-6">Thom DeCarlo</div>
+            <div class="col-sm-6">Dominik Derwiński</div>
+            <div class="col-sm-6">Brent Easton</div>
+            <div class="col-sm-6">Carlo Fedeli</div>
+            <div class="col-sm-6">Anthony Galica</div>
+            <div class="col-sm-6">Pieter Geerkens</div>
+            <div class="col-sm-6">George Hayward</div>
+            <div class="col-sm-6">Stan Hilinski</div>
+            <div class="col-sm-6">Michael Kiefte</div>
+            <div class="col-sm-6">Chaim Krause</div>
+            <div class="col-sm-6">Rodney Kinney</div>
+            <div class="col-sm-6">Bo Leer-Andersen</div>
+            <div class="col-sm-6">Lance Leung</div>
+            <div class="col-sm-6">Yan Lyubashevskiy</div>
+            <div class="col-sm-6">Tim McCarron</div>
+            <div class="col-sm-6">Ed Messina</div>
+            <div class="col-sm-6">Javier Muñoz Kirschberg</div>
+            <div class="col-sm-6">Nicolas Perotin</div>
+            <div class="col-sm-6">Tom Repetti</div>
+            <div class="col-sm-6">Brian Reynolds</div>
+            <div class="col-sm-6">Santiago Rodriguez Pozo</div>
+            <div class="col-sm-6">Abel Salgado Romero</div>
+            <div class="col-sm-6">Ben Smith</div>
+            <div class="col-sm-6">Torsten Spindler</div>
+            <div class="col-sm-6">Ken Stevens</div>
+            <div class="col-sm-6">Jason Stewart</div>
+            <div class="col-sm-6">David Sullivan</div>
+            <div class="col-sm-6">Daniel Takai</div>
+            <div class="col-sm-6">Jon Test</div>
+            <div class="col-sm-6">Scott Tooker</div>
+            <div class="col-sm-6">Joel Uckelman</div>
+            <div class="col-sm-6">Jim Urbas</div>
+            <div class="col-sm-6">Stewart Webb</div>
+            <div class="col-sm-6">Roger Welsh</div>
+          </div>
+        </div>
+        <p>We've striven to keep a complete list, but with 25 years of project history spread across CVS, Subversion, and now Git&hellip; it's possible that we've missed someone. If you should be on this list, let us know.</p>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

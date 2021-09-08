@@ -24,7 +24,7 @@ SS4:=$(SS4_WEBP) $(SS4_WEBP:.webp=.jpg)
 SS5:=$(SS5_WEBP) $(SS5_WEBP:.webp=.jpg)
 SS6:=$(SS6_WEBP) $(SS6_WEBP:.webp=.jpg)
 
-ALL:=index.html about.html licenses.html status.php $(SS1) $(SS2) $(SS3) $(SS4) $(SS5) $(SS6)
+ALL:=index.html about.html licenses.html contact.html status.php $(SS1) $(SS2) $(SS3) $(SS4) $(SS5) $(SS6)
 
 all: $(ALL)
 

@@ -86,7 +86,7 @@ try {
 
   $dbh = mysqli_connect(SQL_HOST, SQL_USERNAME, SQL_PASSWORD, SQL_DB);
   if (mysqli_connect_errno()) {
-    throw new RuntimeException('Connection failed: ' . mysql_connect_error());
+    throw new RuntimeException('Connection failed: ' . mysqli_connect_error());
   }
 
   $query = 'SELECT DISTINCT module_name, game_room, player_name FROM connections ';

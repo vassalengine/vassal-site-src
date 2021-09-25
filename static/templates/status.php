@@ -89,7 +89,7 @@ try {
     throw new RuntimeException('Connection failed: ' . mysqli_connect_error());
   }
 
-  $query = 'SELECT DISTINCT module_name, game_room, player_name FROM connections ';
+  $query = 'SELECT module_name, game_room, player_name FROM connections ';
 
   switch ($when) {
   case 'current':

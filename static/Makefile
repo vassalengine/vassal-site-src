@@ -26,6 +26,8 @@ SS6:=$(SS6_WEBP) $(SS6_WEBP:.webp=.jpg)
 
 ALL:=index.html about.html licenses.html contact.html status.php $(SS1) $(SS2) $(SS3) $(SS4) $(SS5) $(SS6)
 
+YEAR:=$(shell date +'%Y')
+
 all: $(ALL)
 
 clean:
@@ -34,10 +36,10 @@ clean:
 .PHONY: all clean
 
 %.html: templates/%.html templates/base.html
-	jinja2 $< -o $@
+	jinja2 -Dyear=${YEAR} $< -o $@
 
 %.php: templates/%.php templates/base.html
-	jinja2 $< -o $@
+	jinja2 -Dyear=${YEAR} $< -o $@
 
 images/screenshots/screenshot1-%.png images/screenshots/screenshot1-%.jpg images/screenshots/screenshot1-%.webp: images-src/screenshot1.png
 

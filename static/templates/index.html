@@ -1,6 +1,13 @@
 {% extends "base.html" %}
 {% block title %}Vassal{% endblock %}
 {% block description %}Vassal is an open-source game engine for building and playing online adaptations of board games and card games.{% endblock %}
+{% block head %}
+  {{ super() }}
+
+  <script src="https://cdn.jsdelivr.net/npm/ua-parser-js@1.0.2/dist/ua-parser.min.js" integrity="sha256-m2v8Q27BEHNMx7d1BJAIuAoq6Y4DIF1AG3BODy/A4Ak=" crossorigin="anonymous"></script>
+  <script src="/js/detect.js"></script>
+
+{% endblock %}
 {% block content %}
   <!-- hero -->
 
@@ -114,10 +121,6 @@
       </div>
     </div>
   </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/ua-parser-js@1.0.2/dist/ua-parser.min.js" integrity="sha256-m2v8Q27BEHNMx7d1BJAIuAoq6Y4DIF1AG3BODy/A4Ak=" crossorigin="anonymous"></script>
-
-  <script src="/js/detect.js"></script>
 
   <script src="/js/news.js"></script>
 {% endblock %}

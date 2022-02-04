@@ -1,0 +1,178 @@
+{% extends "base.html" %}
+{% block title %}Download Vassal{% endblock %}
+{% block description %}Download Vassal here.{% endblock %}
+{% block content %}
+  <!-- hero -->
+
+  <div class="hero border-bottom mb-5">
+    <div class="container-md px-5 py-5 mt-5">
+      <div class="row mb-4">
+        <div class="col text-center">
+          <h1 class="display-4 fw-bold">Download Vassal</h1>
+        </div>
+        <div class="row justify-content-center text-md-center">
+          <div class="col-md-8">
+            <p class="fs-5">Vassal runs on Linux, macOS, Windows, and any other system which has Java. Find your operating system below for instructions for downloading and installing Vassal.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container px-5">
+
+    <!-- current release -->
+
+    <div class="row py-2 my-4">
+      <h2>Current Release</h2>
+
+      <p>Vassal {{current_version}} is the current release. See the <a href="https://forum.vassalengine.org/t/vassal-3-6-4-released/73695">release announcement</a> and <a href="https://vassalengine.org/wiki/VASSAL_3.6_Release_Notes">release notes</a> for details.</p>
+
+      <div class="row g-4 row-cols-1 row-cols-lg-2 mt-0 mb-4">
+
+        <!-- Linux -->
+
+        <div class="col d-flex align-items-start">
+          <div class="me-3">
+            <svg class="os-icon" width="3em" height="3em"><use xlink:href="#fab-linux"></use></svg>
+          </div>
+          <div class="w-100">
+            <h3>Linux</h3>
+            <p>Ensure that you have Java 11 (or later) installed. Then download and unpack the tarball:</p>
+            <div class="list-group">
+              <a class="list-group-item list-group-item-action d-flex gap-3 py-3 w-100" href="https://github.com/vassalengine/vassal/releases/download/{{current_version}}/VASSAL-{{current_version}}-linux.tar.bz2">
+                <div>
+                  <h6>.tar.bz2 for all architectures</h6>
+                  <p class="mb-0 text-muted">VASSAL-{{current_version}}-linux.tar.bz2</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- macOS -->
+
+        <div class="col d-flex align-items-start">
+          <div class="me-3">
+            <svg class="os-icon" width="3em" height="3em"><use xlink:href="#fab-apple"></use></svg>
+          </div>
+          <div class="w-100">
+            <h3>macOS</h3>
+            <p>Download disk image and open it, then drag Vassal to your Applications folder:</p>
+            <div class="list-group">
+              <a class="list-group-item list-group-item-action d-flex gap-3 py-3 w-100" href="https://github.com/vassalengine/vassal/releases/download/{{current_version}}/VASSAL-{{current_version}}-macos-x86_64.dmg">
+                <div>
+                  <h6>.dmg for Intel</h6>
+                  <p class="mb-0 text-muted">VASSAL-{{current_version}}-macos-x86_64.dmg</p>
+                </div>
+              </a>
+              <a class="list-group-item list-group-item-action d-flex gap-3 py-3" href="https://github.com/vassalengine/vassal/releases/download/{{current_version}}/VASSAL-{{current_version}}-macos-aarch64.dmg">
+                <div>
+                  <h6>.dmg for Apple Silicon</h6>
+                  <p class="mb-0 text-muted">VASSAL-{{current_version}}-macos-aarch64.dmg</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Windows -->
+
+        <div class="col d-flex align-items-start">
+          <div class="me-3">
+            <svg class="os-icon" width="3em" height="3em"><use xlink:href="#fab-windows"></use></svg>
+          </div>
+          <div class="w-100">
+            <h3>Windows</h3>
+            <p>Download and run the installer:</p>
+            <div class="list-group">
+              <a class="list-group-item list-group-item-action d-flex gap-3 py-3 w-100" href="https://github.com/vassalengine/vassal/releases/download/{{current_version}}/VASSAL-{{current_version}}-windows-x86_64.exe">
+                <div>
+                  <h6>.exe for 64-bit x86</h6>
+                  <p class="mb-0 text-muted">VASSAL-{{current_version}}-windows-x86_64.exe</p>
+                </div>
+              </a>
+              <a class="list-group-item list-group-item-action d-flex gap-3 py-3 w-100" href="https://github.com/vassalengine/vassal/releases/download/{{current_version}}/VASSAL-{{current_version}}-windows-x86_32.exe">
+                <div>
+                  <h6>.exe for 32-bit x86</h6>
+                  <p class="mb-0 text-muted">VASSAL-{{current_version}}-windows-x86_32.exe</p>
+                </div>
+              </a>
+              <a class="list-group-item list-group-item-action d-flex gap-3 py-3 w-100" href="https://github.com/vassalengine/vassal/releases/download/{{current_version}}/VASSAL-{{current_version}}-windows-aarch64.exe">
+                <div>
+                  <h6>.exe for 64-bit ARM</h6>
+                  <p class="mb-0 text-muted">VASSAL-{{current_version}}-windows-aarch64.exe</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Other -->
+
+        <div class="col d-flex align-items-start">
+          <div class="me-3">
+            <svg class="os-icon" width="3em" height="3em"><use xlink:href="#asterisk"></use></svg>
+          </div>
+          <div class="w-100">
+            <h3>Other</h3>
+            <p>Ensure that you have Java 11 (or later) installed. Then download and unzip the archive:</p>
+            <div class="list-group">
+              <a class="list-group-item list-group-item-action d-flex gap-3 py-3 w-100" href="https://github.com/vassalengine/vassal/releases/download/{{current_version}}/VASSAL-{{current_version}}-other.zip">
+                <div>
+                  <h6>.zip for all architectures</h6>
+                  <p class="mb-0 text-muted">VASSAL-{{current_version}}-other.zip</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <p>SHA256 hashes for the 3.6.4 release packages are available <a href="https://github.com/vassalengine/vassal/releases/download/{{current_version}}/VASSAL-{{current_version}}.sha256">here</a> should you wish to verify your download.</p>
+    </div>
+
+    <!-- older releases -->
+
+    <div class="row py-2 my-4">
+
+      <h2>Older Releases</h2>
+
+      <p>Older releases of Vassal are available from <a href="https://github.com/vassalengine/vassal/releases">GitHub</a>. Releases prior to 3.2.17 are available in our <a href="/releases">release archive</a>. We do not recommend older releases for normal use. If you find it necessary to use an older release due to a flaw in the current release, please <a href="https://forum.vassalengine.org/c/technical-support-bugs/6">report the bug in our forum</a>.</p>
+
+    </div>
+
+    <!-- development builds -->
+
+    <div class="row py-2 my-4">
+
+      <h2>Development Builds</h2>
+
+      <p>Development builds of Vassal are available from our <a href="/builds">builds archive</a>. These are not intended for general use.</p>
+    </div>
+
+  </div>
+
+  <!-- svg sprites -->
+
+  <div class="svg-sprites">
+    <div class="fontawesome">
+      <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+        <symbol id="fab-linux" viewBox="0 0 448 512">
+          <path d="M220.8 123.3c1 .5 1.8 1.7 3 1.7 1.1 0 2.8-.4 2.9-1.5.2-1.4-1.9-2.3-3.2-2.9-1.7-.7-3.9-1-5.5-.1-.4.2-.8.7-.6 1.1.3 1.3 2.3 1.1 3.4 1.7zm-21.9 1.7c1.2 0 2-1.2 3-1.7 1.1-.6 3.1-.4 3.5-1.6.2-.4-.2-.9-.6-1.1-1.6-.9-3.8-.6-5.5.1-1.3.6-3.4 1.5-3.2 2.9.1 1 1.8 1.5 2.8 1.4zM420 403.8c-3.6-4-5.3-11.6-7.2-19.7-1.8-8.1-3.9-16.8-10.5-22.4-1.3-1.1-2.6-2.1-4-2.9-1.3-.8-2.7-1.5-4.1-2 9.2-27.3 5.6-54.5-3.7-79.1-11.4-30.1-31.3-56.4-46.5-74.4-17.1-21.5-33.7-41.9-33.4-72C311.1 85.4 315.7.1 234.8 0 132.4-.2 158 103.4 156.9 135.2c-1.7 23.4-6.4 41.8-22.5 64.7-18.9 22.5-45.5 58.8-58.1 96.7-6 17.9-8.8 36.1-6.2 53.3-6.5 5.8-11.4 14.7-16.6 20.2-4.2 4.3-10.3 5.9-17 8.3s-14 6-18.5 14.5c-2.1 3.9-2.8 8.1-2.8 12.4 0 3.9.6 7.9 1.2 11.8 1.2 8.1 2.5 15.7.8 20.8-5.2 14.4-5.9 24.4-2.2 31.7 3.8 7.3 11.4 10.5 20.1 12.3 17.3 3.6 40.8 2.7 59.3 12.5 19.8 10.4 39.9 14.1 55.9 10.4 11.6-2.6 21.1-9.6 25.9-20.2 12.5-.1 26.3-5.4 48.3-6.6 14.9-1.2 33.6 5.3 55.1 4.1.6 2.3 1.4 4.6 2.5 6.7v.1c8.3 16.7 23.8 24.3 40.3 23 16.6-1.3 34.1-11 48.3-27.9 13.6-16.4 36-23.2 50.9-32.2 7.4-4.5 13.4-10.1 13.9-18.3.4-8.2-4.4-17.3-15.5-29.7zM223.7 87.3c9.8-22.2 34.2-21.8 44-.4 6.5 14.2 3.6 30.9-4.3 40.4-1.6-.8-5.9-2.6-12.6-4.9 1.1-1.2 3.1-2.7 3.9-4.6 4.8-11.8-.2-27-9.1-27.3-7.3-.5-13.9 10.8-11.8 23-4.1-2-9.4-3.5-13-4.4-1-6.9-.3-14.6 2.9-21.8zM183 75.8c10.1 0 20.8 14.2 19.1 33.5-3.5 1-7.1 2.5-10.2 4.6 1.2-8.9-3.3-20.1-9.6-19.6-8.4.7-9.8 21.2-1.8 28.1 1 .8 1.9-.2-5.9 5.5-15.6-14.6-10.5-52.1 8.4-52.1zm-13.6 60.7c6.2-4.6 13.6-10 14.1-10.5 4.7-4.4 13.5-14.2 27.9-14.2 7.1 0 15.6 2.3 25.9 8.9 6.3 4.1 11.3 4.4 22.6 9.3 8.4 3.5 13.7 9.7 10.5 18.2-2.6 7.1-11 14.4-22.7 18.1-11.1 3.6-19.8 16-38.2 14.9-3.9-.2-7-1-9.6-2.1-8-3.5-12.2-10.4-20-15-8.6-4.8-13.2-10.4-14.7-15.3-1.4-4.9 0-9 4.2-12.3zm3.3 334c-2.7 35.1-43.9 34.4-75.3 18-29.9-15.8-68.6-6.5-76.5-21.9-2.4-4.7-2.4-12.7 2.6-26.4v-.2c2.4-7.6.6-16-.6-23.9-1.2-7.8-1.8-15 .9-20 3.5-6.7 8.5-9.1 14.8-11.3 10.3-3.7 11.8-3.4 19.6-9.9 5.5-5.7 9.5-12.9 14.3-18 5.1-5.5 10-8.1 17.7-6.9 8.1 1.2 15.1 6.8 21.9 16l19.6 35.6c9.5 19.9 43.1 48.4 41 68.9zm-1.4-25.9c-4.1-6.6-9.6-13.6-14.4-19.6 7.1 0 14.2-2.2 16.7-8.9 2.3-6.2 0-14.9-7.4-24.9-13.5-18.2-38.3-32.5-38.3-32.5-13.5-8.4-21.1-18.7-24.6-29.9s-3-23.3-.3-35.2c5.2-22.9 18.6-45.2 27.2-59.2 2.3-1.7.8 3.2-8.7 20.8-8.5 16.1-24.4 53.3-2.6 82.4.6-20.7 5.5-41.8 13.8-61.5 12-27.4 37.3-74.9 39.3-112.7 1.1.8 4.6 3.2 6.2 4.1 4.6 2.7 8.1 6.7 12.6 10.3 12.4 10 28.5 9.2 42.4 1.2 6.2-3.5 11.2-7.5 15.9-9 9.9-3.1 17.8-8.6 22.3-15 7.7 30.4 25.7 74.3 37.2 95.7 6.1 11.4 18.3 35.5 23.6 64.6 3.3-.1 7 .4 10.9 1.4 13.8-35.7-11.7-74.2-23.3-84.9-4.7-4.6-4.9-6.6-2.6-6.5 12.6 11.2 29.2 33.7 35.2 59 2.8 11.6 3.3 23.7.4 35.7 16.4 6.8 35.9 17.9 30.7 34.8-2.2-.1-3.2 0-4.2 0 3.2-10.1-3.9-17.6-22.8-26.1-19.6-8.6-36-8.6-38.3 12.5-12.1 4.2-18.3 14.7-21.4 27.3-2.8 11.2-3.6 24.7-4.4 39.9-.5 7.7-3.6 18-6.8 29-32.1 22.9-76.7 32.9-114.3 7.2zm257.4-11.5c-.9 16.8-41.2 19.9-63.2 46.5-13.2 15.7-29.4 24.4-43.6 25.5s-26.5-4.8-33.7-19.3c-4.7-11.1-2.4-23.1 1.1-36.3 3.7-14.2 9.2-28.8 9.9-40.6.8-15.2 1.7-28.5 4.2-38.7 2.6-10.3 6.6-17.2 13.7-21.1.3-.2.7-.3 1-.5.8 13.2 7.3 26.6 18.8 29.5 12.6 3.3 30.7-7.5 38.4-16.3 9-.3 15.7-.9 22.6 5.1 9.9 8.5 7.1 30.3 17.1 41.6 10.6 11.6 14 19.5 13.7 24.6zM173.3 148.7c2 1.9 4.7 4.5 8 7.1 6.6 5.2 15.8 10.6 27.3 10.6 11.6 0 22.5-5.9 31.8-10.8 4.9-2.6 10.9-7 14.8-10.4s5.9-6.3 3.1-6.6-2.6 2.6-6 5.1c-4.4 3.2-9.7 7.4-13.9 9.8-7.4 4.2-19.5 10.2-29.9 10.2s-18.7-4.8-24.9-9.7c-3.1-2.5-5.7-5-7.7-6.9-1.5-1.4-1.9-4.6-4.3-4.9-1.4-.1-1.8 3.7 1.7 6.5z"></path>
+        </symbol>
+        <symbol id="fab-windows" viewBox="0 0 448 512">
+          <path d="M0 93.7l183.6-25.3v177.4H0V93.7zm0 324.6l183.6 25.3V268.4H0v149.9zm203.8 28L448 480V268.4H203.8v177.9zm0-380.6v180.1H448V32L203.8 65.7z"></path>
+        </symbol>
+        <symbol id="fab-apple" viewBox="0 0 384 512">
+          <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"></path>
+        </symbol>
+        <symbol id="asterisk" viewBox="0 0 512 512">
+          <path d="M478.21 334.093L336 256l142.21-78.093c11.795-6.477 15.961-21.384 9.232-33.037l-19.48-33.741c-6.728-11.653-21.72-15.499-33.227-8.523L296 186.718l3.475-162.204C299.763 11.061 288.937 0 275.48 0h-38.96c-13.456 0-24.283 11.061-23.994 24.514L216 186.718 77.265 102.607c-11.506-6.976-26.499-3.13-33.227 8.523l-19.48 33.741c-6.728 11.653-2.562 26.56 9.233 33.037L176 256 33.79 334.093c-11.795 6.477-15.961 21.384-9.232 33.037l19.48 33.741c6.728 11.653 21.721 15.499 33.227 8.523L216 325.282l-3.475 162.204C212.237 500.939 223.064 512 236.52 512h38.961c13.456 0 24.283-11.061 23.995-24.514L296 325.282l138.735 84.111c11.506 6.976 26.499 3.13 33.227-8.523l19.48-33.741c6.728-11.653 2.563-26.559-9.232-33.036z"></path>
+        </symbol>
+      </svg>
+    </div>
+  </div>
+ 
+{% endblock %}

@@ -24,9 +24,12 @@ SS4:=$(SS4_WEBP) $(SS4_WEBP:.webp=.jpg)
 SS5:=$(SS5_WEBP) $(SS5_WEBP:.webp=.jpg)
 SS6:=$(SS6_WEBP) $(SS6_WEBP:.webp=.jpg)
 
-ALL:=index.html about.html licenses.html contact.html status.php $(SS1) $(SS2) $(SS3) $(SS4) $(SS5) $(SS6)
+ALL:=index.html about.html download.html licenses.html contact.html status.php $(SS1) $(SS2) $(SS3) $(SS4) $(SS5) $(SS6)
 
+VCUR:=3.6.4
 YEAR:=$(shell date +'%Y')
+
+JINJA_ARGS:=-Dyear=${YEAR} -Dcurrent_version=${VCUR}
 
 all: $(ALL)
 
@@ -36,10 +39,10 @@ clean:
 .PHONY: all clean
 
 %.html: templates/%.html templates/base.html
-	jinja2 -Dyear=${YEAR} $< -o $@
+	jinja2 ${JINJA_ARGS} $< -o $@
 
 %.php: templates/%.php templates/base.html
-	jinja2 -Dyear=${YEAR} $< -o $@
+	jinja2 ${JINJA_ARGS} $< -o $@
 
 images/screenshots/screenshot1-%.png images/screenshots/screenshot1-%.jpg images/screenshots/screenshot1-%.webp: images-src/screenshot1.png
 

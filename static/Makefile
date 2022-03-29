@@ -26,7 +26,7 @@ SS6:=$(SS6_WEBP) $(SS6_WEBP:.webp=.jpg)
 
 ALL:=index.html about.html download.html licenses.html contact.html status.php $(SS1) $(SS2) $(SS3) $(SS4) $(SS5) $(SS6)
 
-VCUR:=3.6.5
+VCUR:=3.6.6
 YEAR:=$(shell date +'%Y')
 
 JINJA_ARGS:=-Dyear=${YEAR} -Dcurrent_version=${VCUR}

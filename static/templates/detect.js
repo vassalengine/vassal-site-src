@@ -10,7 +10,7 @@ async function try_navigator_userAgentData() {
       uach = {};
     }
 
-    // fill in platform if we need to (do we ever?) 
+    // fill in platform if we need to (do we ever?)
     if (!uach.platform) {
       uach.platform = navigator.userAgentData.platform;
     }
@@ -77,7 +77,7 @@ async function get_userAgentData() {
 
     if (!uach.architecture || !uach.bitness) {
       if (uach.platform === PLATFORM_MACOS) {
-        // getCPU() cannot distinguish x86 from ARM Macs 
+        // getCPU() cannot distinguish x86 from ARM Macs
         if (has_m1_gpu()) {
           uach.architecture = ARCH_ARM;
           uach.bitness = BITS_64;
@@ -171,6 +171,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   const btn = document.getElementById('download_btn');
-  btn.textContent = btn_text; 
+  btn.textContent = btn_text;
   btn.href = btn_link;
 });

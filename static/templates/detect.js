@@ -78,6 +78,7 @@ async function get_userAgentData() {
     if (!uach.architecture || !uach.bitness) {
       if (uach.platform === PLATFORM_MACOS) {
         // getCPU() cannot distinguish x86 from ARM Macs
+        // See https://github.com/faisalman/ua-parser-js/issues/489
         if (has_m1_gpu()) {
           uach.architecture = ARCH_ARM;
           uach.bitness = BITS_64;

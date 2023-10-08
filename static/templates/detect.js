@@ -23,25 +23,6 @@ async function try_navigator_userAgentData() {
   return uach;
 }
 
-function has_m1_gpu() {
-  let gl = null;
-  const canvas = document.createElement("canvas");
-  try {
-    gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
-  }
-  catch (e) {
-    return false;
-  }
-
-  if (!gl) {
-    return false;
-  }
-
-  const d = gl.getExtension('WEBGL_debug_renderer_info');
-  const r = gl.getParameter(d.UNMASKED_RENDERER_WEBGL);
-  return r === 'Apple M1';
-}
-
 const PLATFORM_MACOS = 'macOS';
 const PLATFORM_WINDOWS = 'Windows';
 const PLATFORM_LINUX = 'Linux';
@@ -77,16 +58,9 @@ async function get_userAgentData() {
 
     if (!uach.architecture || !uach.bitness) {
       if (uach.platform === PLATFORM_MACOS) {
-        // getCPU() cannot distinguish x86 from ARM Macs
-        // See https://github.com/faisalman/ua-parser-js/issues/489
-        if (has_m1_gpu()) {
-          uach.architecture = ARCH_ARM;
-          uach.bitness = BITS_64;
-        }
-        else {
-          uach.architecture = ARCH_X86;
-          uach.bitness = BITS_64;
-        }
+        // we can't reliably detect architecture on MacOS
+        uach.architecture = undefined;
+        uach.bitness = BITS_64;
       }
       else {
         const arch = parser.getCPU().architecture;
@@ -147,16 +121,9 @@ document.addEventListener("DOMContentLoaded", async () => {
       }
     }
     else if (uach.platform === PLATFORM_MACOS && uach.bitness === BITS_64) {
-      if (uach.architecture === ARCH_X86) {
-        specific_download = true;
-        btn_text = `${get_vassal} for ${uach.platform} (Intel)`;
-        btn_link = `${dl_url}/VASSAL-${ver}-macos-x86_64.dmg`;
-      }
-      else if (uach.architecture === ARCH_ARM) {
-        specific_download = true;
-        btn_text = `${get_vassal} for ${uach.platform} (Apple Silicon)`;
-        btn_link = `${dl_url}/VASSAL-${ver}-macos-aarch64.dmg`;
-      }
+      specific_download = true;
+      btn_text = `${get_vassal} for ${uach.platform}`;
+      btn_link = `${dl_url}/VASSAL-${ver}-macos-universal.dmg`;
     }
     else if (uach.platform === PLATFORM_LINUX) {
       specific_download = true;

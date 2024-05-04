@@ -24,10 +24,10 @@ SS4:=$(SS4_WEBP) $(SS4_WEBP:.webp=.jpg)
 SS5:=$(SS5_WEBP) $(SS5_WEBP:.webp=.jpg)
 SS6:=$(SS6_WEBP) $(SS6_WEBP:.webp=.jpg)
 
-VCUR:=3.7.11
+VCUR:=3.7.12
 YEAR:=$(shell date +'%Y')
 
-NEWS_LINK="https://forum.vassalengine.org/t/vassal-3-7-11-released/79545"
+NEWS_LINK="https://forum.vassalengine.org/t/vassal-3-7-12-released/79548"
 
 JINJA_ARGS:=-Dyear=${YEAR} -Dcurrent_version=${VCUR} -Dnews_link=${NEWS_LINK}
 

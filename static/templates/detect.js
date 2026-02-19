@@ -128,7 +128,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     else if (uach.platform === PLATFORM_LINUX) {
       specific_download = true;
       btn_text = `${get_vassal} for ${uach.platform}`;
-      btn_link = `${dl_url}/VASSAL-${ver}-linux.tar.bz2`;
     }
   }
 

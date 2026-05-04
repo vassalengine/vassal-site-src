@@ -23,13 +23,12 @@ usage() {
 
 	- Files:  Download the release files
 	- JavaDoc: Download the Java API documentation
-	- ReferenceManual: Download the reference manual
 	- MavenReleases: Download and unpack maven releases
 	- Notes: Download release notes
 	- FlatPak: Download the FlatPak recipe
 	
 	If no STEPS are specified, then it defaults to Files, JavaDoc,
-	ReferenceManual, and MavenReleases.
+	and MavenReleases.
 	EOF
 }
 
@@ -62,7 +61,7 @@ while test $# -gt 0 ; do
         xfiles)
             steps="${steps} $arg"
             ;;
-        xjavadoc|xreferencemanual|xmavenreleases|xnotes|xflatpak)
+        xjavadoc|xmavenreleases|xnotes|xflatpak)
             steps="${steps} $arg"
             need=1
             ;;
@@ -76,7 +75,7 @@ done
 
 # --- Default steps --------------------------------------------------
 if [ "x$steps" = "x" ] ; then
-    steps="files javadoc referencemanual mavenreleases"
+    steps="files javadoc mavenreleases"
 fi
 
 # --- Check the arguments --------------------------------------------
@@ -189,10 +188,6 @@ for step in $steps ; do
             get_artefact "$release" "$token" "JavaDoc"
             unpack_artefact "$release" "javadoc" "JavaDoc.zip"
             ;;
-        referencemanual)
-            get_artefact "$release" "$token" "ReferenceManual"
-            unpack_artefact "$release" "doc" "ReferenceManual.zip"
-            ;;
         mavenreleases)
             get_artefact "$release" "$token" "MavenReleases"
             mkdir -p maven
@@ -230,6 +225,11 @@ for step in $steps ; do
             done
             rm -rf maven-tmp
             rm -f MavenReleases.zip
+            # Unpack `vassal-doc` as new documentation
+            mkdir -p doc/${release}
+            unzip -qq -o maven/org/vassalengine/vassal-doc/${release}/vassal-doc-${release}.jar -d doc/${release}
+            rm -rf doc/${release}/META-INF
+            (cd doc && rm -f latest && ln -s ${release} latest)
             ;;
         notes)
             get_artefact "$release" "$token" "NOTES"

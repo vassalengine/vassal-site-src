@@ -31,7 +31,7 @@ NEWS_LINK="https://forum.vassalengine.org/t/vassal-3-7-30-released/90602"
 
 JINJA_ARGS:=-Dyear=${YEAR} -Dcurrent_version=${VCUR} -Dnews_link=${NEWS_LINK}
 
-ALL:=index.html about.html download.html licenses.html contact.html status.php detect-$(VCUR).js $(SS1) $(SS2) $(SS3) $(SS4) $(SS5) $(SS6)
+ALL:=index.html about.html download.html licenses.html contact.html status.html detect-$(VCUR).js $(SS1) $(SS2) $(SS3) $(SS4) $(SS5) $(SS6)
 
 all: $(ALL)
 

@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Vassal Status{% endblock %}
+{% block description %}See what's happening on the Vassal game server right now!{% endblock %}
+{% block head %}
+  {{ super() }}
+
+  <link rel="stylesheet" type="text/css" href="/css/site.css">
+  <script type="module" src="/src/status.js"></script>
+
+{% endblock %}
+{% block content %}
+
+  <div class="hero border-bottom mb-5">
+    <div class="container-md px-5 py-5 mt-5">
+      <div class="row mb-4">
+        <div class="col text-center">
+          <h1 class="display-4 fw-bold">Server Status</h1>
+        </div>
+      </div>
+      <div class="row justify-content-center text-md-center">
+        <div class="col-md-8">
+          <p class="fs-5">Here you can see which modules are being used with the game server at present, and which modules have been used in the past day, week, and month.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="main">
+  </div> 
+
+{% endblock %}
